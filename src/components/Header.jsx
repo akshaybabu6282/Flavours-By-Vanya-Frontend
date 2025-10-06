@@ -7,7 +7,7 @@ export default function Header() {
     const [openDropdown, setOpenDropdown] = useState(false);
 
     return (
-        <header className="fixed w-full z-40 bg-black/60 backdrop-blur-md mt-10">
+        <header className="fixed w-full z-40 bg-black/60 backdrop-blur-md">
             <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
                 <Link to="/" className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-xl font-bold">

@@ -7,7 +7,6 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import WhatsAppFloating from './components/WhatsAppFloating'
 import { products } from './data/products'
-import AnnouncementBar from "./components/AnnouncementBar";
 import AboutUs from "./components/AboutUs";
 import Licenses from "./components/Licenses";
 import AOS from "aos";
@@ -27,9 +26,8 @@ export default function App() {
 
   return (
     <div className="min-h-screen font-body">
-      <AnnouncementBar />
       <Header />
-      <main className="pt-24">
+      <main >
         <Hero />
         <ProductSection id="masalas" title="Masalas" products={masalas} />
         <ProductSection id="raw-spices" title="Spices" products={rawSpices} />
