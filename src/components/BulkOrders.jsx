@@ -11,6 +11,7 @@ export default function BulkOrders() {
         <h2
           className="text-3xl md:text-4xl font-display mb-6"
           data-aos="zoom-in"
+          style={{fontFamily: '"Raleway", sans-serif'}}
         >
           🌍 Bulk Orders & Export
         </h2>
@@ -18,6 +19,7 @@ export default function BulkOrders() {
           className="text-gray-300 max-w-2xl mx-auto mb-10"
           data-aos="fade-up"
           data-aos-delay="200"
+          style={{ fontFamily: '"Roboto", sans-serif'}}
         >
           We specialize in bulk supply and international exports of premium
           spices, teas, and coffees.  
@@ -32,8 +34,8 @@ export default function BulkOrders() {
         >
           <div className="p-6 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition">
             <Package className="w-10 h-10 mx-auto mb-4 text-white" />
-            <h3 className="text-xl font-semibold mb-2">Custom Packaging</h3>
-            <p className="text-gray-400 text-sm">
+            <h3 className="text-xl font-semibold mb-2" style={{fontFamily: '"Merriweather", serif'}}>Custom Packaging</h3>
+            <p className="text-gray-400 text-sm" style={{ fontFamily: '"Roboto", sans-serif'}}>
               Tailored packaging and branding options to suit your business
               needs.
             </p>
@@ -44,8 +46,8 @@ export default function BulkOrders() {
             data-aos-delay="600"
           >
             <Globe className="w-10 h-10 mx-auto mb-4 text-white" />
-            <h3 className="text-xl font-semibold mb-2">Worldwide Export</h3>
-            <p className="text-gray-400 text-sm">
+            <h3 className="text-xl font-semibold mb-2" style={{fontFamily: '"Merriweather", serif'}}>Worldwide Export</h3>
+            <p className="text-gray-400 text-sm" style={{ fontFamily: '"Roboto", sans-serif'}}>
               Supplying to international markets with reliable logistics.
             </p>
           </div>
@@ -55,8 +57,8 @@ export default function BulkOrders() {
             data-aos-delay="800"
           >
             <Mail className="w-10 h-10 mx-auto mb-4 text-white" />
-            <h3 className="text-xl font-semibold mb-2">Direct Enquiry</h3>
-            <p className="text-gray-400 text-sm">business@vanyaecoproducts.in</p>
+            <h3 className="text-xl font-semibold mb-2" style={{fontFamily: '"Merriweather", serif'}}>Direct Enquiry</h3>
+            <p className="text-gray-400 text-sm" style={{ fontFamily: '"Roboto", sans-serif'}}>business@vanyaecoproducts.in</p>
           </div>
         </div>
 
@@ -65,6 +67,7 @@ export default function BulkOrders() {
           className="inline-block mt-10 px-8 py-4 bg-white text-black font-medium rounded-lg shadow-md hover:shadow-xl transition"
           data-aos="zoom-in"
           data-aos-delay="1000"
+          style={{ fontFamily: '"Roboto", sans-serif'}}
         >
           📩 Send Bulk / Export Enquiry
         </a>

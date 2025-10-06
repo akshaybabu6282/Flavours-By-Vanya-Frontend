@@ -11,13 +11,15 @@ export default function Contact() {
         <h2
           className="text-3xl md:text-4xl font-display mb-6"
           data-aos="zoom-in"
+          style={{fontFamily: '"Raleway", sans-serif'}}
         >
-          📞 Get in Touch
+           Get in Touch
         </h2>
         <p
           className="text-gray-300 max-w-2xl mx-auto mb-10"
           data-aos="fade-up"
           data-aos-delay="200"
+          style={{ fontFamily: '"Roboto", sans-serif'}}
         >
           Have questions or need assistance? Reach out to us for product details, 
           small orders, or export collaborations. We’re happy to help.
@@ -33,8 +35,8 @@ export default function Contact() {
           >
             <Phone className="w-8 h-8 text-green-400" />
             <div>
-              <h3 className="font-semibold text-lg">Call Us</h3>
-              <p className="text-gray-200">+91 7907662508</p>
+              <h3 className="font-semibold text-lg" style={{fontFamily: '"Merriweather", serif'}}>Call Us</h3>
+              <p className="text-gray-200" style={{ fontFamily: '"Roboto", sans-serif'}}>+91 7907662508</p>
             </div>
           </a>
 
@@ -49,8 +51,8 @@ export default function Contact() {
           >
             <MessageCircle className="w-8 h-8 text-green-400" />
             <div>
-              <h3 className="font-semibold text-lg">WhatsApp</h3>
-              <p className="text-gray-200">Quick orders & support on WhatsApp</p>
+              <h3 className="font-semibold text-lg" style={{fontFamily: '"Merriweather", serif'}}>WhatsApp</h3>
+              <p className="text-gray-200" style={{ fontFamily: '"Roboto", sans-serif'}}>Quick orders & support on WhatsApp</p>
             </div>
           </a>
 
@@ -63,8 +65,8 @@ export default function Contact() {
           >
             <Mail className="w-8 h-8 text-blue-400" />
             <div>
-              <h3 className="font-semibold text-lg">Email Us</h3>
-              <p className="text-gray-200">support@vanyaecoproducts.in</p>
+              <h3 className="font-semibold text-lg" style={{fontFamily: '"Merriweather", serif'}}>Email Us</h3>
+              <p className="text-gray-200" style={{ fontFamily: '"Roboto", sans-serif'}}>support@vanyaecoproducts.in</p>
             </div>
           </a>
 
@@ -79,8 +81,8 @@ export default function Contact() {
           >
             <MapPin className="w-8 h-8 text-red-400" />
             <div>
-              <h3 className="font-semibold text-lg">Location</h3>
-              <p className="text-gray-200">Wayanad, Kerala, India</p>
+              <h3 className="font-semibold text-lg" style={{fontFamily: '"Merriweather", serif'}}>Location</h3>
+              <p className="text-gray-200" style={{ fontFamily: '"Roboto", sans-serif'}}>Wayanad, Kerala, India</p>
             </div>
           </a>
         </div>

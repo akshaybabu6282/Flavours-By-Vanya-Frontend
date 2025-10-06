@@ -61,13 +61,13 @@ export default function Hero() {
 
           {/* Text on Image */}
           <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-6 z-20">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 text-white animate-fadeInUp">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 text-white animate-fadeInUp" style={{fontFamily:'"Dancing Script", cursive'}}>
               {banner.title}
             </h1>
-            <p className="text-lg sm:text-xl md:text-2xl mb-6 text-gray-200 animate-fadeInUp delay-150">
+            <p className="text-lg sm:text-xl md:text-2xl mb-6 text-gray-200 animate-fadeInUp delay-150" style={{ fontFamily: '"Roboto", sans-serif'}}>
               {banner.subtitle}
             </p>
-            <div className="flex flex-wrap gap-4 justify-center animate-fadeInUp delay-300">
+            <div className="flex flex-wrap gap-4 justify-center animate-fadeInUp delay-300" style={{ fontFamily: '"Roboto", sans-serif'}}>
               {banner.ctas.map((cta, i) => (
                 <a
                   key={i}

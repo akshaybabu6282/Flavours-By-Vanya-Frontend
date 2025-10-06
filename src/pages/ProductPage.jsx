@@ -24,6 +24,7 @@ export default function ProductPage() {
       <button
         onClick={() => navigate(-1)}
         className="fixed top-6 left-6 z-50 px-4 py-2 text-white bg-gray-800 hover:bg-gray-700 hover:text-white rounded-md flex items-center gap-2 shadow-lg"
+        style={{ fontFamily: '"Roboto", sans-serif'}}
       >
         &#8592; Back
       </button>
@@ -36,12 +37,13 @@ export default function ProductPage() {
           className="absolute inset-0 w-full h-full object-cover brightness-50"
         />
         <div className="relative z-10 text-center max-w-3xl px-6 space-y-6">
-          <h1 className="text-6xl md:text-7xl text-white font-display font-bold">{product.name}</h1>
-          <p className="text-gray-300 text-lg md:text-xl">{product.shortDescription || 'Premium quality product from Wayanad.'}</p>
+          <h1 className="text-6xl md:text-7xl text-white font-display font-bold" style={{fontFamily:'"Dancing Script", cursive'}}>{product.name}</h1>
+          <p className="text-gray-300 text-lg md:text-xl" style={{ fontFamily: '"Roboto", sans-serif'}}>{product.shortDescription || 'Premium quality product from Wayanad.'}</p>
           <div className="flex justify-center gap-4 mt-4 flex-wrap">
             <a
               href="mailto:business@vanyaecoproducts.in"
               className="px-6 py-3 bg-white text-black rounded-lg font-semibold shadow hover:shadow-lg transition"
+              style={{ fontFamily: '"Roboto", sans-serif'}}
             >
               Bulk / Export Enquiry
             </a>
@@ -50,6 +52,7 @@ export default function ProductPage() {
               target="_blank"
               rel="noreferrer"
               className="px-6 py-3 bg-green-600 text-white rounded-lg font-semibold shadow hover:shadow-lg transition"
+              style={{ fontFamily: '"Roboto", sans-serif'}}
             >
               Order on WhatsApp
             </a>
@@ -59,7 +62,7 @@ export default function ProductPage() {
 
       {/* About Section */}
       <section className="max-w-6xl mx-auto px-6 py-16">
-        <h2 className="text-4xl font-display mb-6">About {product.name}</h2>
+        <h2 className="text-4xl font-display mb-6"  style={{fontFamily: '"Raleway", sans-serif',fontWeight:'bold'}}>About {product.name}</h2>
         {product.description.split('\n\n').map((para, index) => {
           const parts = para.split(/(\*\*[^*]+\*\*)/g).map((part, i) => {
             if (part.startsWith('**') && part.endsWith('**')) {
@@ -69,7 +72,7 @@ export default function ProductPage() {
           });
 
           return (
-            <p key={index} className="text-gray-700 text-lg mb-4">
+            <p key={index} className="text-gray-700 text-lg mb-4" style={{ fontFamily: '"Roboto", sans-serif'}}>
               {parts}
             </p>
           );
@@ -82,8 +85,8 @@ export default function ProductPage() {
           <div key={idx} className="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col items-center text-center transition hover:shadow-2xl">
             <img src={card.image} alt={card.title} className="w-full h-48 object-cover" />
             <div className="p-6 space-y-4">
-              <h3 className="text-2xl font-display">{card.title}</h3>
-              <p className="text-gray-600">{card.text}</p>
+              <h3 className="text-2xl font-display" style={{fontFamily: '"Merriweather", serif'}}>{card.title}</h3>
+              <p className="text-gray-600" style={{ fontFamily: '"Roboto", sans-serif'}}>{card.text}</p>
             </div>
           </div>
         ))}
@@ -93,7 +96,7 @@ export default function ProductPage() {
       {/* Gallery Section */}
       {product.smallImages?.length > 0 && (
         <section className="max-w-6xl mx-auto px-6 py-16">
-          <h2 className="text-4xl font-display mb-8 text-center">Gallery</h2>
+          <h2 className="text-4xl font-display mb-8 text-center"  style={{fontFamily: '"Raleway", sans-serif',fontWeight:'bold'}}>Gallery</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {product.smallImages.map((img, i) => (
               <div key={i} className="w-full h-48 overflow-hidden rounded-xl shadow-lg">

@@ -38,8 +38,8 @@ export default function Licenses() {
   return (
     <section id="licenses" className="py-16 bg-white text-black">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-3xl font-display mb-6">Our Certifications & Licenses</h2>
-        <p className="text-gray-600 mb-10 max-w-3xl">
+        <h2 className="text-3xl font-display mb-6" style={{fontFamily: '"Raleway", sans-serif',fontWeight:'bold'}}>Our Certifications & Licenses</h2>
+        <p className="text-gray-600 mb-10 max-w-3xl" style={{ fontFamily: '"Roboto", sans-serif'}}>
           We are a fully certified and compliant business, ensuring trust, authenticity, and transparency in every step.
         </p>
 
@@ -54,9 +54,9 @@ export default function Licenses() {
               <div className="w-16 h-16 flex items-center justify-center bg-gray-50 border-1">
                 <img src={l.logo} alt={l.title} className="w-15 h-15 object-contain" />
               </div>
-              <div className="text-lg font-semibold">{l.title}</div>
-              <div className="text-gray-500 text-sm">{l.number}</div>
-              <p className="text-gray-600 text-sm text-center">{l.desc}</p>
+              <div className="text-lg font-semibold" style={{fontFamily: '"Merriweather", serif'}}>{l.title}</div>
+              <div className="text-gray-500 text-sm" style={{ fontFamily: '"Roboto", sans-serif'}}>{l.number}</div>
+              <p className="text-gray-600 text-sm text-center" style={{ fontFamily: '"Roboto", sans-serif'}}>{l.desc}</p>
             </div>
           ))}
         </div>

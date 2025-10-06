@@ -29,8 +29,8 @@ export default function ProductCard({ product }) {
             loading="lazy"
           />
         </div>
-        <h3 className="mt-4 text-lg font-semibold">{product.name}</h3>
-        <p className="text-xs text-gray-400">{product.shortDescriptionForHomePage}</p>
+        <h3 className="mt-4 text-lg font-semibold" style={{fontFamily: '"Merriweather", serif'}}>{product.name}</h3>
+        <p className="text-xs text-gray-400" style={{ fontFamily: '"Roboto", sans-serif'}}>{product.shortDescriptionForHomePage}</p>
       </Link>
     </article>
   );

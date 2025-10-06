@@ -14,8 +14,8 @@ export default function Header() {
                         <img src={logo} alt="Vanya Eco Products" className='w-10 h-10 rounded-full' />
                     </div>
                     <div className="hidden sm:block">
-                        <div className="font-display text-lg">Vanya Eco Products</div>
-                        <div className="text-xs text-gray-400">Pure Spices, True Flavours</div>
+                        <div className="font-display text-lg"  style={{fontFamily: '"Raleway", sans-serif',fontWeight:'bold'}}>Vanya Eco Products</div>
+                        <div className="text-xs text-gray-400"  style={{fontFamily: '"Raleway", sans-serif',fontWeight:'bold'}}>Pure Spices, True Flavours</div>
                     </div>
                 </Link>
 
@@ -27,22 +27,22 @@ export default function Header() {
                         onMouseEnter={() => setOpenDropdown(true)}
                         onMouseLeave={() => setOpenDropdown(false)}
                     >
-                        <button className="flex items-center gap-1 hover:underline">
+                        <button className="flex items-center gap-1 hover:underline"  style={{fontFamily: '"Raleway", sans-serif',fontWeight:'bold'}}>
                             Products <span>&#x25BC;</span>
                         </button>
                         {openDropdown && (
                             <div className="absolute top-full left-0 mt-2 w-48 bg-black/90 border border-white/10 rounded shadow-lg flex flex-col">
-                                <a href="#masalas" className="px-4 py-2 hover:bg-white/10">Masalas</a>
-                                <a href="#raw-spices" className="px-4 py-2 hover:bg-white/10">Spices</a>
-                                <a href="#beverages" className="px-4 py-2 hover:bg-white/10">Teas & Coffees</a>
+                                <a href="#masalas" className="px-4 py-2 hover:bg-white/10" style={{ fontFamily: '"Roboto", sans-serif'}}>Masalas</a>
+                                <a href="#raw-spices" className="px-4 py-2 hover:bg-white/10" style={{ fontFamily: '"Roboto", sans-serif'}}>Spices</a>
+                                <a href="#beverages" className="px-4 py-2 hover:bg-white/10" style={{ fontFamily: '"Roboto", sans-serif'}}>Teas & Coffees</a>
                             </div>
                         )}
                     </div>
-                    <a href="#about" className="hover:underline">About Us</a>
-                    <a href="#bulk" className="hover:underline">Bulk / Export</a>
-                    <a href="#licenses" className="hover:underline">Our Certifications</a>
+                    <a href="#about" className="hover:underline"  style={{fontFamily: '"Raleway", sans-serif',fontWeight:'bold'}}>About Us</a>
+                    <a href="#bulk" className="hover:underline"  style={{fontFamily: '"Raleway", sans-serif',fontWeight:'bold'}}>Bulk / Export</a>
+                    <a href="#licenses" className="hover:underline"  style={{fontFamily: '"Raleway", sans-serif',fontWeight:'bold'}}>Our Certifications</a>
 
-                    <a href="#contact" className="px-3 py-1 border border-white/10 rounded">Contact</a>
+                    <a href="#contact" className="px-3 py-1 border border-white/10 rounded"  style={{fontFamily: '"Raleway", sans-serif',fontWeight:'bold'}}>Contact</a>
                 </nav>
 
                 {/* Mobile Menu Button */}
@@ -68,26 +68,27 @@ export default function Header() {
                         <div className='py-2'>
                             <button
                                 onClick={() => setOpenDropdown(!openDropdown)}
-                                className="flex items-center gap-2 w-full justify-between  border-b border-white/10"
+                                className="flex items-center gap-2 w-full justify-between"
+                                style={{fontFamily: '"Raleway", sans-serif',fontWeight:'bold'}}
                             >
                                 Products <span>{openDropdown ? '▲' : '▼'}</span>
                             </button>
                             {openDropdown && (
                                 <div className="flex flex-col pl-4 mt-2 gap-1">
-                                    <a href="#masalas" onClick={() => setOpenMenu(false)} className="py-1">Masalas</a>
-                                    <a href="#raw-spices" onClick={() => setOpenMenu(false)} className="py-1">Spices</a>
-                                    <a href="#beverages" onClick={() => setOpenMenu(false)} className="py-1">Teas & Coffees</a>
+                                    <a href="#masalas" onClick={() => setOpenMenu(false)} className="py-1" style={{ fontFamily: '"Roboto", sans-serif'}}>Masalas</a>
+                                    <a href="#raw-spices" onClick={() => setOpenMenu(false)} className="py-1" style={{ fontFamily: '"Roboto", sans-serif'}}>Spices</a>
+                                    <a href="#beverages" onClick={() => setOpenMenu(false)} className="py-1" style={{ fontFamily: '"Roboto", sans-serif'}}>Teas & Coffees</a>
                                 </div>
                             )}
                         </div>
                         <hr />
-                        <a href="#about" className="hover:underline py-2">About Us</a>
+                        <a href="#about" className="hover:underline py-2" style={{fontFamily: '"Raleway", sans-serif',fontWeight:'bold'}}>About Us</a>
                         <hr />
-                        <a href="#bulk" className="hover:underline py-2" onClick={() => setOpenMenu(false)}>Bulk / Export</a>
+                        <a href="#bulk" className="hover:underline py-2" onClick={() => setOpenMenu(false)} style={{fontFamily: '"Raleway", sans-serif',fontWeight:'bold'}}>Bulk / Export</a>
                         <hr />
-                        <a href="#contact" className="hover:underline py-2">Contact</a>
+                        <a href="#contact" className="hover:underline py-2" style={{fontFamily: '"Raleway", sans-serif',fontWeight:'bold'}}>Contact</a>
                         <hr />
-                        <a href="#licenses" className="hover:underline py-2">Our Certifications</a>
+                        <a href="#licenses" className="hover:underline py-2" style={{fontFamily: '"Raleway", sans-serif',fontWeight:'bold'}}>Our Certifications</a>
                     </div>
                 </div>
             )}
