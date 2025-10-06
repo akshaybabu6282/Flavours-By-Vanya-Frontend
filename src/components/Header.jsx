@@ -11,7 +11,7 @@ export default function Header() {
             <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
                 <Link to="/" className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-xl font-bold">
-                        <img src={logo} alt="Vanya Eco Products" className='w-10 h-10 rounded-full'/>
+                        <img src={logo} alt="Vanya Eco Products" className='w-10 h-10 rounded-full' />
                     </div>
                     <div className="hidden sm:block">
                         <div className="font-display text-lg">Vanya Eco Products</div>
@@ -65,10 +65,10 @@ export default function Header() {
                 <div className="md:hidden bg-black/95 border-t border-white/5">
                     <div className="flex flex-col gap-2 px-6 py-6 text-lg">
                         {/* Products Dropdown Mobile */}
-                        <div>
+                        <div className='py-2'>
                             <button
                                 onClick={() => setOpenDropdown(!openDropdown)}
-                                className="flex items-center gap-2 w-full justify-between px-4 py-2 border-b border-white/10"
+                                className="flex items-center gap-2 w-full justify-between  border-b border-white/10"
                             >
                                 Products <span>{openDropdown ? '▲' : '▼'}</span>
                             </button>
@@ -80,8 +80,14 @@ export default function Header() {
                                 </div>
                             )}
                         </div>
-                        <a href="#bulk" onClick={() => setOpenMenu(false)}>Bulk / Export</a>
-                        <a href="#contact" onClick={() => setOpenMenu(false)} className="mt-2 inline-block px-3 py-2 border border-white/10 rounded">Contact</a>
+                        <hr />
+                        <a href="#about" className="hover:underline py-2">About Us</a>
+                        <hr />
+                        <a href="#bulk" className="hover:underline py-2" onClick={() => setOpenMenu(false)}>Bulk / Export</a>
+                        <hr />
+                        <a href="#contact" className="hover:underline py-2">Contact</a>
+                        <hr />
+                        <a href="#licenses" className="hover:underline py-2">Our Certifications</a>
                     </div>
                 </div>
             )}
