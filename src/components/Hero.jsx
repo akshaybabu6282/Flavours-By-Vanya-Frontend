@@ -87,7 +87,7 @@ export default function Hero() {
       ))}
 
       {/* Dots */}
-      <div className="absolute bottom-10 w-full flex justify-center gap-3 z-30">
+     {/*  <div className="absolute bottom-10 w-full flex justify-center gap-3 z-30">
         {banners.map((_, idx) => (
           <button
             key={idx}
@@ -97,7 +97,7 @@ export default function Hero() {
             }`}
           />
         ))}
-      </div>
+      </div> */}
     </section>
   );
 }
