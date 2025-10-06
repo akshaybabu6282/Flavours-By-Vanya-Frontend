@@ -7,28 +7,28 @@ const licenses = [
     title: 'FSSAI Certified', 
     number: 'Lic No: 21325247000571', 
     desc: 'Ensures food safety, hygiene & quality standards.', 
-    logo: '/assets/fssai.svg' 
+    logo: '/assets/fssai-logo.png' 
   },
   { 
     id: 'gst', 
     title: 'GST Registered', 
     number: 'GSTIN: 32DZEPK4981E1ZE', 
     desc: 'Transparent tax compliance for business transactions.', 
-    logo: '/assets/gst.svg' 
+    logo: '/assets/gst-logo.png' 
   },
   { 
     id: 'udyam', 
     title: 'Udyam (MSME)', 
     number: 'UDYAM-KL-14-0022806', 
     desc: 'Recognized under MSME for small business credibility.', 
-    logo: '/assets/Udyam.svg' 
+    logo: '/assets/msme-logo.webp' 
   },
   { 
     id: 'tm', 
     title: 'Trademark', 
     number: 'In Process', 
     desc: 'Our brand is officially trademarked (application in process).', 
-    logo: '/assets/trademark.svg' 
+    logo: '/assets/trademark-logo.png' 
   },
 ]
 
@@ -51,7 +51,7 @@ export default function Licenses() {
         >
           {licenses.map(l => (
             <div key={l.id} className="p-6 border rounded-lg flex flex-col items-center gap-4 hover:shadow-2xl transition">
-              <div className="w-16 h-16 flex items-center justify-center bg-gray-50 border-1">
+              <div className="w-25 h-25 rounded-full flex items-center justify-center bg-gray-100 ">
                 <img src={l.logo} alt={l.title} className="w-15 h-15 object-contain" />
               </div>
               <div className="text-lg font-semibold" style={{fontFamily: '"Merriweather", serif'}}>{l.title}</div>
