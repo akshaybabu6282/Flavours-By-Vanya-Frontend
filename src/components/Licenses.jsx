@@ -7,28 +7,28 @@ const licenses = [
     title: 'FSSAI Certified', 
     number: 'Lic No: 21325247000571', 
     desc: 'Ensures food safety, hygiene & quality standards.', 
-    logo: '/src/assets/fssai.svg' 
+    logo: '/assets/fssai.svg' 
   },
   { 
     id: 'gst', 
     title: 'GST Registered', 
     number: 'GSTIN: 32DZEPK4981E1ZE', 
     desc: 'Transparent tax compliance for business transactions.', 
-    logo: '/src/assets/gst.svg' 
+    logo: '/assets/gst.svg' 
   },
   { 
     id: 'udyam', 
     title: 'Udyam (MSME)', 
     number: 'UDYAM-KL-14-0022806', 
     desc: 'Recognized under MSME for small business credibility.', 
-    logo: '/src/assets/Udyam.svg' 
+    logo: '/assets/Udyam.svg' 
   },
   { 
     id: 'tm', 
     title: 'Trademark', 
     number: 'In Process', 
     desc: 'Our brand is officially trademarked (application in process).', 
-    logo: '/src/assets/trademark.svg' 
+    logo: '/assets/trademark.svg' 
   },
 ]
 

@@ -21,7 +21,7 @@ export default function AboutUs() {
                 </div>
 
                 <div className="rounded-xl overflow-hidden w-full aspect-[4/3] bg-white/5">
-                    <img src="/src/assets/hero.webp" alt="Farm or spices" className="w-full h-full object-cover" loading="lazy" />
+                    <img src="/assets/hero.webp" alt="Farm or spices" className="w-full h-full object-cover" loading="lazy" />
                 </div>
             </div>
 

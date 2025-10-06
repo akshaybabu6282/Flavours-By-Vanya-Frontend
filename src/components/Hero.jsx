@@ -5,7 +5,7 @@ const banners = [
     id: 1,
     title: "Vanya Eco Products",
     subtitle: "Handcrafted spices, teas and coffees from Wayanad.",
-    image: "/src/assets/hero1.webp",
+    image: "/assets/hero1.webp",
     ctas: [
       { text: "Teas & Coffees", href: "#beverages", primary: true },
     ],
@@ -14,7 +14,7 @@ const banners = [
     id: 2,
     title: "Sustainably Sourced",
     subtitle: "From farm to your home, pure & honest.",
-    image: "/src/assets/hero2.webp",
+    image: "/assets/hero2.webp",
     ctas: [
       { text: "Spices", href: "#raw-spices", primary: false },
     ],
@@ -23,7 +23,7 @@ const banners = [
     id: 3,
     title: "Premium Quality",
     subtitle: "Experience authentic flavors with every dish.",
-    image: "/src/assets/hero3.webp",
+    image: "/assets/hero3.webp",
     ctas: [
       { text: "Masalas", href: "#masalas", primary: true },
     ],
