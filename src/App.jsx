@@ -12,6 +12,8 @@ import Licenses from "./components/Licenses";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
+
 
 export default function App() {
 
@@ -26,6 +28,15 @@ export default function App() {
 
   return (
     <div className="min-h-screen font-body">
+      <Helmet>
+        <title>Vanya Eco Products | Flavours by Vanya | Authentic Kerala Spices & Masalas</title>
+        <meta name="description" content="Shop authentic Kerala spices, masalas, teas, and coffees from Wayanad — pure, natural, and handcrafted by Vanya Eco Products." />
+        <meta name="keywords" content="Vanya Eco Products, Wayanad spices, Kerala masalas, natural teas, organic coffees" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://www.vanyaecoproducts.in/" />
+      </Helmet>
+
+
       <Header />
       <main >
         <Hero />
