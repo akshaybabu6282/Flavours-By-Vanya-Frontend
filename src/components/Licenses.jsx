@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from 'react'
-import useInView from '../hooks/useInView'
 
 const licenses = [
   { id: 'fssai', title: 'FSSAI Certified', number: 'Lic No: 21325247000571', desc: 'Ensures food safety, hygiene\n & quality standards.', logo: '/assets/fssai-logo.png' },
@@ -13,17 +12,17 @@ export default function LicensesInfiniteSlider() {
   const scrollRef = useRef(null)
   const speed = 0.8
   let animationFrameId
+  let isTouched = false // track if user is touching
 
   useEffect(() => {
     const container = scrollRef.current
-    let isHovered = false
 
     // Duplicate content for seamless loop
     const scrollContent = container.innerHTML
     container.innerHTML += scrollContent
 
     const scroll = () => {
-      if (!isHovered) {
+      if (!isTouched) {
         container.scrollLeft += speed
         if (container.scrollLeft >= container.scrollWidth / 2) {
           container.scrollLeft = 0
@@ -34,14 +33,21 @@ export default function LicensesInfiniteSlider() {
 
     animationFrameId = requestAnimationFrame(scroll)
 
-    const handleMouseEnter = () => (isHovered = true)
-    const handleMouseLeave = () => (isHovered = false)
+    // Pause auto-scroll when user touches/swipes
+    const handleTouchStart = () => (isTouched = true)
+    const handleTouchEnd = () => (isTouched = false)
+    const handleMouseEnter = () => (isTouched = true)
+    const handleMouseLeave = () => (isTouched = false)
 
+    container.addEventListener('touchstart', handleTouchStart)
+    container.addEventListener('touchend', handleTouchEnd)
     container.addEventListener('mouseenter', handleMouseEnter)
     container.addEventListener('mouseleave', handleMouseLeave)
 
     return () => {
       cancelAnimationFrame(animationFrameId)
+      container.removeEventListener('touchstart', handleTouchStart)
+      container.removeEventListener('touchend', handleTouchEnd)
       container.removeEventListener('mouseenter', handleMouseEnter)
       container.removeEventListener('mouseleave', handleMouseLeave)
     }
@@ -49,7 +55,7 @@ export default function LicensesInfiniteSlider() {
 
   return (
     <section id="licenses" className="py-24 bg-gradient-to-b from-white via-gray-50 to-gray-100 text-gray-900">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="mx-auto">
         {/* Heading */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800" style={{ fontFamily: '"Raleway", sans-serif' }}>
@@ -63,7 +69,8 @@ export default function LicensesInfiniteSlider() {
         {/* Infinite Horizontal Scroll */}
         <div
           ref={scrollRef}
-          className="flex gap-12 overflow-x-hidden whitespace-nowrap py-4"
+          className="flex gap-12 overflow-x-auto touch-pan-x whitespace-nowrap py-4 no-scrollbar"
+          style={{ WebkitOverflowScrolling: 'touch' }}
         >
           {licenses.concat(licenses).map((l, idx) => (
             <div
@@ -78,18 +85,16 @@ export default function LicensesInfiniteSlider() {
 
               {/* Text aligned with logo width */}
               <div className="flex flex-col items-center justify-center" style={{ width: 'calc(var(--tw-width, 100%) * 1)' }}>
-                <h3 className="text-base sm:text-lg md:text-lg lg:text-xl font-semibold text-gray-800 mb-1" style={{ fontFamily: '"Merriweather", serif', maxWidth: '100%', wordWrap: 'break-word' ,whiteSpace: 'pre-line' }}>
+                <h3 className="text-base sm:text-lg md:text-lg lg:text-xl font-semibold text-gray-800 mb-1" style={{ fontFamily: '"Merriweather", serif', maxWidth: '100%', wordWrap: 'break-word', whiteSpace: 'pre-line' }}>
                   {l.title}
                 </h3>
                 <p className="text-xs sm:text-sm md:text-sm lg:text-sm text-gray-500 mb-1" style={{ fontFamily: '"Roboto", sans-serif', maxWidth: '100%', wordWrap: 'break-word'}}>
                   {l.number}
                 </p>
-                <p className="text-xs sm:text-sm md:text-sm lg:text-sm text-gray-600 leading-relaxed" style={{ fontFamily: '"Roboto", sans-serif', maxWidth: '100%', wordWrap: 'break-word',  whiteSpace: 'pre-line'  }}>
+                <p className="text-xs sm:text-sm md:text-sm lg:text-sm text-gray-600 leading-relaxed" style={{ fontFamily: '"Roboto", sans-serif', maxWidth: '100%', wordWrap: 'break-word', whiteSpace: 'pre-line' }}>
                   {l.desc}
                 </p>
               </div>
-
-
             </div>
           ))}
         </div>
