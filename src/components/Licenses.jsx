@@ -36,7 +36,7 @@ export default function LicensesInfiniteSlider() {
 
   return (
     <section className="py-24 bg-gradient-to-b from-white via-gray-50 to-gray-100 text-gray-900">
-      <div className="mx-auto text-center mb-12">
+      <div className="mx-auto text-center mb-12 px-5">
         <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: '"Raleway", sans-serif' }}>
           Our Certifications & Licenses
         </h2>
