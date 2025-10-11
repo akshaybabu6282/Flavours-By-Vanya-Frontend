@@ -10,16 +10,20 @@ const licenses = [
 
 export default function LicensesInfiniteSlider() {
   const scrollRef = useRef(null)
-  const speed = 0.8
-  let animationFrameId
   const [isPaused, setIsPaused] = useState(false)
+  const speed = 0.8
 
   useEffect(() => {
     const container = scrollRef.current
 
-    // Duplicate content for seamless loop
-    const scrollContent = container.innerHTML
-    container.innerHTML += scrollContent
+    // Clone children for infinite scroll
+    const children = Array.from(container.children)
+    children.forEach(child => {
+      const clone = child.cloneNode(true)
+      container.appendChild(clone)
+    })
+
+    let animationFrameId
 
     const scroll = () => {
       if (!isPaused) {
@@ -33,11 +37,11 @@ export default function LicensesInfiniteSlider() {
 
     animationFrameId = requestAnimationFrame(scroll)
 
-    // Pause on desktop hover
+    // Desktop hover
     const handleMouseEnter = () => setIsPaused(true)
     const handleMouseLeave = () => setIsPaused(false)
 
-    // Pause on mobile touch
+    // Mobile touch
     const handleTouchStart = () => setIsPaused(true)
     const handleTouchEnd = () => setIsPaused(false)
 
@@ -57,7 +61,7 @@ export default function LicensesInfiniteSlider() {
 
   return (
     <section id="licenses" className="py-24 bg-gradient-to-b from-white via-gray-50 to-gray-100 text-gray-900">
-      <div className=" mx-auto ">
+      <div className="mx-auto">
         {/* Heading */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800" style={{ fontFamily: '"Raleway", sans-serif' }}>
@@ -72,9 +76,14 @@ export default function LicensesInfiniteSlider() {
         <div
           ref={scrollRef}
           className="flex gap-12 whitespace-nowrap py-4 no-scrollbar"
-          style={{ overflowX: 'hidden', WebkitOverflowScrolling: 'touch' }}
+          style={{
+            overflowX: 'auto',
+            WebkitOverflowScrolling: 'touch',
+            scrollbarWidth: 'none',
+            msOverflowStyle: 'none'
+          }}
         >
-          {licenses.concat(licenses).map((l, idx) => (
+          {licenses.map((l, idx) => (
             <div
               key={`${l.id}-${idx}`}
               className="inline-flex flex-col items-center text-center flex-shrink-0"
