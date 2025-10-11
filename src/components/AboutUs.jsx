@@ -28,7 +28,7 @@ export default function AboutUs() {
                         For us, it’s not just about selling spices — it’s about preserving trust. When you choose Flavours by Vanya, you’re not just cooking a meal, you’re keeping alive a tradition of honesty, purity, and care that starts in the farmer’s field and ends on your dining table.
                     </p>
                     <p className="mt-4 text-gray-700 font-medium" style={{ fontFamily: '"Roboto", sans-serif' }}>
-                        ✨ Vanya Eco Products — From Farm to Your Home, Pure & Honest. ✨
+                        Vanya Eco Products From Farm to Your Home, Pure & Honest.
                     </p>
                 </div>
 
