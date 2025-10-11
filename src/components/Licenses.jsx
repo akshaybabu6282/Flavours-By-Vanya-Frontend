@@ -9,100 +9,65 @@ const licenses = [
 ]
 
 export default function LicensesInfiniteSlider() {
-  const scrollRef = useRef(null)
-  const [isPaused, setIsPaused] = useState(false)
+  const containerRef = useRef(null)
+  const [offset, setOffset] = useState(0)
   const speed = 0.8
 
   useEffect(() => {
-    const container = scrollRef.current
+    const container = containerRef.current
+    let animationId
 
-    // Clone children for infinite scroll
-    const children = Array.from(container.children)
-    children.forEach(child => {
-      const clone = child.cloneNode(true)
-      container.appendChild(clone)
-    })
-
-    let animationFrameId
+    // Duplicate licenses for seamless loop
+    const items = Array.from(container.children)
+    items.forEach(item => container.appendChild(item.cloneNode(true)))
 
     const scroll = () => {
-      if (!isPaused) {
-        container.scrollLeft += speed
-        if (container.scrollLeft >= container.scrollWidth / 2) {
-          container.scrollLeft = 0
-        }
-      }
-      animationFrameId = requestAnimationFrame(scroll)
+      setOffset(prev => {
+        const newOffset = prev + speed
+        if (newOffset >= container.scrollWidth / 2) return 0
+        return newOffset
+      })
+      animationId = requestAnimationFrame(scroll)
     }
 
-    animationFrameId = requestAnimationFrame(scroll)
-
-    // Desktop hover
-    const handleMouseEnter = () => setIsPaused(true)
-    const handleMouseLeave = () => setIsPaused(false)
-
-    // Mobile touch
-    const handleTouchStart = () => setIsPaused(true)
-    const handleTouchEnd = () => setIsPaused(false)
-
-    container.addEventListener('mouseenter', handleMouseEnter)
-    container.addEventListener('mouseleave', handleMouseLeave)
-    container.addEventListener('touchstart', handleTouchStart)
-    container.addEventListener('touchend', handleTouchEnd)
-
-    return () => {
-      cancelAnimationFrame(animationFrameId)
-      container.removeEventListener('mouseenter', handleMouseEnter)
-      container.removeEventListener('mouseleave', handleMouseLeave)
-      container.removeEventListener('touchstart', handleTouchStart)
-      container.removeEventListener('touchend', handleTouchEnd)
-    }
-  }, [isPaused])
+    animationId = requestAnimationFrame(scroll)
+    return () => cancelAnimationFrame(animationId)
+  }, [])
 
   return (
-    <section id="licenses" className="py-24 bg-gradient-to-b from-white via-gray-50 to-gray-100 text-gray-900">
-      <div className="mx-auto">
-        {/* Heading */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-800" style={{ fontFamily: '"Raleway", sans-serif' }}>
-            Our Certifications & Licenses
-          </h2>
-          <p className="text-gray-600 text-md md:text-lg max-w-xl mx-auto" style={{ fontFamily: '"Roboto", sans-serif' }}>
-            We are a fully certified and compliant business, ensuring trust, authenticity, and transparency in every step.
-          </p>
-        </div>
+    <section className="py-24 bg-gradient-to-b from-white via-gray-50 to-gray-100 text-gray-900">
+      <div className="mx-auto text-center mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: '"Raleway", sans-serif' }}>
+          Our Certifications & Licenses
+        </h2>
+        <p className="text-gray-600 text-md md:text-lg max-w-2xl mx-auto" style={{ fontFamily: '"Roboto", sans-serif' }}>
+          We are a fully certified and compliant business, ensuring trust, authenticity, and transparency in every step.
+        </p>
+      </div>
 
-        {/* Infinite Horizontal Scroll */}
+      <div className="overflow-hidden">
         <div
-          ref={scrollRef}
-          className="flex gap-12 whitespace-nowrap py-4 no-scrollbar"
-          style={{
-            overflowX: 'auto',
-            WebkitOverflowScrolling: 'touch',
-            scrollbarWidth: 'none',
-            msOverflowStyle: 'none'
-          }}
+          ref={containerRef}
+          className="flex gap-12 whitespace-nowrap py-4"
+          style={{ transform: `translateX(-${offset}px)` }}
         >
-          {licenses.map((l, idx) => (
+          {licenses.concat(licenses).map((l, idx) => (
             <div
               key={`${l.id}-${idx}`}
-              className="inline-flex flex-col items-center text-center flex-shrink-0"
+              className="flex-shrink-0 inline-flex flex-col items-center text-center"
               style={{ minWidth: '200px', width: 'fit-content' }}
             >
-              {/* Logo inside circle */}
               <div className="bg-gray-100 w-24 h-24 sm:w-28 sm:h-28 md:w-30 md:h-30 lg:w-34 lg:h-34 rounded-full flex items-center justify-center shadow-inner mb-4 transition-transform duration-300 hover:scale-110">
                 <img src={l.logo} alt={l.title} className="w-16 sm:w-20 md:w-22 lg:w-26 h-16 sm:h-20 md:h-22 lg:h-26 object-contain" />
               </div>
-
-              {/* Text aligned with logo width */}
-              <div className="flex flex-col items-center justify-center" style={{ width: 'calc(var(--tw-width, 100%) * 1)' }}>
-                <h3 className="text-base sm:text-lg md:text-lg lg:text-xl font-semibold text-gray-800 mb-1" style={{ fontFamily: '"Merriweather", serif', maxWidth: '100%', wordWrap: 'break-word', whiteSpace: 'pre-line' }}>
+              <div className="flex flex-col items-center justify-center" style={{ width: '100%' }}>
+                <h3 className="text-base sm:text-lg md:text-lg lg:text-xl font-semibold text-gray-800 mb-1" style={{ fontFamily: '"Merriweather", serif', whiteSpace: 'pre-line' }}>
                   {l.title}
                 </h3>
-                <p className="text-xs sm:text-sm md:text-sm lg:text-sm text-gray-500 mb-1" style={{ fontFamily: '"Roboto", sans-serif', maxWidth: '100%', wordWrap: 'break-word'}}>
+                <p className="text-xs sm:text-sm md:text-sm lg:text-sm text-gray-500 mb-1" style={{ fontFamily: '"Roboto", sans-serif', whiteSpace: 'pre-line' }}>
                   {l.number}
                 </p>
-                <p className="text-xs sm:text-sm md:text-sm lg:text-sm text-gray-600 leading-relaxed" style={{ fontFamily: '"Roboto", sans-serif', maxWidth: '100%', wordWrap: 'break-word', whiteSpace: 'pre-line' }}>
+                <p className="text-xs sm:text-sm md:text-sm lg:text-sm text-gray-600 leading-relaxed" style={{ fontFamily: '"Roboto", sans-serif', whiteSpace: 'pre-line' }}>
                   {l.desc}
                 </p>
               </div>
