@@ -3,11 +3,11 @@ import React, { useState, useEffect } from "react";
 const banners = [
   {
     id: 1,
-    title: "Sip the Soul of Wayanad",
-    subtitle: "Awaken your senses with our mountain-grown teas and hand-roasted coffees each cup a serene journey through Wayanad’s lush greenery.",
-    image: "/assets/hero1.jpg",
+    title: "A Symphony of Flavours in Every Pinch",
+    subtitle: "From the heart of Wayanad’s kitchens, our masalas bring tradition alive blending handpicked ingredients into timeless tastes that whisper stories of home.",
+    image: "/assets/hero3.jpg",
     ctas: [
-      { text: "Taste the Brew", href: "#beverages", primary: false },
+      { text: "Experience the Essence", href: "#masalas", primary: false },
     ],
   },
   {
@@ -21,11 +21,20 @@ const banners = [
   },
   {
     id: 3,
-    title: "A Symphony of Flavours in Every Pinch",
-    subtitle: "From the heart of Wayanad’s kitchens, our masalas bring tradition alive blending handpicked ingredients into timeless tastes that whisper stories of home.",
-    image: "/assets/hero3.jpg",
+    title: "Sip the Soul of Wayanad",
+    subtitle: "Awaken your senses with our mountain-grown teas and hand-roasted coffees each cup a serene journey through Wayanad’s lush greenery.",
+    image: "/assets/hero1.jpg",
     ctas: [
-      { text: "Experience the Essence", href: "#masalas", primary: false },
+      { text: "Taste the Brew", href: "#beverages", primary: false },
+    ],
+  },
+  {
+    id: 4,
+    title: "Sweetness Woven by Nature",
+    subtitle: "From wild forest hives and fertile groves, our honey and nuts embody nature’s quiet luxury golden, wholesome, and beautifully untouched.",
+    image: "/assets/hero4.jpg",
+    ctas: [
+      { text: "Indulge Naturally", href: "#nutsHoney", primary: false },
     ],
   },
 ];

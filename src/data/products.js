@@ -60,7 +60,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     Our farmers nurture each plant organically, following traditional methods that have been refined over generations. No chemicals, no pesticides just nutrient rich soil and rain fed crops. The chillies are handpicked at their peak ripeness to ensure maximum colour, flavour, and aroma. This careful cultivation results in a powder that embodies the true spirit of Wayanad’s spice heritage.\n\n
     After harvest, the chillies are sun dried to preserve their oils and gently ground into a fine, velvety powder. Each batch is carefully processed to maintain uniform colour, aroma, and flavour. Packaged in moisture resistant pouches, the Kashmiri Chilli Powder reaches your kitchen fresh, aromatic, and ready to enhance your recipes.\n\n
     Bring depth and vibrancy to your curries, sauces, and marinades with **Flavours by Vanya Kashmiri Chilli Powder**. Its mild heat and brilliant red colour make it the perfect choice for traditional Indian cooking as well as modern recipes. Experience Wayanad’s rich spice culture in every pinch.`,
-    
+
     shortDescriptionForHomePage: 'Mild, vibrant, and aromatic our Wayanad Kashmiri Chilli Powder adds colour and warmth to every dish.',
     shortDescription: 'Sourced from organic Wayanad farms, this Kashmiri Chilli Powder delivers deep red colour, subtle heat, and rich aroma. Perfect for curries and sauces, it embodies Kerala’s culinary heritage.',
     descriptionSections: [
@@ -83,7 +83,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     Cultivated by local farmers using sustainable and chemical free methods, our pepper is harvested at the peak of ripeness to ensure optimal flavour. The farmers’ meticulous care from pruning vines to handpicking berries guarantees superior quality and purity. Once harvested, the berries are carefully dried under controlled conditions to preserve their aroma, pungency, and natural oils.\n\n
     After drying, the peppercorns are finely ground to create a powder that captures every essence of Wayanad’s terroir. The result is a fragrant, potent spice with a sharp, lingering heat and unmistakable depth. Each batch is packaged in airtight, high quality pouches to maintain freshness and aroma.\n\n
     Ideal for seasoning curries, soups, sauces, and grilled dishes, **Flavours by Vanya Pepper Powder** brings authentic Wayanad flavour to your kitchen. Its bold yet balanced heat enhances every recipe while connecting you to Kerala’s rich spice traditions.`,
-    
+
     shortDescriptionForHomePage: 'Bold, aromatic, and naturally pungent our Wayanad Pepper Powder elevates every dish with authentic flavour.',
     shortDescription: 'Sourced from the highlands of Wayanad, this Pepper Powder offers sharp aroma, balanced heat, and purity. Perfect for all culinary creations, it reflects Kerala’s rich spice heritage.',
     descriptionSections: [
@@ -352,11 +352,78 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/cardamom-small-1.webp', '/assets/cardamom-small-2.jpg', '/assets/cardamom-small-3.jpg', '/assets/cardamom-small-4.webp'],
     sourcing: { farm: 'Certified Organic Cardamom Estates of Wayanad Highlands, Kerala', type: '100% Traditional & Organic Cultivation', harvestSeason: 'October to January • Peak Aroma Harvest' }
-  }, {
-    id: 22,
+  },{
+  id: 22,
+  name: 'Cloves',
+  slug: 'cloves',
+  category: 'Raw Spice',
+  imageFront: '/assets/cloves-front.webp',
+  imageBack: '/assets/cloves-back.webp',
+  imageBg: '/assets/cloves-bg.jpg',
+  description: `Handpicked from the lush highlands of **Wayanad, Kerala,** our **Flavours by Vanya Cloves** are renowned for their intense aroma, deep brown hue, and natural oil content. Cultivated in the cool, misty climate of Wayanad’s spice plantations, these buds are carefully sun dried to preserve their rich essential oils and authentic flavor.\n\n
+  Each clove carries a warm, sweet spicy fragrance that enhances both savory and sweet dishes. Traditionally valued for its medicinal benefits, Wayanad cloves are packed with antioxidants and antibacterial properties, making them a healthy addition to your kitchen.\n\n
+  Whether used in biryanis, teas, pickles, or masalas, our **Wayanad Cloves** add a bold depth and warmth that elevate every recipe. Experience the genuine essence of Kerala’s spice-rich soil in every aromatic bud.`,
+  
+  shortDescriptionForHomePage: 'Bold, aromatic, and rich in essential oils our Wayanad Cloves bring authentic Kerala spice to your kitchen.',
+  shortDescription: 'Sun-dried and aromatic cloves from Wayanad, known for their intense flavor, natural oils, and health benefits.',
+  descriptionSections: [
+    { title: 'Sourcing & Quality', text: 'Sustainably sourced from Wayanad’s organic spice farms, handpicked at peak maturity to ensure superior aroma and potency.', image: '/assets/cloves-sourcing.jpeg' },
+    { title: 'Processing & Packaging', text: 'Naturally sun dried to preserve essential oils and vacuum sealed in eco-friendly packs to lock in freshness.', image: '/assets/cloves-processing.webp' },
+    { title: 'Uses & Benefits', text: 'Ideal for curries, desserts, and herbal teas. Known to aid digestion, relieve toothache, and boost immunity.', image: '/assets/cloves-benefits.avif' }
+  ],
+  smallImages: ['/assets/cloves-small-1.avif', '/assets/cloves-small-2.avif', '/assets/cloves-small-3.jpg', '/assets/cloves-small-4.jpg'],
+  sourcing: { farm: 'Organic Spice Plantations of Wayanad, Kerala', type: 'Naturally Sun-Dried • 100% Pure & Unprocessed', harvestSeason: 'December to February • Winter Harvest' }
+},
+{
+  id: 23,
+  name: 'Cinnamon',
+  slug: 'cinnamon',
+  category: 'Raw Spice',
+  imageFront: '/assets/cinnamon-front.avif',
+  imageBack: '/assets/cinnamon-back.jpeg',
+  imageBg: '/assets/cinnamon-bg.webp',
+  description: `Straight from the evergreen hills of **Wayanad, Kerala,** our **Flavours by Vanya Cinnamon** is crafted from the finest inner bark of organically grown cinnamon trees. Known for its sweet aroma and delicate flavor, this cinnamon offers a balance of warmth and natural sweetness that defines Kerala’s spice heritage.\n\n
+  Carefully peeled and sun cured by skilled local farmers, our cinnamon retains its essential oils and soft texture. It blends beautifully into curries, baked goods, and teas, adding a touch of luxury and comfort to every dish.\n\n
+  **Flavours by Vanya Cinnamon** embodies the timeless spice tradition of Wayanad pure, aromatic, and naturally wholesome.`,
+  
+  shortDescriptionForHomePage: 'Sweetly aromatic and naturally rich our Wayanad Cinnamon brings warmth and wellness to your kitchen.',
+  shortDescription: 'Premium cinnamon bark from Wayanad, hand peeled and sun dried to preserve aroma, sweetness, and natural oils.',
+  descriptionSections: [
+    { title: 'Sourcing & Quality', text: 'Harvested from organically grown cinnamon trees in Wayanad’s hill plantations, ensuring purity and superior flavor.', image: '/assets/cinnamon-sourcing.jpg' },
+    { title: 'Processing & Packaging', text: 'Hand peeled inner bark, sun cured naturally, and packed to maintain its fragrance and freshness.', image: '/assets/cinnamon-processing.jpg' },
+    { title: 'Health Benefits', text: 'Supports metabolism, balances blood sugar, and offers natural anti inflammatory properties.', image: '/assets/cinnamon-benefits.jpg' }
+  ],
+  smallImages: ['/assets/cinnamon-small-1.jpg', '/assets/cinnamon-small-2.webp', '/assets/cinnamon-small-3.webp', '/assets/cinnamon-small-4.webp'],
+  sourcing: { farm: 'Organic Spice Estates, Wayanad, Kerala', type: 'Hand-Peeled & Naturally Sun-Cured', harvestSeason: 'May to August • Monsoon Harvest' }
+},{
+  id: 24,
+  name: 'Dry Ginger',
+  slug: 'dry-ginger',
+  category: 'Raw Spice',
+  imageFront: '/assets/dry-ginger-front.jpg',
+  imageBack: '/assets/dry-ginger-back.webp',
+  imageBg: '/assets/dry-ginger-bg.webp',
+  description: `Sourced from the fertile red soils of **Wayanad, Kerala,** our **Flavours by Vanya Dry Ginger** is known for its bold aroma, spicy heat, and high natural oil content. Each rhizome is carefully cleaned, sliced, and sun dried using traditional methods that lock in its flavor and therapeutic properties.\n\n
+  Wayanad’s unique climate produces ginger with superior pungency and medicinal value, making it a staple in Ayurvedic and culinary traditions alike. From spiced teas and sweets to curries and home remedies, our dry ginger adds warmth and vitality to every preparation.\n\n
+  Experience the authentic zest of **Wayanad Dry Ginger** pure, powerful, and naturally grown.`,
+  
+  shortDescriptionForHomePage: 'Strong, aromatic, and pure our Wayanad Dry Ginger delivers natural warmth and flavor straight from Kerala’s highlands.',
+  shortDescription: 'Sun-dried ginger from Wayanad, rich in aroma and flavor. Ideal for teas, curries, and Ayurvedic preparations.',
+  descriptionSections: [
+    { title: 'Sourcing & Quality', text: 'Locally grown in Wayanad’s red soil, harvested at peak maturity for maximum flavor and potency.', image: '/assets/dry-ginger-sourcing.webp' },
+    { title: 'Processing & Packaging', text: 'Cleaned, sliced, and naturally sun dried by local farmers, then packed to preserve aroma and freshness.', image: '/assets/dry-ginger-processing.webp' },
+    { title: 'Health Benefits', text: 'Aids digestion, boosts immunity, and helps relieve cold and sore throat naturally.', image: '/assets/dry-ginger-benefits.jpg' }
+  ],
+  smallImages: ['/assets/dry-ginger-small-1.webp', '/assets/dry-ginger-small-2.webp', '/assets/dry-ginger-small-3.jpg', '/assets/dry-ginger-small-4.jpg'],
+  sourcing: { farm: 'Traditional Ginger Farms of Wayanad, Kerala', type: 'Sun-Dried & Naturally Processed', harvestSeason: 'December to April • Winter Harvest' }
+},
+
+  // Nuts & Honey
+  {
+    id: 30,
     name: 'Almond',
     slug: 'almond',
-    category: 'Raw Spice',
+    category: 'Nuts & Honey',
     imageFront: '/assets/almond-front.jpg',
     imageBack: '/assets/almond-back.jpeg',
     imageBg: '/assets/almond-bg.webp',
@@ -375,10 +442,10 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     smallImages: ['/assets/almond-small-1.webp', '/assets/almond-small-2.jpg', '/assets/almond-small-3.jpg', '/assets/almond-small-4.jpg'],
     sourcing: { farm: 'Organic Almond Estates of Wayanad Highlands, Kerala', type: 'Traditional & Organic Cultivation', harvestSeason: 'October to February • Peak Nut Harvest' }
   }, {
-    id: 23,
+    id: 31,
     name: 'Cashew',
     slug: 'cashew',
-    category: 'Raw Spice',
+    category: 'Nuts & Honey',
     imageFront: '/assets/cashew-front.webp',
     imageBack: '/assets/cashew-back.jpg',
     imageBg: '/assets/cashew-bg.jpg',
@@ -397,10 +464,10 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     smallImages: ['/assets/cashew-small-1.jpg', '/assets/cashew-small-2.jpeg', '/assets/cashew-small-3.jpg', '/assets/cashew-small-4.jpg'],
     sourcing: { farm: 'Organic Cashew Estates of Wayanad Highlands, Kerala', type: 'Traditional & Organic Cultivation', harvestSeason: 'October to February • Peak Harvest' }
   }, {
-    id: 24,
+    id: 32,
     name: 'Honey',
     slug: 'honey',
-    category: 'Raw Spice',
+    category: 'Nuts & Honey',
     imageFront: '/assets/honey-front.jpg',
     imageBack: '/assets/honey-back.jpg',
     imageBg: '/assets/honey-bg.jpg',
@@ -420,9 +487,10 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     sourcing: { farm: 'Wild Forest Hives of Wayanad Highlands, Kerala', type: '100% Organic & Sustainable Harvesting', harvestSeason: 'November to March • Peak Nectar Season' }
   },
 
+
   // BEVERAGES
   {
-    id: 30,
+    id: 40,
     name: 'Earl Grey Tea',
     slug: 'earl-grey-tea',
     category: 'Beverage',
@@ -444,7 +512,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     sourcing: { farm: 'Organic Tea Estates of Wayanad Highlands, Kerala', type: '100% Traditional & Organic Cultivation', harvestSeason: 'October to March • Peak Leaf Harvest' }
   },
   {
-    id: 31,
+    id: 41,
     name: 'Green Tea',
     slug: 'green-tea',
     category: 'Beverage',
@@ -466,7 +534,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     sourcing: { farm: 'Organic Tea Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to March • Peak Harvest' }
   },
   {
-    id: 32,
+    id: 42,
     name: 'Wayanad Tea',
     slug: 'wayanad-tea',
     category: 'Beverage',
@@ -488,7 +556,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     sourcing: { farm: 'Organic Tea Gardens of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to March • Peak Leaf Harvest' }
   },
   {
-    id: 33,
+    id: 43,
     name: 'Wayanad Coffee',
     slug: 'wayanad-coffee',
     category: 'Beverage',
@@ -511,7 +579,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     sourcing: { farm: 'Organic Coffee Estates of Wayanad Highlands, Kerala', type: '100% Traditional & Organic Cultivation', harvestSeason: 'October to January • Peak Cherry Harvest' }
   },
   {
-    id: 34,
+    id: 44,
     name: 'Masala Coffee',
     slug: 'masala-coffee',
     category: 'Beverage',
@@ -532,7 +600,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     sourcing: { farm: 'Organic Coffee & Spice Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Harvest' }
   },
   {
-    id: 35,
+    id: 45,
     name: 'Ginger Coffee',
     slug: 'ginger-coffee',
     category: 'Beverage',
@@ -554,7 +622,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     sourcing: { farm: 'Organic Coffee & Ginger Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Coffee & Ginger Harvest' }
   },
   {
-    id: 36,
+    id: 46,
     name: 'Cardamom Tea',
     slug: 'cardamom-tea',
     category: 'Beverage',
@@ -575,7 +643,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     sourcing: { farm: 'KeraOrganic Tea & Cardamom Estates of Wayanad Highlands, Keralala', type: 'Traditional & Organic Cultivation', harvestSeason: 'October to March • Peak Leaf & Pod Harvest' }
   },
   {
-    id: 37,
+    id: 47,
     name: 'Masala Tea',
     slug: 'masala-tea',
     category: 'Beverage',
@@ -597,7 +665,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     sourcing: { farm: 'Organic Tea & Spice Estates of Wayanad Highlands, Kerala', type: '100% Traditional & Organic Cultivation', harvestSeason: 'October to March • Peak Leaf & Spice Harvest' }
   },
   {
-    id: 38,
+    id: 48,
     name: 'Ginger Tea',
     slug: 'ginger-tea',
     category: 'Beverage',
@@ -618,7 +686,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     sourcing: { farm: 'Organic Tea & Ginger Estates of Wayanad Highlands, Kerala', type: 'Orga100% Organic & Traditional Cultivationnic', harvestSeason: 'October to January • Peak Leaf & Ginger Harvest' }
   },
   {
-    id: 39,
+    id: 49,
     name: 'Lemon Tea',
     slug: 'lemon-tea',
     category: 'Beverage',
@@ -629,7 +697,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     Handpicked and processed traditionally, this blend combines smooth tea flavour with the tangy brightness of lemon, creating a naturally refreshing, uplifting beverage. Packed in premium, moisture-proof pouches, it preserves freshness, aroma, and colour, making it ideal for daily tea rituals, detox routines, or a refreshing beverage any time of the day.\n\n
     Every sip of **Flavours by Vanya Lemon Tea** carries the freshness, purity, and vitality of Wayanad, offering a taste of Kerala’s pristine highlands in a cup.`,
     shortDescriptionForHomePage: 'Refreshing, zesty, and aromatic our Wayanad Lemon Tea energizes and delights naturally.',
-    shortDescription:  'Organic Wayanad tea leaves blended with dried lemon peel deliver smooth flavour, aroma, and a refreshing zest in every cup.',
+    shortDescription: 'Organic Wayanad tea leaves blended with dried lemon peel deliver smooth flavour, aroma, and a refreshing zest in every cup.',
 
     descriptionSections: [
       { title: 'Sourcing & Quality', text: 'Handpicked tea and organic lemon peel from Wayanad, retaining natural flavour, aroma, and antioxidants.', image: '/assets/lemon-tea-sourcing.jpg' },

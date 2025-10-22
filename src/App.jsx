@@ -24,6 +24,7 @@ export default function App() {
   const masalas = products.filter(p => p.category === 'Masala')
   const rawSpices = products.filter(p => p.category === 'Raw Spice')
   const beverages = products.filter(p => p.category === 'Beverage')
+  const nutsHoney = products.filter(p => p.category === 'Nuts & Honey')
 
 
   return (
@@ -40,9 +41,10 @@ export default function App() {
       <Header />
       <main >
         <Hero />
-        <ProductSection id="masalas" title="Masalas" products={masalas} />
-        <ProductSection id="raw-spices" title="Spices" products={rawSpices} />
-        <ProductSection id="beverages" title="Teas & Coffees" products={beverages} />
+        <ProductSection id="masalas" title="Masalas" subtitle="Handcrafted masalas that blend tradition, purity, and the soulful taste of Kerala in every pinch." products={masalas} />
+        <ProductSection id="raw-spices" title="Spices" subtitle="From Wayanad’s misty hills come spices that breathe aroma, warmth, and authenticity into every creation." products={rawSpices} />
+        <ProductSection id="beverages" title="Teas & Coffees" subtitle="Brewed from Wayanad’s lush estates smooth, aromatic blends that awaken your senses and soothe your soul." products={beverages} />
+        <ProductSection id="nutsHoney" title="Nuts & Honey" subtitle="Golden honey and wholesome nuts a symphony of health, purity, and Wayanad’s natural richness." products={nutsHoney} />
         <AboutUs />
         <BulkOrders />
         <Contact />
