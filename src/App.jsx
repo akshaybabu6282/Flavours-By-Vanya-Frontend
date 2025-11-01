@@ -13,6 +13,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { Helmet } from "react-helmet";
+import CoconutOilSection from "./components/CoconutOilSection";
 
 
 export default function App() {
@@ -45,6 +46,9 @@ export default function App() {
         <ProductSection id="raw-spices" title="Spices" subtitle="From Wayanad’s misty hills come spices that breathe aroma, warmth, and authenticity into every creation." products={rawSpices} />
         <ProductSection id="beverages" title="Teas & Coffees" subtitle="Brewed from Wayanad’s lush estates smooth, aromatic blends that awaken your senses and soothe your soul." products={beverages} />
         <ProductSection id="nutsHoney" title="Nuts & Honey" subtitle="Golden honey and wholesome nuts a symphony of health, purity, and Wayanad’s natural richness." products={nutsHoney} />
+        <CoconutOilSection
+          products={products.filter(p => p.category === 'Coconut Oil')}
+        />
         <AboutUs />
         <BulkOrders />
         <Contact />

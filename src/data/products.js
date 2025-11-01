@@ -352,71 +352,71 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/cardamom-small-1.webp', '/assets/cardamom-small-2.jpg', '/assets/cardamom-small-3.jpg', '/assets/cardamom-small-4.webp'],
     sourcing: { farm: 'Certified Organic Cardamom Estates of Wayanad Highlands, Kerala', type: '100% Traditional & Organic Cultivation', harvestSeason: 'October to January • Peak Aroma Harvest' }
-  },{
-  id: 22,
-  name: 'Cloves',
-  slug: 'cloves',
-  category: 'Raw Spice',
-  imageFront: '/assets/cloves-front.webp',
-  imageBack: '/assets/cloves-back.webp',
-  imageBg: '/assets/cloves-bg.jpg',
-  description: `Handpicked from the lush highlands of **Wayanad, Kerala,** our **Flavours by Vanya Cloves** are renowned for their intense aroma, deep brown hue, and natural oil content. Cultivated in the cool, misty climate of Wayanad’s spice plantations, these buds are carefully sun dried to preserve their rich essential oils and authentic flavor.\n\n
+  }, {
+    id: 22,
+    name: 'Cloves',
+    slug: 'cloves',
+    category: 'Raw Spice',
+    imageFront: '/assets/cloves-front.webp',
+    imageBack: '/assets/cloves-back.webp',
+    imageBg: '/assets/cloves-bg.jpg',
+    description: `Handpicked from the lush highlands of **Wayanad, Kerala,** our **Flavours by Vanya Cloves** are renowned for their intense aroma, deep brown hue, and natural oil content. Cultivated in the cool, misty climate of Wayanad’s spice plantations, these buds are carefully sun dried to preserve their rich essential oils and authentic flavor.\n\n
   Each clove carries a warm, sweet spicy fragrance that enhances both savory and sweet dishes. Traditionally valued for its medicinal benefits, Wayanad cloves are packed with antioxidants and antibacterial properties, making them a healthy addition to your kitchen.\n\n
   Whether used in biryanis, teas, pickles, or masalas, our **Wayanad Cloves** add a bold depth and warmth that elevate every recipe. Experience the genuine essence of Kerala’s spice-rich soil in every aromatic bud.`,
-  
-  shortDescriptionForHomePage: 'Bold, aromatic, and rich in essential oils our Wayanad Cloves bring authentic Kerala spice to your kitchen.',
-  shortDescription: 'Sun-dried and aromatic cloves from Wayanad, known for their intense flavor, natural oils, and health benefits.',
-  descriptionSections: [
-    { title: 'Sourcing & Quality', text: 'Sustainably sourced from Wayanad’s organic spice farms, handpicked at peak maturity to ensure superior aroma and potency.', image: '/assets/cloves-sourcing.jpeg' },
-    { title: 'Processing & Packaging', text: 'Naturally sun dried to preserve essential oils and vacuum sealed in eco-friendly packs to lock in freshness.', image: '/assets/cloves-processing.webp' },
-    { title: 'Uses & Benefits', text: 'Ideal for curries, desserts, and herbal teas. Known to aid digestion, relieve toothache, and boost immunity.', image: '/assets/cloves-benefits.avif' }
-  ],
-  smallImages: ['/assets/cloves-small-1.avif', '/assets/cloves-small-2.avif', '/assets/cloves-small-3.jpg', '/assets/cloves-small-4.jpg'],
-  sourcing: { farm: 'Organic Spice Plantations of Wayanad, Kerala', type: 'Naturally Sun-Dried • 100% Pure & Unprocessed', harvestSeason: 'December to February • Winter Harvest' }
-},
-{
-  id: 23,
-  name: 'Cinnamon',
-  slug: 'cinnamon',
-  category: 'Raw Spice',
-  imageFront: '/assets/cinnamon-front.avif',
-  imageBack: '/assets/cinnamon-back.jpeg',
-  imageBg: '/assets/cinnamon-bg.webp',
-  description: `Straight from the evergreen hills of **Wayanad, Kerala,** our **Flavours by Vanya Cinnamon** is crafted from the finest inner bark of organically grown cinnamon trees. Known for its sweet aroma and delicate flavor, this cinnamon offers a balance of warmth and natural sweetness that defines Kerala’s spice heritage.\n\n
+
+    shortDescriptionForHomePage: 'Bold, aromatic, and rich in essential oils our Wayanad Cloves bring authentic Kerala spice to your kitchen.',
+    shortDescription: 'Sun-dried and aromatic cloves from Wayanad, known for their intense flavor, natural oils, and health benefits.',
+    descriptionSections: [
+      { title: 'Sourcing & Quality', text: 'Sustainably sourced from Wayanad’s organic spice farms, handpicked at peak maturity to ensure superior aroma and potency.', image: '/assets/cloves-sourcing.jpeg' },
+      { title: 'Processing & Packaging', text: 'Naturally sun dried to preserve essential oils and vacuum sealed in eco-friendly packs to lock in freshness.', image: '/assets/cloves-processing.webp' },
+      { title: 'Uses & Benefits', text: 'Ideal for curries, desserts, and herbal teas. Known to aid digestion, relieve toothache, and boost immunity.', image: '/assets/cloves-benefits.avif' }
+    ],
+    smallImages: ['/assets/cloves-small-1.avif', '/assets/cloves-small-2.avif', '/assets/cloves-small-3.jpg', '/assets/cloves-small-4.jpg'],
+    sourcing: { farm: 'Organic Spice Plantations of Wayanad, Kerala', type: 'Naturally Sun-Dried • 100% Pure & Unprocessed', harvestSeason: 'December to February • Winter Harvest' }
+  },
+  {
+    id: 23,
+    name: 'Cinnamon',
+    slug: 'cinnamon',
+    category: 'Raw Spice',
+    imageFront: '/assets/cinnamon-front.avif',
+    imageBack: '/assets/cinnamon-back.jpeg',
+    imageBg: '/assets/cinnamon-bg.webp',
+    description: `Straight from the evergreen hills of **Wayanad, Kerala,** our **Flavours by Vanya Cinnamon** is crafted from the finest inner bark of organically grown cinnamon trees. Known for its sweet aroma and delicate flavor, this cinnamon offers a balance of warmth and natural sweetness that defines Kerala’s spice heritage.\n\n
   Carefully peeled and sun cured by skilled local farmers, our cinnamon retains its essential oils and soft texture. It blends beautifully into curries, baked goods, and teas, adding a touch of luxury and comfort to every dish.\n\n
   **Flavours by Vanya Cinnamon** embodies the timeless spice tradition of Wayanad pure, aromatic, and naturally wholesome.`,
-  
-  shortDescriptionForHomePage: 'Sweetly aromatic and naturally rich our Wayanad Cinnamon brings warmth and wellness to your kitchen.',
-  shortDescription: 'Premium cinnamon bark from Wayanad, hand peeled and sun dried to preserve aroma, sweetness, and natural oils.',
-  descriptionSections: [
-    { title: 'Sourcing & Quality', text: 'Harvested from organically grown cinnamon trees in Wayanad’s hill plantations, ensuring purity and superior flavor.', image: '/assets/cinnamon-sourcing.jpg' },
-    { title: 'Processing & Packaging', text: 'Hand peeled inner bark, sun cured naturally, and packed to maintain its fragrance and freshness.', image: '/assets/cinnamon-processing.jpg' },
-    { title: 'Health Benefits', text: 'Supports metabolism, balances blood sugar, and offers natural anti inflammatory properties.', image: '/assets/cinnamon-benefits.jpg' }
-  ],
-  smallImages: ['/assets/cinnamon-small-1.jpg', '/assets/cinnamon-small-2.webp', '/assets/cinnamon-small-3.webp', '/assets/cinnamon-small-4.webp'],
-  sourcing: { farm: 'Organic Spice Estates, Wayanad, Kerala', type: 'Hand-Peeled & Naturally Sun-Cured', harvestSeason: 'May to August • Monsoon Harvest' }
-},{
-  id: 24,
-  name: 'Dry Ginger',
-  slug: 'dry-ginger',
-  category: 'Raw Spice',
-  imageFront: '/assets/dry-ginger-front.jpg',
-  imageBack: '/assets/dry-ginger-back.webp',
-  imageBg: '/assets/dry-ginger-bg.webp',
-  description: `Sourced from the fertile red soils of **Wayanad, Kerala,** our **Flavours by Vanya Dry Ginger** is known for its bold aroma, spicy heat, and high natural oil content. Each rhizome is carefully cleaned, sliced, and sun dried using traditional methods that lock in its flavor and therapeutic properties.\n\n
+
+    shortDescriptionForHomePage: 'Sweetly aromatic and naturally rich our Wayanad Cinnamon brings warmth and wellness to your kitchen.',
+    shortDescription: 'Premium cinnamon bark from Wayanad, hand peeled and sun dried to preserve aroma, sweetness, and natural oils.',
+    descriptionSections: [
+      { title: 'Sourcing & Quality', text: 'Harvested from organically grown cinnamon trees in Wayanad’s hill plantations, ensuring purity and superior flavor.', image: '/assets/cinnamon-sourcing.jpg' },
+      { title: 'Processing & Packaging', text: 'Hand peeled inner bark, sun cured naturally, and packed to maintain its fragrance and freshness.', image: '/assets/cinnamon-processing.jpg' },
+      { title: 'Health Benefits', text: 'Supports metabolism, balances blood sugar, and offers natural anti inflammatory properties.', image: '/assets/cinnamon-benefits.jpg' }
+    ],
+    smallImages: ['/assets/cinnamon-small-1.jpg', '/assets/cinnamon-small-2.webp', '/assets/cinnamon-small-3.webp', '/assets/cinnamon-small-4.webp'],
+    sourcing: { farm: 'Organic Spice Estates, Wayanad, Kerala', type: 'Hand-Peeled & Naturally Sun-Cured', harvestSeason: 'May to August • Monsoon Harvest' }
+  }, {
+    id: 24,
+    name: 'Dry Ginger',
+    slug: 'dry-ginger',
+    category: 'Raw Spice',
+    imageFront: '/assets/dry-ginger-front.jpg',
+    imageBack: '/assets/dry-ginger-back.webp',
+    imageBg: '/assets/dry-ginger-bg.webp',
+    description: `Sourced from the fertile red soils of **Wayanad, Kerala,** our **Flavours by Vanya Dry Ginger** is known for its bold aroma, spicy heat, and high natural oil content. Each rhizome is carefully cleaned, sliced, and sun dried using traditional methods that lock in its flavor and therapeutic properties.\n\n
   Wayanad’s unique climate produces ginger with superior pungency and medicinal value, making it a staple in Ayurvedic and culinary traditions alike. From spiced teas and sweets to curries and home remedies, our dry ginger adds warmth and vitality to every preparation.\n\n
   Experience the authentic zest of **Wayanad Dry Ginger** pure, powerful, and naturally grown.`,
-  
-  shortDescriptionForHomePage: 'Strong, aromatic, and pure our Wayanad Dry Ginger delivers natural warmth and flavor straight from Kerala’s highlands.',
-  shortDescription: 'Sun-dried ginger from Wayanad, rich in aroma and flavor. Ideal for teas, curries, and Ayurvedic preparations.',
-  descriptionSections: [
-    { title: 'Sourcing & Quality', text: 'Locally grown in Wayanad’s red soil, harvested at peak maturity for maximum flavor and potency.', image: '/assets/dry-ginger-sourcing.webp' },
-    { title: 'Processing & Packaging', text: 'Cleaned, sliced, and naturally sun dried by local farmers, then packed to preserve aroma and freshness.', image: '/assets/dry-ginger-processing.webp' },
-    { title: 'Health Benefits', text: 'Aids digestion, boosts immunity, and helps relieve cold and sore throat naturally.', image: '/assets/dry-ginger-benefits.jpg' }
-  ],
-  smallImages: ['/assets/dry-ginger-small-1.webp', '/assets/dry-ginger-small-2.webp', '/assets/dry-ginger-small-3.jpg', '/assets/dry-ginger-small-4.jpg'],
-  sourcing: { farm: 'Traditional Ginger Farms of Wayanad, Kerala', type: 'Sun-Dried & Naturally Processed', harvestSeason: 'December to April • Winter Harvest' }
-},
+
+    shortDescriptionForHomePage: 'Strong, aromatic, and pure our Wayanad Dry Ginger delivers natural warmth and flavor straight from Kerala’s highlands.',
+    shortDescription: 'Sun-dried ginger from Wayanad, rich in aroma and flavor. Ideal for teas, curries, and Ayurvedic preparations.',
+    descriptionSections: [
+      { title: 'Sourcing & Quality', text: 'Locally grown in Wayanad’s red soil, harvested at peak maturity for maximum flavor and potency.', image: '/assets/dry-ginger-sourcing.webp' },
+      { title: 'Processing & Packaging', text: 'Cleaned, sliced, and naturally sun dried by local farmers, then packed to preserve aroma and freshness.', image: '/assets/dry-ginger-processing.webp' },
+      { title: 'Health Benefits', text: 'Aids digestion, boosts immunity, and helps relieve cold and sore throat naturally.', image: '/assets/dry-ginger-benefits.jpg' }
+    ],
+    smallImages: ['/assets/dry-ginger-small-1.webp', '/assets/dry-ginger-small-2.webp', '/assets/dry-ginger-small-3.jpg', '/assets/dry-ginger-small-4.jpg'],
+    sourcing: { farm: 'Traditional Ginger Farms of Wayanad, Kerala', type: 'Sun-Dried & Naturally Processed', harvestSeason: 'December to April • Winter Harvest' }
+  },
 
   // Nuts & Honey
   {
@@ -707,4 +707,106 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     smallImages: ['/assets/lemon-tea-small-1.jpg', '/assets/lemon-tea-small-2.jpg', '/assets/lemon-tea-small-3.jpg', '/assets/lemon-tea-small-4.webp'],
     sourcing: { farm: 'Organic Tea & Lemon Estates of Wayanad Highlands, Kerala', type: '100% Organic & Traditional Cultivation', harvestSeason: 'October to January • Peak Leaf & Citrus Harvest' }
   },
+
+// COCONUT OIL
+{
+  id: 1,
+  name: "Pure Virgin Coconut Oil - Cold Pressed",
+  slug: "pure-virgin-coconut-oil-cold-pressed",
+  category: "Coconut Oil",
+  imageFront: "/assets/coconut-cold.webp",
+  imageBack: "/assets/coconut-cold-back.webp",
+  imageBg: "/assets/coconut-bg.jpg",
+  description: `From the serene coconut groves of **Kuttiyadi, Kerala**, comes our **Flavours by Vanya Pure Virgin Coconut Oil – Cold Pressed**, a symbol of purity and tradition. Each drop carries the freshness of handpicked coconuts grown in the fertile coastal soils of Kerala. The oil is carefully extracted using the traditional **wooden cold-press (chekku)** method, ensuring that the natural aroma, nutrients, and flavor remain untouched by heat or chemicals.\n\n
+Unlike refined oils, this cold-pressed virgin oil is not just an ingredient—it’s a wholesome essence of wellness. Rich in **lauric acid, vitamin E, and natural antioxidants**, it supports heart health, nourishes skin and hair, and enhances immunity. Its smooth texture and mild aroma make it ideal for cooking, skincare, oil pulling, and massage—bringing a touch of Kerala’s natural goodness to your everyday life.\n\n
+Every bottle reflects the essence of sustainability and authenticity, crafted in small batches with care. From tree to press to pack, we ensure every step preserves its natural integrity. Experience the **true purity of Kerala’s coconut heritage** with every spoonful of this golden oil.`,
+  
+  shortDescriptionForHomePage: `Extracted from the finest Kuttiyadi coconuts, our cold-pressed virgin coconut oil retains every drop of natural goodness. Prepared through a slow, temperature-controlled process, it preserves the oil’s authentic aroma, nutrients, and silky texture.\n\n
+Unlike refined oils, cold-pressed coconut oil keeps its essential antioxidants, lauric acid, and vitamins intact — making it ideal for cooking, skincare, and overall wellness. Each bottle reflects purity, freshness, and the untouched essence of Kerala’s green landscapes.`,
+  
+  shortDescription: 'Pure cold-pressed coconut oil made from fresh coconuts sourced from Kuttiyadi, retaining natural aroma and nutrients.',
+  
+  descriptionSections: [
+    {
+      title: 'Sourcing & Quality',
+      text: 'Our coconuts are sourced directly from the lush coastal region of Kuttiyadi, known for its nutrient-rich soil and traditional coconut cultivation. Each coconut is harvested at peak freshness, ensuring the highest oil yield and quality. We follow chemical-free, sustainable farming methods that honor Kerala’s natural ecosystem.',
+      image: '/assets/coconut-sourcing.avif',
+    },
+    {
+      title: 'Processing & Packaging',
+      text: 'The oil is extracted using a traditional wooden cold-press method that operates at low temperature to retain nutrients, aroma, and purity. It is filtered naturally without any refining or additives. Each bottle is packed in hygienic, food-grade containers to preserve freshness, clarity, and the authentic fragrance of coconut.',
+      image: '/assets/coconut-processing.webp',
+    },
+    {
+      title: 'Health Benefits',
+      text: 'Cold-pressed coconut oil is rich in healthy fats that support heart health, boost metabolism, and nourish the skin and hair. Its antibacterial and antioxidant properties make it a natural healer — perfect for cooking, oil pulling, and daily wellness.',
+      image: '/assets/coconut-benefits.jpg',
+    },
+  ],
+  
+  smallImages: [
+    '/assets/coconut-small-1.webp',
+    '/assets/coconut-small-2.webp',
+    '/assets/coconut-small-3.webp',
+    '/assets/coconut-small-4.webp',
+  ],
+  
+  sourcing: {
+    farm: 'Coastal Coconut Groves of Kuttiyadi, Kerala',
+    type: 'Traditional Cold Pressed (Wooden Chekku Method)',
+    harvestSeason: 'Throughout the Year • Fresh Batch Every Month',
+  },
+},
+
+{
+  id: 2,
+  name: "Pure Virgin Coconut Oil - Hot Pressed",
+  slug: "pure-virgin-coconut-oil-hot-pressed",
+  category: "Coconut Oil",
+  imageFront: "/assets/coconut-hot.webp",
+  imageBack: "/assets/coconut-hot-back.webp",
+  imageBg: "/assets/coconut-hot.jpg",
+  description: `Our **Flavours by Vanya Pure Virgin Coconut Oil – Hot Pressed** embodies Kerala’s age-old craftsmanship and warmth. Made from **sun-dried copra** sourced from Kuttiyadi’s heritage coconut farms, this oil is extracted through gentle heating and pressing — a process that enhances its rich aroma, deep flavor, and golden hue.\n\n
+Hot pressing intensifies the natural coconut fragrance and gives the oil its characteristic taste, perfect for traditional cooking, hair nourishment, and body massage. It’s the same oil cherished in Kerala households for generations, celebrated for its **purity, versatility, and long shelf life**.\n\n
+Each batch is produced with care, preserving the traditional values of purity while maintaining modern hygiene standards. Free from chemicals and artificial additives, our hot-pressed oil is a celebration of Kerala’s culinary and cultural heritage — warm, aromatic, and timeless.`,
+  
+  shortDescriptionForHomePage: `Our hot-pressed coconut oil is crafted using Kerala’s time-honored traditional method, where freshly dried copra is gently roasted before extraction. This process enhances the oil’s rich flavor, deep aroma, and long shelf life — the same way it has been made in Kerala households for generations.\n\n
+With its intense coconut fragrance and robust texture, hot-pressed oil is perfect for everyday cooking, hair care, and massage. It celebrates the warmth of tradition while ensuring the natural purity you trust.`,
+  
+  shortDescription: 'Traditional hot-pressed coconut oil with bold aroma and rich texture from Kuttiyadi coconuts.',
+  
+  descriptionSections: [
+    {
+      title: 'Sourcing & Quality',
+      text: 'Our coconuts are handpicked from trusted Kuttiyadi farmers who follow sustainable and traditional cultivation. The coconuts are sun-dried naturally to form copra, ensuring high oil content and rich aroma before the pressing process begins.',
+      image: '/assets/coconut-hot-sourcing.webp',
+    },
+    {
+      title: 'Processing & Packaging',
+      text: 'The dried copra is lightly roasted to bring out its deep, nutty fragrance and then pressed under controlled heat to extract pure oil. The result is a warm, golden oil with enhanced aroma and natural longevity. Each bottle is packed immediately to lock in freshness and prevent oxidation.',
+      image: '/assets/coconut-hot-processing.webp',
+    },
+    {
+      title: 'Uses & Benefits',
+      text: 'Hot-pressed coconut oil is ideal for traditional Kerala cooking, deep-frying, hair treatments, and therapeutic massages. Its robust texture and rich aroma make it a versatile household staple known for its nourishing and moisturizing properties.',
+      image: '/assets/coconut-hot-benefits.webp',
+    },
+  ],
+  
+  smallImages: [
+    '/assets/coconut-hot-small-1.jpg',
+    '/assets/coconut-hot-small-2.jpg',
+    '/assets/coconut-hot-small-3.jpg',
+    '/assets/coconut-hot-small-4.avif',
+  ],
+  
+  sourcing: {
+    farm: 'Traditional Coconut Farms of Kuttiyadi, Kerala',
+    type: 'Hot Pressed (Roasted Copra Extraction)',
+    harvestSeason: 'November to April • Peak Dry Copra Season',
+  },
+},
+
 ]
+
+
