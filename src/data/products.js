@@ -714,7 +714,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
   name: "Pure Virgin Coconut Oil - Cold Pressed",
   slug: "pure-virgin-coconut-oil-cold-pressed",
   category: "Coconut Oil",
-  imageFront: "/assets/coconut-cold.webp",
+  imageFront: "/assets/coconut-cold.png",
   imageBack: "/assets/coconut-cold-back.webp",
   imageBg: "/assets/coconut-bg.jpg",
   description: `From the serene coconut groves of **Kuttiyadi, Kerala**, comes our **Flavours by Vanya Pure Virgin Coconut Oil – Cold Pressed**, a symbol of purity and tradition. Each drop carries the freshness of handpicked coconuts grown in the fertile coastal soils of Kerala. The oil is carefully extracted using the traditional **wooden cold-press (chekku)** method, ensuring that the natural aroma, nutrients, and flavor remain untouched by heat or chemicals.\n\n
@@ -740,7 +740,7 @@ Unlike refined oils, cold-pressed coconut oil keeps its essential antioxidants, 
     {
       title: 'Health Benefits',
       text: 'Cold-pressed coconut oil is rich in healthy fats that support heart health, boost metabolism, and nourish the skin and hair. Its antibacterial and antioxidant properties make it a natural healer — perfect for cooking, oil pulling, and daily wellness.',
-      image: '/assets/coconut-benefits.jpg',
+      image: '/assets/coconut-benefits.webp',
     },
   ],
   
