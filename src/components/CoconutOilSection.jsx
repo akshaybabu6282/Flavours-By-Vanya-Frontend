@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function CoconutOilSection({ products }) {
   return (
-    <section id="coconut-oil" className="bg-gradient-to-b from-black to-gray-50 py-16 md:py-20">
+    <section id="coconut-oil" className="bg-gradient-to-b from-black to-gray-100 py-16 md:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-15">
         {/* Heading */}
         <div className="text-center mb-10">

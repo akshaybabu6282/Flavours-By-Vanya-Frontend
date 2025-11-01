@@ -14,6 +14,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import CoconutOilSection from "./components/CoconutOilSection";
+import DontSellOnline from './components/DontSellOnline'
 
 
 export default function App() {
@@ -50,6 +51,7 @@ export default function App() {
           products={products.filter(p => p.category === 'Coconut Oil')}
         />
         <AboutUs />
+        <DontSellOnline/>
         <BulkOrders />
         <Contact />
         <Licenses />
