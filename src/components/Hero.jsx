@@ -40,7 +40,7 @@ const banners = [
   {
     id: 5,
     title: "Purity in Every Drop",
-    subtitle: "Cold-pressed from handpicked coconuts of Kerala, our virgin coconut oil captures nature’s essence — pure, aromatic, and nourishing from root to tip.",
+    subtitle: "Cold-pressed from handpicked coconuts of Kerala, our virgin coconut oil captures nature’s essence pure, aromatic, and nourishing from root to tip.",
     image: "/assets/hero5.jpg",
     ctas: [
       { text: "Experience the Purity", href: "#coconut-oil", primary: false },
@@ -90,9 +90,9 @@ export default function Hero() {
                 <a
                   key={i}
                   href={cta.href}
-                  className={`px-6 py-3 rounded-md text-sm sm:text-base mt-50px ${cta.primary
-                      ? "bg-white text-black"
-                      : "border border-white/30 text-white"
+                  className={`px-6 py-3 text-sm sm:text-base mt-50px ${cta.primary
+                      ? "bg-white text-black hover:bg-white hover:text-black"
+                      : "border border-white/30 text-white  hover:bg-white hover:text-black"
                     }`}
                 >
                   {cta.text}

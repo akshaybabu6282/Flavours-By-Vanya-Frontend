@@ -427,19 +427,19 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     imageFront: '/assets/nutmeg-front.webp',
     imageBack: '/assets/nutmeg-back.jpg',
     imageBg: '/assets/nutmeg-bg.webp',
-    description: `**Flavours by Vanya Nutmeg** is sourced from the fertile plantations of **Wayanad, Kerala,** where the tropical climate and rich soil nurture the finest-quality spices. Our nutmeg is cultivated using traditional, chemical-free methods, allowing each seed to mature naturally and develop its signature warm, aromatic flavour.\n\n
-  Once harvested, the nutmeg fruits are carefully split, sun-dried, and hand-shelled to reveal the fragrant brown kernel inside. This time-honoured process preserves the spice’s essential oils and rich aroma, ensuring every nut delivers depth and freshness.\n\n
-  Known for its distinct sweet-spicy flavour, **Flavours by Vanya Nutmeg** enhances both sweet and savoury dishes — from desserts, soups, and sauces to curries and beverages. It’s also valued for its digestive and soothing properties.\n\n
-  Every batch undergoes strict quality control and is packed in premium, moisture-proof pouches to lock in its natural fragrance and potency.\n\n
+    description: `**Flavours by Vanya Nutmeg** is sourced from the fertile plantations of **Wayanad, Kerala,** where the tropical climate and rich soil nurture the finest quality spices. Our nutmeg is cultivated using traditional, chemical free methods, allowing each seed to mature naturally and develop its signature warm, aromatic flavour.\n\n
+  Once harvested, the nutmeg fruits are carefully split, sun dried, and hand shelled to reveal the fragrant brown kernel inside. This time honoured process preserves the spice’s essential oils and rich aroma, ensuring every nut delivers depth and freshness.\n\n
+  Known for its distinct sweet spicy flavour, **Flavours by Vanya Nutmeg** enhances both sweet and savoury dishes from desserts, soups, and sauces to curries and beverages. It’s also valued for its digestive and soothing properties.\n\n
+  Every batch undergoes strict quality control and is packed in premium, moisture proof pouches to lock in its natural fragrance and potency.\n\n
   Experience the authentic aroma and warmth of Wayanad’s spice heritage with **Flavours by Vanya Nutmeg,** a fragrant treasure from Kerala’s green highlands.`,
 
-    shortDescriptionForHomePage: 'Warm, aromatic, and authentic — our Wayanad Nutmeg adds natural depth and fragrance to every recipe.',
+    shortDescriptionForHomePage: 'Warm, aromatic, and authentic our Wayanad Nutmeg adds natural depth and fragrance to every recipe.',
     shortDescription: 'Sourced from organic Wayanad farms, this nutmeg is rich, aromatic, and versatile, perfect for both sweet and savoury dishes.',
 
     descriptionSections: [
-      { title: 'Sourcing & Quality', text: 'Grown organically in the spice-rich hills of Wayanad, harvested at full maturity, and sun-dried to preserve natural aroma and essential oils.', image: '/assets/nutmeg-sourcing.jpg' },
-      { title: 'Processing & Packaging', text: 'Hand-shelled, sun-dried, and packed in premium, moisture-proof pouches to maintain freshness and potency.', image: '/assets/nutmeg-processing.webp' },
-      { title: 'Health Benefits', text: 'Nutmeg supports digestion, relieves stress, and boosts immunity with its antioxidant and anti-inflammatory properties.', image: '/assets/nutmeg-benefits.jpg' }
+      { title: 'Sourcing & Quality', text: 'Grown organically in the spice rich hills of Wayanad, harvested at full maturity, and sun dried to preserve natural aroma and essential oils.', image: '/assets/nutmeg-sourcing.jpg' },
+      { title: 'Processing & Packaging', text: 'Hand shelled, sun dried, and packed in premium, moisture proof pouches to maintain freshness and potency.', image: '/assets/nutmeg-processing.webp' },
+      { title: 'Health Benefits', text: 'Nutmeg supports digestion, relieves stress, and boosts immunity with its antioxidant and anti inflammatory properties.', image: '/assets/nutmeg-benefits.jpg' }
     ],
 
     smallImages: [
@@ -732,28 +732,28 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     imageBack: "/assets/coconut-cold-back.webp",
     imageBg: "/assets/coconut-bg.jpg",
     description: `From the serene coconut groves of **Kuttiyadi, Kerala**, comes our **Flavours by Vanya Pure Virgin Coconut Oil – Cold Pressed**, a symbol of purity and tradition. Each drop carries the freshness of handpicked coconuts grown in the fertile coastal soils of Kerala. The oil is carefully extracted using the traditional **wooden cold-press (chekku)** method, ensuring that the natural aroma, nutrients, and flavor remain untouched by heat or chemicals.\n\n
-Unlike refined oils, this cold-pressed virgin oil is not just an ingredient—it’s a wholesome essence of wellness. Rich in **lauric acid, vitamin E, and natural antioxidants**, it supports heart health, nourishes skin and hair, and enhances immunity. Its smooth texture and mild aroma make it ideal for cooking, skincare, oil pulling, and massage—bringing a touch of Kerala’s natural goodness to your everyday life.\n\n
+Unlike refined oils, this cold-pressed virgin oil is not just an ingredient it’s a wholesome essence of wellness. Rich in **lauric acid, vitamin E, and natural antioxidants**, it supports heart health, nourishes skin and hair, and enhances immunity. Its smooth texture and mild aroma make it ideal for cooking, skincare, oil pulling, and massage bringing a touch of Kerala’s natural goodness to your everyday life.\n\n
 Every bottle reflects the essence of sustainability and authenticity, crafted in small batches with care. From tree to press to pack, we ensure every step preserves its natural integrity. Experience the **true purity of Kerala’s coconut heritage** with every spoonful of this golden oil.`,
 
-    shortDescriptionForHomePage: `Extracted from the finest Kuttiyadi coconuts, our cold-pressed virgin coconut oil retains every drop of natural goodness. Prepared through a slow, temperature-controlled process, it preserves the oil’s authentic aroma, nutrients, and silky texture.\n\n
-Unlike refined oils, cold-pressed coconut oil keeps its essential antioxidants, lauric acid, and vitamins intact — making it ideal for cooking, skincare, and overall wellness. Each bottle reflects purity, freshness, and the untouched essence of Kerala’s green landscapes.`,
+    shortDescriptionForHomePage: `Extracted from the finest Kuttiyadi coconuts, our cold-pressed virgin coconut oil retains every drop of natural goodness. Prepared through a slow, temperature controlled process, it preserves the oil’s authentic aroma, nutrients, and silky texture.\n\n
+Unlike refined oils, cold-pressed coconut oil keeps its essential antioxidants, lauric acid, and vitamins intact making it ideal for cooking, skincare, and overall wellness. Each bottle reflects purity, freshness, and the untouched essence of Kerala’s green landscapes.`,
 
     shortDescription: 'Pure cold-pressed coconut oil made from fresh coconuts sourced from Kuttiyadi, retaining natural aroma and nutrients.',
 
     descriptionSections: [
       {
         title: 'Sourcing & Quality',
-        text: 'Our coconuts are sourced directly from the lush coastal region of Kuttiyadi, known for its nutrient-rich soil and traditional coconut cultivation. Each coconut is harvested at peak freshness, ensuring the highest oil yield and quality. We follow chemical-free, sustainable farming methods that honor Kerala’s natural ecosystem.',
+        text: 'Our coconuts are sourced directly from the lush coastal region of Kuttiyadi, known for its nutrient rich soil and traditional coconut cultivation. Each coconut is harvested at peak freshness, ensuring the highest oil yield and quality. We follow chemical-free, sustainable farming methods that honor Kerala’s natural ecosystem.',
         image: '/assets/coconut-sourcing.avif',
       },
       {
         title: 'Processing & Packaging',
-        text: 'The oil is extracted using a traditional wooden cold-press method that operates at low temperature to retain nutrients, aroma, and purity. It is filtered naturally without any refining or additives. Each bottle is packed in hygienic, food-grade containers to preserve freshness, clarity, and the authentic fragrance of coconut.',
+        text: 'The oil is extracted using a traditional wooden cold-press method that operates at low temperature to retain nutrients, aroma, and purity. It is filtered naturally without any refining or additives. Each bottle is packed in hygienic, food grade containers to preserve freshness, clarity, and the authentic fragrance of coconut.',
         image: '/assets/coconut-processing.webp',
       },
       {
         title: 'Health Benefits',
-        text: 'Cold-pressed coconut oil is rich in healthy fats that support heart health, boost metabolism, and nourish the skin and hair. Its antibacterial and antioxidant properties make it a natural healer — perfect for cooking, oil pulling, and daily wellness.',
+        text: 'Cold-pressed coconut oil is rich in healthy fats that support heart health, boost metabolism, and nourish the skin and hair. Its antibacterial and antioxidant properties make it a natural healer perfect for cooking, oil pulling, and daily wellness.',
         image: '/assets/coconut-benefits.webp',
       },
     ],
@@ -780,11 +780,11 @@ Unlike refined oils, cold-pressed coconut oil keeps its essential antioxidants, 
     imageFront: "/assets/coconut-hot.webp",
     imageBack: "/assets/coconut-hot-back.webp",
     imageBg: "/assets/coconut-hot.jpg",
-    description: `Our **Flavours by Vanya Pure Virgin Coconut Oil – Hot Pressed** embodies Kerala’s age-old craftsmanship and warmth. Made from **sun-dried copra** sourced from Kuttiyadi’s heritage coconut farms, this oil is extracted through gentle heating and pressing — a process that enhances its rich aroma, deep flavor, and golden hue.\n\n
+    description: `Our **Flavours by Vanya Pure Virgin Coconut Oil – Hot Pressed** embodies Kerala’s age old craftsmanship and warmth. Made from **sun dried copra** sourced from Kuttiyadi’s heritage coconut farms, this oil is extracted through gentle heating and pressing a process that enhances its rich aroma, deep flavor, and golden hue.\n\n
 Hot pressing intensifies the natural coconut fragrance and gives the oil its characteristic taste, perfect for traditional cooking, hair nourishment, and body massage. It’s the same oil cherished in Kerala households for generations, celebrated for its **purity, versatility, and long shelf life**.\n\n
-Each batch is produced with care, preserving the traditional values of purity while maintaining modern hygiene standards. Free from chemicals and artificial additives, our hot-pressed oil is a celebration of Kerala’s culinary and cultural heritage — warm, aromatic, and timeless.`,
+Each batch is produced with care, preserving the traditional values of purity while maintaining modern hygiene standards. Free from chemicals and artificial additives, our hot-pressed oil is a celebration of Kerala’s culinary and cultural heritage warm, aromatic, and timeless.`,
 
-    shortDescriptionForHomePage: `Our hot-pressed coconut oil is crafted using Kerala’s time-honored traditional method, where freshly dried copra is gently roasted before extraction. This process enhances the oil’s rich flavor, deep aroma, and long shelf life — the same way it has been made in Kerala households for generations.\n\n
+    shortDescriptionForHomePage: `Our hot-pressed coconut oil is crafted using Kerala’s time honored traditional method, where freshly dried copra is gently roasted before extraction. This process enhances the oil’s rich flavor, deep aroma, and long shelf life the same way it has been made in Kerala households for generations.\n\n
 With its intense coconut fragrance and robust texture, hot-pressed oil is perfect for everyday cooking, hair care, and massage. It celebrates the warmth of tradition while ensuring the natural purity you trust.`,
 
     shortDescription: 'Traditional hot-pressed coconut oil with bold aroma and rich texture from Kuttiyadi coconuts.',
@@ -792,7 +792,7 @@ With its intense coconut fragrance and robust texture, hot-pressed oil is perfec
     descriptionSections: [
       {
         title: 'Sourcing & Quality',
-        text: 'Our coconuts are handpicked from trusted Kuttiyadi farmers who follow sustainable and traditional cultivation. The coconuts are sun-dried naturally to form copra, ensuring high oil content and rich aroma before the pressing process begins.',
+        text: 'Our coconuts are handpicked from trusted Kuttiyadi farmers who follow sustainable and traditional cultivation. The coconuts are sun dried naturally to form copra, ensuring high oil content and rich aroma before the pressing process begins.',
         image: '/assets/coconut-hot-sourcing.webp',
       },
       {
