@@ -37,6 +37,16 @@ const banners = [
       { text: "Indulge Naturally", href: "#nutsHoney", primary: false },
     ],
   },
+  {
+    id: 5,
+    title: "Purity in Every Drop",
+    subtitle: "Cold-pressed from handpicked coconuts of Kerala, our virgin coconut oil captures nature’s essence — pure, aromatic, and nourishing from root to tip.",
+    image: "/assets/hero5.jpg",
+    ctas: [
+      { text: "Experience the Purity", href: "#coconut-oil", primary: false },
+    ],
+  }
+
 ];
 
 export default function Hero() {
@@ -45,7 +55,7 @@ export default function Hero() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % banners.length);
-    }, 5000);
+    }, 2000);
     return () => clearInterval(interval);
   }, []);
 
@@ -54,9 +64,8 @@ export default function Hero() {
       {banners.map((banner, idx) => (
         <div
           key={banner.id}
-          className={`absolute inset-0 w-full h-full transition-opacity duration-1000 ${
-            idx === current ? "opacity-100 z-10" : "opacity-0 z-0"
-          }`}
+          className={`absolute inset-0 w-full h-full transition-opacity duration-1000 ${idx === current ? "opacity-100 z-10" : "opacity-0 z-0"
+            }`}
         >
           {/* Banner Image */}
           <img
@@ -70,22 +79,21 @@ export default function Hero() {
 
           {/* Text on Image */}
           <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-6 z-20">
-            <h1 className="text-3xl md:text-4xl mb-10 text-white animate-fadeInUp" style={{fontFamily: '"Raleway", sans-serif',fontWeight:'bold'}}>
+            <h1 className="text-3xl md:text-4xl mb-10 text-white animate-fadeInUp" style={{ fontFamily: '"Raleway", sans-serif', fontWeight: 'bold' }}>
               {banner.title}
             </h1>
-            <p className="text-lg sm:text-xl md:text-2xl mb-6 text-gray-200 animate-fadeInUp delay-150 max-w-5xl" style={{ fontFamily: '"Roboto", sans-serif'}}>
+            <p className="text-lg sm:text-xl md:text-2xl mb-6 text-gray-200 animate-fadeInUp delay-150 max-w-5xl" style={{ fontFamily: '"Roboto", sans-serif' }}>
               {banner.subtitle}
             </p>
-            <div className="flex flex-wrap gap-4 justify-center animate-fadeInUp delay-300" style={{ fontFamily: '"Roboto", sans-serif'}}>
+            <div className="flex flex-wrap gap-4 justify-center animate-fadeInUp delay-300" style={{ fontFamily: '"Roboto", sans-serif' }}>
               {banner.ctas.map((cta, i) => (
                 <a
                   key={i}
                   href={cta.href}
-                  className={`px-6 py-3 rounded-md text-sm sm:text-base mt-50px ${
-                    cta.primary
+                  className={`px-6 py-3 rounded-md text-sm sm:text-base mt-50px ${cta.primary
                       ? "bg-white text-black"
                       : "border border-white/30 text-white"
-                  }`}
+                    }`}
                 >
                   {cta.text}
                 </a>
@@ -96,7 +104,7 @@ export default function Hero() {
       ))}
 
       {/* Dots */}
-     {/*  <div className="absolute bottom-10 w-full flex justify-center gap-3 z-30">
+      {/*  <div className="absolute bottom-10 w-full flex justify-center gap-3 z-30">
         {banners.map((_, idx) => (
           <button
             key={idx}

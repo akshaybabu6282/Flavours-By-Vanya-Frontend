@@ -44,9 +44,9 @@ export default function App() {
         <Hero />
         <ProductSection id="masalas" title="Masalas" subtitle="Handcrafted masalas that blend tradition, purity, and the soulful taste of Kerala in every pinch." products={masalas} />
         <ProductSection id="raw-spices" title="Spices" subtitle="From Wayanad’s misty hills come spices that breathe aroma, warmth, and authenticity into every creation." products={rawSpices} />
-        <ProductSection id="beverages" title="Teas & Coffees" subtitle="Brewed from Wayanad’s lush estates smooth, aromatic blends that awaken your senses and soothe your soul." products={beverages} />
+        <ProductSection id="beverages" title="Tea & Coffee" subtitle="Brewed from Wayanad’s lush estates smooth, aromatic blends that awaken your senses and soothe your soul." products={beverages} />
         <ProductSection id="nutsHoney" title="Nuts & Honey" subtitle="Golden honey and wholesome nuts a symphony of health, purity, and Wayanad’s natural richness." products={nutsHoney} />
-        <CoconutOilSection
+        <CoconutOilSection id="coconut-oil"
           products={products.filter(p => p.category === 'Coconut Oil')}
         />
         <AboutUs />
