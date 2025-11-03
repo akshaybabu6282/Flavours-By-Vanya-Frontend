@@ -744,26 +744,26 @@ Unlike refined oils, cold-pressed coconut oil keeps its essential antioxidants, 
       {
         title: 'Sourcing & Quality',
         text: 'Our coconuts are sourced directly from the lush coastal region of Kuttiyadi, known for its nutrient rich soil and traditional coconut cultivation. Each coconut is harvested at peak freshness, ensuring the highest oil yield and quality. We follow chemical-free, sustainable farming methods that honor Kerala’s natural ecosystem.',
-        image: '/assets/coconut-sourcing.avif',
+        image: '/assets/coconut-sourcing.webp',
       },
       {
         title: 'Processing & Packaging',
         text: 'The oil is extracted using a traditional wooden cold-press method that operates at low temperature to retain nutrients, aroma, and purity. It is filtered naturally without any refining or additives. Each bottle is packed in hygienic, food grade containers to preserve freshness, clarity, and the authentic fragrance of coconut.',
-        image: '/assets/coconut-processing.webp',
+        image: '/assets/coconut-benefits.webp',
       },
       {
         title: 'Health Benefits',
         text: 'Cold-pressed coconut oil is rich in healthy fats that support heart health, boost metabolism, and nourish the skin and hair. Its antibacterial and antioxidant properties make it a natural healer perfect for cooking, oil pulling, and daily wellness.',
-        image: '/assets/coconut-benefits.webp',
+        image: '/assets/coconut-processing.webp',
       },
     ],
 
-    smallImages: [
+   /*  smallImages: [
       '/assets/coconut-small-1.webp',
       '/assets/coconut-small-2.webp',
       '/assets/coconut-small-3.webp',
       '/assets/coconut-small-4.webp',
-    ],
+    ], */
 
     sourcing: {
       farm: 'Coastal Coconut Groves of Kuttiyadi, Kerala',
@@ -773,53 +773,55 @@ Unlike refined oils, cold-pressed coconut oil keeps its essential antioxidants, 
   },
 
   {
-    id: 2,
-    name: "Pure Virgin Coconut Oil - Hot Pressed",
-    slug: "pure-virgin-coconut-oil-hot-pressed",
-    category: "Coconut Oil",
-    imageFront: "/assets/coconut-hot.webp",
-    imageBack: "/assets/coconut-hot-back.webp",
-    imageBg: "/assets/coconut-hot.jpg",
-    description: `Our **Flavours by Vanya Pure Virgin Coconut Oil – Hot Pressed** embodies Kerala’s age old craftsmanship and warmth. Made from **sun dried copra** sourced from Kuttiyadi’s heritage coconut farms, this oil is extracted through gentle heating and pressing a process that enhances its rich aroma, deep flavor, and golden hue.\n\n
-Hot pressing intensifies the natural coconut fragrance and gives the oil its characteristic taste, perfect for traditional cooking, hair nourishment, and body massage. It’s the same oil cherished in Kerala households for generations, celebrated for its **purity, versatility, and long shelf life**.\n\n
-Each batch is produced with care, preserving the traditional values of purity while maintaining modern hygiene standards. Free from chemicals and artificial additives, our hot-pressed oil is a celebration of Kerala’s culinary and cultural heritage warm, aromatic, and timeless.`,
+  id: 2,
+  name: "Vendha Velichenna – Pure Virgin Coconut Oil (Hot Pressed)",
+  slug: "vendha-velichenna-pure-virgin-coconut-oil-hot-pressed",
+  category: "Coconut Oil",
+  imageFront: "/assets/coconut-hot-sourcing.webp",
+  imageBack: "/assets/coconut-hot-back.webp",
+  imageBg: "/assets/coconut-hot.jpg",
+  description: `**Flavours by Vanya Vendha Velichenna** (Urukku Velichenna) is Kerala’s traditional **hot-processed virgin coconut oil**, made by boiling pure coconut milk until the oil naturally separates. This heritage method, passed down through generations, produces a golden, aromatic oil known for its purity, nutrition, and healing properties.\n\n
+In this slow and mindful process, fresh coconut milk is heated in a traditional bronze vessel (*uruli*), allowing the water content to evaporate gently. Continuous stirring helps separate the oil from the solids without burning, preserving its nutrients and aroma. Around **10 coconuts yield just 250 ml of pure oil**, making every drop precious and authentic.\n\n
+Rich in **lauric acid, vitamin E, and natural antioxidants**, Vendha Velichenna is ideal for **cooking, Ayurvedic care, and newborn massage**. Its warm aroma and nourishing touch reflect Kerala’s ancient wisdom a perfect blend of tradition, purity, and wellness from the heart of Kuttiyadi.`,
 
-    shortDescriptionForHomePage: `Our hot-pressed coconut oil is crafted using Kerala’s time honored traditional method, where freshly dried copra is gently roasted before extraction. This process enhances the oil’s rich flavor, deep aroma, and long shelf life the same way it has been made in Kerala households for generations.\n\n
-With its intense coconut fragrance and robust texture, hot-pressed oil is perfect for everyday cooking, hair care, and massage. It celebrates the warmth of tradition while ensuring the natural purity you trust.`,
+  shortDescriptionForHomePage: `Made using Kerala’s traditional **Vendha Velichenna (Urukku Velichenna)** method, this pure virgin coconut oil is crafted by boiling fresh coconut milk until the oil separates naturally. The result is a golden, nutrient rich oil filled with the warmth and authenticity of Kerala.\n\n
+Perfect for cooking, baby care, and Ayurvedic wellness, it preserves high levels of **lauric acid and vitamin E**, ensuring purity and natural nourishment in every drop.`,
 
-    shortDescription: 'Traditional hot-pressed coconut oil with bold aroma and rich texture from Kuttiyadi coconuts.',
+  shortDescription: 'Traditional Vendha Velichenna Kerala’s hot-processed virgin coconut oil made from fresh coconut milk. Naturally golden, aromatic, and nutrient rich for cooking and Ayurvedic care.',
 
-    descriptionSections: [
-      {
-        title: 'Sourcing & Quality',
-        text: 'Our coconuts are handpicked from trusted Kuttiyadi farmers who follow sustainable and traditional cultivation. The coconuts are sun dried naturally to form copra, ensuring high oil content and rich aroma before the pressing process begins.',
-        image: '/assets/coconut-hot-sourcing.webp',
-      },
-      {
-        title: 'Processing & Packaging',
-        text: 'The dried copra is lightly roasted to bring out its deep, nutty fragrance and then pressed under controlled heat to extract pure oil. The result is a warm, golden oil with enhanced aroma and natural longevity. Each bottle is packed immediately to lock in freshness and prevent oxidation.',
-        image: '/assets/coconut-hot-processing.webp',
-      },
-      {
-        title: 'Uses & Benefits',
-        text: 'Hot-pressed coconut oil is ideal for traditional Kerala cooking, deep-frying, hair treatments, and therapeutic massages. Its robust texture and rich aroma make it a versatile household staple known for its nourishing and moisturizing properties.',
-        image: '/assets/coconut-hot-benefits.webp',
-      },
-    ],
+  descriptionSections: [
+    {
+      title: 'Heritage & Sourcing',
+      text: 'Sourced from the lush coconut groves of Kuttiyadi, Kerala, our coconuts are hand selected for freshness and richness. This heritage oil is prepared following age old family methods, ensuring the same purity and aroma cherished in traditional Kerala homes for generations.',
+      image: '/assets/coconut-hot-sourcing.webp',
+    },
+    {
+      title: 'Traditional Preparation',
+      text: 'Freshly extracted coconut milk is gently heated in a traditional bronze uruli until the oil naturally separates from the milk solids. The process takes several hours of patient stirring, producing golden oil rich in nutrients and authentic Kerala aroma. Each batch is filtered and bottled carefully to preserve its purity.',
+      image: '/assets/coconut-hot-processing.webp',
+    },
+    {
+      title: 'Benefits & Uses',
+      text: 'Vendha Velichenna is valued in Ayurveda for its natural healing and moisturizing properties. It is ideal for cooking, baby massage, hair care, and skin nourishment. The oil’s richness in lauric acid and vitamin E supports immunity, promotes hair strength, and keeps the skin soft and radiant.',
+      image: '/assets/coconut-hot-benefits.webp',
+    },
+  ],
 
-    smallImages: [
+  /*  smallImages: [
       '/assets/coconut-hot-small-1.jpg',
       '/assets/coconut-hot-small-2.jpg',
       '/assets/coconut-hot-small-3.jpg',
       '/assets/coconut-hot-small-4.avif',
-    ],
+    ], */
 
-    sourcing: {
-      farm: 'Traditional Coconut Farms of Kuttiyadi, Kerala',
-      type: 'Hot Pressed (Roasted Copra Extraction)',
-      harvestSeason: 'November to April • Peak Dry Copra Season',
-    },
+  sourcing: {
+    farm: 'Traditional Coconut Groves of Kuttiyadi, Kerala',
+    type: 'Hot-Processed Virgin Oil (Vendha Velichenna / Urukku Velichenna Method)',
+    harvestSeason: 'November to April • Fresh Coconut Season',
   },
+},
+
+
 
 ]
 
