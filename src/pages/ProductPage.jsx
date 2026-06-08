@@ -24,15 +24,69 @@ export default function ProductPage() {
     <div className="bg-white text-black font-sans relative">
 
       <Helmet>
-        <title>{product.name} | Vanya Eco Products | Authentic Wayanad Products</title>
+
+        <title>
+          {product.name} | Vanya Eco Products | Authentic Wayanad Products
+        </title>
+
         <meta
           name="description"
-          content={product.shortDescription || `${product.name} from Vanya Eco Products, Wayanad.`}
+          content={
+            product.shortDescription ||
+            `${product.name} from Vanya Eco Products, Wayanad.`
+          }
         />
+
         <link
           rel="canonical"
-          href={`https://www.vanyaecoproducts.in/products/${product.slug}`}
+          href={`https://www.vanyaecoproducts.in/product/${product.slug}`}
         />
+
+        <meta property="og:type" content="website" />
+
+        <meta
+          property="og:title"
+          content={`${product.name} | Vanya Eco Products`}
+        />
+
+        <meta
+          property="og:description"
+          content={
+            product.shortDescription ||
+            `${product.name} from Vanya Eco Products`
+          }
+        />
+
+        <meta
+          property="og:image"
+          content={`https://www.vanyaecoproducts.in${product.imageBg}`}
+        />
+
+        <meta
+          property="og:url"
+          content={`https://www.vanyaecoproducts.in/product/${product.slug}`}
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <meta
+          name="twitter:title"
+          content={`${product.name} | Vanya Eco Products`}
+        />
+
+        <meta
+          name="twitter:description"
+          content={
+            product.shortDescription ||
+            `${product.name} from Vanya Eco Products`
+          }
+        />
+
+        <meta
+          name="twitter:image"
+          content={`https://www.vanyaecoproducts.in${product.imageBg}`}
+        />
+
       </Helmet>
 
       <ProductStructuredData product={product} />
