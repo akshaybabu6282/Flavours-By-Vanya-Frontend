@@ -5,6 +5,7 @@ import WhatsAppFloating from '../components/WhatsAppFloating';
 import Footer from '../components/Footer'
 import ProductFAQ from '../components/ProductFAQ';
 import ProductStructuredData from '../components/ProductStructuredData';
+import { Helmet } from "react-helmet-async";
 
 
 export default function ProductPage() {
@@ -21,6 +22,18 @@ export default function ProductPage() {
 
   return (
     <div className="bg-white text-black font-sans relative">
+
+      <Helmet>
+        <title>{product.name} | Vanya Eco Products | Authentic Wayanad Products</title>
+        <meta
+          name="description"
+          content={product.shortDescription || `${product.name} from Vanya Eco Products, Wayanad.`}
+        />
+        <link
+          rel="canonical"
+          href={`https://www.vanyaecoproducts.in/products/${product.slug}`}
+        />
+      </Helmet>
 
       <ProductStructuredData product={product} />
 
