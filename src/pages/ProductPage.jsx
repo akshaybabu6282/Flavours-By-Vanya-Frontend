@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { products } from '../data/products';
 import WhatsAppFloating from '../components/WhatsAppFloating';
 import Footer from '../components/Footer'
+import ProductFAQ from '../components/ProductFAQ';
 
 
 export default function ProductPage() {
@@ -110,6 +111,8 @@ export default function ProductPage() {
           </div>
         </section>
       )}
+
+      <ProductFAQ faqs={product.faqs} />
 
       {/* Sourcing Details */}
      {/* {product.sourcing && (

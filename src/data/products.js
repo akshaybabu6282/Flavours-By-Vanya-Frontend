@@ -22,7 +22,27 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
       { title: 'Health Benefits', text: 'Turmeric is known for its powerful anti-inflammatory and antioxidant properties, which support overall wellness. Regular use aids digestion, strengthens immunity, and promotes glowing skin. It’s a natural healer that’s been trusted in Ayurvedic medicine for generations a golden spice that balances body, mind, and soul.', image: '/assets/turmeric-benefits.webp' }
     ],
     smallImages: ['/assets/turmeric-small-1.webp', '/assets/turmeric-small-2.webp', '/assets/turmeric-small-3.webp', '/assets/turmeric-small-4.webp'],
-    sourcing: { farm: 'Certified Organic Estates of the Wayanad Highlands, Kerala', type: 'Traditional & Organic Cultivation', harvestSeason: 'October to January • Peak Golden Harvest' }
+    sourcing: { farm: 'Certified Organic Estates of the Wayanad Highlands, Kerala', type: 'Traditional & Organic Cultivation', harvestSeason: 'October to January • Peak Golden Harvest' },
+
+    faqs: [
+      {
+        question: "What makes Vanya Turmeric Powder special?",
+        answer: "Vanya Turmeric Powder is sourced from trusted farms and processed in small batches to preserve its natural golden colour, earthy aroma, and freshness."
+      },
+      {
+        question: "Is this turmeric powder preservative free?",
+        answer: "Yes. It is packed without preservatives, artificial colours, or chemical additives."
+      },
+      {
+        question: "How should I store turmeric powder for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it in a cool, dry place away from direct sunlight, moisture, and strong odours to preserve its aroma, colour, and freshness."
+      },
+      {
+        question: "Why does Vanya Turmeric Powder have a naturally shorter shelf life?",
+        answer: "Our turmeric powder is made without artificial preservatives or chemical additives. Since we focus on purity and freshness through small batch processing, the product naturally has a shorter shelf life compared to heavily processed commercial powders."
+      }
+    ],
+
   },
   {
     id: 2,
@@ -47,6 +67,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/chilli-small-1.webp', '/assets/chilli-small-2.webp', '/assets/chilli-small-3.jpg', '/assets/chilli-small-4.webp'],
     sourcing: { farm: 'Organic Estates of the Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'November to February • Peak Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Chilli Powder special?",
+        answer: "Vanya Chilli Powder is made from carefully selected chillies sourced from trusted farms and processed in small batches to preserve natural colour, aroma, and authentic flavour."
+      },
+      {
+        question: "Does this chilli powder contain artificial colour or preservatives?",
+        answer: "No. Our chilli powder is free from artificial colours, preservatives, and harmful chemical additives."
+      },
+      {
+        question: "How should I store chilli powder for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it away from direct sunlight, moisture, and humidity to preserve its colour, aroma, and freshness."
+      },
+      {
+        question: "Why does Vanya Chilli Powder have natural colour variation sometimes?",
+        answer: "Since we avoid artificial colouring agents and focus on natural processing, slight colour and spice level variations may occur between harvest batches."
+      }
+    ],
   },
   {
     id: 3,
@@ -70,6 +108,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/kashmiri-small-1.webp', '/assets/kashmiri-small-2.webp', '/assets/kashmiri-small-3.webp', '/assets/kashmiri-small-4.webp'],
     sourcing: { farm: 'Organic Estates of the Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'November to February • Peak Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Kashmiri Chilli Powder special?",
+        answer: "Vanya Kashmiri Chilli Powder is made from premium quality Kashmiri chillies that are naturally processed to preserve their vibrant red colour, mild heat, and rich aroma."
+      },
+      {
+        question: "Does this Kashmiri Chilli Powder contain artificial colours or preservatives?",
+        answer: "No. Our Kashmiri Chilli Powder is free from artificial colours, preservatives, and chemical additives."
+      },
+      {
+        question: "How should I store Kashmiri Chilli Powder for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it in a cool, dry place away from sunlight and moisture to maintain its colour, aroma, and freshness."
+      },
+      {
+        question: "Why is Kashmiri Chilli Powder less spicy than regular chilli powder?",
+        answer: "Kashmiri chillies are naturally milder and are mainly valued for their deep red colour, balanced flavour, and aromatic richness rather than extreme heat."
+      }
+    ],
   },
   {
     id: 4,
@@ -93,6 +149,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/pepper-small-1.webp', '/assets/pepper-small-2.webp', '/assets/pepper-small-3.webp', '/assets/pepper-small-4.webp'],
     sourcing: { farm: 'Organic Estates of the Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'December to March • Peak Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Pepper Powder special?",
+        answer: "Vanya Pepper Powder is made from premium quality Wayanad black pepper, carefully ground in small batches to preserve its bold aroma, natural pungency, and authentic flavour."
+      },
+      {
+        question: "Is this pepper powder free from preservatives and additives?",
+        answer: "Yes. Our pepper powder is packed without preservatives, artificial flavours, or chemical additives."
+      },
+      {
+        question: "How should I store pepper powder for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it away from moisture, heat, and direct sunlight to preserve its aroma and natural oils."
+      },
+      {
+        question: "Why does freshly ground pepper powder have stronger aroma and taste?",
+        answer: "Fresh grinding helps retain the natural essential oils and pungency of black pepper, giving it richer aroma, stronger flavour, and better freshness compared to mass processed powders."
+      }
+    ],
   },
   {
     id: 5,
@@ -117,6 +191,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/garam-small-1.webp', '/assets/garam-small-2.webp', '/assets/garam-small-3.webp', '/assets/garam-small-4.webp'],
     sourcing: { farm: 'Organic Spice Estates of Wayanad Highlands, Kerala', type: 'Traditional & Organic Cultivation', harvestSeason: 'November to February • Peak Freshness' }
+    , faqs: [
+      {
+        question: "What makes Vanya Garam Masala special?",
+        answer: "Vanya Garam Masala is made using a carefully balanced blend of premium spices sourced from trusted farms and processed in small batches to preserve authentic aroma, warmth, and flavour."
+      },
+      {
+        question: "Does this Garam Masala contain artificial flavours or preservatives?",
+        answer: "No. Our Garam Masala is free from artificial flavours, preservatives, colours, and chemical additives."
+      },
+      {
+        question: "How should I store Garam Masala for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it away from moisture, heat, and direct sunlight to preserve its aroma and flavour."
+      },
+      {
+        question: "Why does Vanya Garam Masala have a rich natural aroma?",
+        answer: "We use naturally sourced whole spices that are carefully roasted and ground in small batches, helping retain their essential oils and authentic flavour."
+      }
+    ],
   },
   {
     id: 6,
@@ -140,6 +232,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/fish-masala-small-1.webp', '/assets/fish-masala-small-2.webp', '/assets/fish-masala-small-3.webp', '/assets/fish-masala-small-4.webp'],
     sourcing: { farm: 'Organic Spice Farms of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Fresh Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Fish Masala special?",
+        answer: "Vanya Fish Masala is crafted using a carefully balanced blend of premium spices that enhances the authentic taste, aroma, and richness of traditional fish dishes."
+      },
+      {
+        question: "Does this Fish Masala contain preservatives or artificial additives?",
+        answer: "No. Our Fish Masala is prepared without artificial colours, preservatives, flavour enhancers, or chemical additives."
+      },
+      {
+        question: "How should I store Fish Masala for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it away from moisture, heat, and direct sunlight to preserve its aroma and flavour."
+      },
+      {
+        question: "Can this masala be used for different seafood dishes?",
+        answer: "Yes. Vanya Fish Masala is suitable for fish curry, fish fry, grilled seafood, prawns, and other traditional Kerala style seafood recipes."
+      }
+    ],
   },
   {
     id: 7,
@@ -164,6 +274,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/chicken-masala-small-1.webp', '/assets/chicken-masala-small-2.jpeg', '/assets/chicken-masala-small-3.webp', '/assets/chicken-masala-small-4.jpeg'],
     sourcing: { farm: 'Organic Spice Estates of Wayanad Highlands, Kerala', type: 'Traditional & Organic Cultivation', harvestSeason: 'October to February • Peak Harvest Season' }
+    , faqs: [
+      {
+        question: "What makes Vanya Chicken Masala special?",
+        answer: "Vanya Chicken Masala is made using a carefully selected blend of premium spices that delivers rich aroma, authentic flavour, and traditional Kerala style taste to chicken dishes."
+      },
+      {
+        question: "Does this Chicken Masala contain preservatives or artificial additives?",
+        answer: "No. Our Chicken Masala is prepared without artificial colours, preservatives, flavour enhancers, or chemical additives."
+      },
+      {
+        question: "How should I store Chicken Masala for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it away from moisture, heat, and direct sunlight to preserve its aroma and flavour."
+      },
+      {
+        question: "Can this masala be used for different chicken recipes?",
+        answer: "Yes. Vanya Chicken Masala is suitable for chicken curry, roast, fry, grilled dishes, biriyani, and other traditional homemade recipes."
+      }
+    ],
   },
   {
     id: 8,
@@ -187,6 +315,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/biriyani-masala-small-1.webp', '/assets/biriyani-masala-small-2.jpg', '/assets/biriyani-masala-small-3.webp', '/assets/biriyani-masala-small-4.jpg'],
     sourcing: { farm: 'Organic Spice Estates of Wayanad Highlands, Kerala', type: '100% Traditional & Organic Cultivation', harvestSeason: 'October to February • Peak Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Biriyani Masala special?",
+        answer: "Vanya Biriyani Masala is crafted using a rich blend of carefully selected premium spices that bring authentic aroma, depth, and traditional flavour to every biriyani."
+      },
+      {
+        question: "Does this Biriyani Masala contain preservatives or artificial additives?",
+        answer: "No. Our Biriyani Masala is prepared without artificial colours, preservatives, flavour enhancers, or chemical additives."
+      },
+      {
+        question: "How should I store Biriyani Masala for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it away from moisture, heat, and direct sunlight to preserve its aroma and flavour."
+      },
+      {
+        question: "Can this masala be used for different rice and meat dishes?",
+        answer: "Yes. Vanya Biriyani Masala is suitable for chicken biriyani, beef biriyani, vegetable biriyani, fried rice, pulao, and other flavourful rice dishes."
+      }
+    ],
   },
   {
     id: 9,
@@ -211,6 +357,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/coriander-powder-small-1.jpg', '/assets/coriander-powder-small-2.jpg', '/assets/coriander-powder-small-3.jpg', '/assets/coriander-powder-small-4.jpg'],
     sourcing: { farm: 'Organic Spice Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Harvest Season' }
+    , faqs: [
+      {
+        question: "What makes Vanya Coriander Powder special?",
+        answer: "Vanya Coriander Powder is made from carefully selected coriander seeds that are naturally processed and ground in small batches to preserve their fresh aroma, earthy flavour, and natural oils."
+      },
+      {
+        question: "Does this Coriander Powder contain preservatives or artificial additives?",
+        answer: "No. Our Coriander Powder is prepared without artificial colours, preservatives, flavour enhancers, or chemical additives."
+      },
+      {
+        question: "How should I store Coriander Powder for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it away from moisture, heat, and direct sunlight to preserve its aroma and flavour."
+      },
+      {
+        question: "Why does freshly ground coriander powder have better aroma and taste?",
+        answer: "Fresh grinding helps retain the natural oils and earthy fragrance of coriander seeds, giving richer aroma, better flavour, and more freshness compared to heavily processed powders."
+      }
+    ],
   },
   {
     id: 10,
@@ -234,6 +398,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/pickle-powder-small-1.jpg', '/assets/pickle-powder-small-2.webp', '/assets/pickle-powder-small-3.webp', '/assets/pickle-powder-small-4.jpg'],
     sourcing: { farm: 'Organic Spice Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Pickle Powder special?",
+        answer: "Vanya Pickle Powder is made using a carefully balanced blend of premium spices that delivers authentic Kerala style pickle flavour, aroma, and natural tanginess."
+      },
+      {
+        question: "Does this Pickle Powder contain preservatives or artificial additives?",
+        answer: "No. Our Pickle Powder is prepared without artificial colours, preservatives, flavour enhancers, or chemical additives."
+      },
+      {
+        question: "How should I store Pickle Powder for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it away from moisture, heat, and direct sunlight to preserve its aroma and flavour."
+      },
+      {
+        question: "Can this Pickle Powder be used for different homemade pickles?",
+        answer: "Yes. Vanya Pickle Powder is suitable for mango pickle, lemon pickle, gooseberry pickle, fish pickle, and various traditional homemade pickle preparations."
+      }
+    ],
   },
   {
     id: 11,
@@ -258,6 +440,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/sambar-powder-small-1.webp', '/assets/sambar-powder-small-2.jpg', '/assets/sambar-powder-small-3.jpg', '/assets/sambar-powder-small-4.jpg'],
     sourcing: { farm: 'Organic Spice Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Harvest Season' }
+    , faqs: [
+      {
+        question: "What makes Vanya Sambar Powder special?",
+        answer: "Vanya Sambar Powder is made using a carefully balanced blend of premium spices that delivers authentic South Indian flavour, rich aroma, and traditional homemade taste."
+      },
+      {
+        question: "Does this Sambar Powder contain preservatives or artificial additives?",
+        answer: "No. Our Sambar Powder is prepared without artificial colours, preservatives, flavour enhancers, or chemical additives."
+      },
+      {
+        question: "How should I store Sambar Powder for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it away from moisture, heat, and direct sunlight to preserve its aroma and flavour."
+      },
+      {
+        question: "Can this Sambar Powder be used for different South Indian dishes?",
+        answer: "Yes. Vanya Sambar Powder is suitable for sambar, vegetable curries, lentil dishes, soups, and other traditional South Indian recipes."
+      }
+    ],
   },
   {
     id: 12,
@@ -281,6 +481,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/rasam-powder-small-1.webp', '/assets/rasam-powder-small-2.webp', '/assets/rasam-powder-small-3.jpg', '/assets/rasam-powder-small-4.png'],
     sourcing: { farm: 'Organic Spice Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Harvest Season' }
+    , faqs: [
+      {
+        question: "What makes Vanya Rasam Powder special?",
+        answer: "Vanya Rasam Powder is made using a carefully balanced blend of premium spices that delivers authentic South Indian aroma, tangy flavour, and traditional homemade taste."
+      },
+      {
+        question: "Does this Rasam Powder contain preservatives or artificial additives?",
+        answer: "No. Our Rasam Powder is prepared without artificial colours, preservatives, flavour enhancers, or chemical additives."
+      },
+      {
+        question: "How should I store Rasam Powder for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it away from moisture, heat, and direct sunlight to preserve its aroma and flavour."
+      },
+      {
+        question: "Can this Rasam Powder be used for different traditional recipes?",
+        answer: "Yes. Vanya Rasam Powder is suitable for rasam, soups, lentil dishes, spicy broths, and other traditional South Indian preparations."
+      }
+    ],
   },
   {
     id: 13,
@@ -304,6 +522,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/egg-masala-small-1.webp', '/assets/egg-masala-small-2.webp', '/assets/egg-masala-small-3.png', '/assets/egg-masala-small-4.jpg'],
     sourcing: { farm: 'Organic Spice Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Harvest Season' }
+    , faqs: [
+      {
+        question: "What makes Vanya Egg Masala special?",
+        answer: "Vanya Egg Masala is made using a carefully balanced blend of premium spices that delivers rich aroma, authentic flavour, and traditional Kerala style taste to egg dishes."
+      },
+      {
+        question: "Does this Egg Masala contain preservatives or artificial additives?",
+        answer: "No. Our Egg Masala is prepared without artificial colours, preservatives, flavour enhancers, or chemical additives."
+      },
+      {
+        question: "How should I store Egg Masala for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it away from moisture, heat, and direct sunlight to preserve its aroma and flavour."
+      },
+      {
+        question: "Can this masala be used for different egg recipes?",
+        answer: "Yes. Vanya Egg Masala is suitable for egg curry, omelette, egg roast, scrambled eggs, fried egg dishes, and other traditional homemade recipes."
+      }
+    ],
   },
 
   // RAW SPICES
@@ -329,6 +565,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/raw-pepper-small-1.jpg', '/assets/raw-pepper-small-2.jpg', '/assets/raw-pepper-small-3.jpg', '/assets/raw-pepper-small-4.jpg'],
     sourcing: { farm: 'Certified Organic Estates of Wayanad Highlands, Kerala', type: 'Traditional & Organic Cultivation', harvestSeason: 'October to January • Peak Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Raw Pepper special?",
+        answer: "Vanya Raw Pepper is sourced from the highlands of Wayanad, where the climate and fertile soil produce peppercorns with strong aroma, natural pungency, and rich flavour."
+      },
+      {
+        question: "Is this raw pepper naturally processed?",
+        answer: "Yes. Our pepper is carefully harvested, naturally sun dried, and packed without artificial polishing, preservatives, or chemical treatment."
+      },
+      {
+        question: "How should I store raw pepper for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it away from moisture, heat, and direct sunlight to preserve its aroma and natural oils."
+      },
+      {
+        question: "Why does freshly crushed raw pepper have stronger flavour and aroma?",
+        answer: "Freshly crushed pepper retains more natural essential oils and pungency, giving richer aroma, better flavour, and stronger freshness compared to pre processed pepper powders."
+      }
+    ],
   },
   {
     id: 21,
@@ -352,6 +606,91 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/cardamom-small-1.webp', '/assets/cardamom-small-2.jpg', '/assets/cardamom-small-3.jpg', '/assets/cardamom-small-4.webp'],
     sourcing: { farm: 'Certified Organic Cardamom Estates of Wayanad Highlands, Kerala', type: '100% Traditional & Organic Cultivation', harvestSeason: 'October to January • Peak Aroma Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Cardamom special?",
+        answer: "Vanya Cardamom is sourced from the misty highlands of Wayanad, where the cool climate and fertile soil produce naturally aromatic, flavourful, and premium quality cardamom pods."
+      },
+      {
+        question: "Is this cardamom naturally processed?",
+        answer: "Yes. Our cardamom is carefully harvested, naturally dried, and packed without artificial polishing, preservatives, or chemical additives."
+      },
+      {
+        question: "How should I store cardamom for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it away from moisture, heat, and direct sunlight to preserve its natural aroma and flavour."
+      },
+      {
+        question: "Why does freshly crushed cardamom have stronger aroma and taste?",
+        answer: "Freshly crushed cardamom releases its natural essential oils immediately, giving richer aroma, stronger flavour, and better freshness compared to pre processed powders."
+      }
+    ],
+  },
+  {
+    id: 50,
+    name: 'Malabar Tamarind',
+    slug: 'malabar-tamarind',
+    category: 'Raw Spice',
+    imageFront: '/assets/malabar-tamarind-front.webp',
+    imageBack: '/assets/malabar-tamarind-back.jpg',
+    imageBg: '/assets/malabar-tamarind-bg.jpg',
+
+    description: `**Flavours by Vanya Malabar Tamarind** comes from the lush green hills of **Wayanad, Kerala,** where traditional farming and natural processing methods preserve the authentic taste of Kerala’s most loved souring ingredient. Popularly known as **Kudampuli,** this treasured spice is widely used in Kerala fish curries, seafood dishes, meat preparations, and traditional gravies for its rich smoky aroma and deep tangy flavour.\n\n
+
+  Our Malabar Tamarind is carefully sourced from trusted local farmers who follow natural and chemical free cultivation methods. The fruits are harvested at peak maturity, cleaned thoroughly, sliced carefully, and slowly sun dried using traditional techniques. This natural drying process enhances its dark colour, smoky aroma, and unique sourness while preserving its purity and freshness.\n\n
+
+  In the kitchen, **Flavours by Vanya Malabar Tamarind** delivers a bold, earthy sourness that perfectly balances spicy dishes and enhances the depth of flavour in curries and gravies. Unlike ordinary tamarind, Kudampuli gives dishes a rich traditional Kerala taste with a distinct smoky character that makes every meal special.\n\n
+
+  Experience the authentic flavours of Kerala with **Flavours by Vanya Malabar Tamarind,** a traditional ingredient that reflects purity, heritage, and the true essence of Wayanad’s natural bounty.`,
+
+    shortDescriptionForHomePage: 'Traditional Kerala Kudampuli with smoky aroma and rich tangy flavour for authentic curries.',
+
+    shortDescription: 'Naturally sun dried Malabar Tamarind from Wayanad with deep smoky aroma and rich sourness. Perfect for fish curries, seafood dishes, and traditional Kerala recipes.',
+
+    descriptionSections: [
+      {
+        title: 'Sourcing & Quality',
+        text: 'Carefully sourced from trusted farmers in Wayanad, naturally cultivated without harmful chemicals, harvested at peak ripeness, and traditionally processed to preserve authentic flavour and aroma.',
+        image: '/assets/malabar-tamarind-sourcing.jpg'
+      },
+
+      {
+        title: 'Processing & Packaging',
+        text: 'The fruits are cleaned, sliced, and slowly sun dried using traditional methods to enhance their smoky aroma, natural sourness, and deep colour. Packed hygienically in moisture proof pouches to maintain freshness and quality.',
+        image: '/assets/malabar-tamarind-processing.webp'
+      },
+
+      {
+        title: 'Health Benefits',
+        text: 'Malabar Tamarind is naturally rich in antioxidants and digestive properties. Traditionally used in Kerala cuisine, it supports digestion, enhances appetite, and adds natural flavour to meals without artificial additives.',
+        image: '/assets/malabar-tamarind-benefits.jpg'
+      }
+
+    ],
+
+
+    sourcing: {
+      farm: 'Traditional Spice Farms of Wayanad Highlands, Kerala',
+      type: '100% Natural & Traditional Processing',
+      harvestSeason: 'December to April • Traditional Sun Dried Harvest'
+    },
+    faqs: [
+      {
+        question: "What makes Vanya Malabar Tamarind special?",
+        answer: "Vanya Malabar Tamarind, also known as Kudampuli, is sourced from the traditional farms of Kerala and naturally sun dried to preserve its rich smoky aroma, deep tangy flavour, and authentic taste."
+      },
+      {
+        question: "Is this Malabar Tamarind naturally processed?",
+        answer: "Yes. Our Malabar Tamarind is carefully cleaned, traditionally sun dried, and packed without artificial preservatives, colours, or chemical additives."
+      },
+      {
+        question: "How should I store Malabar Tamarind for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it in a cool, dry place away from moisture and direct sunlight to preserve its flavour and aroma."
+      },
+      {
+        question: "Why is Malabar Tamarind widely used in Kerala fish curries?",
+        answer: "Malabar Tamarind adds a unique smoky sourness and deep flavour that perfectly balances spicy seafood dishes, making it an essential ingredient in traditional Kerala style fish curries."
+      }
+    ],
   }, {
     id: 22,
     name: 'Cloves',
@@ -373,6 +712,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/cloves-small-1.avif', '/assets/cloves-small-2.avif', '/assets/cloves-small-3.jpg', '/assets/cloves-small-4.jpg'],
     sourcing: { farm: 'Organic Spice Plantations of Wayanad, Kerala', type: 'Naturally Sun-Dried • 100% Pure & Unprocessed', harvestSeason: 'December to February • Winter Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Cloves special?",
+        answer: "Vanya Cloves are sourced from the spice rich highlands of Kerala, where the climate and fertile soil produce cloves with strong aroma, rich essential oils, and bold natural flavour."
+      },
+      {
+        question: "Are these cloves naturally processed?",
+        answer: "Yes. Our cloves are carefully harvested, naturally sun dried, and packed without artificial preservatives, polishing, or chemical additives."
+      },
+      {
+        question: "How should I store cloves for maximum freshness?",
+        answer: "Store them in an airtight container or keep the pouch properly zip locked after every use. Keep them away from moisture, heat, and direct sunlight to preserve their aroma and natural oils."
+      },
+      {
+        question: "Why do whole cloves have stronger aroma compared to powdered cloves?",
+        answer: "Whole cloves retain their natural essential oils for a longer time, giving richer aroma, stronger flavour, and better freshness when freshly crushed or cooked."
+      }
+    ],
   },
   {
     id: 23,
@@ -395,7 +752,26 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/cinnamon-small-1.jpg', '/assets/cinnamon-small-2.webp', '/assets/cinnamon-small-3.webp', '/assets/cinnamon-small-4.webp'],
     sourcing: { farm: 'Organic Spice Estates, Wayanad, Kerala', type: 'Hand-Peeled & Naturally Sun-Cured', harvestSeason: 'May to August • Monsoon Harvest' }
-  }, {
+    , faqs: [
+      {
+        question: "What makes Vanya Cinnamon special?",
+        answer: "Vanya Cinnamon is sourced from carefully selected farms and naturally processed to preserve its sweet aroma, warm flavour, and rich natural oils."
+      },
+      {
+        question: "Is this cinnamon naturally processed?",
+        answer: "Yes. Our cinnamon is carefully harvested, naturally dried, and packed without artificial preservatives, polishing, or chemical additives."
+      },
+      {
+        question: "How should I store cinnamon for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it away from moisture, heat, and direct sunlight to preserve its aroma and flavour."
+      },
+      {
+        question: "Why does freshly crushed cinnamon have better aroma and taste?",
+        answer: "Freshly crushed cinnamon retains more natural oils and fragrance, giving richer aroma, deeper flavour, and better freshness compared to heavily processed powders."
+      }
+    ],
+  },
+  {
     id: 24,
     name: 'Dry Ginger',
     slug: 'dry-ginger',
@@ -416,44 +792,96 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/dry-ginger-small-1.webp', '/assets/dry-ginger-small-2.webp', '/assets/dry-ginger-small-3.jpg', '/assets/dry-ginger-small-4.jpg'],
     sourcing: { farm: 'Traditional Ginger Farms of Wayanad, Kerala', type: 'Sun-Dried & Naturally Processed', harvestSeason: 'December to April • Winter Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Dry Ginger special?",
+        answer: "Vanya Dry Ginger is sourced from carefully selected farms and naturally processed to preserve its strong aroma, natural warmth, and rich traditional flavour."
+      },
+      {
+        question: "Is this dry ginger naturally processed?",
+        answer: "Yes. Our dry ginger is carefully cleaned, naturally sun dried, and packed without artificial preservatives, colours, or chemical additives."
+      },
+      {
+        question: "How should I store dry ginger for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it away from moisture, heat, and direct sunlight to preserve its aroma and natural flavour."
+      },
+      {
+        question: "Why is dry ginger widely used in traditional recipes and home remedies?",
+        answer: "Dry ginger is valued for its strong flavour, warming properties, and natural wellness benefits, making it popular in teas, curries, traditional drinks, and home remedies."
+      }
+    ],
   },
 
   // Nuts & Honey
   {
     id: 30,
-    name: 'Nutmeg',
-    slug: 'nutmeg',
+    name: 'Almond',
+    slug: 'almond',
     category: 'Nuts & Honey',
-    imageFront: '/assets/nutmeg-front.webp',
-    imageBack: '/assets/nutmeg-back.jpg',
-    imageBg: '/assets/nutmeg-bg.webp',
-    description: `**Flavours by Vanya Nutmeg** is sourced from the fertile plantations of **Wayanad, Kerala,** where the tropical climate and rich soil nurture the finest quality spices. Our nutmeg is cultivated using traditional, chemical free methods, allowing each seed to mature naturally and develop its signature warm, aromatic flavour.\n\n
-  Once harvested, the nutmeg fruits are carefully split, sun dried, and hand shelled to reveal the fragrant brown kernel inside. This time honoured process preserves the spice’s essential oils and rich aroma, ensuring every nut delivers depth and freshness.\n\n
-  Known for its distinct sweet spicy flavour, **Flavours by Vanya Nutmeg** enhances both sweet and savoury dishes from desserts, soups, and sauces to curries and beverages. It’s also valued for its digestive and soothing properties.\n\n
-  Every batch undergoes strict quality control and is packed in premium, moisture proof pouches to lock in its natural fragrance and potency.\n\n
-  Experience the authentic aroma and warmth of Wayanad’s spice heritage with **Flavours by Vanya Nutmeg,** a fragrant treasure from Kerala’s green highlands.`,
+    imageFront: '/assets/almond-front.jpg',
+    imageBack: '/assets/almond-back.jpeg',
+    imageBg: '/assets/almond-bg.webp',
 
-    shortDescriptionForHomePage: 'Warm, aromatic, and authentic our Wayanad Nutmeg adds natural depth and fragrance to every recipe.',
-    shortDescription: 'Sourced from organic Wayanad farms, this nutmeg is rich, aromatic, and versatile, perfect for both sweet and savoury dishes.',
+    description: `**Flavours by Vanya Almond** is carefully sourced from trusted quality suppliers and hygienically packed by **Vanya Eco Products in Wayanad, Kerala.** Since almonds are not naturally grown in Wayanad, we focus on selecting premium quality almonds that meet our standards for freshness, taste, size, and natural goodness.\n\n
+
+  Each batch is checked for quality, clean appearance, natural crunch, and rich nutty flavour before packing. Our almonds are handled with care and packed in premium, moisture proof pouches to help retain freshness, texture, and taste.\n\n
+
+  Known for their mild sweetness, crunchy bite, and nutritional value, **Flavours by Vanya Almonds** are perfect for daily snacking, desserts, smoothies, breakfast bowls, sweets, and healthy recipes. They are a naturally wholesome choice for families who prefer clean and quality food.\n\n
+
+  With **Flavours by Vanya Almond,** you get carefully selected almonds packed with the same honesty, care, and quality promise that defines Vanya Eco Products.`,
+
+    shortDescriptionForHomePage: 'Premium quality almonds, carefully selected and hygienically packed for freshness, crunch, and natural goodness.',
+
+    shortDescription: 'Carefully sourced premium almonds with natural crunch and rich nutty taste. Ideal for healthy snacking, desserts, smoothies, and everyday nutrition.',
 
     descriptionSections: [
-      { title: 'Sourcing & Quality', text: 'Grown organically in the spice rich hills of Wayanad, harvested at full maturity, and sun dried to preserve natural aroma and essential oils.', image: '/assets/nutmeg-sourcing.jpg' },
-      { title: 'Processing & Packaging', text: 'Hand shelled, sun dried, and packed in premium, moisture proof pouches to maintain freshness and potency.', image: '/assets/nutmeg-processing.webp' },
-      { title: 'Health Benefits', text: 'Nutmeg supports digestion, relieves stress, and boosts immunity with its antioxidant and anti inflammatory properties.', image: '/assets/nutmeg-benefits.jpg' }
+      {
+        title: 'Sourcing & Quality',
+        text: 'Almonds are carefully sourced from trusted quality suppliers, since they are not grown in Wayanad. Each batch is selected for freshness, size, texture, and natural taste.',
+        image: '/assets/almond-sourcing.jpg'
+      },
+      {
+        title: 'Processing & Packaging',
+        text: 'Cleaned, quality checked, and hygienically packed in premium moisture proof pouches by Vanya Eco Products in Wayanad to maintain freshness, crunch, and flavour.',
+        image: '/assets/almond-processing.jpg'
+      },
+      {
+        title: 'Health Benefits',
+        text: 'Almonds are naturally rich in protein, fibre, healthy fats, vitamin E, and minerals. They support energy, heart health, brain function, skin health, and everyday wellness.',
+        image: '/assets/almond-benefits.webp'
+      }
     ],
 
     smallImages: [
-      '/assets/nutmeg-small-1.jpg',
-      '/assets/nutmeg-small-2.jpg',
-      '/assets/nutmeg-small-3.avif',
-      '/assets/nutmeg-small-4.jpg'
+      '/assets/almond-small-1.webp',
+      '/assets/almond-small-2.jpg',
+      '/assets/almond-small-3.jpg',
+      '/assets/almond-small-4.jpg'
     ],
 
     sourcing: {
-      farm: 'Organic Nutmeg Plantations of Wayanad, Kerala',
-      type: 'Traditional & Organic Cultivation',
-      harvestSeason: 'June to December • Peak Spice Season'
-    }
+      farm: 'Carefully Sourced from Trusted Quality Suppliers',
+      type: 'Premium Quality Almonds • Hygienically Packed in Wayanad',
+      harvestSeason: 'Available Year Round • Batch Quality Checked'
+    },
+    faqs: [
+      {
+        question: "What makes Vanya Almonds special?",
+        answer: "Vanya Almonds are carefully selected from trusted quality sources and packed to maintain their natural crunch, freshness, and rich nutty flavour."
+      },
+      {
+        question: "Are these almonds free from artificial additives?",
+        answer: "Yes. Our almonds are packed without artificial preservatives, flavours, or chemical additives."
+      },
+      {
+        question: "How should I store almonds for maximum freshness?",
+        answer: "Store them in an airtight container or keep the pouch properly zip locked after every use. Keep them in a cool, dry place away from moisture and direct sunlight to maintain freshness and crunch."
+      },
+      {
+        question: "Can almonds be consumed daily as part of a healthy diet?",
+        answer: "Yes. Almonds are naturally rich in protein, healthy fats, fibre, vitamins, and minerals, making them a nutritious choice for daily snacking and balanced diets."
+      }
+    ],
   },
   {
     id: 31,
@@ -477,6 +905,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/cashew-small-1.jpg', '/assets/cashew-small-2.jpeg', '/assets/cashew-small-3.jpg', '/assets/cashew-small-4.jpg'],
     sourcing: { farm: 'Organic Cashew Estates of Wayanad Highlands, Kerala', type: 'Traditional & Organic Cultivation', harvestSeason: 'October to February • Peak Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Cashews special?",
+        answer: "Vanya Cashews are carefully selected for their natural crunch, creamy texture, freshness, and rich flavour, ensuring premium quality in every pack."
+      },
+      {
+        question: "Are these cashews free from artificial additives?",
+        answer: "Yes. Our cashews are packed without artificial preservatives, flavours, or chemical additives."
+      },
+      {
+        question: "How should I store cashews for maximum freshness?",
+        answer: "Store them in an airtight container or keep the pouch properly zip locked after every use. Keep them in a cool, dry place away from moisture and direct sunlight to maintain freshness and crunch."
+      },
+      {
+        question: "Can cashews be used for both snacking and cooking?",
+        answer: "Yes. Vanya Cashews are perfect for healthy snacking, desserts, sweets, curries, gravies, and various traditional and modern recipes."
+      }
+    ],
   }, {
     id: 32,
     name: 'Honey',
@@ -499,6 +945,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/honey-small-1.webp', '/assets/honey-small-2.jpg', '/assets/honey-small-3.jpeg', '/assets/honey-small-4.jpeg'],
     sourcing: { farm: 'Wild Forest Hives of Wayanad Highlands, Kerala', type: '100% Organic & Sustainable Harvesting', harvestSeason: 'November to March • Peak Nectar Season' }
+    , faqs: [
+      {
+        question: "What makes Vanya Honey special?",
+        answer: "Vanya Honey is carefully sourced from trusted natural sources and packed to preserve its rich taste, natural aroma, and wholesome goodness."
+      },
+      {
+        question: "Does this honey contain artificial sugar or additives?",
+        answer: "No. Our honey is packed without artificial sugar, colours, flavours, or chemical additives."
+      },
+      {
+        question: "How should I store honey for maximum freshness?",
+        answer: "Store the bottle tightly closed in a cool, dry place away from direct sunlight and moisture. Do not refrigerate unless necessary, as natural honey may crystallize over time."
+      },
+      {
+        question: "Why does pure honey sometimes crystallize naturally?",
+        answer: "Crystallization is a natural process in pure honey and is a sign of minimal processing and natural quality. It does not affect the taste or purity of the honey."
+      }
+    ],
   },
 
 
@@ -524,6 +988,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/earl-grey-small-1.jpeg', '/assets/earl-grey-small-2.jpeg', '/assets/earl-grey-small-3.jpg', '/assets/earl-grey-small-4.webp'],
     sourcing: { farm: 'Organic Tea Estates of Wayanad Highlands, Kerala', type: '100% Traditional & Organic Cultivation', harvestSeason: 'October to March • Peak Leaf Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Earl Grey Tea special?",
+        answer: "Vanya Earl Grey Tea combines premium tea leaves with the refreshing citrus aroma of bergamot, creating a smooth, aromatic, and elegant tea experience."
+      },
+      {
+        question: "Does this Earl Grey Tea contain artificial flavours or additives?",
+        answer: "No. Our Earl Grey Tea is carefully blended to preserve its natural aroma and flavour without unnecessary artificial additives."
+      },
+      {
+        question: "How should I store Earl Grey Tea for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly sealed after every use. Keep it away from moisture, heat, direct sunlight, and strong odours to preserve its aroma and flavour."
+      },
+      {
+        question: "Can Earl Grey Tea be enjoyed with or without milk?",
+        answer: "Yes. Vanya Earl Grey Tea can be enjoyed both with and without milk, depending on personal preference. It is also perfect as a refreshing black tea."
+      }
+    ],
   },
   {
     id: 41,
@@ -546,6 +1028,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/green-small-1.jpg', '/assets/green-small-2.jpg', '/assets/green-small-3.jpeg', '/assets/green-small-4.avif'],
     sourcing: { farm: 'Organic Tea Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to March • Peak Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Green Tea special?",
+        answer: "Vanya Green Tea is made from carefully selected tea leaves that preserve their natural freshness, smooth taste, and delicate aroma for a refreshing tea experience."
+      },
+      {
+        question: "Does this Green Tea contain artificial flavours or additives?",
+        answer: "No. Our Green Tea is prepared without artificial flavours, colours, preservatives, or unnecessary additives."
+      },
+      {
+        question: "How should I store Green Tea for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly sealed after every use. Keep it away from moisture, heat, direct sunlight, and strong odours to preserve its freshness and aroma."
+      },
+      {
+        question: "Can Green Tea be consumed daily?",
+        answer: "Yes. Green Tea is widely enjoyed as part of a balanced lifestyle and is valued for its refreshing taste and natural antioxidant properties."
+      }
+    ],
   },
   {
     id: 42,
@@ -568,6 +1068,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/wayanad-tea-small-1.jpg', '/assets/wayanad-tea-small-2.avif', '/assets/wayanad-tea-small-3.jpg', '/assets/wayanad-tea-small-4.jpg'],
     sourcing: { farm: 'Organic Tea Gardens of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to March • Peak Leaf Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Wayanad Tea special?",
+        answer: "Vanya Wayanad Tea is sourced from the misty highlands of Wayanad, where the cool climate and fertile soil produce tea leaves with rich aroma, smooth flavour, and refreshing taste."
+      },
+      {
+        question: "Does this tea contain artificial flavours or additives?",
+        answer: "No. Our Wayanad Tea is carefully processed to preserve its natural taste and aroma without unnecessary artificial additives."
+      },
+      {
+        question: "How should I store Wayanad Tea for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly sealed after every use. Keep it away from moisture, heat, direct sunlight, and strong odours to preserve its aroma and flavour."
+      },
+      {
+        question: "Can Wayanad Tea be enjoyed daily?",
+        answer: "Yes. Vanya Wayanad Tea is perfect for everyday tea lovers who enjoy a refreshing, aromatic, and smooth tea experience."
+      }
+    ],
   },
   {
     id: 43,
@@ -591,6 +1109,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/wayanad-coffee-small-1.jpeg', '/assets/wayanad-coffee-small-2.jpg', '/assets/wayanad-coffee-small-3.webp', '/assets/wayanad-coffee-small-4.jpg'],
     sourcing: { farm: 'Organic Coffee Estates of Wayanad Highlands, Kerala', type: '100% Traditional & Organic Cultivation', harvestSeason: 'October to January • Peak Cherry Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Wayanad Coffee special?",
+        answer: "Vanya Wayanad Coffee is sourced from the highlands of Wayanad, where the cool climate and fertile soil produce coffee beans with rich aroma, smooth taste, and deep flavour."
+      },
+      {
+        question: "Does this coffee contain artificial flavours or additives?",
+        answer: "No. Our Wayanad Coffee is carefully processed to preserve its natural aroma and flavour without unnecessary artificial additives."
+      },
+      {
+        question: "How should I store Wayanad Coffee for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly sealed after every use. Keep it away from moisture, heat, direct sunlight, and strong odours to preserve its aroma and flavour."
+      },
+      {
+        question: "Can Wayanad Coffee be enjoyed daily?",
+        answer: "Yes. Vanya Wayanad Coffee is perfect for everyday coffee lovers who enjoy a rich, aromatic, and refreshing coffee experience."
+      }
+    ],
   },
   {
     id: 44,
@@ -612,6 +1148,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/masala-coffee-small-1.webp', '/assets/masala-coffee-small-2.webp', '/assets/masala-coffee-small-3.webp', '/assets/masala-coffee-small-4.jpg'],
     sourcing: { farm: 'Organic Coffee & Spice Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Masala Coffee special?",
+        answer: "Vanya Masala Coffee combines rich coffee with carefully selected aromatic spices to create a warm, flavourful, and refreshing coffee experience inspired by traditional Indian tastes."
+      },
+      {
+        question: "Does this Masala Coffee contain artificial flavours or additives?",
+        answer: "No. Our Masala Coffee is prepared without unnecessary artificial flavours, colours, or chemical additives."
+      },
+      {
+        question: "How should I store Masala Coffee for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly sealed after every use. Keep it away from moisture, heat, direct sunlight, and strong odours to preserve its aroma and flavour."
+      },
+      {
+        question: "Can Masala Coffee be enjoyed daily?",
+        answer: "Yes. Vanya Masala Coffee is perfect for daily coffee lovers who enjoy a rich coffee blended with warm aromatic spices and traditional flavour."
+      }
+    ],
   },
   {
     id: 45,
@@ -634,6 +1188,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/ginger-coffee-small-1.jpg', '/assets/ginger-coffee-small-2.jpg', '/assets/ginger-coffee-small-3.jpg', '/assets/ginger-coffee-small-4.jpg'],
     sourcing: { farm: 'Organic Coffee & Ginger Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Coffee & Ginger Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Ginger Coffee special?",
+        answer: "Vanya Ginger Coffee blends rich aromatic coffee with the natural warmth and flavour of ginger, creating a refreshing and comforting traditional style coffee experience."
+      },
+      {
+        question: "Does this Ginger Coffee contain artificial flavours or additives?",
+        answer: "No. Our Ginger Coffee is prepared without unnecessary artificial flavours, colours, or chemical additives."
+      },
+      {
+        question: "How should I store Ginger Coffee for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly sealed after every use. Keep it away from moisture, heat, direct sunlight, and strong odours to preserve its aroma and flavour."
+      },
+      {
+        question: "Can Ginger Coffee be enjoyed daily?",
+        answer: "Yes. Vanya Ginger Coffee is perfect for daily coffee lovers who enjoy a warm, aromatic, and flavourful coffee experience with the natural taste of ginger."
+      }
+    ],
   },
   {
     id: 46,
@@ -655,6 +1227,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/cardamom-tea-small-1.jpeg', '/assets/cardamom-tea-small-2.jpg', '/assets/cardamom-tea-small-3.jpg', '/assets/cardamom-tea-small-4.jpg'],
     sourcing: { farm: 'KeraOrganic Tea & Cardamom Estates of Wayanad Highlands, Keralala', type: 'Traditional & Organic Cultivation', harvestSeason: 'October to March • Peak Leaf & Pod Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Cardamom Tea special?",
+        answer: "Vanya Cardamom Tea blends premium tea leaves with the rich aroma and natural flavour of cardamom, creating a smooth, refreshing, and traditional tea experience."
+      },
+      {
+        question: "Does this Cardamom Tea contain artificial flavours or additives?",
+        answer: "No. Our Cardamom Tea is prepared without unnecessary artificial flavours, colours, or chemical additives."
+      },
+      {
+        question: "How should I store Cardamom Tea for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly sealed after every use. Keep it away from moisture, heat, direct sunlight, and strong odours to preserve its aroma and flavour."
+      },
+      {
+        question: "Can Cardamom Tea be enjoyed daily?",
+        answer: "Yes. Vanya Cardamom Tea is perfect for daily tea lovers who enjoy a refreshing, aromatic, and flavourful tea experience with the natural warmth of cardamom."
+      }
+    ],
   },
   {
     id: 47,
@@ -677,6 +1267,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/masala-tea-small-1.jpg', '/assets/masala-tea-small-2.jpg', '/assets/masala-tea-small-3.webp', '/assets/masala-tea-small-4.jpg'],
     sourcing: { farm: 'Organic Tea & Spice Estates of Wayanad Highlands, Kerala', type: '100% Traditional & Organic Cultivation', harvestSeason: 'October to March • Peak Leaf & Spice Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Masala Tea special?",
+        answer: "Vanya Masala Tea blends premium tea leaves with carefully selected aromatic spices to create a rich, warm, and flavourful traditional tea experience."
+      },
+      {
+        question: "Does this Masala Tea contain artificial flavours or additives?",
+        answer: "No. Our Masala Tea is prepared without unnecessary artificial flavours, colours, or chemical additives."
+      },
+      {
+        question: "How should I store Masala Tea for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly sealed after every use. Keep it away from moisture, heat, direct sunlight, and strong odours to preserve its aroma and flavour."
+      },
+      {
+        question: "Can Masala Tea be enjoyed daily?",
+        answer: "Yes. Vanya Masala Tea is perfect for daily tea lovers who enjoy a strong, aromatic, and comforting tea experience with traditional Indian spices."
+      }
+    ],
   },
   {
     id: 48,
@@ -698,6 +1306,24 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/ginger-tea-small-1.jpg', '/assets/ginger-tea-small-2.jpeg', '/assets/ginger-tea-small-3.jpeg', '/assets/ginger-tea-small-4.jpg'],
     sourcing: { farm: 'Organic Tea & Ginger Estates of Wayanad Highlands, Kerala', type: 'Orga100% Organic & Traditional Cultivationnic', harvestSeason: 'October to January • Peak Leaf & Ginger Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Ginger Tea special?",
+        answer: "Vanya Ginger Tea blends premium tea leaves with the natural warmth and rich flavour of ginger, creating a refreshing, aromatic, and comforting tea experience."
+      },
+      {
+        question: "Does this Ginger Tea contain artificial flavours or additives?",
+        answer: "No. Our Ginger Tea is prepared without unnecessary artificial flavours, colours, or chemical additives."
+      },
+      {
+        question: "How should I store Ginger Tea for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly sealed after every use. Keep it away from moisture, heat, direct sunlight, and strong odours to preserve its aroma and flavour."
+      },
+      {
+        question: "Can Ginger Tea be enjoyed daily?",
+        answer: "Yes. Vanya Ginger Tea is perfect for daily tea lovers who enjoy a warm, soothing, and flavourful tea experience with the natural taste of ginger."
+      }
+    ],
   },
   {
     id: 49,
@@ -720,6 +1346,25 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
     smallImages: ['/assets/lemon-tea-small-1.jpg', '/assets/lemon-tea-small-2.jpg', '/assets/lemon-tea-small-3.jpg', '/assets/lemon-tea-small-4.webp'],
     sourcing: { farm: 'Organic Tea & Lemon Estates of Wayanad Highlands, Kerala', type: '100% Organic & Traditional Cultivation', harvestSeason: 'October to January • Peak Leaf & Citrus Harvest' }
+    ,
+    faqs: [
+      {
+        question: "What makes Vanya Lemon Tea special?",
+        answer: "Vanya Lemon Tea combines premium tea leaves with refreshing lemon flavour to create a light, aromatic, and revitalizing tea experience."
+      },
+      {
+        question: "Does this Lemon Tea contain artificial flavours or additives?",
+        answer: "No. Our Lemon Tea is prepared without unnecessary artificial colours or chemical additives."
+      },
+      {
+        question: "How should I store Lemon Tea for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly sealed after every use. Keep it away from moisture, heat, direct sunlight, and strong odours to preserve its aroma and flavour."
+      },
+      {
+        question: "Can Lemon Tea be enjoyed daily?",
+        answer: "Yes. Vanya Lemon Tea is perfect for daily tea lovers who enjoy a light, refreshing, and citrus flavoured tea experience."
+      }
+    ],
   },
 
   // COCONUT OIL
@@ -758,70 +1403,104 @@ Unlike refined oils, cold-pressed coconut oil keeps its essential antioxidants, 
       },
     ],
 
-   /*  smallImages: [
-      '/assets/coconut-small-1.webp',
-      '/assets/coconut-small-2.webp',
-      '/assets/coconut-small-3.webp',
-      '/assets/coconut-small-4.webp',
-    ], */
+    /*  smallImages: [
+       '/assets/coconut-small-1.webp',
+       '/assets/coconut-small-2.webp',
+       '/assets/coconut-small-3.webp',
+       '/assets/coconut-small-4.webp',
+     ], */
 
     sourcing: {
       farm: 'Coastal Coconut Groves of Kuttiyadi, Kerala',
       type: 'Traditional Cold Pressed (Wooden Chekku Method)',
       harvestSeason: 'Throughout the Year • Fresh Batch Every Month',
     },
+    faqs: [
+      {
+        question: "What makes Vanya Pure Virgin Coconut Oil special?",
+        answer: "Vanya Pure Virgin Coconut Oil is made using the cold pressed method to preserve the natural aroma, nutrients, and purity of fresh coconuts without excessive heat processing."
+      },
+      {
+        question: "Does this coconut oil contain preservatives or chemical additives?",
+        answer: "No. Our Pure Virgin Coconut Oil is prepared without preservatives, artificial fragrances, or chemical additives."
+      },
+      {
+        question: "How should I store Pure Virgin Coconut Oil for maximum freshness?",
+        answer: "Store the bottle tightly closed in a cool, dry place away from direct sunlight and moisture. Use a clean, dry spoon if needed to maintain freshness and purity."
+      },
+      {
+        question: "Why does cold pressed coconut oil retain natural aroma and flavour?",
+        answer: "The cold pressed process uses minimal heat, which helps preserve the coconut’s natural aroma, nutrients, flavour, and essential properties compared to heavily refined oils."
+      }
+    ],
   },
 
   {
-  id: 2,
-  name: "Vendha Velichenna – Pure Virgin Coconut Oil (Hot Pressed)",
-  slug: "vendha-velichenna-pure-virgin-coconut-oil-hot-pressed",
-  category: "Coconut Oil",
-  imageFront: "/assets/coconut-hot-sourcing.webp",
-  imageBack: "/assets/coconut-hot-back.webp",
-  imageBg: "/assets/coconut-hot.jpg",
-  description: `**Flavours by Vanya Vendha Velichenna** (Urukku Velichenna) is Kerala’s traditional **hot-processed virgin coconut oil**, made by boiling pure coconut milk until the oil naturally separates. This heritage method, passed down through generations, produces a golden, aromatic oil known for its purity, nutrition, and healing properties.\n\n
+    id: 2,
+    name: "Vendha Velichenna – Pure Virgin Coconut Oil (Hot Pressed)",
+    slug: "vendha-velichenna-pure-virgin-coconut-oil-hot-pressed",
+    category: "Coconut Oil",
+    imageFront: "/assets/coconut-hot-sourcing.webp",
+    imageBack: "/assets/coconut-hot-back.webp",
+    imageBg: "/assets/coconut-hot.jpg",
+    description: `**Flavours by Vanya Vendha Velichenna** (Urukku Velichenna) is Kerala’s traditional **hot-processed virgin coconut oil**, made by boiling pure coconut milk until the oil naturally separates. This heritage method, passed down through generations, produces a golden, aromatic oil known for its purity, nutrition, and healing properties.\n\n
 In this slow and mindful process, fresh coconut milk is heated in a traditional bronze vessel (*uruli*), allowing the water content to evaporate gently. Continuous stirring helps separate the oil from the solids without burning, preserving its nutrients and aroma. Around **10 coconuts yield just 250 ml of pure oil**, making every drop precious and authentic.\n\n
 Rich in **lauric acid, vitamin E, and natural antioxidants**, Vendha Velichenna is ideal for **cooking, Ayurvedic care, and newborn massage**. Its warm aroma and nourishing touch reflect Kerala’s ancient wisdom a perfect blend of tradition, purity, and wellness from the heart of Kuttiyadi.`,
 
-  shortDescriptionForHomePage: `Made using Kerala’s traditional **Vendha Velichenna (Urukku Velichenna)** method, this pure virgin coconut oil is crafted by boiling fresh coconut milk until the oil separates naturally. The result is a golden, nutrient rich oil filled with the warmth and authenticity of Kerala.\n\n
+    shortDescriptionForHomePage: `Made using Kerala’s traditional **Vendha Velichenna (Urukku Velichenna)** method, this pure virgin coconut oil is crafted by boiling fresh coconut milk until the oil separates naturally. The result is a golden, nutrient rich oil filled with the warmth and authenticity of Kerala.\n\n
 Perfect for cooking, baby care, and Ayurvedic wellness, it preserves high levels of **lauric acid and vitamin E**, ensuring purity and natural nourishment in every drop.`,
 
-  shortDescription: 'Traditional Vendha Velichenna Kerala’s hot-processed virgin coconut oil made from fresh coconut milk. Naturally golden, aromatic, and nutrient rich for cooking and Ayurvedic care.',
+    shortDescription: 'Traditional Vendha Velichenna Kerala’s hot-processed virgin coconut oil made from fresh coconut milk. Naturally golden, aromatic, and nutrient rich for cooking and Ayurvedic care.',
 
-  descriptionSections: [
-    {
-      title: 'Heritage & Sourcing',
-      text: 'Sourced from the lush coconut groves of Kuttiyadi, Kerala, our coconuts are hand selected for freshness and richness. This heritage oil is prepared following age old family methods, ensuring the same purity and aroma cherished in traditional Kerala homes for generations.',
-      image: '/assets/coconut-hot-sourcing.webp',
-    },
-    {
-      title: 'Traditional Preparation',
-      text: 'Freshly extracted coconut milk is gently heated in a traditional bronze uruli until the oil naturally separates from the milk solids. The process takes several hours of patient stirring, producing golden oil rich in nutrients and authentic Kerala aroma. Each batch is filtered and bottled carefully to preserve its purity.',
-      image: '/assets/coconut-hot-processing.webp',
-    },
-    {
-      title: 'Benefits & Uses',
-      text: 'Vendha Velichenna is valued in Ayurveda for its natural healing and moisturizing properties. It is ideal for cooking, baby massage, hair care, and skin nourishment. The oil’s richness in lauric acid and vitamin E supports immunity, promotes hair strength, and keeps the skin soft and radiant.',
-      image: '/assets/coconut-hot-benefits.webp',
-    },
-  ],
+    descriptionSections: [
+      {
+        title: 'Heritage & Sourcing',
+        text: 'Sourced from the lush coconut groves of Kuttiyadi, Kerala, our coconuts are hand selected for freshness and richness. This heritage oil is prepared following age old family methods, ensuring the same purity and aroma cherished in traditional Kerala homes for generations.',
+        image: '/assets/coconut-hot-sourcing.webp',
+      },
+      {
+        title: 'Traditional Preparation',
+        text: 'Freshly extracted coconut milk is gently heated in a traditional bronze uruli until the oil naturally separates from the milk solids. The process takes several hours of patient stirring, producing golden oil rich in nutrients and authentic Kerala aroma. Each batch is filtered and bottled carefully to preserve its purity.',
+        image: '/assets/coconut-hot-processing.webp',
+      },
+      {
+        title: 'Benefits & Uses',
+        text: 'Vendha Velichenna is valued in Ayurveda for its natural healing and moisturizing properties. It is ideal for cooking, baby massage, hair care, and skin nourishment. The oil’s richness in lauric acid and vitamin E supports immunity, promotes hair strength, and keeps the skin soft and radiant.',
+        image: '/assets/coconut-hot-benefits.webp',
+      },
+    ],
 
-  /*  smallImages: [
-      '/assets/coconut-hot-small-1.jpg',
-      '/assets/coconut-hot-small-2.jpg',
-      '/assets/coconut-hot-small-3.jpg',
-      '/assets/coconut-hot-small-4.avif',
-    ], */
+    /*  smallImages: [
+        '/assets/coconut-hot-small-1.jpg',
+        '/assets/coconut-hot-small-2.jpg',
+        '/assets/coconut-hot-small-3.jpg',
+        '/assets/coconut-hot-small-4.avif',
+      ], */
 
-  sourcing: {
-    farm: 'Traditional Coconut Groves of Kuttiyadi, Kerala',
-    type: 'Hot-Processed Virgin Oil (Vendha Velichenna / Urukku Velichenna Method)',
-    harvestSeason: 'November to April • Fresh Coconut Season',
+    sourcing: {
+      farm: 'Traditional Coconut Groves of Kuttiyadi, Kerala',
+      type: 'Hot-Processed Virgin Oil (Vendha Velichenna / Urukku Velichenna Method)',
+      harvestSeason: 'November to April • Fresh Coconut Season',
+    },
+    faqs: [
+      {
+        question: "What makes Vanya Vendha Velichenna special?",
+        answer: "Vanya Vendha Velichenna is traditionally prepared using the hot pressed method from fresh coconut milk, preserving its rich aroma, authentic Kerala taste, and natural goodness."
+      },
+      {
+        question: "Does this Vendha Velichenna contain preservatives or chemical additives?",
+        answer: "No. Our Vendha Velichenna is prepared without preservatives, artificial fragrances, or chemical additives."
+      },
+      {
+        question: "How should I store Vendha Velichenna for maximum freshness?",
+        answer: "Store the bottle tightly closed in a cool, dry place away from direct sunlight and moisture. Use a clean, dry spoon if needed to maintain freshness and purity."
+      },
+      {
+        question: "Why does traditional Vendha Velichenna have a stronger aroma and flavour?",
+        answer: "The traditional hot pressed preparation method slowly extracts oil from fresh coconut milk, giving Vendha Velichenna its rich aroma, deep flavour, and authentic Kerala style character."
+      }
+    ],
   },
-},
-
-
 
 ]
 

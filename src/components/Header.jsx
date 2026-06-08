@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from "../../public/assets/logo.jpg"
+import logo from "../../public/assets/logo.png"
 
 export default function Header() {
     const [openMenu, setOpenMenu] = useState(false);
@@ -10,13 +10,18 @@ export default function Header() {
         <header className="fixed w-full z-40 bg-black/60 backdrop-blur-md">
             <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
                 <Link to="/" className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-xl font-bold">
-                        <img src={logo} alt="Vanya Eco Products" className='w-10 h-10 rounded-full' />
+                    <div className="flex items-center justify-center">
+                        <img
+                            src={logo}
+                            alt="Vanya Eco Products"
+                            className="h-14 md:h-16 w-auto object-contain rounded-2xl"
+                        />
                     </div>
-                    <div className="hidden sm:block">
-                        <div className="font-display text-lg" style={{ fontFamily: '"Raleway", sans-serif', fontWeight: 'bold' }}>Vanya Eco Products</div>
+                    {/* <div className="hidden sm:block">
+                        <div className="font-display text-lg" style={{ fontFamily: '"Montserrat", sans-serif', fontWeight: 'bold' }}>VANYA</div>
+                        <div>Eco Products</div>
                         <div className="text-xs text-gray-400" style={{ fontFamily: '"Raleway", sans-serif', fontWeight: 'bold' }}>Pure Spices, True Flavours</div>
-                    </div>
+                    </div> */}
                 </Link>
 
                 {/* Desktop Navigation */}
