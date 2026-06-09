@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import ProductFAQ from '../components/ProductFAQ';
 import ProductStructuredData from '../components/ProductStructuredData';
 import { Helmet } from "react-helmet-async";
+import RelatedProducts from '../components/RelatedProducts';
 
 
 export default function ProductPage() {
@@ -183,6 +184,11 @@ export default function ProductPage() {
       )}
 
       <ProductFAQ faqs={product.faqs} />
+
+      <RelatedProducts
+        currentProduct={product}
+        products={products}
+      />
 
       {/* Sourcing Details */}
       {/* {product.sourcing && (
