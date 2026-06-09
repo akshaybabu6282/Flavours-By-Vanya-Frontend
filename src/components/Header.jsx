@@ -49,6 +49,14 @@ export default function Header() {
                     <a href="#bulk" className="hover:underline" style={{ fontFamily: '"Raleway", sans-serif', fontWeight: 'bold' }}>Bulk / Export</a>
                     <a href="#licenses" className="hover:underline" style={{ fontFamily: '"Raleway", sans-serif', fontWeight: 'bold' }}>Our Certifications</a>
 
+                    <Link
+                        to="/blogs"
+                        className="hover:underline"
+                        style={{ fontFamily: '"Raleway", sans-serif', fontWeight: 'bold' }}
+                    >
+                        Blogs
+                    </Link>
+
                     <a href="#contact" className="px-3 py-1 border border-white/10 rounded" style={{ fontFamily: '"Raleway", sans-serif', fontWeight: 'bold' }}>Contact</a>
                 </nav>
 
@@ -94,6 +102,15 @@ export default function Header() {
                         <a href="#about" className="hover:underline py-2" style={{ fontFamily: '"Raleway", sans-serif', fontWeight: 'bold' }}>About Us</a>
                         <hr />
                         <a href="#bulk" className="hover:underline py-2" onClick={() => setOpenMenu(false)} style={{ fontFamily: '"Raleway", sans-serif', fontWeight: 'bold' }}>Bulk / Export</a>
+                        <hr />
+                        <Link
+                            to="/blogs"
+                            onClick={() => setOpenMenu(false)}
+                            className="hover:underline py-2"
+                            style={{ fontFamily: '"Raleway", sans-serif', fontWeight: 'bold' }}
+                        >
+                            Blogs
+                        </Link>
                         <hr />
                         <a href="#contact" className="hover:underline py-2" style={{ fontFamily: '"Raleway", sans-serif', fontWeight: 'bold' }}>Contact</a>
                         <hr />
