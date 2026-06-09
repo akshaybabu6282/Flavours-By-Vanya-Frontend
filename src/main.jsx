@@ -5,11 +5,14 @@ import App from './App'
 import ProductPage from './pages/ProductPage'
 import "./index.css";
 import { HelmetProvider } from "react-helmet-async";
+import ScrollToTop from './components/ScrollToTop'
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <HelmetProvider>
       <BrowserRouter>
+        <ScrollToTop />
+
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/product/:slug" element={<ProductPage />} />
