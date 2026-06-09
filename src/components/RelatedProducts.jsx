@@ -2,20 +2,23 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export default function RelatedProducts({ currentProduct, products }) {
+  const categoryProducts = products.filter(
+    (item) => item.category === currentProduct.category
+  );
 
-  const relatedProducts = products
-    .filter(
-      (item) =>
-        item.category === currentProduct.category &&
-        item.slug !== currentProduct.slug
-    )
-    .slice(0, 4);
+  const currentIndex = categoryProducts.findIndex(
+    (item) => item.slug === currentProduct.slug
+  );
+
+  const relatedProducts = [
+    ...categoryProducts.slice(currentIndex + 1),
+    ...categoryProducts.slice(0, currentIndex)
+  ].slice(0, 4);
 
   if (relatedProducts.length === 0) return null;
 
   return (
     <section className="max-w-6xl mx-auto px-6 py-16">
-
       <h2
         className="text-4xl mb-10 text-center"
         style={{
@@ -27,15 +30,12 @@ export default function RelatedProducts({ currentProduct, products }) {
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-
         {relatedProducts.map((item) => (
-
           <Link
             key={item.id}
             to={`/product/${item.slug}`}
             className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition"
           >
-
             <img
               src={item.imageBg}
               alt={item.name}
@@ -44,7 +44,6 @@ export default function RelatedProducts({ currentProduct, products }) {
             />
 
             <div className="p-5 text-center">
-
               <h3
                 className="text-xl text-black"
                 style={{
@@ -61,15 +60,10 @@ export default function RelatedProducts({ currentProduct, products }) {
               >
                 {item.shortDescription}
               </p>
-
             </div>
-
           </Link>
-
         ))}
-
       </div>
-
     </section>
   );
 }
