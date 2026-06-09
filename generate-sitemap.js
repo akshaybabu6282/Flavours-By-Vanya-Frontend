@@ -2,6 +2,7 @@ import { writeFileSync } from "fs";
 import { SitemapStream, streamToPromise } from "sitemap";
 
 import { products } from "./src/data/products.js";
+import { blogs } from "./src/data/blogs.js";
 
 async function generateSitemap() {
 
@@ -11,7 +12,11 @@ async function generateSitemap() {
 
   const pages = [
     "/",
-    ...products.map((product) => `/product/${product.slug}`)
+    "/blogs",
+
+    ...products.map((product) => `/product/${product.slug}`),
+
+    ...blogs.map((blog) => `/blog/${blog.slug}`)
   ];
 
   pages.forEach((page) => {
