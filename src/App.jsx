@@ -12,7 +12,7 @@ import Licenses from "./components/Licenses";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import CoconutOilSection from "./components/CoconutOilSection";
 import DontSellOnline from './components/DontSellOnline'
 
@@ -32,10 +32,22 @@ export default function App() {
   return (
     <div className="min-h-screen font-body">
       <Helmet>
-        <title>Vanya Eco Products | Flavours by Vanya | Authentic Kerala Spices & Masalas</title>
-        <meta name="description" content="Shop authentic Kerala spices, masalas, teas, and coffees from Wayanad — pure, natural, and handcrafted by Vanya Eco Products." />
-        <meta name="keywords" content="Vanya Eco Products, Wayanad spices, Kerala masalas, natural teas, organic coffees" />
+        <title>
+          Vanya Eco Products | Authentic Wayanad Spices, Masalas & Export Quality Kerala Products
+        </title>
+
+        <meta
+          name="description"
+          content="Authentic spices, masalas, teas, coffees, coconut oils, nuts, and honey from Wayanad, Kerala. Vanya Eco Products sources from trusted farms and processes products in small batches for freshness, purity, traditional flavour, and bulk export quality."
+        />
+
+        <meta
+          name="keywords"
+          content="Vanya Eco Products, Flavours by Vanya, Wayanad spices, Kerala spices, authentic masalas, natural spices, pure spices, traditional Kerala masalas, Wayanad tea, Wayanad coffee, raw pepper, cardamom from Kerala, cold pressed coconut oil, vendha velichenna, small batch spices, preservative free spices, bulk spice suppliers, spice export from India, Kerala spice exporters, wholesale spices Kerala"
+        />
+
         <meta name="robots" content="index, follow" />
+
         <link rel="canonical" href="https://www.vanyaecoproducts.in/" />
       </Helmet>
 
@@ -51,7 +63,7 @@ export default function App() {
           products={products.filter(p => p.category === 'Coconut Oil')}
         />
         <AboutUs />
-        <DontSellOnline/>
+        <DontSellOnline />
         <BulkOrders />
         <Contact />
         <Licenses />
