@@ -63,11 +63,12 @@ export default function BlogsPage() {
       </Helmet>
 
       <button
+       aria-label='Go to previous page'
         onClick={() => navigate(-1)}
         className="fixed top-5 left-5 z-50 px-5 py-2 bg-black text-white rounded-full shadow-lg hover:bg-gray-800 transition"
         style={{ fontFamily: '"Roboto", sans-serif' }}
       >
-        ← Back
+        ← 
       </button>
 
       <main className="pt-28 pb-20">

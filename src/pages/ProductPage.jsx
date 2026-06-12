@@ -99,7 +99,7 @@ export default function ProductPage() {
         className="fixed top-6 left-6 z-50 px-4 py-2 text-white bg-gray-800 hover:bg-gray-700 hover:text-white rounded-md flex items-center gap-2 shadow-lg"
         style={{ fontFamily: '"Roboto", sans-serif' }}
       >
-        &#8592; Go Back
+        &#8592; 
       </button>
 
       {/* Hero Section */}
