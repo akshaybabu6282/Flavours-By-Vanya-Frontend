@@ -5,7 +5,7 @@ const banners = [
     id: 1,
     title: "A Symphony of Flavours in Every Pinch",
     subtitle: "From the heart of Wayanad’s kitchens, our masalas bring tradition alive blending handpicked ingredients into timeless tastes that whisper stories of home.",
-    image: "/assets/hero3.jpg",
+    image: "/assets/hero3.webp",
     ctas: [
       { text: "Experience the Essence", href: "#masalas", primary: false },
     ],
@@ -14,7 +14,7 @@ const banners = [
     id: 2,
     title: "From Earth’s Heart to Your Kitchen",
     subtitle: "Grown in the misty hills of Wayanad, our spices capture the purity of the land bold, fragrant, and full of life in every grain.",
-    image: "/assets/hero2.jpg",
+    image: "/assets/hero2.webp",
     ctas: [
       { text: "Discover Spices", href: "#raw-spices", primary: false },
     ],
@@ -23,7 +23,7 @@ const banners = [
     id: 3,
     title: "Sip the Soul of Wayanad",
     subtitle: "Awaken your senses with our mountain-grown teas and hand-roasted coffees each cup a serene journey through Wayanad’s lush greenery.",
-    image: "/assets/hero1.jpg",
+    image: "/assets/hero1.webp",
     ctas: [
       { text: "Taste the Brew", href: "#beverages", primary: false },
     ],
@@ -32,7 +32,7 @@ const banners = [
     id: 4,
     title: "Sweetness Woven by Nature",
     subtitle: "From wild forest hives and fertile groves, our honey and nuts embody nature’s quiet luxury golden, wholesome, and beautifully untouched.",
-    image: "/assets/hero4.jpg",
+    image: "/assets/hero4.webp",
     ctas: [
       { text: "Indulge Naturally", href: "#nutsHoney", primary: false },
     ],
@@ -41,7 +41,7 @@ const banners = [
     id: 5,
     title: "Purity in Every Drop",
     subtitle: "Cold-pressed from handpicked coconuts of Kerala, our virgin coconut oil captures nature’s essence pure, aromatic, and nourishing from root to tip.",
-    image: "/assets/hero5.jpg",
+    image: "/assets/hero5.webp",
     ctas: [
       { text: "Experience the Purity", href: "#coconut-oil", primary: false },
     ],

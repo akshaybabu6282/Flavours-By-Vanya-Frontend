@@ -5,9 +5,9 @@ export const products = [
     name: 'Turmeric Powder',
     slug: 'turmeric-powder',
     category: 'Masala',
-    imageFront: '/assets/turmeric-front.jpg',
+    imageFront: '/assets/turmeric-front.webp',
     imageBack: '/assets/turmeric-back.webp',
-    imageBg: '/assets/turmeric-bg.jpg',
+    imageBg: '/assets/turmeric-bg.webp',
     description: `From the lush, rain-washed slopes of **Wayanad, Kerala,** comes one of nature’s most sacred gifts **Flavours by Vanya Turmeric Powder**. Revered for centuries for its golden hue, earthy aroma, and countless health benefits, our turmeric captures the very essence of Wayanad’s pristine landscape. The region’s fertile red soil, pure mountain air, and gentle monsoon rains nurture the turmeric plants naturally, producing rhizomes that are rich in curcumin and bursting with life. Every harvest tells a story of purity, patience, and the age-old connection between the land and its people.\n\n
 Behind every spoonful of our turmeric lies the care and commitment of local farmers who follow traditional, chemical free cultivation methods. These farmers, deeply rooted in the culture of Wayanad, rely on age old organic practices to ensure that every plant grows in perfect harmony with nature. No artificial fertilizers, no harmful pesticides only the nurturing touch of nature itself. Their fields are fed by pure rainwater, enriched by compost made from organic waste, and shaded by the region’s evergreen canopy. It’s this natural ecosystem that makes our turmeric not just a spice, but a symbol of sustainable living.\n\n
 Once the rhizomes reach maturity, they are carefully handpicked and taken through a meticulous post harvest process that preserves their purity and potency. The roots are gently washed to remove any trace of soil, then boiled to soften and activate their natural colour. After this, they are laid out under the warm Kerala sun to dry slowly a process that enhances their aroma and locks in their essential oils. Only after this traditional sun-curing do we grind them in small batches using fine milling techniques to create a smooth, golden powder. Every stage is carried out with the highest standards of hygiene, ensuring that what reaches you is pure, safe, and unadulterated.\n\n
@@ -65,7 +65,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
       { title: 'Processing & Packaging', text: 'Harvested at peak ripeness, the chillies are handpicked, sun-dried, and ground into a fine powder using small-batch methods to preserve their natural oils and vibrant red colour. They are packed in premium, moisture-resistant pouches, ensuring every spoonful carries the authentic taste of Wayanad.', image: '/assets/chilli-processing.webp' },
       { title: 'Health Benefits', text: 'Chilli powder is rich in antioxidants and vitamins, known to boost metabolism, improve circulation, and support digestive health. Its natural compounds also help enhance immunity and bring warmth to meals, making it a vital ingredient for both taste and wellbeing.', image: '/assets/chilli-benefits.webp' }
     ],
-    smallImages: ['/assets/chilli-small-1.webp', '/assets/chilli-small-2.webp', '/assets/chilli-small-3.jpg', '/assets/chilli-small-4.webp'],
+    smallImages: ['/assets/chilli-small-1.webp', '/assets/chilli-small-2.webp', '/assets/chilli-small-3.webp', '/assets/chilli-small-4.webp'],
     sourcing: { farm: 'Organic Estates of the Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'November to February • Peak Harvest' }
     , faqs: [
       {
@@ -215,7 +215,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Fish Masala',
     slug: 'fish-masala',
     category: 'Masala',
-    imageFront: '/assets/fish-masala-front.jpg',
+    imageFront: '/assets/fish-masala-front.webp',
     imageBack: '/assets/fish-masala-back.webp',
     imageBg: '/assets/fish-masala-bg.webp',
     description: `**Flavours by Vanya Fish Masala** brings the vibrant, aromatic flavours of Wayanad to your seafood recipes. Sourced from organic spice farms in Kerala, this blend combines red chillies, coriander, black pepper, turmeric, and other select spices to create a harmonious mix that enhances the natural taste of fish. Each ingredient is nurtured without chemicals, allowing the natural aroma and taste to shine through.\n\n
@@ -256,7 +256,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Chicken Masala',
     slug: 'chicken-masala',
     category: 'Masala',
-    imageFront: '/assets/chicken-masala-front.jpg',
+    imageFront: '/assets/chicken-masala-front.webp',
     imageBack: '/assets/chicken-masala-back.webp',
     imageBg: '/assets/chicken-masala-bg.webp',
     description: `From the verdant spice gardens of **Wayanad, Kerala,** comes **Flavours by Vanya Chicken Masala,** a masterful blend crafted to bring out the rich flavours of poultry dishes. This aromatic masala combines red chillies, coriander, black pepper, turmeric, fennel, and other select spices, all organically grown on Wayanad’s fertile highlands. The unique climate, pure mountain air, and gentle monsoon rains nurture the spices naturally, giving the blend an unmatched aroma, vibrant colour, and full bodied flavour.\n\n
@@ -269,10 +269,10 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     shortDescription: 'Made from organic Wayanad spices, this Chicken Masala delivers rich aroma, vibrant colour, and full bodied flavour. Ideal for gravies, roasts, and marinated dishes.',
     descriptionSections: [
       { title: 'Sourcing & Quality', text: 'All spices are organically cultivated in Wayanad’s highlands, handpicked at peak ripeness, and processed to maintain purity, aroma, and flavour.', image: '/assets/chicken-masala-sourcing.webp' },
-      { title: 'Processing & Packaging', text: 'Spices are sun dried and finely ground in small batches, then sealed in premium, moisture proof packaging to preserve freshness, potency, and authentic Wayanad flavour.', image: '/assets/chicken-masala-processing.jpg' },
+      { title: 'Processing & Packaging', text: 'Spices are sun dried and finely ground in small batches, then sealed in premium, moisture proof packaging to preserve freshness, potency, and authentic Wayanad flavour.', image: '/assets/chicken-masala-processing.webp' },
       { title: 'Health Benefits', text: 'Rich in antioxidants and essential nutrients, this masala enhances digestion, supports immunity, and adds warmth and vitality to meals.', image: '/assets/chicken-masala-benefits.webp' }
     ],
-    smallImages: ['/assets/chicken-masala-small-1.webp', '/assets/chicken-masala-small-2.jpeg', '/assets/chicken-masala-small-3.webp', '/assets/chicken-masala-small-4.jpeg'],
+    smallImages: ['/assets/chicken-masala-small-1.webp', '/assets/chicken-masala-small-2.webp', '/assets/chicken-masala-small-3.webp', '/assets/chicken-masala-small-4.webp'],
     sourcing: { farm: 'Organic Spice Estates of Wayanad Highlands, Kerala', type: 'Traditional & Organic Cultivation', harvestSeason: 'October to February • Peak Harvest Season' }
     , faqs: [
       {
@@ -298,7 +298,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Biriyani Masala',
     slug: 'biriyani-masala',
     category: 'Masala',
-    imageFront: '/assets/biriyani-masala-front.jpg',
+    imageFront: '/assets/biriyani-masala-front.webp',
     imageBack: '/assets/biriyani-masala-back.webp',
     imageBg: '/assets/biriyani-masala-bg.webp',
     description: `**Flavours by Vanya Biriyani Masala** brings the royal taste of Wayanad to your dining table. Handcrafted from the finest organic spices, this masala combines cardamom, cinnamon, cloves, black pepper, star anise, and other carefully selected ingredients to deliver the perfect harmony of aroma and flavour. Each spice is nurtured in Wayanad’s fertile highlands, where the soil, rainfall, and climate create the ideal conditions for cultivating premium quality crops.\n\n
@@ -309,11 +309,11 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     shortDescriptionForHomePage: 'Aromatic, warm, and flavourful our Wayanad Biriyani Masala elevates every rice dish to perfection.',
     shortDescription: 'Sourced from organic Wayanad farms, this Biriyani Masala combines traditional spices for rich aroma and authentic taste. Ideal for biriyanis and festive meals.',
     descriptionSections: [
-      { title: 'Sourcing & Quality', text: 'All spices are grown organically in Wayanad, harvested at peak maturity, and carefully processed to retain aroma, colour, and purity.', image: '/assets/biriyani-masala-sourcing.jpg' },
-      { title: 'Processing & Packaging', text: 'Spices are sun dried, roasted, and ground in small batches, then sealed in premium pouches to preserve freshness and potency.', image: '/assets/biriyani-masala-processing.jpg' },
-      { title: 'Health Benefits', text: 'Rich in antioxidants and essential nutrients, Biriyani Masala enhances digestion, supports immunity, and adds warmth and vitality to meals.', image: '/assets/biriyani-masala-benefits.jpg' }
+      { title: 'Sourcing & Quality', text: 'All spices are grown organically in Wayanad, harvested at peak maturity, and carefully processed to retain aroma, colour, and purity.', image: '/assets/biriyani-masala-sourcing.webp' },
+      { title: 'Processing & Packaging', text: 'Spices are sun dried, roasted, and ground in small batches, then sealed in premium pouches to preserve freshness and potency.', image: '/assets/biriyani-masala-processing.webp' },
+      { title: 'Health Benefits', text: 'Rich in antioxidants and essential nutrients, Biriyani Masala enhances digestion, supports immunity, and adds warmth and vitality to meals.', image: '/assets/biriyani-masala-benefits.webp' }
     ],
-    smallImages: ['/assets/biriyani-masala-small-1.webp', '/assets/biriyani-masala-small-2.jpg', '/assets/biriyani-masala-small-3.webp', '/assets/biriyani-masala-small-4.jpg'],
+    smallImages: ['/assets/biriyani-masala-small-1.webp', '/assets/biriyani-masala-small-2.webp', '/assets/biriyani-masala-small-3.webp', '/assets/biriyani-masala-small-4.webp'],
     sourcing: { farm: 'Organic Spice Estates of Wayanad Highlands, Kerala', type: '100% Traditional & Organic Cultivation', harvestSeason: 'October to February • Peak Harvest' }
     , faqs: [
       {
@@ -339,9 +339,9 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Coriander Powder',
     slug: 'coriander-powder',
     category: 'Masala',
-    imageFront: '/assets/coriander-powder-front.jpg',
-    imageBack: '/assets/coriander-powder-back.jpg',
-    imageBg: '/assets/coriander-powder-bg.jpg',
+    imageFront: '/assets/coriander-powder-front.webp',
+    imageBack: '/assets/coriander-powder-back.webp',
+    imageBg: '/assets/coriander-powder-bg.webp',
     description: `From the lush, fertile fields of **Wayanad, Kerala,** comes **Flavours by Vanya Coriander Powder,** a spice cherished for its warm, citrusy aroma and subtle, earthy flavour. Our coriander seeds are cultivated organically on Wayanad’s highlands, nourished by rich red soil, mountain air, and gentle monsoon rains, which impart a natural sweetness and depth to every seed. Carefully harvested at peak maturity, these seeds are sun dried and processed to preserve their delicate oils and aromatic compounds.\n\n
     The coriander used in our powder is grown by dedicated local farmers who follow traditional, chemical free farming practices. Each seed is handpicked with care, ensuring the highest quality and purity. By avoiding artificial fertilizers and pesticides, the natural flavour and aroma of the coriander are preserved, resulting in a spice that’s both potent and wholesome.\n\n
     After harvest, the seeds are roasted lightly in small batches to release their full aroma before being finely ground into a smooth, golden-brown powder. The meticulous processing preserves the bright, fresh fragrance and ensures consistent quality. Each pouch is packed in premium, moisture proof packaging to maintain freshness and aroma.\n\n
@@ -351,11 +351,11 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     shortDescriptionForHomePage: 'Aromatic, earthy, and versatile our Wayanad Coriander Powder enhances every dish with natural flavour.',
     shortDescription: 'Sourced from organic Wayanad farms, this Coriander Powder adds warm, earthy notes and subtle sweetness to curries, soups, and sauces. Perfect for authentic Kerala cooking.',
     descriptionSections: [
-      { title: 'Sourcing & Quality', text: 'Grown organically in Wayanad’s fertile highlands, handpicked at peak ripeness, and processed with care to retain natural oils, aroma, and purity.', image: '/assets/coriander-powder-sourcing.jpg' },
+      { title: 'Sourcing & Quality', text: 'Grown organically in Wayanad’s fertile highlands, handpicked at peak ripeness, and processed with care to retain natural oils, aroma, and purity.', image: '/assets/coriander-powder-sourcing.webp' },
       { title: 'Processing & Packaging', text: 'Lightly roasted, ground in small batches, and sealed in premium, moisture proof pouches to maintain freshness, aroma, and potency.', image: '/assets/coriander-powder-processing.webp' },
-      { title: 'Health Benefits', text: 'Rich in antioxidants, Coriander Powder aids digestion, supports immunity, and promotes overall wellness, while adding flavour and depth to meals.', image: '/assets/coriander-powder-benefits.jpg' }
+      { title: 'Health Benefits', text: 'Rich in antioxidants, Coriander Powder aids digestion, supports immunity, and promotes overall wellness, while adding flavour and depth to meals.', image: '/assets/coriander-powder-benefits.webp' }
     ],
-    smallImages: ['/assets/coriander-powder-small-1.jpg', '/assets/coriander-powder-small-2.jpg', '/assets/coriander-powder-small-3.jpg', '/assets/coriander-powder-small-4.jpg'],
+    smallImages: ['/assets/coriander-powder-small-1.webp', '/assets/coriander-powder-small-2.webp', '/assets/coriander-powder-small-3.webp', '/assets/coriander-powder-small-4.webp'],
     sourcing: { farm: 'Organic Spice Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Harvest Season' }
     , faqs: [
       {
@@ -381,8 +381,8 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Pickle Powder',
     slug: 'pickle-powder',
     category: 'Masala',
-    imageFront: '/assets/pickle-powder-front.jpg',
-    imageBack: '/assets/pickle-powder-back.jpg',
+    imageFront: '/assets/pickle-powder-front.webp',
+    imageBack: '/assets/pickle-powder-back.webp',
     imageBg: '/assets/pickle-powder-bg.webp',
     description: `**Flavours by Vanya Pickle Powder** is a zesty, aromatic spice blend designed to bring authentic Kerala pickle flavours into your kitchen. Made from sun-dried organic chillies, coriander, fenugreek, turmeric, and other select spices, this powder captures the essence of traditional pickling without the need for artificial preservatives. Each ingredient is cultivated in Wayanad’s fertile highlands, where nutrient-rich soil, pure air, and gentle rainfall ensure the highest quality produce.\n\n
     Local farmers carefully harvest and sun dry the spices to preserve their natural colour, aroma, and potency. These ingredients are then blended in precise proportions to create a harmonious, tangy, and spicy powder that can transform raw vegetables, fruits, or even meats into vibrant pickles. The traditional processing methods ensure that the authentic taste of Kerala pickles is captured in every batch.\n\n
@@ -392,11 +392,11 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     shortDescriptionForHomePage: 'Tangy, aromatic, and zesty our Wayanad Pickle Powder brings traditional Kerala pickle flavours to your kitchen.',
     shortDescription: 'Made from organically grown Wayanad spices, this Pickle Powder delivers authentic tangy and spicy notes, perfect for pickling vegetables and fruits.',
     descriptionSections: [
-      { title: 'Sourcing & Quality', text: 'All ingredients are organically grown in Wayanad, handpicked, and sun dried to preserve natural colour, aroma, and flavour.', image: '/assets/pickle-powder-sourcing.jpg' },
-      { title: 'Processing & Packaging', text: 'Spices are blended in precise proportions and sealed in premium, moisture proof packaging to maintain freshness and potency.', image: '/assets/pickle-powder-processing.jpg' },
+      { title: 'Sourcing & Quality', text: 'All ingredients are organically grown in Wayanad, handpicked, and sun dried to preserve natural colour, aroma, and flavour.', image: '/assets/pickle-powder-sourcing.webp' },
+      { title: 'Processing & Packaging', text: 'Spices are blended in precise proportions and sealed in premium, moisture proof packaging to maintain freshness and potency.', image: '/assets/pickle-powder-processing.webp' },
       { title: 'Health Benefits', text: 'Rich in antioxidants and essential oils, Pickle Powder aids digestion, enhances metabolism, and adds vibrant flavour to meals.', image: '/assets/pickle-powder-benefits.webp' }
     ],
-    smallImages: ['/assets/pickle-powder-small-1.jpg', '/assets/pickle-powder-small-2.webp', '/assets/pickle-powder-small-3.webp', '/assets/pickle-powder-small-4.jpg'],
+    smallImages: ['/assets/pickle-powder-small-1.webp', '/assets/pickle-powder-small-2.webp', '/assets/pickle-powder-small-3.webp', '/assets/pickle-powder-small-4.webp'],
     sourcing: { farm: 'Organic Spice Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Harvest' }
     , faqs: [
       {
@@ -422,7 +422,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Sambar Powder',
     slug: 'sambar-powder',
     category: 'Masala',
-    imageFront: '/assets/sambar-powder-front.jpg',
+    imageFront: '/assets/sambar-powder-front.webp',
     imageBack: '/assets/sambar-powder-back.webp',
     imageBg: '/assets/sambar-powder-bg.webp',
     description: `From the aromatic spice gardens of **Wayanad, Kerala,** comes **Flavours by Vanya Sambar Powder,** a quintessential blend that embodies the soul of South Indian cuisine. Crafted from sun-dried organic chillies, coriander, cumin, fenugreek, curry leaves, and other traditional spices, this powder delivers a rich, balanced flavour that transforms your sambar into a comforting, authentic experience. The fertile soil, mountain air, and monsoon-fed water of Wayanad nourish each spice naturally, ensuring full aroma and potency.\n\n
@@ -436,9 +436,9 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     descriptionSections: [
       { title: 'Sourcing & Quality', text: 'All ingredients are organically cultivated in Wayanad, harvested at peak maturity, and processed carefully to retain aroma, colour, and flavour.', image: '/assets/sambar-powder-sourcing.webp' },
       { title: 'Processing & Packaging', text: 'Spices are sun dried, roasted, and ground in small batches, then sealed in premium, moisture proof pouches to preserve freshness and potency.', image: '/assets/sambar-powder-processing.webp' },
-      { title: 'Health Benefits', text: 'Rich in antioxidants and essential nutrients, Sambar Powder supports digestion, immunity, and overall wellness while adding authentic flavour to meals.', image: '/assets/sambar-powder-benefits.jpg' }
+      { title: 'Health Benefits', text: 'Rich in antioxidants and essential nutrients, Sambar Powder supports digestion, immunity, and overall wellness while adding authentic flavour to meals.', image: '/assets/sambar-powder-benefits.webp' }
     ],
-    smallImages: ['/assets/sambar-powder-small-1.webp', '/assets/sambar-powder-small-2.jpg', '/assets/sambar-powder-small-3.jpg', '/assets/sambar-powder-small-4.jpg'],
+    smallImages: ['/assets/sambar-powder-small-1.webp', '/assets/sambar-powder-small-2.webp', '/assets/sambar-powder-small-3.webp', '/assets/sambar-powder-small-4.webp'],
     sourcing: { farm: 'Organic Spice Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Harvest Season' }
     , faqs: [
       {
@@ -464,8 +464,8 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Rasam Powder',
     slug: 'rasam-powder',
     category: 'Masala',
-    imageFront: '/assets/rasam-powder-front.jpg',
-    imageBack: '/assets/rasam-powder-back.jpg',
+    imageFront: '/assets/rasam-powder-front.webp',
+    imageBack: '/assets/rasam-powder-back.webp',
     imageBg: '/assets/rasam-powder-bg.webp',
     description: `**Flavours by Vanya Rasam Powder** brings the tangy, aromatic, and spicy essence of Kerala into your kitchen. Made from handpicked organic spices including coriander, cumin, black pepper, dried red chillies, and tamarind, this powder elevates traditional rasam to a wholesome, flavourful experience. Grown on Wayanad’s highlands, the spices absorb the purity of mountain air, fertile soil, and abundant rainfall, which enhances their aroma, potency, and natural taste.\n\n
     Local farmers cultivate these spices using sustainable, chemical free methods, ensuring each ingredient is pure, healthy, and vibrant. Post harvest, the spices are sun dried, roasted in small batches, and finely ground to maintain their essential oils, fragrance, and flavour profile. The careful blending ensures the rasam powder delivers the perfect balance of tanginess, spiciness, and aroma.\n\n
@@ -476,10 +476,10 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     shortDescription: 'Sourced from organic Wayanad farms, this Rasam Powder balances tanginess and spice, perfect for traditional South Indian soups and lentil dishes.',
     descriptionSections: [
       { title: 'Sourcing & Quality', text: 'Organically grown in Wayanad, handpicked at peak maturity, and processed with care to retain aroma, flavour, and purity.', image: '/assets/rasam-powder-sourcing.webp' },
-      { title: 'Processing & Packaging', text: 'Spices are sun dried, roasted, finely ground, and sealed in moisture proof pouches to maintain freshness, aroma, and potency.', image: '/assets/rasam-powder-processing.jpg' },
-      { title: 'Health Benefits', text: 'Rasam Powder is rich in antioxidants, supports digestion, immunity, and overall wellness, while enhancing flavour and warmth in meals.', image: '/assets/rasam-powder-benefits.jpg' }
+      { title: 'Processing & Packaging', text: 'Spices are sun dried, roasted, finely ground, and sealed in moisture proof pouches to maintain freshness, aroma, and potency.', image: '/assets/rasam-powder-processing.webp' },
+      { title: 'Health Benefits', text: 'Rasam Powder is rich in antioxidants, supports digestion, immunity, and overall wellness, while enhancing flavour and warmth in meals.', image: '/assets/rasam-powder-benefits.webp' }
     ],
-    smallImages: ['/assets/rasam-powder-small-1.webp', '/assets/rasam-powder-small-2.webp', '/assets/rasam-powder-small-3.jpg', '/assets/rasam-powder-small-4.png'],
+    smallImages: ['/assets/rasam-powder-small-1.webp', '/assets/rasam-powder-small-2.webp', '/assets/rasam-powder-small-3.webp', '/assets/rasam-powder-small-4.webp'],
     sourcing: { farm: 'Organic Spice Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Harvest Season' }
     , faqs: [
       {
@@ -505,7 +505,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Egg Masala',
     slug: 'egg-masala',
     category: 'Masala',
-    imageFront: '/assets/egg-masala-front.jpg',
+    imageFront: '/assets/egg-masala-front.webp',
     imageBack: '/assets/egg-masala-back.webp',
     imageBg: '/assets/egg-masala-bg.webp',
     description: `**Flavours by Vanya Egg Masala** is a vibrant, aromatic spice blend designed to elevate egg-based dishes to gourmet level. Sourced from Wayanad’s organic spice farms, this masala combines turmeric, red chillies, coriander, black pepper, and other select spices to create a balanced blend of heat, aroma, and colour. Each spice is nurtured naturally in fertile soils, nourished by mountain air and monsoon rains, ensuring every ingredient reaches peak flavour and potency.\n\n
@@ -516,11 +516,11 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     shortDescriptionForHomePage: 'Aromatic, bold, and flavourful our Wayanad Egg Masala transforms simple egg dishes into culinary delights.',
     shortDescription: 'Made from organic Wayanad spices, this Egg Masala delivers robust flavour, vibrant colour, and aromatic depth. Ideal for omelettes, scrambled eggs, curries, and fried preparations.',
     descriptionSections: [
-      { title: 'Sourcing & Quality', text: 'All spices are organically grown in Wayanad, handpicked at peak maturity, and processed to retain aroma, colour, and purity.', image: '/assets/egg-masala-sourcing.jpg' },
+      { title: 'Sourcing & Quality', text: 'All spices are organically grown in Wayanad, handpicked at peak maturity, and processed to retain aroma, colour, and purity.', image: '/assets/egg-masala-sourcing.webp' },
       { title: 'Processing & Packaging', text: 'Sun dried, roasted, ground in small batches, and sealed in premium moisture proof pouches to maintain freshness and potency.', image: '/assets/egg-masala-processing.webp' },
       { title: 'Health Benefits', text: 'Rich in antioxidants and essential nutrients, Egg Masala enhances digestion, supports immunity, and adds aromatic warmth to meals.', image: '/assets/egg-masala-benefits.webp' }
     ],
-    smallImages: ['/assets/egg-masala-small-1.webp', '/assets/egg-masala-small-2.webp', '/assets/egg-masala-small-3.png', '/assets/egg-masala-small-4.jpg'],
+    smallImages: ['/assets/egg-masala-small-1.webp', '/assets/egg-masala-small-2.webp', '/assets/egg-masala-small-3.webp', '/assets/egg-masala-small-4.webp'],
     sourcing: { farm: 'Organic Spice Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Harvest Season' }
     , faqs: [
       {
@@ -550,7 +550,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     category: 'Raw Spice',
     imageFront: '/assets/raw-pepper-front.webp',
     imageBack: '/assets/raw-pepper-back.webp',
-    imageBg: '/assets/raw-pepper-bg.jpg',
+    imageBg: '/assets/raw-pepper-bg.webp',
     description: `From the misty, fertile hills of **Wayanad, Kerala,** comes **Flavours by Vanya Raw Pepper,** a spice that embodies the essence of Kerala’s rich agricultural heritage. Our black peppercorns are grown organically on highland farms, where the soil, climate, and rainfall create ideal conditions for producing plump, flavourful berries. Each peppercorn is nurtured naturally, absorbing the freshness of mountain air and the nutrient richness of Wayanad’s soils, resulting in robust, aromatic, and fiery spice.\n\n
     Local farmers carefully tend the pepper vines, supporting them with sustainable, chemical free methods that preserve the natural balance of the ecosystem. Harvested by hand at peak ripeness, the peppercorns are sun dried slowly to retain their essential oils, aroma, and bold flavour. This meticulous process ensures that every batch delivers the full-bodied pungency and warmth that is characteristic of premium Wayanad pepper.\n\n
     Once processed, the raw pepper is ready to be crushed, ground, or used whole, depending on culinary needs. Its pungent aroma, rich taste, and versatility make it ideal for curries, marinades, pickles, and seasoning for both vegetarian and non-vegetarian dishes. Every pinch carries the authentic flavour of Wayanad’s highlands.\n\n
@@ -560,10 +560,10 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     shortDescription: 'Sourced from organic Wayanad farms, Raw Pepper delivers pungency, aroma, and richness. Perfect for grinding, seasoning, or adding whole to curries and pickles.',
     descriptionSections: [
       { title: 'Sourcing & Quality', text: 'Organically cultivated in Wayanad’s highlands, handpicked at full maturity, and sun dried to retain aroma, potency, and essential oils.', image: '/assets/raw-pepper-sourcing.webp' },
-      { title: 'Processing & Packaging', text: 'Sun dried slowly, sorted, and packed in premium, moisture proof pouches to maintain freshness, flavour, and quality.', image: '/assets/raw-pepper-processing.jpg' },
-      { title: 'Health Benefits', text: 'Black pepper is a natural digestive aid, antioxidant-rich, supports immunity, and adds warming flavour to dishes.', image: '/assets/raw-pepper-benefits.jpg' }
+      { title: 'Processing & Packaging', text: 'Sun dried slowly, sorted, and packed in premium, moisture proof pouches to maintain freshness, flavour, and quality.', image: '/assets/raw-pepper-processing.webp' },
+      { title: 'Health Benefits', text: 'Black pepper is a natural digestive aid, antioxidant-rich, supports immunity, and adds warming flavour to dishes.', image: '/assets/raw-pepper-benefits.webp' }
     ],
-    smallImages: ['/assets/raw-pepper-small-1.jpg', '/assets/raw-pepper-small-2.jpg', '/assets/raw-pepper-small-3.jpg', '/assets/raw-pepper-small-4.jpg'],
+    smallImages: ['/assets/raw-pepper-small-1.webp', '/assets/raw-pepper-small-2.webp', '/assets/raw-pepper-small-3.webp', '/assets/raw-pepper-small-4.webp'],
     sourcing: { farm: 'Certified Organic Estates of Wayanad Highlands, Kerala', type: 'Traditional & Organic Cultivation', harvestSeason: 'October to January • Peak Harvest' }
     , faqs: [
       {
@@ -589,9 +589,9 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Cardamom',
     slug: 'cardamom',
     category: 'Raw Spice',
-    imageFront: '/assets/cardamom-front.jpg',
-    imageBack: '/assets/cardamom-back.jpg',
-    imageBg: '/assets/cardamom-bg.jpg',
+    imageFront: '/assets/cardamom-front.webp',
+    imageBack: '/assets/cardamom-back.webp',
+    imageBg: '/assets/cardamom-bg.webp',
     description: `**Flavours by Vanya Cardamom** comes from the lush, misty slopes of **Wayanad, Kerala,** renowned for producing some of the world’s finest cardamom. Known as the “Queen of Spices,” our green cardamom pods are cultivated organically under the canopy of tropical forests, where filtered sunlight, rich soil, and natural rainfall provide perfect growing conditions. The pods are carefully nurtured to full maturity, yielding an aromatic, flavourful spice with the signature sweet, floral notes that elevate both sweet and savoury dishes.\n\n
     Local farmers employ traditional, chemical free cultivation methods, ensuring that each pod is pure and natural. Harvested by hand, the pods are sun dried slowly to preserve essential oils, aroma, and taste. The meticulous care in processing ensures that only the highest quality cardamom reaches your kitchen, maintaining its vibrant colour, robust aroma, and unique flavour.\n\n
     In the kitchen, **Flavours by Vanya Cardamom** is versatile perfect for spicing teas, coffees, desserts, curries, and biryanis. Its delicate sweetness, aromatic warmth, and authentic taste enhance culinary creations while connecting you to Wayanad’s centuries old spice heritage.\n\n
@@ -602,9 +602,9 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     descriptionSections: [
       { title: 'Sourcing & Quality', text: 'Organically grown in Wayanad’s highlands, hand-harvested at peak maturity, sun-dried, and carefully processed to preserve aroma and quality.', image: '/assets/cardamom-sourcing.webp' },
       { title: 'Processing & Packaging', text: 'Sun dried slowly, sorted for quality, and packed in moisture proof pouches to maintain freshness, aroma, and potency.', image: '/assets/cardamom-processing.webp' },
-      { title: 'Health Benefits', text: 'Cardamom aids digestion, supports respiratory health, boosts immunity, and adds warming aromatic flavour to dishes.Turmeric is renowned for its anti-inflammatory and antioxidant properties. It supports digestion, boosts immunity, promotes joint and heart health, and enhances overall wellness naturally.', image: '/assets/cardamom-benefits.jpg' }
+      { title: 'Health Benefits', text: 'Cardamom aids digestion, supports respiratory health, boosts immunity, and adds warming aromatic flavour to dishes.Turmeric is renowned for its anti-inflammatory and antioxidant properties. It supports digestion, boosts immunity, promotes joint and heart health, and enhances overall wellness naturally.', image: '/assets/cardamom-benefits.webp' }
     ],
-    smallImages: ['/assets/cardamom-small-1.webp', '/assets/cardamom-small-2.jpg', '/assets/cardamom-small-3.jpg', '/assets/cardamom-small-4.webp'],
+    smallImages: ['/assets/cardamom-small-1.webp', '/assets/cardamom-small-2.webp', '/assets/cardamom-small-3.webp', '/assets/cardamom-small-4.webp'],
     sourcing: { farm: 'Certified Organic Cardamom Estates of Wayanad Highlands, Kerala', type: '100% Traditional & Organic Cultivation', harvestSeason: 'October to January • Peak Aroma Harvest' }
     , faqs: [
       {
@@ -631,8 +631,8 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     slug: 'malabar-tamarind',
     category: 'Raw Spice',
     imageFront: '/assets/malabar-tamarind-front.webp',
-    imageBack: '/assets/malabar-tamarind-back.jpg',
-    imageBg: '/assets/malabar-tamarind-bg.jpg',
+    imageBack: '/assets/malabar-tamarind-back.webp',
+    imageBg: '/assets/malabar-tamarind-bg.webp',
 
     description: `**Flavours by Vanya Malabar Tamarind** comes from the lush green hills of **Wayanad, Kerala,** where traditional farming and natural processing methods preserve the authentic taste of Kerala’s most loved souring ingredient. Popularly known as **Kudampuli,** this treasured spice is widely used in Kerala fish curries, seafood dishes, meat preparations, and traditional gravies for its rich smoky aroma and deep tangy flavour.\n\n
 
@@ -650,7 +650,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
       {
         title: 'Sourcing & Quality',
         text: 'Carefully sourced from trusted farmers in Wayanad, naturally cultivated without harmful chemicals, harvested at peak ripeness, and traditionally processed to preserve authentic flavour and aroma.',
-        image: '/assets/malabar-tamarind-sourcing.jpg'
+        image: '/assets/malabar-tamarind-sourcing.webp'
       },
 
       {
@@ -662,7 +662,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
       {
         title: 'Health Benefits',
         text: 'Malabar Tamarind is naturally rich in antioxidants and digestive properties. Traditionally used in Kerala cuisine, it supports digestion, enhances appetite, and adds natural flavour to meals without artificial additives.',
-        image: '/assets/malabar-tamarind-benefits.jpg'
+        image: '/assets/malabar-tamarind-benefits.webp'
       }
 
     ],
@@ -698,7 +698,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     category: 'Raw Spice',
     imageFront: '/assets/cloves-front.webp',
     imageBack: '/assets/cloves-back.webp',
-    imageBg: '/assets/cloves-bg.jpg',
+    imageBg: '/assets/cloves-bg.webp',
     description: `Handpicked from the lush highlands of **Wayanad, Kerala,** our **Flavours by Vanya Cloves** are renowned for their intense aroma, deep brown hue, and natural oil content. Cultivated in the cool, misty climate of Wayanad’s spice plantations, these buds are carefully sun dried to preserve their rich essential oils and authentic flavor.\n\n
   Each clove carries a warm, sweet spicy fragrance that enhances both savory and sweet dishes. Traditionally valued for its medicinal benefits, Wayanad cloves are packed with antioxidants and antibacterial properties, making them a healthy addition to your kitchen.\n\n
   Whether used in biryanis, teas, pickles, or masalas, our **Wayanad Cloves** add a bold depth and warmth that elevate every recipe. Experience the genuine essence of Kerala’s spice-rich soil in every aromatic bud.`,
@@ -706,11 +706,11 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     shortDescriptionForHomePage: 'Bold, aromatic, and rich in essential oils our Wayanad Cloves bring authentic Kerala spice to your kitchen.',
     shortDescription: 'Sun-dried and aromatic cloves from Wayanad, known for their intense flavor, natural oils, and health benefits.',
     descriptionSections: [
-      { title: 'Sourcing & Quality', text: 'Sustainably sourced from Wayanad’s organic spice farms, handpicked at peak maturity to ensure superior aroma and potency.', image: '/assets/cloves-sourcing.jpeg' },
+      { title: 'Sourcing & Quality', text: 'Sustainably sourced from Wayanad’s organic spice farms, handpicked at peak maturity to ensure superior aroma and potency.', image: '/assets/cloves-sourcing.webp' },
       { title: 'Processing & Packaging', text: 'Naturally sun dried to preserve essential oils and vacuum sealed in eco-friendly packs to lock in freshness.', image: '/assets/cloves-processing.webp' },
-      { title: 'Uses & Benefits', text: 'Ideal for curries, desserts, and herbal teas. Known to aid digestion, relieve toothache, and boost immunity.', image: '/assets/cloves-benefits.avif' }
+      { title: 'Uses & Benefits', text: 'Ideal for curries, desserts, and herbal teas. Known to aid digestion, relieve toothache, and boost immunity.', image: '/assets/cloves-benefits.webp' }
     ],
-    smallImages: ['/assets/cloves-small-1.avif', '/assets/cloves-small-2.avif', '/assets/cloves-small-3.jpg', '/assets/cloves-small-4.jpg'],
+    smallImages: ['/assets/cloves-small-1.webp', '/assets/cloves-small-2.webp', '/assets/cloves-small-3.webp', '/assets/cloves-small-4.webp'],
     sourcing: { farm: 'Organic Spice Plantations of Wayanad, Kerala', type: 'Naturally Sun-Dried • 100% Pure & Unprocessed', harvestSeason: 'December to February • Winter Harvest' }
     , faqs: [
       {
@@ -736,8 +736,8 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Cinnamon',
     slug: 'cinnamon',
     category: 'Raw Spice',
-    imageFront: '/assets/cinnamon-front.avif',
-    imageBack: '/assets/cinnamon-back.jpeg',
+    imageFront: '/assets/cinnamon-front.webp',
+    imageBack: '/assets/cinnamon-back.webp',
     imageBg: '/assets/cinnamon-bg.webp',
     description: `Straight from the evergreen hills of **Wayanad, Kerala,** our **Flavours by Vanya Cinnamon** is crafted from the finest inner bark of organically grown cinnamon trees. Known for its sweet aroma and delicate flavor, this cinnamon offers a balance of warmth and natural sweetness that defines Kerala’s spice heritage.\n\n
   Carefully peeled and sun cured by skilled local farmers, our cinnamon retains its essential oils and soft texture. It blends beautifully into curries, baked goods, and teas, adding a touch of luxury and comfort to every dish.\n\n
@@ -746,11 +746,11 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     shortDescriptionForHomePage: 'Sweetly aromatic and naturally rich our Wayanad Cinnamon brings warmth and wellness to your kitchen.',
     shortDescription: 'Premium cinnamon bark from Wayanad, hand peeled and sun dried to preserve aroma, sweetness, and natural oils.',
     descriptionSections: [
-      { title: 'Sourcing & Quality', text: 'Harvested from organically grown cinnamon trees in Wayanad’s hill plantations, ensuring purity and superior flavor.', image: '/assets/cinnamon-sourcing.jpg' },
-      { title: 'Processing & Packaging', text: 'Hand peeled inner bark, sun cured naturally, and packed to maintain its fragrance and freshness.', image: '/assets/cinnamon-processing.jpg' },
-      { title: 'Health Benefits', text: 'Supports metabolism, balances blood sugar, and offers natural anti inflammatory properties.', image: '/assets/cinnamon-benefits.jpg' }
+      { title: 'Sourcing & Quality', text: 'Harvested from organically grown cinnamon trees in Wayanad’s hill plantations, ensuring purity and superior flavor.', image: '/assets/cinnamon-sourcing.webp' },
+      { title: 'Processing & Packaging', text: 'Hand peeled inner bark, sun cured naturally, and packed to maintain its fragrance and freshness.', image: '/assets/cinnamon-processing.webp' },
+      { title: 'Health Benefits', text: 'Supports metabolism, balances blood sugar, and offers natural anti inflammatory properties.', image: '/assets/cinnamon-benefits.webp' }
     ],
-    smallImages: ['/assets/cinnamon-small-1.jpg', '/assets/cinnamon-small-2.webp', '/assets/cinnamon-small-3.webp', '/assets/cinnamon-small-4.webp'],
+    smallImages: ['/assets/cinnamon-small-1.webp', '/assets/cinnamon-small-2.webp', '/assets/cinnamon-small-3.webp', '/assets/cinnamon-small-4.webp'],
     sourcing: { farm: 'Organic Spice Estates, Wayanad, Kerala', type: 'Hand-Peeled & Naturally Sun-Cured', harvestSeason: 'May to August • Monsoon Harvest' }
     , faqs: [
       {
@@ -776,7 +776,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Dry Ginger',
     slug: 'dry-ginger',
     category: 'Raw Spice',
-    imageFront: '/assets/dry-ginger-front.jpg',
+    imageFront: '/assets/dry-ginger-front.webp',
     imageBack: '/assets/dry-ginger-back.webp',
     imageBg: '/assets/dry-ginger-bg.webp',
     description: `Sourced from the fertile red soils of **Wayanad, Kerala,** our **Flavours by Vanya Dry Ginger** is known for its bold aroma, spicy heat, and high natural oil content. Each rhizome is carefully cleaned, sliced, and sun dried using traditional methods that lock in its flavor and therapeutic properties.\n\n
@@ -788,9 +788,9 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     descriptionSections: [
       { title: 'Sourcing & Quality', text: 'Locally grown in Wayanad’s red soil, harvested at peak maturity for maximum flavor and potency.', image: '/assets/dry-ginger-sourcing.webp' },
       { title: 'Processing & Packaging', text: 'Cleaned, sliced, and naturally sun dried by local farmers, then packed to preserve aroma and freshness.', image: '/assets/dry-ginger-processing.webp' },
-      { title: 'Health Benefits', text: 'Aids digestion, boosts immunity, and helps relieve cold and sore throat naturally.', image: '/assets/dry-ginger-benefits.jpg' }
+      { title: 'Health Benefits', text: 'Aids digestion, boosts immunity, and helps relieve cold and sore throat naturally.', image: '/assets/dry-ginger-benefits.webp' }
     ],
-    smallImages: ['/assets/dry-ginger-small-1.webp', '/assets/dry-ginger-small-2.webp', '/assets/dry-ginger-small-3.jpg', '/assets/dry-ginger-small-4.jpg'],
+    smallImages: ['/assets/dry-ginger-small-1.webp', '/assets/dry-ginger-small-2.webp', '/assets/dry-ginger-small-3.webp', '/assets/dry-ginger-small-4.webp'],
     sourcing: { farm: 'Traditional Ginger Farms of Wayanad, Kerala', type: 'Sun-Dried & Naturally Processed', harvestSeason: 'December to April • Winter Harvest' }
     , faqs: [
       {
@@ -818,8 +818,8 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Almond',
     slug: 'almond',
     category: 'Nuts & Honey',
-    imageFront: '/assets/almond-front.jpg',
-    imageBack: '/assets/almond-back.jpeg',
+    imageFront: '/assets/almond-front.webp',
+    imageBack: '/assets/almond-back.webp',
     imageBg: '/assets/almond-bg.webp',
 
     description: `**Flavours by Vanya Almond** is carefully sourced from trusted quality suppliers and hygienically packed by **Vanya Eco Products in Wayanad, Kerala.** Since almonds are not naturally grown in Wayanad, we focus on selecting premium quality almonds that meet our standards for freshness, taste, size, and natural goodness.\n\n
@@ -838,12 +838,12 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
       {
         title: 'Sourcing & Quality',
         text: 'Almonds are carefully sourced from trusted quality suppliers, since they are not grown in Wayanad. Each batch is selected for freshness, size, texture, and natural taste.',
-        image: '/assets/almond-sourcing.jpg'
+        image: '/assets/almond-sourcing.webp'
       },
       {
         title: 'Processing & Packaging',
         text: 'Cleaned, quality checked, and hygienically packed in premium moisture proof pouches by Vanya Eco Products in Wayanad to maintain freshness, crunch, and flavour.',
-        image: '/assets/almond-processing.jpg'
+        image: '/assets/almond-processing.webp'
       },
       {
         title: 'Health Benefits',
@@ -854,9 +854,9 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
 
     smallImages: [
       '/assets/almond-small-1.webp',
-      '/assets/almond-small-2.jpg',
-      '/assets/almond-small-3.jpg',
-      '/assets/almond-small-4.jpg'
+      '/assets/almond-small-2.webp',
+      '/assets/almond-small-3.webp',
+      '/assets/almond-small-4.webp'
     ],
 
     sourcing: {
@@ -889,8 +889,8 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     slug: 'cashew',
     category: 'Nuts & Honey',
     imageFront: '/assets/cashew-front.webp',
-    imageBack: '/assets/cashew-back.jpg',
-    imageBg: '/assets/cashew-bg.jpg',
+    imageBack: '/assets/cashew-back.webp',
+    imageBg: '/assets/cashew-bg.webp',
     description: `**Flavours by Vanya Cashews** are grown in the fertile, organic farms of **Wayanad, Kerala,** where rich soil, abundant rainfall, and pure mountain air create ideal conditions for premium-quality cashews. These nuts are nurtured naturally, free from chemical fertilizers and pesticides, ensuring purity, superior flavour, and excellent texture. Hand-harvested at peak maturity, the cashews are sun-dried carefully to retain their natural oils, crunch, and aromatic sweetness.\n\n
     Cashews from Wayanad are renowned for their creamy texture, natural sweetness, and versatile culinary applications. **Flavours by Vanya Cashews** are perfect for snacking, desserts, curries, and festive dishes. The careful selection and processing ensure that every nut delivers consistent quality, taste, and freshness.\n\n
     Each batch is packed in premium, moisture proof pouches to preserve flavour, aroma, and texture. With every bite, you enjoy the natural goodness, rich heritage, and organic purity of Wayanad’s highlands.\n\n
@@ -899,11 +899,11 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     shortDescriptionForHomePage: 'Creamy, aromatic, and wholesome our Wayanad Cashews enrich meals, snacks, and desserts naturally.',
     shortDescription: 'Sourced from organic Wayanad farms, Cashews deliver natural creaminess, aroma, and nutrition. Ideal for snacking, desserts, and culinary creations.',
     descriptionSections: [
-      { title: 'Sourcing & Quality', text: 'Organically grown in Wayanad, hand-harvested at peak maturity, sun-dried, and carefully processed to maintain flavour and crunch.', image: '/assets/cashew-sourcing.jpg' },
-      { title: 'Processing & Packaging', text: 'Sun dried, sorted, and packed in premium, moisture proof pouches to preserve freshness, aroma, and texture.', image: '/assets/cashew-processing.jpeg' },
-      { title: 'Health Benefits', text: 'Cashews are rich in healthy fats, protein, antioxidants, and minerals, supporting heart health, bone strength, and overall wellness.', image: '/assets/cashew-benefits.jpg' }
+      { title: 'Sourcing & Quality', text: 'Organically grown in Wayanad, hand-harvested at peak maturity, sun-dried, and carefully processed to maintain flavour and crunch.', image: '/assets/cashew-sourcing.webp' },
+      { title: 'Processing & Packaging', text: 'Sun dried, sorted, and packed in premium, moisture proof pouches to preserve freshness, aroma, and texture.', image: '/assets/cashew-processing.webp' },
+      { title: 'Health Benefits', text: 'Cashews are rich in healthy fats, protein, antioxidants, and minerals, supporting heart health, bone strength, and overall wellness.', image: '/assets/cashew-benefits.webp' }
     ],
-    smallImages: ['/assets/cashew-small-1.jpg', '/assets/cashew-small-2.jpeg', '/assets/cashew-small-3.jpg', '/assets/cashew-small-4.jpg'],
+    smallImages: ['/assets/cashew-small-1.webp', '/assets/cashew-small-2.webp', '/assets/cashew-small-3.webp', '/assets/cashew-small-4.webp'],
     sourcing: { farm: 'Organic Cashew Estates of Wayanad Highlands, Kerala', type: 'Traditional & Organic Cultivation', harvestSeason: 'October to February • Peak Harvest' }
     , faqs: [
       {
@@ -928,9 +928,9 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Honey',
     slug: 'honey',
     category: 'Nuts & Honey',
-    imageFront: '/assets/honey-front.jpg',
-    imageBack: '/assets/honey-back.jpg',
-    imageBg: '/assets/honey-bg.jpg',
+    imageFront: '/assets/honey-front.webp',
+    imageBack: '/assets/honey-back.webp',
+    imageBg: '/assets/honey-bg.webp',
     description: `From the unspoiled forests of **Wayanad, Kerala,** comes **Flavours by Vanya Forest Honey,** a golden elixir harvested from wild, organic hives nestled deep in the highlands. This honey is a pure gift of nature, produced by bees that collect nectar from a diverse range of native flowers, herbs, and forest plants, resulting in a rich, aromatic, and naturally sweet honey with complex flavour notes unique to Wayanad’s ecosystems.\n\n
     Our forest honey is carefully harvested by local beekeepers who follow sustainable, traditional methods to ensure the health of bee colonies and the purity of the honey. No additives, no artificial processing just the untouched goodness of forest nectar. Each batch is strained lightly to remove impurities while preserving the natural enzymes, pollen, and antioxidants that make this honey a superfood.\n\n
     The deep amber hue and full bodied aroma of **Flavours by Vanya Forest Honey** reflect the richness of Wayanad’s flora. Its taste is naturally sweet with subtle hints of floral, herbal, and earthy undertones, making it ideal for drizzling over breakfast, mixing in teas, enhancing desserts, or enjoying by the spoonful.\n\n
@@ -939,11 +939,11 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     shortDescriptionForHomePage: 'Pure, golden, and naturally aromatic our Wayanad Forest Honey brings the sweetness of untouched forests to your table.',
     shortDescription: 'Harvested from wild Wayanad forests, this honey is rich, aromatic, and full of natural enzymes, antioxidants, and floral notes. Ideal for teas, desserts, and wellness.',
     descriptionSections: [
-      { title: 'Sourcing & Quality', text: 'Collected from wild, organic hives in Wayanad’s highlands using sustainable beekeeping practices, ensuring purity and richness in every batch.', image: '/assets/honey-sourcing.jpg' },
-      { title: 'Processing & Packaging', text: 'Lightly strained to preserve enzymes, antioxidants, and natural aroma, then packed in premium glass jars to maintain freshness and quality.', image: '/assets/honey-processing.jpg' },
-      { title: 'Health Benefits', text: 'Forest Honey supports immunity, digestion, energy, and overall wellness. Rich in antioxidants and natural nutrients, it is a pure gift from nature.', image: '/assets/honey-benefits.jpg' }
+      { title: 'Sourcing & Quality', text: 'Collected from wild, organic hives in Wayanad’s highlands using sustainable beekeeping practices, ensuring purity and richness in every batch.', image: '/assets/honey-sourcing.webp' },
+      { title: 'Processing & Packaging', text: 'Lightly strained to preserve enzymes, antioxidants, and natural aroma, then packed in premium glass jars to maintain freshness and quality.', image: '/assets/honey-processing.webp' },
+      { title: 'Health Benefits', text: 'Forest Honey supports immunity, digestion, energy, and overall wellness. Rich in antioxidants and natural nutrients, it is a pure gift from nature.', image: '/assets/honey-benefits.webp' }
     ],
-    smallImages: ['/assets/honey-small-1.webp', '/assets/honey-small-2.jpg', '/assets/honey-small-3.jpeg', '/assets/honey-small-4.jpeg'],
+    smallImages: ['/assets/honey-small-1.webp', '/assets/honey-small-2.webp', '/assets/honey-small-3.webp', '/assets/honey-small-4.webp'],
     sourcing: { farm: 'Wild Forest Hives of Wayanad Highlands, Kerala', type: '100% Organic & Sustainable Harvesting', harvestSeason: 'November to March • Peak Nectar Season' }
     , faqs: [
       {
@@ -972,9 +972,9 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Earl Grey Tea',
     slug: 'earl-grey-tea',
     category: 'Beverage',
-    imageFront: '/assets/earl-grey-front.jpg',
+    imageFront: '/assets/earl-grey-front.webp',
     imageBack: '/assets/earl-grey-back.webp',
-    imageBg: '/assets/earl-grey-bg.cms',
+    imageBg: '/assets/earl-grey-bg.webp',
     description: `**Flavours by Vanya Earl Grey Tea** is a premium black tea blend infused with natural bergamot essence, sourced from organic plantations in **Wayanad, Kerala.** The highland climate, misty hills, and fertile soil of Wayanad give our tea leaves a robust, full-bodied flavour with delicate floral undertones. Bergamot adds a refreshing citrusy aroma that elevates the tea-drinking experience.\n\n
     Each leaf is handpicked at peak freshness, carefully withered, rolled, and oxidized under traditional methods to ensure maximum flavour and natural antioxidants. The careful blending of Wayanad tea leaves with bergamot oil creates a harmonious aroma and taste profile, perfect for both morning and afternoon teas.\n\n
     The premium quality leaves are packed in moisture-proof pouches to retain aroma, colour, and freshness. Every cup carries the essence of Wayanad’s highlands, making each sip a calming, aromatic journey.`,
@@ -986,7 +986,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
       { title: 'Processing & Packaging', text: 'Withered, rolled, and oxidized using traditional methods, then packed in moisture-proof pouches to preserve aroma, colour, and flavour.', image: '/assets/earl-grey-processing.webp' },
       { title: 'Health Benefits', text: 'Rich in antioxidants, supports heart health, aids digestion, and provides calming energy.', image: '/assets/earl-grey-benefits.webp' }
     ],
-    smallImages: ['/assets/earl-grey-small-1.jpeg', '/assets/earl-grey-small-2.jpeg', '/assets/earl-grey-small-3.jpg', '/assets/earl-grey-small-4.webp'],
+    smallImages: ['/assets/earl-grey-small-1.webp', '/assets/earl-grey-small-2.webp', '/assets/earl-grey-small-3.webp', '/assets/earl-grey-small-4.webp'],
     sourcing: { farm: 'Organic Tea Estates of Wayanad Highlands, Kerala', type: '100% Traditional & Organic Cultivation', harvestSeason: 'October to March • Peak Leaf Harvest' }
     , faqs: [
       {
@@ -1012,9 +1012,9 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Green Tea',
     slug: 'green-tea',
     category: 'Beverage',
-    imageFront: '/assets/green-front.jpg',
-    imageBack: '/assets/green-back.jpg',
-    imageBg: '/assets/green-bg.jpg',
+    imageFront: '/assets/green-front.webp',
+    imageBack: '/assets/green-back.webp',
+    imageBg: '/assets/green-bg.webp',
     description: `**Flavours by Vanya Green Tea** is a delicate, antioxidant rich tea sourced from organic gardens in **Wayanad, Kerala.** The highland climate, rich soil, and pure rainfall produce leaves bursting with natural aroma, colour, and beneficial compounds. Our green tea is harvested at the peak of freshness, carefully withered, steamed, and dried to retain its natural enzymes, catechins, and health-promoting antioxidants.\n\n
     Every leaf is handpicked by local farmers committed to organic and sustainable cultivation, ensuring a pure, chemical free product. The natural freshness and subtle flavour of Wayanad Green Tea make it perfect for daily wellness, calming tea rituals, or blending with herbs for a rejuvenating beverage.\n\n
     Packed in moisture proof pouches, it preserves natural aroma and taste, bringing the tranquillity of Wayanad’s highlands directly to your cup.`,
@@ -1022,11 +1022,11 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     shortDescriptionForHomePage: 'Fresh, aromatic, and healthful our Wayanad Green Tea supports wellness with every sip.',
     shortDescription: 'Sourced from organic Wayanad estates, Green Tea retains natural antioxidants and aroma, perfect for daily wellness and calming rituals.',
     descriptionSections: [
-      { title: 'Sourcing & Quality', text: 'Handpicked organic tea leaves from Wayanad, processed to retain antioxidants, aroma, and natural flavour.', image: '/assets/green-sourcing.jpg' },
-      { title: 'Processing & Packaging', text: 'Withered, steamed, and dried using traditional methods, then packed in moisture proof pouches to preserve freshness.', image: '/assets/green-processing.jpg' },
-      { title: 'Health Benefits', text: 'Rich in antioxidants, supports immunity, metabolism, and mental alertness.', image: '/assets/green-benefits.jpg' }
+      { title: 'Sourcing & Quality', text: 'Handpicked organic tea leaves from Wayanad, processed to retain antioxidants, aroma, and natural flavour.', image: '/assets/green-sourcing.webp' },
+      { title: 'Processing & Packaging', text: 'Withered, steamed, and dried using traditional methods, then packed in moisture proof pouches to preserve freshness.', image: '/assets/green-processing.webp' },
+      { title: 'Health Benefits', text: 'Rich in antioxidants, supports immunity, metabolism, and mental alertness.', image: '/assets/green-benefits.webp' }
     ],
-    smallImages: ['/assets/green-small-1.jpg', '/assets/green-small-2.jpg', '/assets/green-small-3.jpeg', '/assets/green-small-4.avif'],
+    smallImages: ['/assets/green-small-1.webp', '/assets/green-small-2.webp', '/assets/green-small-3.webp', '/assets/green-small-4.webp'],
     sourcing: { farm: 'Organic Tea Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to March • Peak Harvest' }
     , faqs: [
       {
@@ -1052,9 +1052,9 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Wayanad Tea',
     slug: 'wayanad-tea',
     category: 'Beverage',
-    imageFront: '/assets/wayanad-tea-front.jpg',
+    imageFront: '/assets/wayanad-tea-front.webp',
     imageBack: '/assets/wayanad-tea-back.webp',
-    imageBg: '/assets/wayanad-tea-bg.jpg',
+    imageBg: '/assets/wayanad-tea-bg.webp',
     description: `**Flavours by Vanya Wayanadan Tea** is a celebration of the pristine highlands of **Wayanad, Kerala,** where misty mountains, fertile soil, and pure rainfall create the perfect environment for growing premium tea. Each leaf is carefully nurtured in organic gardens, absorbing the freshness of mountain air and the richness of nutrient-dense soil. This tea delivers a full-bodied taste, smooth aroma, and natural colour that reflects the untouched beauty of Wayanad’s highlands.\n\n
     Our tea farmers follow traditional, sustainable cultivation practices, ensuring that no chemical fertilizers or pesticides ever touch the plants. Each leaf is handpicked at its peak, withered to reduce moisture, rolled to release essential oils, and gently oxidized to create a flavour profile that balances strength, fragrance, and subtle sweetness. This meticulous attention ensures that every cup of Wayanadan Tea carries the authentic taste of Kerala.\n\n
     Packed carefully in premium, moisture proof pouches, the tea preserves its natural aroma, freshness, and flavour. Ideal for morning rituals, afternoon relaxation, or brewing as a comforting beverage, **Flavours by Vanya Wayanadan Tea** brings the calm, misty highlands of Wayanad straight to your cup.\n\n
@@ -1063,10 +1063,10 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     shortDescription: 'Handpicked from organic Wayanad gardens, this tea delivers smooth flavour, natural aroma, and the rich essence of Kerala’s highlands.',
     descriptionSections: [
       { title: 'Sourcing & Quality', text: 'Handpicked organic leaves from Wayanad, grown in chemical free gardens, retaining natural aroma and antioxidants.', image: '/assets/wayanad-tea-sourcing.webp' },
-      { title: 'Processing & Packaging', text: 'Withered, rolled, oxidized traditionally, and packed in moisture proof pouches to preserve freshness, flavour, and colour.', image: '/assets/wayanad-tea-processing.jpeg' },
+      { title: 'Processing & Packaging', text: 'Withered, rolled, oxidized traditionally, and packed in moisture proof pouches to preserve freshness, flavour, and colour.', image: '/assets/wayanad-tea-processing.webp' },
       { title: 'Health Benefits', text: 'Supports immunity, metabolism, mental alertness, and overall wellness, rich in natural antioxidants.', image: '/assets/wayanad-tea-benefits.webp' }
     ],
-    smallImages: ['/assets/wayanad-tea-small-1.jpg', '/assets/wayanad-tea-small-2.avif', '/assets/wayanad-tea-small-3.jpg', '/assets/wayanad-tea-small-4.jpg'],
+    smallImages: ['/assets/wayanad-tea-small-1.webp', '/assets/wayanad-tea-small-2.webp', '/assets/wayanad-tea-small-3.webp', '/assets/wayanad-tea-small-4.webp'],
     sourcing: { farm: 'Organic Tea Gardens of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to March • Peak Leaf Harvest' }
     , faqs: [
       {
@@ -1092,8 +1092,8 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Wayanad Coffee',
     slug: 'wayanad-coffee',
     category: 'Beverage',
-    imageFront: '/assets/wayanad-coffee-front.jpg',
-    imageBack: '/assets/wayanad-coffee-back.jpeg',
+    imageFront: '/assets/wayanad-coffee-front.webp',
+    imageBack: '/assets/wayanad-coffee-back.webp',
     imageBg: '/assets/wayanad-coffee-bg.webp',
     description: `**Flavours by Vanya Wayanadan Coffee** originates from the lush, fertile hills of **Wayanad, Kerala,** where rich red soil, tropical rains, and cool mountain air create the ideal conditions for premium coffee cultivation. The coffee cherries are nurtured organically, ensuring slow, natural ripening that brings out the bold aroma, smooth flavour, and deep colour of the beans.\n\n
     Local farmers, following age old organic practices, handpick the coffee cherries at peak ripeness. They are then sun dried under natural sunlight, carefully hulled, and roasted in small batches to preserve essential oils, natural flavour, and aromatic richness. Each step is carried out with meticulous attention to maintain purity, quality, and taste.\n\n
@@ -1103,11 +1103,11 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     shortDescriptionForHomePage: 'Bold, aromatic, and naturally smooth Wayanad Coffee brings the highlands to your cup.',
     shortDescription: 'Sourced from organic Wayanad estates, these coffee beans deliver rich aroma, smooth flavour, and premium quality for every brew.',
     descriptionSections: [
-      { title: 'Sourcing & Quality', text: 'Handpicked organic coffee cherries from Wayanad, sun-dried and processed naturally to retain full aroma and flavour.', image: '/assets/wayanad-coffee-sourcing.jpg' },
+      { title: 'Sourcing & Quality', text: 'Handpicked organic coffee cherries from Wayanad, sun-dried and processed naturally to retain full aroma and flavour.', image: '/assets/wayanad-coffee-sourcing.webp' },
       { title: 'Processing & Packaging', text: 'Sun dried, hulled, roasted in small batches, and packed in premium, moisture proof pouches for freshness.', image: '/assets/wayanad-coffee-processing.webp' },
       { title: 'Health Benefits', text: 'Rich in antioxidants, enhances alertness, boosts metabolism, and supports overall wellness.', image: '/assets/wayanad-coffee-benefits.webp' }
     ],
-    smallImages: ['/assets/wayanad-coffee-small-1.jpeg', '/assets/wayanad-coffee-small-2.jpg', '/assets/wayanad-coffee-small-3.webp', '/assets/wayanad-coffee-small-4.jpg'],
+    smallImages: ['/assets/wayanad-coffee-small-1.webp', '/assets/wayanad-coffee-small-2.webp', '/assets/wayanad-coffee-small-3.webp', '/assets/wayanad-coffee-small-4.webp'],
     sourcing: { farm: 'Organic Coffee Estates of Wayanad Highlands, Kerala', type: '100% Traditional & Organic Cultivation', harvestSeason: 'October to January • Peak Cherry Harvest' }
     , faqs: [
       {
@@ -1134,7 +1134,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     slug: 'masala-coffee',
     category: 'Beverage',
     imageFront: '/assets/masala-coffee-front.webp',
-    imageBack: '/assets/masala-coffee-back.jpg',
+    imageBack: '/assets/masala-coffee-back.webp',
     imageBg: '/assets/masala-coffee-bg.webp',
     description: `**Flavours by Vanya Masala Coffee** combines the bold richness of Wayanad coffee with a traditional blend of aromatic spices like cardamom, cloves, cinnamon, and black pepper. Grown organically in **Wayanad, Kerala,** each ingredient is nurtured naturally, absorbing the freshness of highland air and nutrient rich soil. The result is a warm, flavourful, and invigorating coffee experience infused with the heritage of Kerala spices.\n\n
     Coffee beans and spices are handpicked at peak maturity and roasted in small batches to release their natural oils, aroma, and depth of flavour. The careful blending ensures every cup delivers a harmonious balance of spice, richness, and smooth coffee taste. Packed in moisture proof pouches, it preserves aroma, colour, and freshness, making it easy to brew an authentic cup at home.\n\n
@@ -1142,11 +1142,11 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     shortDescriptionForHomePage: 'Spiced, aromatic, and bold our Wayanad Masala Coffee is a warm, flavourful delight.',
     shortDescription: 'Sourced from organic Wayanad coffee and spices, this blend delivers bold aroma, smooth flavour, and the rich warmth of Kerala’s highlands.',
     descriptionSections: [
-      { title: 'Sourcing & Quality', text: 'Organic coffee beans and spices from Wayanad, carefully roasted and blended to retain aroma and potency.', image: '/assets/masala-coffee-sourcing.jpg' },
-      { title: 'Processing & Packaging', text: 'Small batch roasting and blending, packed in moisture proof pouches for freshness and flavour.', image: '/assets/masala-coffee-processing.jpeg' },
-      { title: 'Health Benefits', text: 'Supports alertness, digestion, immunity, and overall wellness with antioxidant-rich coffee and spices.', image: '/assets/masala-coffee-benefits.jpg' }
+      { title: 'Sourcing & Quality', text: 'Organic coffee beans and spices from Wayanad, carefully roasted and blended to retain aroma and potency.', image: '/assets/masala-coffee-sourcing.webp' },
+      { title: 'Processing & Packaging', text: 'Small batch roasting and blending, packed in moisture proof pouches for freshness and flavour.', image: '/assets/masala-coffee-processing.webp' },
+      { title: 'Health Benefits', text: 'Supports alertness, digestion, immunity, and overall wellness with antioxidant-rich coffee and spices.', image: '/assets/masala-coffee-benefits.webp' }
     ],
-    smallImages: ['/assets/masala-coffee-small-1.webp', '/assets/masala-coffee-small-2.webp', '/assets/masala-coffee-small-3.webp', '/assets/masala-coffee-small-4.jpg'],
+    smallImages: ['/assets/masala-coffee-small-1.webp', '/assets/masala-coffee-small-2.webp', '/assets/masala-coffee-small-3.webp', '/assets/masala-coffee-small-4.webp'],
     sourcing: { farm: 'Organic Coffee & Spice Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Harvest' }
     , faqs: [
       {
@@ -1172,9 +1172,9 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Ginger Coffee',
     slug: 'ginger-coffee',
     category: 'Beverage',
-    imageFront: '/assets/ginger-coffee-front.jpg',
-    imageBack: '/assets/ginger-coffee-back.jpeg',
-    imageBg: '/assets/ginger-coffee-bg.jpg',
+    imageFront: '/assets/ginger-coffee-front.webp',
+    imageBack: '/assets/ginger-coffee-back.webp',
+    imageBg: '/assets/ginger-coffee-bg.webp',
     description: `**Flavours by Vanya Ginger Coffee** is a unique, invigorating blend crafted from the organic coffee beans of **Wayanad, Kerala,** and fresh, aromatic ginger. The highlands of Wayanad provide the perfect environment nutrient-rich red soil, abundant rainfall, and cool mountain air to cultivate coffee that is naturally bold, smooth, and aromatic. Ginger, carefully grown in organic farms nearby, adds a warm, spicy kick, enhancing both flavour and wellness.\n\n
     The coffee beans are handpicked at peak maturity, sun dried, and roasted in small batches to preserve the natural oils, aroma, and richness of Wayanad’s highlands. Fresh ginger is carefully dried and powdered to retain its zesty warmth and medicinal properties. The combination of these two ingredients results in a coffee that is energizing, aromatic, and deeply flavourful.\n\n
     Perfect for morning routines, cozy evenings, or a warming drink during monsoon days, **Flavours by Vanya Ginger Coffee** provides an authentic taste of Kerala, blending tradition, flavour, and natural wellness in every cup.`,
@@ -1182,11 +1182,11 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     shortDescriptionForHomePage: 'Aromatic, warming, and invigorating our Wayanad Ginger Coffee energizes your day naturally.',
     shortDescription: 'Sourced from organic Wayanad coffee and ginger, this blend delivers bold aroma, smooth flavour, and warming spice for every cup.',
     descriptionSections: [
-      { title: 'Sourcing & Quality', text: 'Organic coffee beans and ginger from Wayanad, handpicked and processed to retain flavour, aroma, and health properties.', image: '/assets/ginger-coffee-sourcing.jpg' },
-      { title: 'Processing & Packaging', text: 'Small batch roasting and blending, packed in moisture proof pouches to maintain aroma, flavour, and freshness.', image: '/assets/ginger-coffee-processing.avif' },
+      { title: 'Sourcing & Quality', text: 'Organic coffee beans and ginger from Wayanad, handpicked and processed to retain flavour, aroma, and health properties.', image: '/assets/ginger-coffee-sourcing.webp' },
+      { title: 'Processing & Packaging', text: 'Small batch roasting and blending, packed in moisture proof pouches to maintain aroma, flavour, and freshness.', image: '/assets/ginger-coffee-processing.webp' },
       { title: 'Health Benefits', text: 'Supports energy, digestion, immunity, and overall wellness. Ginger adds natural warmth and anti-inflammatory benefits.', image: '/assets/ginger-coffee-benefits.webp' }
     ],
-    smallImages: ['/assets/ginger-coffee-small-1.jpg', '/assets/ginger-coffee-small-2.jpg', '/assets/ginger-coffee-small-3.jpg', '/assets/ginger-coffee-small-4.jpg'],
+    smallImages: ['/assets/ginger-coffee-small-1.webp', '/assets/ginger-coffee-small-2.webp', '/assets/ginger-coffee-small-3.webp', '/assets/ginger-coffee-small-4.webp'],
     sourcing: { farm: 'Organic Coffee & Ginger Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Coffee & Ginger Harvest' }
     , faqs: [
       {
@@ -1212,9 +1212,9 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Cardamom Tea',
     slug: 'cardamom-tea',
     category: 'Beverage',
-    imageFront: '/assets/cardamom-tea-front.jpeg',
-    imageBack: '/assets/cardamom-tea-back.jpg',
-    imageBg: '/assets/cardamom-tea-bg.jpg',
+    imageFront: '/assets/cardamom-tea-front.webp',
+    imageBack: '/assets/cardamom-tea-back.webp',
+    imageBg: '/assets/cardamom-tea-bg.webp',
     description: `**Flavours by Vanya Cardamom Tea** is a premium blend from **Wayanad, Kerala,** where organic tea gardens and spice farms thrive in misty highlands. Our tea leaves are handpicked from organic estates, carefully withered, rolled, and dried to retain aroma and antioxidants. The addition of fresh, aromatic cardamom pods brings a delicate, sweet, and floral fragrance that perfectly complements the rich taste of Wayanad tea.\n\n
     Cultivated without synthetic fertilizers or pesticides, this tea embodies purity, wellness, and natural flavour. The unique terroir of Wayanad ensures a smooth, full bodied cup with subtle hints of spice, creating a warming and comforting experience. Each batch is packed in moisture proof pouches to preserve freshness and aroma, bringing the highlands’ charm directly to your cup.\n\n
     Enjoy it as a morning energizer, afternoon delight, or a calming evening beverage. **Flavours by Vanya Cardamom Tea** connects you to Kerala’s rich tea and spice heritage in every sip.`,
@@ -1222,10 +1222,10 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     shortDescription: 'Organic Wayanad tea leaves infused with fragrant cardamom provide smooth taste, aroma, and wellness benefits.',
     descriptionSections: [
       { title: 'Sourcing & Quality', text: 'Handpicked organic tea and cardamom pods from Wayanad, retaining natural antioxidants and aroma.', image: '/assets/cardamom-tea-sourcing.webp' },
-      { title: 'Processing & Packaging', text: 'Withered, rolled, and blended traditionally, packed in moisture proof pouches for freshness and flavour.', image: '/assets/cardamom-tea-processing.jpg' },
-      { title: 'Health Benefits', text: 'Rich in antioxidants, supports digestion, immunity, and mental clarity, with warming properties from cardamom.', image: '/assets/cardamom-tea-benefits.jpg' }
+      { title: 'Processing & Packaging', text: 'Withered, rolled, and blended traditionally, packed in moisture proof pouches for freshness and flavour.', image: '/assets/cardamom-tea-processing.webp' },
+      { title: 'Health Benefits', text: 'Rich in antioxidants, supports digestion, immunity, and mental clarity, with warming properties from cardamom.', image: '/assets/cardamom-tea-benefits.webp' }
     ],
-    smallImages: ['/assets/cardamom-tea-small-1.jpeg', '/assets/cardamom-tea-small-2.jpg', '/assets/cardamom-tea-small-3.jpg', '/assets/cardamom-tea-small-4.jpg'],
+    smallImages: ['/assets/cardamom-tea-small-1.webp', '/assets/cardamom-tea-small-2.webp', '/assets/cardamom-tea-small-3.webp', '/assets/cardamom-tea-small-4.webp'],
     sourcing: { farm: 'KeraOrganic Tea & Cardamom Estates of Wayanad Highlands, Keralala', type: 'Traditional & Organic Cultivation', harvestSeason: 'October to March • Peak Leaf & Pod Harvest' }
     , faqs: [
       {
@@ -1251,9 +1251,9 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Masala Tea',
     slug: 'masala-tea',
     category: 'Beverage',
-    imageFront: '/assets/masala-tea-front.jpg',
-    imageBack: '/assets/masala-tea-back.jpg',
-    imageBg: '/assets/masala-tea-bg.jpg',
+    imageFront: '/assets/masala-tea-front.webp',
+    imageBack: '/assets/masala-tea-back.webp',
+    imageBg: '/assets/masala-tea-bg.webp',
     description: `**Flavours by Vanya Masala Tea** is a wholesome, aromatic tea blend made from organic Wayanad tea leaves and a medley of natural spices including cardamom, cinnamon, cloves, and ginger. Grown in the misty highlands of **Wayanad, Kerala,** the tea leaves absorb the freshness of mountain air, while the spices are cultivated organically to enhance aroma, flavour, and wellness benefits.\n\n
     Each leaf and spice is handpicked, carefully processed, and blended to perfection, ensuring that every cup delivers a full bodied flavour, warming aroma, and subtle spice. The blend is sun-dried, minimally processed, and packed in premium pouches to preserve freshness, natural oils, and antioxidants.\n\n
     Ideal for mornings, evenings, or chilly days, **Flavours by Vanya Masala Tea** energizes, comforts, and adds a touch of Kerala’s spice heritage to your daily routine. Every sip reflects the purity, tradition, and natural goodness of Wayanad.`,
@@ -1261,11 +1261,11 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     shortDescriptionForHomePage: 'Spiced, aromatic, and warming our Wayanad Masala Tea energizes and delights naturally.',
     shortDescription: 'Sourced from organic Wayanad tea and spices, Masala Tea delivers full-bodied flavour, aroma, and wellness benefits.',
     descriptionSections: [
-      { title: 'Sourcing & Quality', text: 'Handpicked tea and organic spices from Wayanad, carefully processed to retain aroma, colour, and natural antioxidants.', image: '/assets/masala-tea-sourcing.jpg' },
-      { title: 'Processing & Packaging', text: 'Sun dried, blended traditionally, and packed in moisture proof pouches to preserve freshness and aroma.', image: '/assets/masala-tea-processing.jpg' },
+      { title: 'Sourcing & Quality', text: 'Handpicked tea and organic spices from Wayanad, carefully processed to retain aroma, colour, and natural antioxidants.', image: '/assets/masala-tea-sourcing.webp' },
+      { title: 'Processing & Packaging', text: 'Sun dried, blended traditionally, and packed in moisture proof pouches to preserve freshness and aroma.', image: '/assets/masala-tea-processing.webp' },
       { title: 'Health Benefits', text: 'Supports immunity, digestion, and metabolism, while offering calming and warming properties.', image: '/assets/masala-tea-benefits.webp' }
     ],
-    smallImages: ['/assets/masala-tea-small-1.jpg', '/assets/masala-tea-small-2.jpg', '/assets/masala-tea-small-3.webp', '/assets/masala-tea-small-4.jpg'],
+    smallImages: ['/assets/masala-tea-small-1.webp', '/assets/masala-tea-small-2.webp', '/assets/masala-tea-small-3.webp', '/assets/masala-tea-small-4.webp'],
     sourcing: { farm: 'Organic Tea & Spice Estates of Wayanad Highlands, Kerala', type: '100% Traditional & Organic Cultivation', harvestSeason: 'October to March • Peak Leaf & Spice Harvest' }
     , faqs: [
       {
@@ -1291,20 +1291,20 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Ginger Tea',
     slug: 'ginger-tea',
     category: 'Beverage',
-    imageFront: '/assets/ginger-tea-front.jpg',
+    imageFront: '/assets/ginger-tea-front.webp',
     imageBack: '/assets/ginger-tea-back.webp',
-    imageBg: '/assets/ginger-tea-bg.jpg',
+    imageBg: '/assets/ginger-tea-bg.webp',
     description: `**Flavours by Vanya Ginger Tea** is a rejuvenating blend of organic Wayanad tea leaves and aromatic ginger, cultivated in the misty highlands of **Wayanad, Kerala.** The fertile red soil, clean mountain air, and abundant rainfall ensure the leaves are rich in natural antioxidants, flavour, and aroma, while the ginger adds a warming, zesty character that energizes and comforts.\n\n
     Ginger and tea leaves are handpicked at peak maturity, sun-dried, and minimally processed to preserve natural oils, flavour, and health benefits. The careful blending results in a tea that is smooth, invigorating, and naturally aromatic. Each batch is packed in premium, moisture-proof pouches, ensuring the aroma and freshness reach your cup just as nature intended.\n\n
     Perfect for mornings, chilly evenings, or wellness rituals, **Flavours by Vanya Ginger Tea** blends tradition, purity, and flavour in every sip.`,
     shortDescriptionForHomePage: 'Zesty, warming, and refreshing our Wayanad Ginger Tea rejuvenates and energizes naturally.',
     shortDescription: 'Organic Wayanad tea leaves blended with fresh ginger deliver smooth flavour, aroma, and wellness benefits.',
     descriptionSections: [
-      { title: 'Sourcing & Quality', text: 'Handpicked tea and ginger from Wayanad, grown organically, retaining natural antioxidants, aroma, and freshness.', image: '/assets/ginger-tea-sourcing.jpg' },
-      { title: 'Processing & Packaging', text: 'Sun dried, blended traditionally, and packed in moisture proof pouches to preserve aroma, flavour, and quality.', image: '/assets/ginger-tea-processing.jpg' },
-      { title: 'Health Benefits', text: 'Supports immunity, digestion, energy, and overall wellness with natural antioxidant and anti-inflammatory properties.', image: '/assets/ginger-tea-benefits.avif' }
+      { title: 'Sourcing & Quality', text: 'Handpicked tea and ginger from Wayanad, grown organically, retaining natural antioxidants, aroma, and freshness.', image: '/assets/ginger-tea-sourcing.webp' },
+      { title: 'Processing & Packaging', text: 'Sun dried, blended traditionally, and packed in moisture proof pouches to preserve aroma, flavour, and quality.', image: '/assets/ginger-tea-processing.webp' },
+      { title: 'Health Benefits', text: 'Supports immunity, digestion, energy, and overall wellness with natural antioxidant and anti-inflammatory properties.', image: '/assets/ginger-tea-benefits.webp' }
     ],
-    smallImages: ['/assets/ginger-tea-small-1.jpg', '/assets/ginger-tea-small-2.jpeg', '/assets/ginger-tea-small-3.jpeg', '/assets/ginger-tea-small-4.jpg'],
+    smallImages: ['/assets/ginger-tea-small-1.webp', '/assets/ginger-tea-small-2.webp', '/assets/ginger-tea-small-3.webp', '/assets/ginger-tea-small-4.webp'],
     sourcing: { farm: 'Organic Tea & Ginger Estates of Wayanad Highlands, Kerala', type: 'Orga100% Organic & Traditional Cultivationnic', harvestSeason: 'October to January • Peak Leaf & Ginger Harvest' }
     , faqs: [
       {
@@ -1330,9 +1330,9 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: 'Lemon Tea',
     slug: 'lemon-tea',
     category: 'Beverage',
-    imageFront: '/assets/honey-lemon-tea.jpeg',
-    imageBack: '/assets/lemon-tea-back.jpg',
-    imageBg: '/assets/lemon-tea-bg.jpg',
+    imageFront: '/assets/lemon-tea-front.webp',
+    imageBack: '/assets/lemon-tea-back.webp',
+    imageBg: '/assets/lemon-tea-bg.webp',
     description: `**Flavours by Vanya Lemon Tea** is a bright, refreshing tea made from organic Wayanad tea leaves and dried lemon peels. The tea leaves are cultivated in the highlands of **Wayanad, Kerala,** where cool mountain air, fertile soil, and natural rainfall produce leaves with robust flavour, aroma, and antioxidants. Lemon peels are carefully sun-dried to retain their natural zest, aroma, and vitamin C content.\n\n
     Handpicked and processed traditionally, this blend combines smooth tea flavour with the tangy brightness of lemon, creating a naturally refreshing, uplifting beverage. Packed in premium, moisture-proof pouches, it preserves freshness, aroma, and colour, making it ideal for daily tea rituals, detox routines, or a refreshing beverage any time of the day.\n\n
     Every sip of **Flavours by Vanya Lemon Tea** carries the freshness, purity, and vitality of Wayanad, offering a taste of Kerala’s pristine highlands in a cup.`,
@@ -1340,11 +1340,11 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     shortDescription: 'Organic Wayanad tea leaves blended with dried lemon peel deliver smooth flavour, aroma, and a refreshing zest in every cup.',
 
     descriptionSections: [
-      { title: 'Sourcing & Quality', text: 'Handpicked tea and organic lemon peel from Wayanad, retaining natural flavour, aroma, and antioxidants.', image: '/assets/lemon-tea-sourcing.jpg' },
-      { title: 'Processing & Packaging', text: 'Sun dried, blended traditionally, and packed in moisture proof pouches to preserve freshness, aroma, and colour.', image: '/assets/lemon-tea-processing.jpg' },
-      { title: 'Health Benefits', text: 'Supports immunity, digestion, detoxification, and overall wellness with natural antioxidants and vitamin C.', image: '/assets/lemon-tea-benefits.jpeg' }
+      { title: 'Sourcing & Quality', text: 'Handpicked tea and organic lemon peel from Wayanad, retaining natural flavour, aroma, and antioxidants.', image: '/assets/lemon-tea-sourcing.webp' },
+      { title: 'Processing & Packaging', text: 'Sun dried, blended traditionally, and packed in moisture proof pouches to preserve freshness, aroma, and colour.', image: '/assets/lemon-tea-processing.webp' },
+      { title: 'Health Benefits', text: 'Supports immunity, digestion, detoxification, and overall wellness with natural antioxidants and vitamin C.', image: '/assets/lemon-tea-benefits.webp' }
     ],
-    smallImages: ['/assets/lemon-tea-small-1.jpg', '/assets/lemon-tea-small-2.jpg', '/assets/lemon-tea-small-3.jpg', '/assets/lemon-tea-small-4.webp'],
+    smallImages: ['/assets/lemon-tea-small-1.webp', '/assets/lemon-tea-small-2.webp', '/assets/lemon-tea-small-3.webp', '/assets/lemon-tea-small-4.webp'],
     sourcing: { farm: 'Organic Tea & Lemon Estates of Wayanad Highlands, Kerala', type: '100% Organic & Traditional Cultivation', harvestSeason: 'October to January • Peak Leaf & Citrus Harvest' }
     ,
     faqs: [
@@ -1373,9 +1373,9 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     name: "Pure Virgin Coconut Oil - Cold Pressed",
     slug: "pure-virgin-coconut-oil-cold-pressed",
     category: "Coconut Oil",
-    imageFront: "/assets/coconut-cold.png",
+    imageFront: "/assets/coconut-cold.webp",
     imageBack: "/assets/coconut-cold-back.webp",
-    imageBg: "/assets/coconut-bg.jpg",
+    imageBg: "/assets/coconut-bg.webp",
     description: `From the serene coconut groves of **Kuttiyadi, Kerala**, comes our **Flavours by Vanya Pure Virgin Coconut Oil – Cold Pressed**, a symbol of purity and tradition. Each drop carries the freshness of handpicked coconuts grown in the fertile coastal soils of Kerala. The oil is carefully extracted using the traditional **wooden cold-press (chekku)** method, ensuring that the natural aroma, nutrients, and flavor remain untouched by heat or chemicals.\n\n
 Unlike refined oils, this cold-pressed virgin oil is not just an ingredient it’s a wholesome essence of wellness. Rich in **lauric acid, vitamin E, and natural antioxidants**, it supports heart health, nourishes skin and hair, and enhances immunity. Its smooth texture and mild aroma make it ideal for cooking, skincare, oil pulling, and massage bringing a touch of Kerala’s natural goodness to your everyday life.\n\n
 Every bottle reflects the essence of sustainability and authenticity, crafted in small batches with care. From tree to press to pack, we ensure every step preserves its natural integrity. Experience the **true purity of Kerala’s coconut heritage** with every spoonful of this golden oil.`,
@@ -1402,13 +1402,6 @@ Unlike refined oils, cold-pressed coconut oil keeps its essential antioxidants, 
         image: '/assets/coconut-processing.webp',
       },
     ],
-
-    /*  smallImages: [
-       '/assets/coconut-small-1.webp',
-       '/assets/coconut-small-2.webp',
-       '/assets/coconut-small-3.webp',
-       '/assets/coconut-small-4.webp',
-     ], */
 
     sourcing: {
       farm: 'Coastal Coconut Groves of Kuttiyadi, Kerala',
@@ -1442,7 +1435,7 @@ Unlike refined oils, cold-pressed coconut oil keeps its essential antioxidants, 
     category: "Coconut Oil",
     imageFront: "/assets/coconut-hot-sourcing.webp",
     imageBack: "/assets/coconut-hot-back.webp",
-    imageBg: "/assets/coconut-hot.jpg",
+    imageBg: "/assets/coconut-hot.webp",
     description: `**Flavours by Vanya Vendha Velichenna** (Urukku Velichenna) is Kerala’s traditional **hot-processed virgin coconut oil**, made by boiling pure coconut milk until the oil naturally separates. This heritage method, passed down through generations, produces a golden, aromatic oil known for its purity, nutrition, and healing properties.\n\n
 In this slow and mindful process, fresh coconut milk is heated in a traditional bronze vessel (*uruli*), allowing the water content to evaporate gently. Continuous stirring helps separate the oil from the solids without burning, preserving its nutrients and aroma. Around **10 coconuts yield just 250 ml of pure oil**, making every drop precious and authentic.\n\n
 Rich in **lauric acid, vitamin E, and natural antioxidants**, Vendha Velichenna is ideal for **cooking, Ayurvedic care, and newborn massage**. Its warm aroma and nourishing touch reflect Kerala’s ancient wisdom a perfect blend of tradition, purity, and wellness from the heart of Kuttiyadi.`,
@@ -1469,13 +1462,6 @@ Perfect for cooking, baby care, and Ayurvedic wellness, it preserves high levels
         image: '/assets/coconut-hot-benefits.webp',
       },
     ],
-
-    /*  smallImages: [
-        '/assets/coconut-hot-small-1.jpg',
-        '/assets/coconut-hot-small-2.jpg',
-        '/assets/coconut-hot-small-3.jpg',
-        '/assets/coconut-hot-small-4.avif',
-      ], */
 
     sourcing: {
       farm: 'Traditional Coconut Groves of Kuttiyadi, Kerala',
