@@ -94,12 +94,12 @@ export default function ProductPage() {
 
       {/* Sticky Back Button */}
       <button
-      aria-label='Go to previous page'
+        aria-label='Go to previous page'
         onClick={() => navigate(-1)}
         className="fixed top-6 left-6 z-50 px-4 py-2 text-white bg-gray-800 hover:bg-gray-700 hover:text-white rounded-md flex items-center gap-2 shadow-lg"
         style={{ fontFamily: '"Roboto", sans-serif' }}
       >
-        &#8592; 
+        &#8592;
       </button>
 
       {/* Hero Section */}
@@ -156,7 +156,7 @@ export default function ProductPage() {
       <section className="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-3 gap-8">
         {product.descriptionSections?.map((card, idx) => (
           <div key={idx} className="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col items-center text-center transition hover:shadow-2xl">
-            <img src={card.image} alt={card.title} className="w-full h-48 object-cover" />
+            <img src={card.image} loading="lazy" decoding="async" alt={card.title} className="w-full h-48 object-cover" />
             <div className="p-6 space-y-4">
               <h3 className="text-2xl font-display" style={{ fontFamily: '"Merriweather", serif' }}>{card.title}</h3>
               <p className="text-gray-600" style={{ fontFamily: '"Roboto", sans-serif' }}>{card.text}</p>
@@ -176,6 +176,8 @@ export default function ProductPage() {
                 <img
                   src={img}
                   alt={`${product.name} ${i}`}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                 />
               </div>
