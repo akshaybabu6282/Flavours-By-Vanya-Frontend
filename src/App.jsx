@@ -15,6 +15,7 @@ import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import CoconutOilSection from "./components/CoconutOilSection";
 import DontSellOnline from './components/DontSellOnline'
+import CustomerConnections from './components/CustomerConnections'
 
 
 export default function App() {
@@ -63,6 +64,7 @@ export default function App() {
           products={products.filter(p => p.category === 'Coconut Oil')}
         />
         <AboutUs />
+        <CustomerConnections />
         <DontSellOnline />
         <BulkOrders />
         <Contact />
