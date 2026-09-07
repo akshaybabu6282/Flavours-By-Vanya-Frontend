@@ -16,6 +16,7 @@ import { Helmet } from "react-helmet-async";
 import CoconutOilSection from "./components/CoconutOilSection";
 import DontSellOnline from './components/DontSellOnline'
 import CustomerConnections from './components/CustomerConnections'
+import VanyaJourney from './components/VanyaJourney'
 
 
 export default function App() {
@@ -56,6 +57,7 @@ export default function App() {
       <Header />
       <main >
         <Hero />
+        <VanyaJourney />
         <ProductSection id="masalas" title="Masalas" subtitle="Handcrafted masalas that blend tradition, purity, and the soulful taste of Kerala in every pinch." products={masalas} />
         <ProductSection id="raw-spices" title="Spices" subtitle="From Wayanad’s misty hills come spices that breathe aroma, warmth, and authenticity into every creation." products={rawSpices} />
         <ProductSection id="beverages" title="Tea & Coffee" subtitle="Brewed from Wayanad’s lush estates smooth, aromatic blends that awaken your senses and soothe your soul." products={beverages} />
