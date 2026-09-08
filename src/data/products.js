@@ -170,6 +170,48 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
   },
   {
     id: 5,
+    name: 'Coriander Powder',
+    slug: 'coriander-powder',
+    category: 'Masala',
+    imageFront: '/assets/coriander-powder-front.webp',
+    imageBack: '/assets/coriander-powder-back.webp',
+    imageBg: '/assets/coriander-powder-bg.webp',
+    description: `From the lush, fertile fields of **Wayanad, Kerala,** comes **Flavours by Vanya Coriander Powder,** a spice cherished for its warm, citrusy aroma and subtle, earthy flavour. Our coriander seeds are cultivated organically on Wayanad’s highlands, nourished by rich red soil, mountain air, and gentle monsoon rains, which impart a natural sweetness and depth to every seed. Carefully harvested at peak maturity, these seeds are sun dried and processed to preserve their delicate oils and aromatic compounds.\n\n
+    The coriander used in our powder is grown by dedicated local farmers who follow traditional, chemical free farming practices. Each seed is handpicked with care, ensuring the highest quality and purity. By avoiding artificial fertilizers and pesticides, the natural flavour and aroma of the coriander are preserved, resulting in a spice that’s both potent and wholesome.\n\n
+    After harvest, the seeds are roasted lightly in small batches to release their full aroma before being finely ground into a smooth, golden-brown powder. The meticulous processing preserves the bright, fresh fragrance and ensures consistent quality. Each pouch is packed in premium, moisture proof packaging to maintain freshness and aroma.\n\n
+    In the kitchen, **Flavours by Vanya Coriander Powder** enhances curries, soups, marinades, and sauces, bringing depth and complexity to every dish. Its subtle sweetness and earthy undertones make it versatile for a wide range of culinary creations. More than just a spice, it represents the rich farming heritage and natural abundance of Wayanad.\n\n
+    Experience authentic Kerala flavour with **Flavours by Vanya Coriander Powder,** where every spoonful reflects the care, tradition, and purity of our highland farms.`,
+
+    shortDescriptionForHomePage: 'Aromatic, earthy, and versatile our Wayanad Coriander Powder enhances every dish with natural flavour.',
+    shortDescription: 'Sourced from organic Wayanad farms, this Coriander Powder adds warm, earthy notes and subtle sweetness to curries, soups, and sauces. Perfect for authentic Kerala cooking.',
+    descriptionSections: [
+      { title: 'Sourcing & Quality', text: 'Grown organically in Wayanad’s fertile highlands, handpicked at peak ripeness, and processed with care to retain natural oils, aroma, and purity.', image: '/assets/coriander-powder-sourcing.webp' },
+      { title: 'Processing & Packaging', text: 'Lightly roasted, ground in small batches, and sealed in premium, moisture proof pouches to maintain freshness, aroma, and potency.', image: '/assets/coriander-powder-processing.webp' },
+      { title: 'Health Benefits', text: 'Rich in antioxidants, Coriander Powder aids digestion, supports immunity, and promotes overall wellness, while adding flavour and depth to meals.', image: '/assets/coriander-powder-benefits.webp' }
+    ],
+    smallImages: ['/assets/coriander-powder-small-1.webp', '/assets/coriander-powder-small-2.webp', '/assets/coriander-powder-small-3.webp', '/assets/coriander-powder-small-4.webp'],
+    sourcing: { farm: 'Organic Spice Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Harvest Season' }
+    , faqs: [
+      {
+        question: "What makes Vanya Coriander Powder special?",
+        answer: "Vanya Coriander Powder is made from carefully selected coriander seeds that are naturally processed and ground in small batches to preserve their fresh aroma, earthy flavour, and natural oils."
+      },
+      {
+        question: "Does this Coriander Powder contain preservatives or artificial additives?",
+        answer: "No. Our Coriander Powder is prepared without artificial colours, preservatives, flavour enhancers, or chemical additives."
+      },
+      {
+        question: "How should I store Coriander Powder for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it away from moisture, heat, and direct sunlight to preserve its aroma and flavour."
+      },
+      {
+        question: "Why does freshly ground coriander powder have better aroma and taste?",
+        answer: "Fresh grinding helps retain the natural oils and earthy fragrance of coriander seeds, giving richer aroma, better flavour, and more freshness compared to heavily processed powders."
+      }
+    ],
+  },
+  {
+    id: 6,
     name: 'Garam Masala',
     slug: 'garam-masala',
     category: 'Masala',
@@ -209,48 +251,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
         answer: "We use naturally sourced whole spices that are carefully roasted and ground in small batches, helping retain their essential oils and authentic flavour."
       }
     ],
-  },
-  {
-    id: 6,
-    name: 'Fish Masala',
-    slug: 'fish-masala',
-    category: 'Masala',
-    imageFront: '/assets/fish-masala-front.webp',
-    imageBack: '/assets/fish-masala-back.webp',
-    imageBg: '/assets/fish-masala-bg.webp',
-    description: `**Flavours by Vanya Fish Masala** brings the vibrant, aromatic flavours of Wayanad to your seafood recipes. Sourced from organic spice farms in Kerala, this blend combines red chillies, coriander, black pepper, turmeric, and other select spices to create a harmonious mix that enhances the natural taste of fish. Each ingredient is nurtured without chemicals, allowing the natural aroma and taste to shine through.\n\n
-    Our masala is made following traditional methods, preserving the authentic essence of Kerala cuisine. Freshly harvested spices are carefully sun-dried and ground in small batches to maintain their aroma, colour, and potency. The blend is perfectly balanced to complement the subtle flavours of seafood while delivering a hint of Wayanad’s signature spice.\n\n
-    Each batch is meticulously processed and quality checked to ensure freshness and consistency. From frying and grilling to currying, **Flavours by Vanya Fish Masala** transforms ordinary seafood into culinary delights while connecting you to the heritage of Kerala’s spice rich culture.\n\n
-    Experience the bold aroma, subtle heat, and authentic taste of Wayanad in every dish with **Flavours by Vanya Fish Masala,** a spice blend that combines tradition, purity, and flavour.`,
-
-    shortDescriptionForHomePage: 'Spicy, aromatic, and perfect for seafood our Wayanad Fish Masala elevates every dish.',
-    shortDescription: 'A blend of carefully sourced Wayanad spices, our Fish Masala adds bold flavour and aroma to seafood dishes. Perfect for frying, currying, or grilling, it brings Kerala’s culinary heritage to your kitchen.',
-    descriptionSections: [
-      { title: 'Sourcing & Quality', text: 'All ingredients are organically cultivated in Wayanad’s fertile highlands and handpicked at peak maturity to ensure maximum aroma, colour, and purity.', image: '/assets/fish-masala-sourcing.webp' },
-      { title: 'Processing & Packaging', text: 'Spices are sun dried and finely ground in small batches. Each pouch is sealed in moisture proof, premium packaging to preserve freshness and potency.', image: '/assets/fish-masala-processing.webp' },
-      { title: 'Health Benefits', text: 'Rich in antioxidants and essential nutrients, Fish Masala enhances digestion, supports immunity, and adds warmth to meals.', image: '/assets/fish-masala-benefits.webp' }
-    ],
-    smallImages: ['/assets/fish-masala-small-1.webp', '/assets/fish-masala-small-2.webp', '/assets/fish-masala-small-3.webp', '/assets/fish-masala-small-4.webp'],
-    sourcing: { farm: 'Organic Spice Farms of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Fresh Harvest' }
-    , faqs: [
-      {
-        question: "What makes Vanya Fish Masala special?",
-        answer: "Vanya Fish Masala is crafted using a carefully balanced blend of premium spices that enhances the authentic taste, aroma, and richness of traditional fish dishes."
-      },
-      {
-        question: "Does this Fish Masala contain preservatives or artificial additives?",
-        answer: "No. Our Fish Masala is prepared without artificial colours, preservatives, flavour enhancers, or chemical additives."
-      },
-      {
-        question: "How should I store Fish Masala for maximum freshness?",
-        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it away from moisture, heat, and direct sunlight to preserve its aroma and flavour."
-      },
-      {
-        question: "Can this masala be used for different seafood dishes?",
-        answer: "Yes. Vanya Fish Masala is suitable for fish curry, fish fry, grilled seafood, prawns, and other traditional Kerala style seafood recipes."
-      }
-    ],
-  },
+  }, 
   {
     id: 7,
     name: 'Chicken Masala',
@@ -334,91 +335,8 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
       }
     ],
   },
-  {
+   {
     id: 9,
-    name: 'Coriander Powder',
-    slug: 'coriander-powder',
-    category: 'Masala',
-    imageFront: '/assets/coriander-powder-front.webp',
-    imageBack: '/assets/coriander-powder-back.webp',
-    imageBg: '/assets/coriander-powder-bg.webp',
-    description: `From the lush, fertile fields of **Wayanad, Kerala,** comes **Flavours by Vanya Coriander Powder,** a spice cherished for its warm, citrusy aroma and subtle, earthy flavour. Our coriander seeds are cultivated organically on Wayanad’s highlands, nourished by rich red soil, mountain air, and gentle monsoon rains, which impart a natural sweetness and depth to every seed. Carefully harvested at peak maturity, these seeds are sun dried and processed to preserve their delicate oils and aromatic compounds.\n\n
-    The coriander used in our powder is grown by dedicated local farmers who follow traditional, chemical free farming practices. Each seed is handpicked with care, ensuring the highest quality and purity. By avoiding artificial fertilizers and pesticides, the natural flavour and aroma of the coriander are preserved, resulting in a spice that’s both potent and wholesome.\n\n
-    After harvest, the seeds are roasted lightly in small batches to release their full aroma before being finely ground into a smooth, golden-brown powder. The meticulous processing preserves the bright, fresh fragrance and ensures consistent quality. Each pouch is packed in premium, moisture proof packaging to maintain freshness and aroma.\n\n
-    In the kitchen, **Flavours by Vanya Coriander Powder** enhances curries, soups, marinades, and sauces, bringing depth and complexity to every dish. Its subtle sweetness and earthy undertones make it versatile for a wide range of culinary creations. More than just a spice, it represents the rich farming heritage and natural abundance of Wayanad.\n\n
-    Experience authentic Kerala flavour with **Flavours by Vanya Coriander Powder,** where every spoonful reflects the care, tradition, and purity of our highland farms.`,
-
-    shortDescriptionForHomePage: 'Aromatic, earthy, and versatile our Wayanad Coriander Powder enhances every dish with natural flavour.',
-    shortDescription: 'Sourced from organic Wayanad farms, this Coriander Powder adds warm, earthy notes and subtle sweetness to curries, soups, and sauces. Perfect for authentic Kerala cooking.',
-    descriptionSections: [
-      { title: 'Sourcing & Quality', text: 'Grown organically in Wayanad’s fertile highlands, handpicked at peak ripeness, and processed with care to retain natural oils, aroma, and purity.', image: '/assets/coriander-powder-sourcing.webp' },
-      { title: 'Processing & Packaging', text: 'Lightly roasted, ground in small batches, and sealed in premium, moisture proof pouches to maintain freshness, aroma, and potency.', image: '/assets/coriander-powder-processing.webp' },
-      { title: 'Health Benefits', text: 'Rich in antioxidants, Coriander Powder aids digestion, supports immunity, and promotes overall wellness, while adding flavour and depth to meals.', image: '/assets/coriander-powder-benefits.webp' }
-    ],
-    smallImages: ['/assets/coriander-powder-small-1.webp', '/assets/coriander-powder-small-2.webp', '/assets/coriander-powder-small-3.webp', '/assets/coriander-powder-small-4.webp'],
-    sourcing: { farm: 'Organic Spice Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Harvest Season' }
-    , faqs: [
-      {
-        question: "What makes Vanya Coriander Powder special?",
-        answer: "Vanya Coriander Powder is made from carefully selected coriander seeds that are naturally processed and ground in small batches to preserve their fresh aroma, earthy flavour, and natural oils."
-      },
-      {
-        question: "Does this Coriander Powder contain preservatives or artificial additives?",
-        answer: "No. Our Coriander Powder is prepared without artificial colours, preservatives, flavour enhancers, or chemical additives."
-      },
-      {
-        question: "How should I store Coriander Powder for maximum freshness?",
-        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it away from moisture, heat, and direct sunlight to preserve its aroma and flavour."
-      },
-      {
-        question: "Why does freshly ground coriander powder have better aroma and taste?",
-        answer: "Fresh grinding helps retain the natural oils and earthy fragrance of coriander seeds, giving richer aroma, better flavour, and more freshness compared to heavily processed powders."
-      }
-    ],
-  },
-  {
-    id: 10,
-    name: 'Pickle Powder',
-    slug: 'pickle-powder',
-    category: 'Masala',
-    imageFront: '/assets/pickle-powder-front.webp',
-    imageBack: '/assets/pickle-powder-back.webp',
-    imageBg: '/assets/pickle-powder-bg.webp',
-    description: `**Flavours by Vanya Pickle Powder** is a zesty, aromatic spice blend designed to bring authentic Kerala pickle flavours into your kitchen. Made from sun-dried organic chillies, coriander, fenugreek, turmeric, and other select spices, this powder captures the essence of traditional pickling without the need for artificial preservatives. Each ingredient is cultivated in Wayanad’s fertile highlands, where nutrient-rich soil, pure air, and gentle rainfall ensure the highest quality produce.\n\n
-    Local farmers carefully harvest and sun dry the spices to preserve their natural colour, aroma, and potency. These ingredients are then blended in precise proportions to create a harmonious, tangy, and spicy powder that can transform raw vegetables, fruits, or even meats into vibrant pickles. The traditional processing methods ensure that the authentic taste of Kerala pickles is captured in every batch.\n\n
-    Packed with flavour and versatility, **Flavours by Vanya Pickle Powder** adds depth and tang to your culinary creations. It can be sprinkled over vegetables, used in marinades, or combined with oils to create aromatic pickles with a balanced blend of spice and aroma.\n\n
-    From farm to table, this powder embodies Wayanad’s commitment to purity, tradition, and natural goodness, giving you a convenient way to enjoy homemade Kerala-style pickles anytime.`,
-
-    shortDescriptionForHomePage: 'Tangy, aromatic, and zesty our Wayanad Pickle Powder brings traditional Kerala pickle flavours to your kitchen.',
-    shortDescription: 'Made from organically grown Wayanad spices, this Pickle Powder delivers authentic tangy and spicy notes, perfect for pickling vegetables and fruits.',
-    descriptionSections: [
-      { title: 'Sourcing & Quality', text: 'All ingredients are organically grown in Wayanad, handpicked, and sun dried to preserve natural colour, aroma, and flavour.', image: '/assets/pickle-powder-sourcing.webp' },
-      { title: 'Processing & Packaging', text: 'Spices are blended in precise proportions and sealed in premium, moisture proof packaging to maintain freshness and potency.', image: '/assets/pickle-powder-processing.webp' },
-      { title: 'Health Benefits', text: 'Rich in antioxidants and essential oils, Pickle Powder aids digestion, enhances metabolism, and adds vibrant flavour to meals.', image: '/assets/pickle-powder-benefits.webp' }
-    ],
-    smallImages: ['/assets/pickle-powder-small-1.webp', '/assets/pickle-powder-small-2.webp', '/assets/pickle-powder-small-3.webp', '/assets/pickle-powder-small-4.webp'],
-    sourcing: { farm: 'Organic Spice Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Harvest' }
-    , faqs: [
-      {
-        question: "What makes Vanya Pickle Powder special?",
-        answer: "Vanya Pickle Powder is made using a carefully balanced blend of premium spices that delivers authentic Kerala style pickle flavour, aroma, and natural tanginess."
-      },
-      {
-        question: "Does this Pickle Powder contain preservatives or artificial additives?",
-        answer: "No. Our Pickle Powder is prepared without artificial colours, preservatives, flavour enhancers, or chemical additives."
-      },
-      {
-        question: "How should I store Pickle Powder for maximum freshness?",
-        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it away from moisture, heat, and direct sunlight to preserve its aroma and flavour."
-      },
-      {
-        question: "Can this Pickle Powder be used for different homemade pickles?",
-        answer: "Yes. Vanya Pickle Powder is suitable for mango pickle, lemon pickle, gooseberry pickle, fish pickle, and various traditional homemade pickle preparations."
-      }
-    ],
-  },
-  {
-    id: 11,
     name: 'Sambar Powder',
     slug: 'sambar-powder',
     category: 'Masala',
@@ -460,7 +378,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
   },
   {
-    id: 12,
+    id: 10,
     name: 'Rasam Powder',
     slug: 'rasam-powder',
     category: 'Masala',
@@ -501,7 +419,7 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
     ],
   },
   {
-    id: 13,
+    id: 11,
     name: 'Egg Masala',
     slug: 'egg-masala',
     category: 'Masala',
@@ -541,6 +459,91 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
       }
     ],
   },
+  {
+    id: 12,
+    name: 'Fish Masala',
+    slug: 'fish-masala',
+    category: 'Masala',
+    imageFront: '/assets/fish-masala-front.webp',
+    imageBack: '/assets/fish-masala-back.webp',
+    imageBg: '/assets/fish-masala-bg.webp',
+    description: `**Flavours by Vanya Fish Masala** brings the vibrant, aromatic flavours of Wayanad to your seafood recipes. Sourced from organic spice farms in Kerala, this blend combines red chillies, coriander, black pepper, turmeric, and other select spices to create a harmonious mix that enhances the natural taste of fish. Each ingredient is nurtured without chemicals, allowing the natural aroma and taste to shine through.\n\n
+    Our masala is made following traditional methods, preserving the authentic essence of Kerala cuisine. Freshly harvested spices are carefully sun-dried and ground in small batches to maintain their aroma, colour, and potency. The blend is perfectly balanced to complement the subtle flavours of seafood while delivering a hint of Wayanad’s signature spice.\n\n
+    Each batch is meticulously processed and quality checked to ensure freshness and consistency. From frying and grilling to currying, **Flavours by Vanya Fish Masala** transforms ordinary seafood into culinary delights while connecting you to the heritage of Kerala’s spice rich culture.\n\n
+    Experience the bold aroma, subtle heat, and authentic taste of Wayanad in every dish with **Flavours by Vanya Fish Masala,** a spice blend that combines tradition, purity, and flavour.`,
+
+    shortDescriptionForHomePage: 'Spicy, aromatic, and perfect for seafood our Wayanad Fish Masala elevates every dish.',
+    shortDescription: 'A blend of carefully sourced Wayanad spices, our Fish Masala adds bold flavour and aroma to seafood dishes. Perfect for frying, currying, or grilling, it brings Kerala’s culinary heritage to your kitchen.',
+    descriptionSections: [
+      { title: 'Sourcing & Quality', text: 'All ingredients are organically cultivated in Wayanad’s fertile highlands and handpicked at peak maturity to ensure maximum aroma, colour, and purity.', image: '/assets/fish-masala-sourcing.webp' },
+      { title: 'Processing & Packaging', text: 'Spices are sun dried and finely ground in small batches. Each pouch is sealed in moisture proof, premium packaging to preserve freshness and potency.', image: '/assets/fish-masala-processing.webp' },
+      { title: 'Health Benefits', text: 'Rich in antioxidants and essential nutrients, Fish Masala enhances digestion, supports immunity, and adds warmth to meals.', image: '/assets/fish-masala-benefits.webp' }
+    ],
+    smallImages: ['/assets/fish-masala-small-1.webp', '/assets/fish-masala-small-2.webp', '/assets/fish-masala-small-3.webp', '/assets/fish-masala-small-4.webp'],
+    sourcing: { farm: 'Organic Spice Farms of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Fresh Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Fish Masala special?",
+        answer: "Vanya Fish Masala is crafted using a carefully balanced blend of premium spices that enhances the authentic taste, aroma, and richness of traditional fish dishes."
+      },
+      {
+        question: "Does this Fish Masala contain preservatives or artificial additives?",
+        answer: "No. Our Fish Masala is prepared without artificial colours, preservatives, flavour enhancers, or chemical additives."
+      },
+      {
+        question: "How should I store Fish Masala for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it away from moisture, heat, and direct sunlight to preserve its aroma and flavour."
+      },
+      {
+        question: "Can this masala be used for different seafood dishes?",
+        answer: "Yes. Vanya Fish Masala is suitable for fish curry, fish fry, grilled seafood, prawns, and other traditional Kerala style seafood recipes."
+      }
+    ],
+  },
+
+  
+  {
+    id: 13,
+    name: 'Pickle Powder',
+    slug: 'pickle-powder',
+    category: 'Masala',
+    imageFront: '/assets/pickle-powder-front.webp',
+    imageBack: '/assets/pickle-powder-back.webp',
+    imageBg: '/assets/pickle-powder-bg.jpg',
+    description: `**Flavours by Vanya Pickle Powder** is a zesty, aromatic spice blend designed to bring authentic Kerala pickle flavours into your kitchen. Made from sun-dried organic chillies, coriander, fenugreek, turmeric, and other select spices, this powder captures the essence of traditional pickling without the need for artificial preservatives. Each ingredient is cultivated in Wayanad’s fertile highlands, where nutrient-rich soil, pure air, and gentle rainfall ensure the highest quality produce.\n\n
+    Local farmers carefully harvest and sun dry the spices to preserve their natural colour, aroma, and potency. These ingredients are then blended in precise proportions to create a harmonious, tangy, and spicy powder that can transform raw vegetables, fruits, or even meats into vibrant pickles. The traditional processing methods ensure that the authentic taste of Kerala pickles is captured in every batch.\n\n
+    Packed with flavour and versatility, **Flavours by Vanya Pickle Powder** adds depth and tang to your culinary creations. It can be sprinkled over vegetables, used in marinades, or combined with oils to create aromatic pickles with a balanced blend of spice and aroma.\n\n
+    From farm to table, this powder embodies Wayanad’s commitment to purity, tradition, and natural goodness, giving you a convenient way to enjoy homemade Kerala-style pickles anytime.`,
+
+    shortDescriptionForHomePage: 'Tangy, aromatic, and zesty our Wayanad Pickle Powder brings traditional Kerala pickle flavours to your kitchen.',
+    shortDescription: 'Made from organically grown Wayanad spices, this Pickle Powder delivers authentic tangy and spicy notes, perfect for pickling vegetables and fruits.',
+    descriptionSections: [
+      { title: 'Sourcing & Quality', text: 'All ingredients are organically grown in Wayanad, handpicked, and sun dried to preserve natural colour, aroma, and flavour.', image: '/assets/pickle-powder-sourcing.webp' },
+      { title: 'Processing & Packaging', text: 'Spices are blended in precise proportions and sealed in premium, moisture proof packaging to maintain freshness and potency.', image: '/assets/pickle-powder-processing.webp' },
+      { title: 'Health Benefits', text: 'Rich in antioxidants and essential oils, Pickle Powder aids digestion, enhances metabolism, and adds vibrant flavour to meals.', image: '/assets/pickle-powder-benefits.webp' }
+    ],
+    smallImages: ['/assets/pickle-powder-small-1.webp', '/assets/pickle-powder-small-2.webp', '/assets/pickle-powder-small-3.webp', '/assets/pickle-powder-small-4.webp'],
+    sourcing: { farm: 'Organic Spice Estates of Wayanad Highlands, Kerala', type: '100% Organic Cultivation', harvestSeason: 'October to January • Peak Harvest' }
+    , faqs: [
+      {
+        question: "What makes Vanya Pickle Powder special?",
+        answer: "Vanya Pickle Powder is made using a carefully balanced blend of premium spices that delivers authentic Kerala style pickle flavour, aroma, and natural tanginess."
+      },
+      {
+        question: "Does this Pickle Powder contain preservatives or artificial additives?",
+        answer: "No. Our Pickle Powder is prepared without artificial colours, preservatives, flavour enhancers, or chemical additives."
+      },
+      {
+        question: "How should I store Pickle Powder for maximum freshness?",
+        answer: "Store it in an airtight container or keep the pouch properly zip locked after every use. Keep it away from moisture, heat, and direct sunlight to preserve its aroma and flavour."
+      },
+      {
+        question: "Can this Pickle Powder be used for different homemade pickles?",
+        answer: "Yes. Vanya Pickle Powder is suitable for mango pickle, lemon pickle, gooseberry pickle, fish pickle, and various traditional homemade pickle preparations."
+      }
+    ],
+  },
+ 
 
   // RAW SPICES
   {
@@ -923,48 +926,121 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
         answer: "Yes. Vanya Cashews are perfect for healthy snacking, desserts, sweets, curries, gravies, and various traditional and modern recipes."
       }
     ],
-  }, {
-    id: 32,
-    name: 'Honey',
-    slug: 'honey',
+  },
+  {
+    id: 33,
+    name: 'Black Pepper Cashews',
+    slug: 'black-pepper-cashews',
     category: 'Nuts & Honey',
-    imageFront: '/assets/honey-front.webp',
-    imageBack: '/assets/honey-back.webp',
-    imageBg: '/assets/honey-bg.webp',
-    description: `From the unspoiled forests of **Wayanad, Kerala,** comes **Flavours by Vanya Forest Honey,** a golden elixir harvested from wild, organic hives nestled deep in the highlands. This honey is a pure gift of nature, produced by bees that collect nectar from a diverse range of native flowers, herbs, and forest plants, resulting in a rich, aromatic, and naturally sweet honey with complex flavour notes unique to Wayanad’s ecosystems.\n\n
-    Our forest honey is carefully harvested by local beekeepers who follow sustainable, traditional methods to ensure the health of bee colonies and the purity of the honey. No additives, no artificial processing just the untouched goodness of forest nectar. Each batch is strained lightly to remove impurities while preserving the natural enzymes, pollen, and antioxidants that make this honey a superfood.\n\n
-    The deep amber hue and full bodied aroma of **Flavours by Vanya Forest Honey** reflect the richness of Wayanad’s flora. Its taste is naturally sweet with subtle hints of floral, herbal, and earthy undertones, making it ideal for drizzling over breakfast, mixing in teas, enhancing desserts, or enjoying by the spoonful.\n\n
-    Every jar embodies the pristine beauty, biodiversity, and organic purity of Wayanad’s forests. With **Flavours by Vanya Forest Honey,** you bring home not just sweetness, but the natural vitality and wellness of Kerala’s highlands.`,
-
-    shortDescriptionForHomePage: 'Pure, golden, and naturally aromatic our Wayanad Forest Honey brings the sweetness of untouched forests to your table.',
-    shortDescription: 'Harvested from wild Wayanad forests, this honey is rich, aromatic, and full of natural enzymes, antioxidants, and floral notes. Ideal for teas, desserts, and wellness.',
+    imageFront: '/assets/black-pepper-cashews.webp',
+    imageBack: '/assets/black-pepper-cashews.jpg',
+    imageBg: '/assets/black-pepper-cashews.jpg',
+    description: `**Flavours by Vanya Black Pepper Cashews** combine carefully selected cashews with the bold warmth of black pepper. Each batch is seasoned to complement the cashew's naturally creamy taste and satisfying crunch without overpowering it.\n\n
+    Prepared in small batches, the cashews are evenly coated so every bite carries a balanced mix of nutty richness, peppery aroma, and gentle heat. They are packed with care to help protect their freshness, texture, and flavour.\n\n
+    Enjoy them as a savoury snack at home, while travelling, or when sharing with friends and family. They also make a distinctive addition to snack boards and festive hampers.`,
+    shortDescriptionForHomePage: 'Crunchy cashews seasoned with bold black pepper for a warm, savoury finish.',
+    shortDescription: 'Carefully selected cashews coated with black pepper seasoning for a balanced combination of creamy crunch, aroma, and gentle heat.',
     descriptionSections: [
-      { title: 'Sourcing & Quality', text: 'Collected from wild, organic hives in Wayanad’s highlands using sustainable beekeeping practices, ensuring purity and richness in every batch.', image: '/assets/honey-sourcing.webp' },
-      { title: 'Processing & Packaging', text: 'Lightly strained to preserve enzymes, antioxidants, and natural aroma, then packed in premium glass jars to maintain freshness and quality.', image: '/assets/honey-processing.webp' },
-      { title: 'Health Benefits', text: 'Forest Honey supports immunity, digestion, energy, and overall wellness. Rich in antioxidants and natural nutrients, it is a pure gift from nature.', image: '/assets/honey-benefits.webp' }
+      { title: 'Selection & Quality', text: 'Cashews are carefully selected for size, texture, and natural taste before seasoning. Black pepper adds a warm aroma and savoury character while allowing the cashew flavour to remain at the centre.', image: '/assets/cashew-sourcing.webp' },
+      { title: 'Seasoning & Packing', text: 'The cashews are seasoned in controlled small batches for an even coating and consistent flavour. They are then sealed in moisture-resistant pouches to help maintain freshness and crunch.', image: '/assets/cashew-processing.webp' },
+      { title: 'Serving Ideas', text: 'Serve Black Pepper Cashews as a ready-to-enjoy snack, include them in a festive hamper, or pair them with tea and other savoury favourites.', image: '/assets/black-pepper-cashews.webp' },
     ],
-    smallImages: ['/assets/honey-small-1.webp', '/assets/honey-small-2.webp', '/assets/honey-small-3.webp', '/assets/honey-small-4.webp'],
-    sourcing: { farm: 'Wild Forest Hives of Wayanad Highlands, Kerala', type: '100% Organic & Sustainable Harvesting', harvestSeason: 'November to March • Peak Nectar Season' }
-    , faqs: [
-      {
-        question: "What makes Vanya Honey special?",
-        answer: "Vanya Honey is carefully sourced from trusted natural sources and packed to preserve its rich taste, natural aroma, and wholesome goodness."
-      },
-      {
-        question: "Does this honey contain artificial sugar or additives?",
-        answer: "No. Our honey is packed without artificial sugar, colours, flavours, or chemical additives."
-      },
-      {
-        question: "How should I store honey for maximum freshness?",
-        answer: "Store the bottle tightly closed in a cool, dry place away from direct sunlight and moisture. Do not refrigerate unless necessary, as natural honey may crystallize over time."
-      },
-      {
-        question: "Why does pure honey sometimes crystallize naturally?",
-        answer: "Crystallization is a natural process in pure honey and is a sign of minimal processing and natural quality. It does not affect the taste or purity of the honey."
-      }
+    smallImages: ['/assets/black-pepper-cashews.webp', '/assets/cashew-small-1.webp', '/assets/cashew-small-2.webp', '/assets/pepper-small-1.webp'],
+    sourcing: { farm: 'Cashews and black pepper selected through trusted sourcing partners', type: 'Small-Batch Seasoning and Hygienic Packing', harvestSeason: 'Prepared in Fresh Batches Throughout the Year' },
+    faqs: [
+      { question: 'What do Vanya Black Pepper Cashews taste like?', answer: 'They combine the creamy crunch of cashews with the bold aroma and gentle heat of black pepper for a balanced savoury taste.' },
+      { question: 'Are Black Pepper Cashews ready to eat?', answer: 'Yes. They are a ready-to-eat savoury snack and can be enjoyed directly from the pouch.' },
+      { question: 'How should I store Black Pepper Cashews?', answer: 'Keep the pouch properly sealed after opening and store it in a cool, dry place away from moisture, heat, and direct sunlight.' },
+      { question: 'Do Black Pepper Cashews contain allergens?', answer: 'Yes. This product contains cashew nuts. Please review the pack label for the complete ingredient and allergen information before consumption.' },
     ],
   },
+  {
+  id: 32,
+  name: 'Forest Honey',
+  slug: 'forest-honey',
+  category: 'Nuts & Honey',
 
+  imageFront: '/assets/honey-front.webp',
+  imageBack: '/assets/honey-back.webp',
+  imageBg: '/assets/honey-bg.webp',
+
+  description: `From the forest landscapes of **Wayanad, Kerala,** comes **Flavours by Vanya Forest Honey**, collected from bees that forage across naturally diverse seasonal flowers, herbs, and trees. This changing mix of forest blossoms gives every harvest its own natural colour, aroma, thickness, and flavour.\n\n
+  Our Forest Honey is available in two varieties: **Vanthean and Cheruthean**. Both are part of the same Vanya Forest Honey range and are presented together as one product. Availability may vary depending on the season, flowering conditions, bee activity, and responsible collection.\n\n
+  The honey is carefully handled and packed to preserve its natural character. No artificial sugar, colours, flavours, or preservatives are added. Natural variation between batches is expected because every harvest reflects the forest and season from which it was collected.\n\n
+  Enjoy Vanya Forest Honey by the spoon, stir it into beverages, drizzle it over breakfast, or use it in desserts and marinades. Natural crystallisation may occur over time and does not affect the normal quality or use of the honey.`,
+
+  shortDescriptionForHomePage:
+    'Naturally collected Wayanad Forest Honey, available in Vanthean and Cheruthean varieties under one product range.',
+
+  shortDescription:
+    'Forest Honey from Wayanad, available in Vanthean and Cheruthean varieties. Carefully collected and packed to preserve its natural aroma, sweetness, and seasonal character.',
+
+  descriptionSections: [
+    {
+      title: 'Forest Collection',
+      text: 'Collected from forest landscapes where bees forage across seasonal flowers, herbs, and trees. The available nectar sources naturally influence the colour, aroma, thickness, and flavour of every harvest.',
+      image: '/assets/honey-sourcing.webp',
+    },
+    {
+      title: 'Two Natural Varieties',
+      text: 'Vanthean and Cheruthean are the two varieties available within our Forest Honey range. Both are offered together under one product, with availability depending on the collection season and forest conditions.',
+      image: '/assets/honey-benefits.webp',
+    },
+    {
+      title: 'Careful Handling & Packing',
+      text: 'The collected honey is handled and packed hygienically without artificial sugar, colours, flavours, or preservatives. Natural differences between batches are part of authentic forest honey.',
+      image: '/assets/honey-processing.webp',
+    },
+  ],
+
+  smallImages: [
+    '/assets/honey-small-1.webp',
+    '/assets/honey-small-2.webp',
+    '/assets/honey-small-3.webp',
+    '/assets/honey-small-4.webp',
+  ],
+
+  sourcing: {
+    farm: 'Forest collection areas associated with Wayanad, Kerala',
+    type: 'Vanthean and Cheruthean Forest Honey',
+    harvestSeason:
+      'Availability varies with flowering seasons and forest conditions',
+  },
+
+  faqs: [
+    {
+      question: 'Which Forest Honey varieties does Vanya offer?',
+      answer:
+        'Vanya Forest Honey is available in two varieties, Vanthean and Cheruthean. Both are presented together under one Forest Honey product.',
+    },
+    {
+      question: 'Will both varieties always be available?',
+      answer:
+        'Availability can vary because forest honey collection depends on flowering cycles, weather, bee activity, and seasonal forest conditions.',
+    },
+    {
+      question: 'Why can the colour, thickness, or taste change?',
+      answer:
+        'Forest honey reflects the nectar sources available during each collection season. Natural differences in colour, aroma, thickness, and taste are normal.',
+    },
+    {
+      question:
+        'Does Vanya Forest Honey contain artificial sugar or preservatives?',
+      answer:
+        'No. It is packed without artificial sugar, colours, flavours, or preservatives.',
+    },
+    {
+      question: 'How should I store Forest Honey?',
+      answer:
+        'Keep the bottle tightly closed in a cool, dry place away from direct sunlight and moisture. Do not refrigerate.',
+    },
+    {
+      question: 'Is crystallisation normal in Forest Honey?',
+      answer:
+        'Yes. Natural honey may crystallise over time. Place the closed bottle in lukewarm water if you prefer a more liquid consistency. Do not boil it.',
+    },
+  ],
+},
 
   // BEVERAGES
   {
@@ -1369,13 +1445,40 @@ Experience the true gold of Wayanad with **Flavours by Vanya Turmeric Powder** w
 
   // COCONUT OIL
   {
+    id: 3,
+    name: 'Pure Coconut Oil',
+    slug: 'pure-coconut-oil',
+    category: 'Coconut Oil',
+    imageFront: '/assets/pure-coconut-oil-1l.webp',
+    imageBack: '/assets/pure-coconut-oil-1l.webp',
+    imageBg: '/assets/pure-coconut-oil-1l.webp',
+    description: `**Flavours by Vanya Pure Coconut Oil** is made from carefully selected mature coconuts and prepared for dependable everyday cooking. Its familiar coconut character makes it suitable for traditional Kerala dishes as well as a wide range of daily recipes.\n\n
+    The oil is processed and packed under hygienic conditions without preservatives or artificial colours. Each bottle is sealed carefully to protect quality during storage and regular kitchen use.\n\n
+    Coconut oil naturally turns cloudy or solidifies at lower temperatures. This physical change is normal and does not affect the product's quality.`,
+    shortDescriptionForHomePage: 'Pure coconut oil prepared from carefully selected mature coconuts for everyday cooking and traditional recipes.',
+    shortDescription: 'Versatile pure coconut oil with a familiar natural aroma, hygienically processed and packed for everyday cooking.',
+    descriptionSections: [
+      { title: 'Coconut Selection', text: 'Carefully selected mature coconuts provide the natural oil used in every batch, supporting consistent taste, aroma, and cooking performance.', image: '/assets/coconut-sourcing.webp' },
+      { title: 'Processing & Packing', text: 'The oil is processed and packed under hygienic conditions in food-grade bottles. No preservatives or artificial colours are added.', image: '/assets/coconut-processing.webp' },
+      { title: 'Everyday Cooking', text: 'Suitable for frying, sauteing, tempering, baking, and traditional recipes where the familiar character of coconut oil is preferred.', image: '/assets/pure-coconut-oil-1l.webp' },
+    ],
+    smallImages: ['/assets/pure-coconut-oil-1l.webp', '/assets/coconut-small-1.webp', '/assets/coconut-sourcing.webp', '/assets/coconut-processing.webp'],
+    sourcing: { farm: 'Mature coconuts selected through trusted Kerala sourcing partners', type: 'Hygienically Processed and Packed Coconut Oil', harvestSeason: 'Prepared in Fresh Batches Throughout the Year' },
+    faqs: [
+      { question: 'What is Vanya Pure Coconut Oil suitable for?', answer: 'It is suitable for everyday cooking, frying, sauteing, tempering, baking, and traditional recipes.' },
+      { question: 'Does Pure Coconut Oil contain preservatives or artificial colours?', answer: 'No. It is prepared and packed without preservatives or artificial colours.' },
+      { question: 'Why does coconut oil become cloudy or solid?', answer: 'Coconut oil naturally becomes cloudy or solidifies at lower temperatures. This is a normal physical change and does not affect its quality.' },
+      { question: 'How should I store Pure Coconut Oil?', answer: 'Keep the bottle tightly closed in a cool, dry place away from direct sunlight. Use clean, dry utensils and prevent water from entering the bottle.' },
+    ],
+  },
+  {
     id: 1,
-    name: "Pure Virgin Coconut Oil - Cold Pressed",
+    name: "Virgin Coconut Oil - Cold Pressed",
     slug: "pure-virgin-coconut-oil-cold-pressed",
     category: "Coconut Oil",
-    imageFront: "/assets/coconut-cold.webp",
-    imageBack: "/assets/coconut-cold-back.webp",
-    imageBg: "/assets/coconut-bg.webp",
+    imageFront: "/assets/virgin-coconut-oil-1l.jpg",
+    imageBack: "/assets/virgin-coconut-oil-1l.webp",
+    imageBg: "/assets/virgin-coconut-oil-1l.jpg",
     description: `From the serene coconut groves of **Kuttiyadi, Kerala**, comes our **Flavours by Vanya Pure Virgin Coconut Oil – Cold Pressed**, a symbol of purity and tradition. Each drop carries the freshness of handpicked coconuts grown in the fertile coastal soils of Kerala. The oil is carefully extracted using the traditional **wooden cold-press (chekku)** method, ensuring that the natural aroma, nutrients, and flavor remain untouched by heat or chemicals.\n\n
 Unlike refined oils, this cold-pressed virgin oil is not just an ingredient it’s a wholesome essence of wellness. Rich in **lauric acid, vitamin E, and natural antioxidants**, it supports heart health, nourishes skin and hair, and enhances immunity. Its smooth texture and mild aroma make it ideal for cooking, skincare, oil pulling, and massage bringing a touch of Kerala’s natural goodness to your everyday life.\n\n
 Every bottle reflects the essence of sustainability and authenticity, crafted in small batches with care. From tree to press to pack, we ensure every step preserves its natural integrity. Experience the **true purity of Kerala’s coconut heritage** with every spoonful of this golden oil.`,
@@ -1434,7 +1537,7 @@ Unlike refined oils, cold-pressed coconut oil keeps its essential antioxidants, 
     slug: "vendha-velichenna-pure-virgin-coconut-oil-hot-pressed",
     category: "Coconut Oil",
     imageFront: "/assets/coconut-hot-sourcing.webp",
-    imageBack: "/assets/coconut-hot-back.webp",
+    imageBack: "/assets/coconut-hot-sourcing.webp",
     imageBg: "/assets/coconut-hot.webp",
     description: `**Flavours by Vanya Vendha Velichenna** (Urukku Velichenna) is Kerala’s traditional **hot-processed virgin coconut oil**, made by boiling pure coconut milk until the oil naturally separates. This heritage method, passed down through generations, produces a golden, aromatic oil known for its purity, nutrition, and healing properties.\n\n
 In this slow and mindful process, fresh coconut milk is heated in a traditional bronze vessel (*uruli*), allowing the water content to evaporate gently. Continuous stirring helps separate the oil from the solids without burning, preserving its nutrients and aroma. Around **10 coconuts yield just 250 ml of pure oil**, making every drop precious and authentic.\n\n
