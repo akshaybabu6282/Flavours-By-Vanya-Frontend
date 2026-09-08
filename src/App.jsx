@@ -17,6 +17,7 @@ import CoconutOilSection from "./components/CoconutOilSection";
 import DontSellOnline from './components/DontSellOnline'
 import CustomerConnections from './components/CustomerConnections'
 import VanyaJourney from './components/VanyaJourney'
+import CommunityStallRequest from './components/CommunityStallRequest'
 
 
 export default function App() {
@@ -67,6 +68,7 @@ export default function App() {
         />
         <AboutUs />
         <CustomerConnections />
+        <CommunityStallRequest />
         <DontSellOnline />
         <BulkOrders />
         <Contact />
