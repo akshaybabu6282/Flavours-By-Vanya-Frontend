@@ -8,6 +8,7 @@ import { HelmetProvider } from "react-helmet-async";
 import ScrollToTop from './components/ScrollToTop'
 import BlogsPage from './pages/BlogsPage'
 import BlogDetailPage from './pages/BlogDetailPage'
+import DataProtectionPage from './pages/DataProtectionPage'
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -20,6 +21,10 @@ createRoot(document.getElementById('root')).render(
           <Route path="/product/:slug" element={<ProductPage />} />
           <Route path="/blogs" element={<BlogsPage />} />
           <Route path="/blog/:slug" element={<BlogDetailPage />} />
+          <Route
+            path="/data-protection"
+            element={<DataProtectionPage />}
+          />
         </Routes>
       </BrowserRouter>
     </HelmetProvider>

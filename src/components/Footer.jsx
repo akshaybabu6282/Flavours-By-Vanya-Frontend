@@ -259,10 +259,22 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-12 flex flex-col gap-3 border-t border-white/10 pt-6 text-xs text-gray-500 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-12 flex flex-col gap-4 border-t border-white/10 pt-6 text-xs text-gray-500 lg:flex-row lg:items-center lg:justify-between">
           <p>
             © {year} Vanya Eco Products. All rights reserved.
           </p>
+
+          <nav
+            aria-label="Legal links"
+            className="flex flex-wrap items-center gap-x-5 gap-y-2"
+          >
+            <a
+              href="/data-protection"
+              className="transition hover:text-green-400"
+            >
+              Privacy & Data Protection
+            </a>
+          </nav>
 
           <p>Pure Spices, True Flavours</p>
         </div>
