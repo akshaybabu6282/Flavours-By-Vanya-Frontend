@@ -5,6 +5,7 @@ import App from './App'
 import ProductPage from './pages/ProductPage'
 import "./index.css";
 import { HelmetProvider } from "react-helmet-async";
+import RouteMeta from './components/RouteMeta'
 import ScrollToTop from './components/ScrollToTop'
 import BlogsPage from './pages/BlogsPage'
 import BlogDetailPage from './pages/BlogDetailPage'
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <HelmetProvider>
       <BrowserRouter>
+        <RouteMeta />
         <ScrollToTop />
 
         <Routes>
