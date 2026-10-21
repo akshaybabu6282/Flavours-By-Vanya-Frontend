@@ -3,8 +3,6 @@ import useInView from '../hooks/useInView'
 
 export default function AboutUs() {
     const [ref, inView] = useInView()
-    const [missionRef, missionInView] = useInView()
-    const [whyRef, whyInView] = useInView()
 
     return (
         <section id="about" className="bg-gray-100 text-black">

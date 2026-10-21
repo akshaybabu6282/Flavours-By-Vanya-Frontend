@@ -4,7 +4,6 @@ import {
   BrowserRouter,
   Routes,
   Route,
-  useLocation,
 } from 'react-router-dom'
 import { HelmetProvider } from 'react-helmet-async'
 
@@ -17,29 +16,12 @@ import TermsPage from './pages/TermsPage'
 import OrderSupportPage from './pages/OrderSupportPage'
 import ProductDisclaimerPage from './pages/ProductDisclaimerPage'
 
-import Header from './components/Header'
+import GlobalHeader from './components/GlobalHeader'
 import RouteMeta from './components/RouteMeta'
 import ScrollToTop from './components/ScrollToTop'
 import NotFoundPage from './pages/NotFoundPage'
 
 import './index.css'
-
-const pagesWithOwnHeader = [
-  '/data-protection',
-  '/terms',
-  '/shipping-and-refunds',
-  '/product-disclaimer',
-]
-
-function GlobalHeader() {
-  const { pathname } = useLocation()
-
-  if (pagesWithOwnHeader.includes(pathname)) {
-    return null
-  }
-
-  return <Header />
-}
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>

@@ -1,4 +1,9 @@
-import { useEffect, useRef, useState } from 'react'
+import React, {
+  useEffect,
+  useRef,
+  useState,
+} from 'react'
+
 import {
   Building2,
   CalendarDays,
@@ -145,8 +150,8 @@ Contact Number: ${contactNumber}`
         {/* Left side */}
         <div
           className={`flex min-w-0 flex-col transition-all duration-700 motion-reduce:transition-none ${isVisible
-              ? 'translate-x-0 opacity-100'
-              : '-translate-x-7 opacity-0'
+            ? 'translate-x-0 opacity-100'
+            : '-translate-x-7 opacity-0'
             }`}
         >
           <div className="relative z-10">
@@ -190,8 +195,8 @@ Contact Number: ${contactNumber}`
           {/* Larger image below the text */}
           <div
             className={`-mb-6 mt-4 hidden w-full transition-all delay-150 duration-1000 motion-reduce:transition-none sm:block ${isVisible
-                ? 'translate-y-0 scale-100 opacity-100'
-                : 'translate-y-7 scale-[0.97] opacity-0'
+              ? 'translate-y-0 scale-100 opacity-100'
+              : 'translate-y-7 scale-[0.97] opacity-0'
               }`}
           >
             <img
@@ -210,8 +215,8 @@ Contact Number: ${contactNumber}`
         <form
           onSubmit={handleSubmit}
           className={`rounded-2xl border border-green-500/80 bg-black/70 p-4 shadow-2xl shadow-green-950/20 backdrop-blur-sm transition-all delay-100 duration-700 motion-reduce:transition-none sm:p-5 ${isVisible
-              ? 'translate-x-0 opacity-100'
-              : 'translate-x-7 opacity-0'
+            ? 'translate-x-0 opacity-100'
+            : 'translate-x-7 opacity-0'
             }`}
         >
           <div className="flex items-center gap-3 border-b border-white/20 pb-3">
@@ -244,10 +249,11 @@ Contact Number: ${contactNumber}`
                   </span>
 
                   <span className="relative block">
-                    <Icon
-                      aria-hidden="true"
-                      className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-green-500"
-                    />
+                    {React.createElement(Icon, {
+                      'aria-hidden': true,
+                      className:
+                        'pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-green-500',
+                    })}
 
                     <input
                       name={name}

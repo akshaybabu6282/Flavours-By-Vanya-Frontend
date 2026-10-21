@@ -147,15 +147,15 @@ export default function Footer() {
               <div
                 key={title}
                 className={`flex items-center gap-3 py-4 sm:px-5 sm:py-1 ${index > 0
-                    ? 'border-t border-white/10 sm:border-l sm:border-t-0'
-                    : ''
+                  ? 'border-t border-white/10 sm:border-l sm:border-t-0'
+                  : ''
                   }`}
               >
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-green-500/25 bg-green-500/10">
-                  <Icon
-                    className="h-5 w-5 text-green-400"
-                    aria-hidden="true"
-                  />
+                  {React.createElement(Icon, {
+                    'aria-hidden': true,
+                    className: 'h-5 w-5',
+                  })}
                 </span>
 
                 <span>

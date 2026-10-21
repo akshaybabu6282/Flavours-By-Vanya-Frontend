@@ -3,9 +3,10 @@ import useInView from '../hooks/useInView'
 
 
 function DontSellOnline() {
-    const [ref, inView] = useInView()
-        const [missionRef, missionInView] = useInView()
-        const [whyRef, whyInView] = useInView()
+    const [missionRef, missionInView] = useInView()
+    const [whyRef, whyInView] = useInView()
+
+    
     return (
         <section className="bg-gradient-to-b from-gray-100 to-black py-16 md:py-20">
             <div ref={missionRef} className={`max-w-6xl mx-auto px-6 text-center transition-all duration-700 ${missionInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'}`}>
