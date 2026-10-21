@@ -9,6 +9,9 @@ import ScrollToTop from './components/ScrollToTop'
 import BlogsPage from './pages/BlogsPage'
 import BlogDetailPage from './pages/BlogDetailPage'
 import DataProtectionPage from './pages/DataProtectionPage'
+import TermsPage from './pages/TermsPage'
+import OrderSupportPage from './pages/OrderSupportPage'
+import ProductDisclaimerPage from './pages/ProductDisclaimerPage'
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -24,6 +27,18 @@ createRoot(document.getElementById('root')).render(
           <Route
             path="/data-protection"
             element={<DataProtectionPage />}
+          />
+          <Route
+            path="/terms"
+            element={<TermsPage />}
+          />
+          <Route
+            path="/shipping-and-refunds"
+            element={<OrderSupportPage />}
+          />
+          <Route
+            path="/product-disclaimer"
+            element={<ProductDisclaimerPage />}
           />
         </Routes>
       </BrowserRouter>
