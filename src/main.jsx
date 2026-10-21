@@ -1,29 +1,62 @@
-import React from 'react'
+import React, {
+  lazy,
+  Suspense,
+} from 'react'
+
 import { createRoot } from 'react-dom/client'
+
 import {
   BrowserRouter,
-  Routes,
   Route,
+  Routes,
 } from 'react-router-dom'
+
 import { HelmetProvider } from 'react-helmet-async'
 
 import App from './App'
-import ProductPage from './pages/ProductPage'
-import BlogsPage from './pages/BlogsPage'
-import BlogDetailPage from './pages/BlogDetailPage'
-import DataProtectionPage from './pages/DataProtectionPage'
-import TermsPage from './pages/TermsPage'
-import OrderSupportPage from './pages/OrderSupportPage'
-import ProductDisclaimerPage from './pages/ProductDisclaimerPage'
 
 import GlobalHeader from './components/GlobalHeader'
+import PageLoader from './components/PageLoader'
 import RouteMeta from './components/RouteMeta'
 import ScrollToTop from './components/ScrollToTop'
-import NotFoundPage from './pages/NotFoundPage'
 
 import './index.css'
 
-createRoot(document.getElementById('root')).render(
+const ProductPage = lazy(
+  () => import('./pages/ProductPage')
+)
+
+const BlogsPage = lazy(
+  () => import('./pages/BlogsPage')
+)
+
+const BlogDetailPage = lazy(
+  () => import('./pages/BlogDetailPage')
+)
+
+const DataProtectionPage = lazy(
+  () => import('./pages/DataProtectionPage')
+)
+
+const TermsPage = lazy(
+  () => import('./pages/TermsPage')
+)
+
+const OrderSupportPage = lazy(
+  () => import('./pages/OrderSupportPage')
+)
+
+const ProductDisclaimerPage = lazy(
+  () => import('./pages/ProductDisclaimerPage')
+)
+
+const NotFoundPage = lazy(
+  () => import('./pages/NotFoundPage')
+)
+
+createRoot(
+  document.getElementById('root')
+).render(
   <React.StrictMode>
     <HelmetProvider>
       <BrowserRouter>
@@ -31,46 +64,54 @@ createRoot(document.getElementById('root')).render(
         <ScrollToTop />
         <GlobalHeader />
 
-        <Routes>
-          <Route path="/" element={<App />} />
+        <Suspense fallback={<PageLoader />}>
+          <Routes>
+            <Route
+              path="/"
+              element={<App />}
+            />
 
-          <Route
-            path="/product/:slug"
-            element={<ProductPage />}
-          />
+            <Route
+              path="/product/:slug"
+              element={<ProductPage />}
+            />
 
-          <Route
-            path="/blogs"
-            element={<BlogsPage />}
-          />
+            <Route
+              path="/blogs"
+              element={<BlogsPage />}
+            />
 
-          <Route
-            path="/blog/:slug"
-            element={<BlogDetailPage />}
-          />
+            <Route
+              path="/blog/:slug"
+              element={<BlogDetailPage />}
+            />
 
-          <Route
-            path="/data-protection"
-            element={<DataProtectionPage />}
-          />
+            <Route
+              path="/data-protection"
+              element={<DataProtectionPage />}
+            />
 
-          <Route
-            path="/terms"
-            element={<TermsPage />}
-          />
+            <Route
+              path="/terms"
+              element={<TermsPage />}
+            />
 
-          <Route
-            path="/shipping-and-refunds"
-            element={<OrderSupportPage />}
-          />
+            <Route
+              path="/shipping-and-refunds"
+              element={<OrderSupportPage />}
+            />
 
-          <Route
-            path="/product-disclaimer"
-            element={<ProductDisclaimerPage />}
-          />
-          
-          <Route path="*" element={<NotFoundPage />} />
-        </Routes>
+            <Route
+              path="/product-disclaimer"
+              element={<ProductDisclaimerPage />}
+            />
+
+            <Route
+              path="*"
+              element={<NotFoundPage />}
+            />
+          </Routes>
+        </Suspense>
       </BrowserRouter>
     </HelmetProvider>
   </React.StrictMode>
