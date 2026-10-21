@@ -1,431 +1,338 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { Link } from 'react-router-dom';
-import logo from "../../public/assets/logo.png";
+import React, { useEffect, useRef, useState } from 'react'
+import { Link, useLocation } from 'react-router-dom'
+
+const productLinks = [
+  { label: 'Masalas', to: '/#masalas' },
+  { label: 'Spices', to: '/#raw-spices' },
+  { label: 'Tea & Coffee', to: '/#beverages' },
+  { label: 'Nuts & Honey', to: '/#nutsHoney' },
+  { label: 'Coconut Oil', to: '/#coconut-oil' },
+]
+
+const mainLinks = [
+  { label: 'About Us', to: '/#about' },
+  { label: 'Book a Stall', to: '/#community-stall' },
+  { label: 'Bulk / Export', to: '/#bulk' },
+  { label: 'Our Certifications', to: '/#licenses' },
+]
 
 export default function Header() {
-    const [openMenu, setOpenMenu] = useState(false);
-    const [openDropdown, setOpenDropdown] = useState(false);
-    const productsDropdownRef = useRef(null);
+  const [openMenu, setOpenMenu] = useState(false)
+  const [openDropdown, setOpenDropdown] = useState(false)
 
-    useEffect(() => {
-        const handleOutsideClick = (event) => {
-            if (
-                productsDropdownRef.current &&
-                !productsDropdownRef.current.contains(event.target)
-            ) {
-                setOpenDropdown(false);
-            }
-        };
+  const headerRef = useRef(null)
+  const location = useLocation()
 
-        const handleEscape = (event) => {
-            if (event.key === 'Escape') {
-                setOpenDropdown(false);
-                setOpenMenu(false);
-            }
-        };
+  const closeNavigation = () => {
+    setOpenDropdown(false)
+    setOpenMenu(false)
+  }
 
-        document.addEventListener('pointerdown', handleOutsideClick);
-        document.addEventListener('keydown', handleEscape);
+  useEffect(() => {
+    const handleOutsideClick = (event) => {
+      if (
+        headerRef.current &&
+        !headerRef.current.contains(event.target)
+      ) {
+        setOpenDropdown(false)
+        setOpenMenu(false)
+      }
+    }
 
-        return () => {
-            document.removeEventListener('pointerdown', handleOutsideClick);
-            document.removeEventListener('keydown', handleEscape);
-        };
-    }, []);
+    const handleEscape = (event) => {
+      if (event.key === 'Escape') {
+        setOpenDropdown(false)
+        setOpenMenu(false)
+      }
+    }
 
-    const closeNavigation = () => {
-        setOpenDropdown(false);
-        setOpenMenu(false);
-    };
+    document.addEventListener(
+      'pointerdown',
+      handleOutsideClick
+    )
 
-    return (
-        <header className="fixed w-full z-40 bg-black/60 backdrop-blur-md">
-            <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-                <Link to="/" className="flex items-center gap-3">
-                    <div className="flex items-center justify-center">
-                        <img
-                            src={logo}
-                            alt="Vanya Eco Products"
-                            className="h-14 md:h-16 w-auto object-contain rounded-2xl"
-                        />
-                    </div>
-                </Link>
+    document.addEventListener(
+      'keydown',
+      handleEscape
+    )
 
-                {/* Desktop Navigation */}
-                <nav className="hidden lg:flex gap-5 items-center text-sm relative">
+    return () => {
+      document.removeEventListener(
+        'pointerdown',
+        handleOutsideClick
+      )
 
-                    {/* Products Dropdown */}
-                    <div
-                        className="relative"
-                        ref={productsDropdownRef}
-                    >
-                        <button
-                            type="button"
-                            onClick={() =>
-                                setOpenDropdown((current) => !current)
-                            }
-                            aria-expanded={openDropdown}
-                            aria-haspopup="menu"
-                            className="flex items-center gap-1 hover:underline"
-                            style={{
-                                fontFamily: '"Raleway", sans-serif',
-                                fontWeight: 'bold',
-                            }}
-                        >
-                            Products
+      document.removeEventListener(
+        'keydown',
+        handleEscape
+      )
+    }
+  }, [])
 
-                            <span
-                                aria-hidden="true"
-                                className={`text-[10px] transition-transform duration-200 ${
-                                    openDropdown ? 'rotate-180' : ''
-                                }`}
-                            >
-                                ▼
-                            </span>
-                        </button>
+  useEffect(() => {
+    setOpenDropdown(false)
+    setOpenMenu(false)
+  }, [location.pathname, location.hash])
 
-                        {openDropdown && (
-                            <div
-                                role="menu"
-                                className="absolute top-full left-0 mt-3 w-52 overflow-hidden rounded-lg border border-white/10 bg-black/95 py-2 shadow-2xl backdrop-blur-md"
-                            >
-                                <a
-                                    role="menuitem"
-                                    href="#masalas"
-                                    onClick={closeNavigation}
-                                    className="block px-4 py-2.5 hover:bg-white/10"
-                                    style={{
-                                        fontFamily: '"Roboto", sans-serif',
-                                    }}
-                                >
-                                    Masalas
-                                </a>
+  useEffect(() => {
+    if (!openMenu) return undefined
 
-                                <a
-                                    role="menuitem"
-                                    href="#raw-spices"
-                                    onClick={closeNavigation}
-                                    className="block px-4 py-2.5 hover:bg-white/10"
-                                    style={{
-                                        fontFamily: '"Roboto", sans-serif',
-                                    }}
-                                >
-                                    Spices
-                                </a>
+    const previousOverflow =
+      document.body.style.overflow
 
-                                <a
-                                    role="menuitem"
-                                    href="#beverages"
-                                    onClick={closeNavigation}
-                                    className="block px-4 py-2.5 hover:bg-white/10"
-                                    style={{
-                                        fontFamily: '"Roboto", sans-serif',
-                                    }}
-                                >
-                                    Tea & Coffee
-                                </a>
+    document.body.style.overflow = 'hidden'
 
-                                <a
-                                    role="menuitem"
-                                    href="#nutsHoney"
-                                    onClick={closeNavigation}
-                                    className="block px-4 py-2.5 hover:bg-white/10"
-                                    style={{
-                                        fontFamily: '"Roboto", sans-serif',
-                                    }}
-                                >
-                                    Nuts & Honey
-                                </a>
+    return () => {
+      document.body.style.overflow = previousOverflow
+    }
+  }, [openMenu])
 
-                                <a
-                                    role="menuitem"
-                                    href="#coconut-oil"
-                                    onClick={closeNavigation}
-                                    className="block px-4 py-2.5 hover:bg-white/10"
-                                    style={{
-                                        fontFamily: '"Roboto", sans-serif',
-                                    }}
-                                >
-                                    Coconut Oil
-                                </a>
-                            </div>
-                        )}
-                    </div>
+  return (
+    <header
+      ref={headerRef}
+      id="site-header"
+      className="fixed left-0 top-0 z-50 w-full border-b border-white/50 bg-black/80 text-white backdrop-blur-md "
+    >
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 sm:px-6 lg:px-8">
+        <Link
+          to="/"
+          onClick={closeNavigation}
+          aria-label="Vanya Eco Products homepage"
+          className="flex items-center"
+        >
+          <img
+            src="/assets/logo.png"
+            alt="Vanya Eco Products"
+            className="h-14 w-auto rounded-2xl object-contain md:h-16"
+          />
+        </Link>
 
-                    <a
-                        href="#about"
-                        className="hover:underline"
-                        style={{
-                            fontFamily: '"Raleway", sans-serif',
-                            fontWeight: 'bold',
-                        }}
-                    >
-                        About Us
-                    </a>
+        {/* Desktop navigation */}
+        <nav
+          aria-label="Main navigation"
+          className="relative hidden items-center gap-5 text-sm lg:flex"
+        >
+          <div className="relative">
+            <button
+              type="button"
+              onClick={() =>
+                setOpenDropdown((current) => !current)
+              }
+              aria-expanded={openDropdown}
+              aria-controls="desktop-products-menu"
+              className="flex items-center gap-1.5 font-bold transition hover:text-green-400"
+              style={{
+                fontFamily: '"Raleway", sans-serif',
+              }}
+            >
+              Products
 
-                    <a
-                        href="#community-stall"
-                        className=" px-3 py-1.5 transition hover:underline"
-                        style={{
-                            fontFamily: '"Raleway", sans-serif',
-                            fontWeight: 'bold',
-                        }}
-                    >
-                        Book a Stall
-                    </a>
+              <span
+                aria-hidden="true"
+                className={`text-[10px] transition-transform duration-200 ${
+                  openDropdown ? 'rotate-180' : ''
+                }`}
+              >
+                ▼
+              </span>
+            </button>
 
-                    <a
-                        href="#bulk"
-                        className="hover:underline"
-                        style={{
-                            fontFamily: '"Raleway", sans-serif',
-                            fontWeight: 'bold',
-                        }}
-                    >
-                        Bulk / Export
-                    </a>
+            {openDropdown && (
+              <div
+                id="desktop-products-menu"
+                className="absolute left-0 top-full mt-4 w-56 overflow-hidden rounded-xl border border-white/10 bg-black/95 py-2 shadow-2xl"
+              >
+                {productLinks.map((item) => (
+                  <Link
+                    key={item.to}
+                    to={item.to}
+                    onClick={closeNavigation}
+                    className="block px-4 py-3 text-gray-200 transition hover:bg-green-500/10 hover:text-green-400"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
 
-                    <a
-                        href="#licenses"
-                        className="hover:underline"
-                        style={{
-                            fontFamily: '"Raleway", sans-serif',
-                            fontWeight: 'bold',
-                        }}
-                    >
-                        Our Certifications
-                    </a>
+          {mainLinks.map((item) => (
+            <Link
+              key={item.to}
+              to={item.to}
+              onClick={closeNavigation}
+              className="font-bold transition hover:text-green-400"
+              style={{
+                fontFamily: '"Raleway", sans-serif',
+              }}
+            >
+              {item.label}
+            </Link>
+          ))}
 
-                    <Link
-                        to="/blogs"
-                        className="hover:underline"
-                        style={{
-                            fontFamily: '"Raleway", sans-serif',
-                            fontWeight: 'bold',
-                        }}
-                    >
-                        Blogs
-                    </Link>
+          <Link
+            to="/blogs"
+            onClick={closeNavigation}
+            className="font-bold transition hover:text-green-400"
+            style={{
+              fontFamily: '"Raleway", sans-serif',
+            }}
+          >
+            Blogs
+          </Link>
 
-                    <a
-                        href="#contact"
-                        className="px-3 py-1 border border-white/10 rounded"
-                        style={{
-                            fontFamily: '"Raleway", sans-serif',
-                            fontWeight: 'bold',
-                        }}
-                    >
-                        Contact
-                    </a>
-                </nav>
+          <Link
+            to="/#contact"
+            onClick={closeNavigation}
+            className="rounded-lg border border-green-500/60 px-4 py-2 font-bold transition hover:bg-green-500"
+            style={{
+              fontFamily: '"Raleway", sans-serif',
+            }}
+          >
+            Contact
+          </Link>
+        </nav>
 
-                {/* Mobile Menu Button */}
-                <div className="lg:hidden">
-                    <button
-                        type="button"
-                        onClick={() => {
-                            setOpenMenu((current) => !current);
-                            setOpenDropdown(false);
-                        }}
-                        aria-label="Toggle menu"
-                        aria-expanded={openMenu}
-                        className="p-2"
-                    >
-                        <svg
-                            width="24"
-                            height="24"
-                            fill="none"
-                            stroke="currentColor"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth="2"
-                                d={
-                                    openMenu
-                                        ? 'M6 18L18 6M6 6l12 12'
-                                        : 'M4 6h16M4 12h16M4 18h16'
-                                }
-                            />
-                        </svg>
-                    </button>
+        {/* Mobile menu button */}
+        <button
+          type="button"
+          onClick={() => {
+            setOpenMenu((current) => !current)
+            setOpenDropdown(false)
+          }}
+          aria-label={
+            openMenu
+              ? 'Close navigation menu'
+              : 'Open navigation menu'
+          }
+          aria-expanded={openMenu}
+          aria-controls="mobile-navigation"
+          className="flex h-11 w-11 items-center justify-center rounded-lg border border-white/10 transition hover:border-green-500/60 hover:text-green-400 lg:hidden"
+        >
+          <svg
+            aria-hidden="true"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d={
+                openMenu
+                  ? 'M6 18L18 6M6 6l12 12'
+                  : 'M4 6h16M4 12h16M4 18h16'
+              }
+            />
+          </svg>
+        </button>
+      </div>
+
+      {/* Mobile navigation */}
+      {openMenu && (
+        <nav
+          id="mobile-navigation"
+          aria-label="Mobile navigation"
+          className="max-h-[calc(100dvh-89px)] overflow-y-auto border-t border-white/10 bg-black/95 px-5 py-4 shadow-2xl lg:hidden"
+        >
+          <div className="mx-auto flex max-w-7xl flex-col">
+            <div className="border-b border-white/10">
+              <button
+                type="button"
+                onClick={() =>
+                  setOpenDropdown(
+                    (current) => !current
+                  )
+                }
+                aria-expanded={openDropdown}
+                aria-controls="mobile-products-menu"
+                className="flex w-full items-center justify-between py-4 text-left font-bold transition hover:text-green-400"
+                style={{
+                  fontFamily:
+                    '"Raleway", sans-serif',
+                }}
+              >
+                <span>Products</span>
+
+                <span
+                  aria-hidden="true"
+                  className={`text-xs transition-transform duration-200 ${
+                    openDropdown ? 'rotate-180' : ''
+                  }`}
+                >
+                  ▼
+                </span>
+              </button>
+
+              <div
+                id="mobile-products-menu"
+                className={`grid overflow-hidden transition-all duration-300 ${
+                  openDropdown
+                    ? 'grid-rows-[1fr] opacity-100'
+                    : 'grid-rows-[0fr] opacity-0'
+                }`}
+              >
+                <div className="min-h-0">
+                  <div className="mb-3 overflow-hidden rounded-xl border border-white/10 bg-white/[0.04]">
+                    {productLinks.map((item) => (
+                      <Link
+                        key={item.to}
+                        to={item.to}
+                        onClick={closeNavigation}
+                        className="block border-b border-white/5 px-4 py-3.5 text-sm text-gray-200 transition last:border-b-0 hover:bg-green-500/10 hover:text-green-400"
+                      >
+                        {item.label}
+                      </Link>
+                    ))}
+                  </div>
                 </div>
+              </div>
             </div>
 
-            {/* Mobile and Tablet Menu */}
-            {openMenu && (
-                <div className="lg:hidden bg-black/95 border-t border-white/5">
-                    <div className="flex flex-col gap-2 px-6 py-6 text-lg">
+            {mainLinks.map((item) => (
+              <Link
+                key={item.to}
+                to={item.to}
+                onClick={closeNavigation}
+                className="border-b border-white/10 py-4 font-bold transition hover:text-green-400"
+                style={{
+                  fontFamily:
+                    '"Raleway", sans-serif',
+                }}
+              >
+                {item.label}
+              </Link>
+            ))}
 
-                        {/* Products Dropdown Mobile */}
-                        <div className="py-2">
-                            <button
-                                type="button"
-                                onClick={() =>
-                                    setOpenDropdown((current) => !current)
-                                }
-                                aria-expanded={openDropdown}
-                                className="flex items-center gap-2 w-full justify-between"
-                                style={{
-                                    fontFamily: '"Raleway", sans-serif',
-                                    fontWeight: 'bold',
-                                }}
-                            >
-                                Products
+            <Link
+              to="/blogs"
+              onClick={closeNavigation}
+              className="border-b border-white/10 py-4 font-bold transition hover:text-green-400"
+              style={{
+                fontFamily:
+                  '"Raleway", sans-serif',
+              }}
+            >
+              Blogs
+            </Link>
 
-                                <span>
-                                    {openDropdown ? '▲' : '▼'}
-                                </span>
-                            </button>
-
-                            {openDropdown && (
-                                <div className="flex flex-col pl-4 mt-2 gap-1">
-                                    <a
-                                        href="#masalas"
-                                        onClick={closeNavigation}
-                                        className="py-1"
-                                        style={{
-                                            fontFamily: '"Roboto", sans-serif',
-                                        }}
-                                    >
-                                        Masalas
-                                    </a>
-
-                                    <a
-                                        href="#raw-spices"
-                                        onClick={closeNavigation}
-                                        className="py-1"
-                                        style={{
-                                            fontFamily: '"Roboto", sans-serif',
-                                        }}
-                                    >
-                                        Spices
-                                    </a>
-
-                                    <a
-                                        href="#beverages"
-                                        onClick={closeNavigation}
-                                        className="py-1"
-                                        style={{
-                                            fontFamily: '"Roboto", sans-serif',
-                                        }}
-                                    >
-                                        Tea & Coffee
-                                    </a>
-
-                                    <a
-                                        href="#nutsHoney"
-                                        onClick={closeNavigation}
-                                        className="py-1"
-                                        style={{
-                                            fontFamily: '"Roboto", sans-serif',
-                                        }}
-                                    >
-                                        Nuts & Honey
-                                    </a>
-
-                                    <a
-                                        href="#coconut-oil"
-                                        onClick={closeNavigation}
-                                        className="py-1"
-                                        style={{
-                                            fontFamily: '"Roboto", sans-serif',
-                                        }}
-                                    >
-                                        Coconut Oil
-                                    </a>
-                                </div>
-                            )}
-                        </div>
-
-                        <hr />
-
-                        <a
-                            href="#about"
-                            onClick={closeNavigation}
-                            className="hover:underline py-2"
-                            style={{
-                                fontFamily: '"Raleway", sans-serif',
-                                fontWeight: 'bold',
-                            }}
-                        >
-                            About Us
-                        </a>
-
-                        <hr />
-
-                        <a
-                            href="#community-stall"
-                            onClick={closeNavigation}
-                            className="my-1 hover:underline py-2"
-                            style={{
-                                fontFamily: '"Raleway", sans-serif',
-                                fontWeight: 'bold',
-                            }}
-                        >
-                            Book a Stall
-                        </a>
-
-                        <hr />
-
-                        <a
-                            href="#bulk"
-                            onClick={closeNavigation}
-                            className="hover:underline py-2"
-                            style={{
-                                fontFamily: '"Raleway", sans-serif',
-                                fontWeight: 'bold',
-                            }}
-                        >
-                            Bulk / Export
-                        </a>
-
-                        <hr />
-
-                        <Link
-                            to="/blogs"
-                            onClick={closeNavigation}
-                            className="hover:underline py-2"
-                            style={{
-                                fontFamily: '"Raleway", sans-serif',
-                                fontWeight: 'bold',
-                            }}
-                        >
-                            Blogs
-                        </Link>
-
-                        <hr />
-
-                        <a
-                            href="#contact"
-                            onClick={closeNavigation}
-                            className="hover:underline py-2"
-                            style={{
-                                fontFamily: '"Raleway", sans-serif',
-                                fontWeight: 'bold',
-                            }}
-                        >
-                            Contact
-                        </a>
-
-                        <hr />
-
-                        <a
-                            href="#licenses"
-                            onClick={closeNavigation}
-                            className="hover:underline py-2"
-                            style={{
-                                fontFamily: '"Raleway", sans-serif',
-                                fontWeight: 'bold',
-                            }}
-                        >
-                            Our Certifications
-                        </a>
-                    </div>
-                </div>
-            )}
-
-            <hr />
-        </header>
-    );
+            <Link
+              to="/#contact"
+              onClick={closeNavigation}
+              className="mt-4 flex min-h-12 items-center justify-center rounded-lg bg-green-600 px-5 py-3 font-bold transition hover:bg-green-500"
+              style={{
+                fontFamily:
+                  '"Raleway", sans-serif',
+              }}
+            >
+              Contact
+            </Link>
+          </div>
+        </nav>
+      )}
+    </header>
+  )
 }
