@@ -131,8 +131,9 @@ Contact Number: ${contactNumber}`
   return (
     <section
       ref={sectionRef}
+      id="community-stall"
       aria-labelledby="community-stall-title"
-      className="relative overflow-hidden border-y border-white/10 bg-[#030504] py-12 text-white lg:py-14"
+      className="relative scroll-mt-24 overflow-hidden border-y border-white/10 bg-[#030504] py-12 text-white lg:py-14"
     >
       {/* Subtle background glow */}
       <div
@@ -143,11 +144,10 @@ Contact Number: ${contactNumber}`
       <div className="relative mx-auto grid max-w-7xl items-center gap-8 px-6 md:grid-cols-[1.18fr_0.82fr] lg:gap-12 lg:px-8">
         {/* Left side */}
         <div
-          className={`flex min-w-0 flex-col transition-all duration-700 motion-reduce:transition-none ${
-            isVisible
+          className={`flex min-w-0 flex-col transition-all duration-700 motion-reduce:transition-none ${isVisible
               ? 'translate-x-0 opacity-100'
               : '-translate-x-7 opacity-0'
-          }`}
+            }`}
         >
           <div className="relative z-10">
             <p className="text-sm font-semibold uppercase tracking-[0.25em] text-green-500">
@@ -189,11 +189,10 @@ Contact Number: ${contactNumber}`
 
           {/* Larger image below the text */}
           <div
-            className={`-mb-6 mt-4 hidden w-full transition-all delay-150 duration-1000 motion-reduce:transition-none sm:block ${
-              isVisible
+            className={`-mb-6 mt-4 hidden w-full transition-all delay-150 duration-1000 motion-reduce:transition-none sm:block ${isVisible
                 ? 'translate-y-0 scale-100 opacity-100'
                 : 'translate-y-7 scale-[0.97] opacity-0'
-            }`}
+              }`}
           >
             <img
               src="/assets/community-stall-request.png"
@@ -210,11 +209,10 @@ Contact Number: ${contactNumber}`
         {/* Right side form */}
         <form
           onSubmit={handleSubmit}
-          className={`rounded-2xl border border-green-500/80 bg-black/70 p-4 shadow-2xl shadow-green-950/20 backdrop-blur-sm transition-all delay-100 duration-700 motion-reduce:transition-none sm:p-5 ${
-            isVisible
+          className={`rounded-2xl border border-green-500/80 bg-black/70 p-4 shadow-2xl shadow-green-950/20 backdrop-blur-sm transition-all delay-100 duration-700 motion-reduce:transition-none sm:p-5 ${isVisible
               ? 'translate-x-0 opacity-100'
               : 'translate-x-7 opacity-0'
-          }`}
+            }`}
         >
           <div className="flex items-center gap-3 border-b border-white/20 pb-3">
             <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-green-400 bg-green-500/10 shadow-[0_0_22px_rgba(34,197,94,0.35)]">
