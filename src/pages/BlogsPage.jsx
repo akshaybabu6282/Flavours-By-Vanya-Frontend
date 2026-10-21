@@ -63,12 +63,12 @@ export default function BlogsPage() {
       </Helmet>
 
       <button
-       aria-label='Go to previous page'
+        aria-label='Go to previous page'
         onClick={() => navigate(-1)}
-        className="fixed top-5 left-5 z-50 px-5 py-2 bg-black text-white rounded-full shadow-lg hover:bg-gray-800 transition"
+        className="fixed left-4 top-24 z-40 rounded-full bg-black px-5 py-2 text-white shadow-lg transition hover:bg-gray-800 sm:left-5"
         style={{ fontFamily: '"Roboto", sans-serif' }}
       >
-        ← 
+        ←
       </button>
 
       <main className="pt-28 pb-20">
@@ -107,11 +107,10 @@ export default function BlogsPage() {
           <button
             onClick={handlePrev}
             disabled={currentPage === 1}
-            className={`px-6 py-3 rounded-full transition ${
-              currentPage === 1
+            className={`px-6 py-3 rounded-full transition ${currentPage === 1
                 ? "bg-gray-300 text-gray-500 cursor-not-allowed"
                 : "bg-black text-white hover:bg-gray-800"
-            }`}
+              }`}
             style={{ fontFamily: '"Roboto", sans-serif' }}
           >
             ← Previous
@@ -127,11 +126,10 @@ export default function BlogsPage() {
           <button
             onClick={handleNext}
             disabled={currentPage === totalPages}
-            className={`px-6 py-3 rounded-full transition ${
-              currentPage === totalPages
+            className={`px-6 py-3 rounded-full transition ${currentPage === totalPages
                 ? "bg-gray-300 text-gray-500 cursor-not-allowed"
                 : "bg-black text-white hover:bg-gray-800"
-            }`}
+              }`}
             style={{ fontFamily: '"Roboto", sans-serif' }}
           >
             Next →

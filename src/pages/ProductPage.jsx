@@ -96,7 +96,7 @@ export default function ProductPage() {
       <button
         aria-label='Go to previous page'
         onClick={() => navigate(-1)}
-        className="fixed top-6 left-6 z-50 px-4 py-2 text-white bg-gray-800 hover:bg-gray-700 hover:text-white rounded-md flex items-center gap-2 shadow-lg"
+        className="fixed left-4 top-24 z-40 flex items-center gap-2 rounded-md bg-gray-800 px-4 py-2 text-white shadow-lg hover:bg-gray-700 hover:text-white sm:left-6"
         style={{ fontFamily: '"Roboto", sans-serif' }}
       >
         &#8592;

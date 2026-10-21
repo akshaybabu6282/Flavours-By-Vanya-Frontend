@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from './components/Header'
 import Hero from './components/Hero'
 import ProductSection from './components/ProductSection'
 import BulkOrders from './components/BulkOrders'
@@ -55,7 +54,6 @@ export default function App() {
       </Helmet>
 
 
-      <Header />
       <main >
         <Hero />
         <VanyaJourney />

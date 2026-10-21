@@ -51,12 +51,12 @@ export default function BlogDetailPage() {
       </Helmet>
 
       <button
-       aria-label='Go to previous page'
+        aria-label='Go to previous page'
         onClick={() => navigate(-1)}
-        className="fixed top-5 left-5 z-50 px-4 py-2 bg-black/70 backdrop-blur-md text-white rounded-full shadow-lg hover:bg-black transition"
+        className="fixed left-4 top-24 z-40 rounded-full bg-black/70 px-4 py-2 text-white shadow-lg backdrop-blur-md transition hover:bg-black sm:left-5"
         style={{ fontFamily: '"Roboto", sans-serif' }}
       >
-        ← 
+        ←
       </button>
 
       <main>
@@ -112,9 +112,8 @@ export default function BlogDetailPage() {
               {blog.content.map((section, index) => (
                 <section
                   key={index}
-                  className={`mb-14 ${
-                    index % 2 === 0 ? "" : "md:grid md:grid-cols-2 md:gap-10 md:items-center"
-                  }`}
+                  className={`mb-14 ${index % 2 === 0 ? "" : "md:grid md:grid-cols-2 md:gap-10 md:items-center"
+                    }`}
                 >
                   {section.image && index % 2 !== 0 && (
                     <div className="mb-6 md:mb-0">
