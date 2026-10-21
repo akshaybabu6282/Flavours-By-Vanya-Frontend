@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet-async";
 import Footer from "../components/Footer";
 import WhatsAppFloating from "../components/WhatsAppFloating";
 import { blogs } from "../data/blogs";
+import NotFoundPage from './NotFoundPage'
 
 export default function BlogDetailPage() {
   const { slug } = useParams();
@@ -13,10 +14,11 @@ export default function BlogDetailPage() {
 
   if (!blog) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-black text-white">
-        Blog not found
-      </div>
-    );
+      <NotFoundPage
+        title="Story not found"
+        description="The story you are looking for may have been moved, renamed or is no longer available."
+      />
+    )
   }
 
   return (

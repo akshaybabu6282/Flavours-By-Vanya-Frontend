@@ -7,6 +7,7 @@ import ProductFAQ from '../components/ProductFAQ';
 import ProductStructuredData from '../components/ProductStructuredData';
 import { Helmet } from "react-helmet-async";
 import RelatedProducts from '../components/RelatedProducts';
+import NotFoundPage from './NotFoundPage'
 
 
 export default function ProductPage() {
@@ -14,11 +15,14 @@ export default function ProductPage() {
   const navigate = useNavigate();
   const product = products.find(p => p.slug === slug);
 
-  if (!product) return (
-    <div className="min-h-screen flex items-center justify-center text-gray-400 bg-black">
-      Product not found
-    </div>
-  );
+  if (!product) {
+    return (
+      <NotFoundPage
+        title="Product not found"
+        description="The product you are looking for may have been moved, renamed or is no longer available on this page."
+      />
+    )
+  }
 
 
   return (

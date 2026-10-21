@@ -20,6 +20,7 @@ import ProductDisclaimerPage from './pages/ProductDisclaimerPage'
 import Header from './components/Header'
 import RouteMeta from './components/RouteMeta'
 import ScrollToTop from './components/ScrollToTop'
+import NotFoundPage from './pages/NotFoundPage'
 
 import './index.css'
 
@@ -85,6 +86,8 @@ createRoot(document.getElementById('root')).render(
             path="/product-disclaimer"
             element={<ProductDisclaimerPage />}
           />
+          
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </BrowserRouter>
     </HelmetProvider>
