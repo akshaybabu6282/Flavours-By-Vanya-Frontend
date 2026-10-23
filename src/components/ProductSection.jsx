@@ -12,7 +12,7 @@ export default function ProductSection({
   return (
     <section
       id={id}
-      className="scroll-mt-24 overflow-hidden border-b border-white/[0.07] bg-[#070a08] py-14 text-white sm:py-16 lg:py-20"
+      className="scroll-mt-24 overflow-hidden border-b border-white/[0.07] bg-[#070a08] py-10 text-white sm:py-12 lg:py-14"
     >
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
         {/* Category heading */}
