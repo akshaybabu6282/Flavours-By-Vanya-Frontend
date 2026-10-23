@@ -166,7 +166,7 @@ Contact Number: ${contactNumber}`
       {/* Mobile and tablet readability layer */}
       <div
         aria-hidden="true"
-        className="absolute inset-0 bg-[#f4ead9]/25 sm:bg-[#f4ead9]/35 lg:bg-transparent"
+        className="absolute inset-0 bg-[#f4ead9]/15 sm:bg-[#f4ead9]/35 lg:bg-transparent"
       />
 
       {/* Desktop text protection */}
@@ -260,7 +260,7 @@ Contact Number: ${contactNumber}`
         {/* Enquiry form */}
         <form
           onSubmit={handleSubmit}
-          className={`rounded-[1.75rem] border border-[#a99774]/55 bg-[#fffaf1]/90 p-5 shadow-[0_24px_70px_rgba(58,45,24,0.18)] backdrop-blur-md transition-all delay-100 duration-700 motion-reduce:transition-none sm:p-6 ${
+          className={`rounded-[1.75rem] border border-[#8f7c59]/55 bg-[#fffaf1]/75 p-5 shadow-[0_24px_70px_rgba(58,45,24,0.16)] backdrop-blur-[1px] transition-all delay-100 duration-700 motion-reduce:transition-none sm:bg-[#fffaf1]/90 sm:p-6 sm:backdrop-blur-md ${
             isVisible
               ? 'translate-x-0 opacity-100'
               : 'translate-x-7 opacity-0'
