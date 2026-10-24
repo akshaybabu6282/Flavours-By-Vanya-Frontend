@@ -537,5 +537,94 @@ export const blogs = [
         ]
       }
     ]
+  },  {
+    id: 12,
+    title:
+      "What Is Vendha Velichenna? Traditional Kerala Coconut Oil Explained",
+    slug:
+      "what-is-vendha-velichenna-traditional-kerala-coconut-oil",
+    category: "Coconut Oil",
+    image: "/assets/coconut-hot.webp",
+    excerpt:
+      "Understand what Vendha Velichenna is, how the traditional hot-process method shapes its aroma, and how it differs from cold pressed coconut oil.",
+    intro:
+      "Vendha Velichenna is a traditional Kerala-style coconut oil recognised for its deep coconut aroma, characteristic colour and hot-process preparation. Although it comes from coconut like other coconut oils, the preparation method gives it a noticeably different character from cold pressed coconut oil.",
+    relatedProduct: {
+      name: "Explore Vanya Vendha Velichenna",
+      path:
+        "/product/vendha-velichenna-pure-virgin-coconut-oil-hot-pressed",
+    },
+    content: [
+      {
+        heading:
+          "What does Vendha Velichenna mean?",
+        image:
+          "/assets/coconut-hot-sourcing.webp",
+        text: [
+          "Vendha Velichenna is a Malayalam expression commonly associated with coconut oil prepared using heat. It belongs to Kerala’s long tradition of preparing coconut-based oils for household use.",
+          "Its identity comes not only from coconut as the raw material, but also from the way heat is used during preparation. This creates a deeper aroma and a more pronounced coconut character than many lightly processed oils."
+        ]
+      },
+      {
+        heading:
+          "How the traditional hot-process method works",
+        image:
+          "/assets/coconut-hot-processing.webp",
+        text: [
+          "Traditional preparation commonly involves processing coconut material with controlled heat until the oil separates. The separated oil is then collected and filtered to remove remaining particles before storage or packing.",
+          "The exact equipment, temperature control and processing steps can differ between producers. Careful heat management is important because excessive or uncontrolled heating may affect aroma, colour and overall quality."
+        ]
+      },
+      {
+        heading:
+          "Why it has a deeper coconut aroma",
+        image:
+          "/assets/Ventha_Velichenna_3.webp",
+        text: [
+          "Heat changes the sensory character of coconut during preparation. This gives Vendha Velichenna its distinctive warm and roasted coconut aroma.",
+          "Natural agricultural variation and differences between production batches may cause reasonable changes in colour and aroma. These differences should be considered together with the product label, storage condition and batch information."
+        ]
+      },
+      {
+        heading:
+          "Vendha Velichenna and cold pressed coconut oil are different",
+        image:
+          "/assets/coconut-bg.webp",
+        text: [
+          "Cold pressed coconut oil is mechanically extracted with limited heat and usually has a lighter coconut aroma. Vendha Velichenna uses a hot-process style and generally has a deeper, more traditional aroma.",
+          "Neither method needs to be presented as universally better. The appropriate choice depends on the intended use, personal preference and the directions provided on the product label."
+        ]
+      },
+      {
+        heading:
+          "What to check when choosing Vendha Velichenna",
+        image:
+          "/assets/coconut-hot-benefits.webp",
+        text: [
+          "Check that the bottle is properly sealed and that the label provides the product name, ingredient declaration, batch details, packing information, best-before guidance, manufacturer details and applicable food licence information.",
+          "The oil should be purchased from a responsible seller who can explain the product and provide assistance regarding storage, batch information and intended usage."
+        ]
+      },
+      {
+        heading:
+          "How to store it correctly",
+        image:
+          "/assets/coconut-small-1.webp",
+        text: [
+          "Keep the bottle tightly closed in a cool and dry place away from direct sunlight, moisture and strong odours. Use clean and dry utensils if oil is transferred from its original container.",
+          "Coconut oil can naturally become cloudy or solidify at lower temperatures. Follow the current pack instructions and contact the seller if you notice a damaged seal, unusual contamination or another concern about a particular batch."
+        ]
+      },
+      {
+        heading:
+          "How Vanya prepares and presents Vendha Velichenna",
+        image:
+          "/assets/coconut-hot.webp",
+        text: [
+          "Vanya selects coconut material through trusted suppliers and uses a controlled hot-process method to create the characteristic aroma associated with Vendha Velichenna. The oil is filtered and packed hygienically in food-grade packaging.",
+          "Customers should refer to the current product label for confirmed ingredients, storage directions and product-specific usage information."
+        ]
+      }
+    ]
   },
 ]
