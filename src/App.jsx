@@ -17,6 +17,7 @@ import DontSellOnline from './components/DontSellOnline'
 import CustomerConnections from './components/CustomerConnections'
 import VanyaJourney from './components/VanyaJourney'
 import CommunityStallRequest from './components/CommunityStallRequest'
+import GoogleReviews from './components/GoogleReviews'
 
 
 export default function App() {
@@ -66,6 +67,7 @@ export default function App() {
         />
         <AboutUs />
         <CustomerConnections />
+        <GoogleReviews />
         <CommunityStallRequest />
         <DontSellOnline />
         <BulkOrders />
