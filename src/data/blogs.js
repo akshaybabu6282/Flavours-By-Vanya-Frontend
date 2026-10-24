@@ -626,5 +626,104 @@ export const blogs = [
         ]
       }
     ]
+  },  {
+    id: 13,
+    title:
+      "What Is Malabar Tamarind? Its Taste and Role in Kerala Cooking",
+    slug:
+      "what-is-malabar-tamarind-taste-uses-kerala-cooking",
+    category: "Traditional Ingredients",
+    image:
+      "/assets/malabar-tamarind-bg.webp",
+    excerpt:
+      "Discover Malabar Tamarind, also known as Kudampuli, and learn how its smoky sourness adds character to Kerala fish curries and regional dishes.",
+    intro:
+      "Malabar Tamarind, commonly known as Kudampuli in Kerala, is a traditional souring ingredient used in regional cooking. Its deep, smoky sourness is especially associated with Kerala fish curries, seafood preparations and gravies that need a distinctive acidic character.",
+    relatedProduct: {
+      name: "Explore Vanya Malabar Tamarind",
+      path: "/product/malabar-tamarind",
+    },
+    content: [
+      {
+        heading:
+          "What is Malabar Tamarind?",
+        image:
+          "/assets/malabar-tamarind-sourcing.webp",
+        text: [
+          "Malabar Tamarind is the dried rind of a fruit belonging to the Garcinia group. In Kerala, it is widely known as Kudampuli. It is different from the familiar brown tamarind pulp obtained from Tamarindus indica.",
+          "The fruit rind is prepared and dried before being used as a souring ingredient. The dried pieces develop a concentrated character that can add acidity, depth and a recognisable smoky note to regional dishes."
+        ]
+      },
+      {
+        heading:
+          "Malabar Tamarind and ordinary tamarind are different",
+        image:
+          "/assets/malabar-tamarind-benefits.webp",
+        text: [
+          "Ordinary tamarind generally provides a rounded fruity sourness and is used in many Indian dishes. Malabar Tamarind has a darker, deeper and often smokier sour profile.",
+          "The two ingredients should not always be exchanged in equal quantities because their flavour intensity and character are different. The appropriate amount depends on the recipe, the strength of the particular batch and personal taste."
+        ]
+      },
+      {
+        heading:
+          "Why it is closely connected with Kerala fish curry",
+        image:
+          "/assets/malabar-tamarind-processing.webp",
+        text: [
+          "Malabar Tamarind is strongly associated with Kerala fish curry because its sourness complements fish, chilli, spices and coconut-based preparations. It gives the gravy a distinctive depth that differs from lemon, vinegar or ordinary tamarind.",
+          "The ingredient is also used in selected seafood dishes and regional gravies. Recipes vary between families and different parts of Kerala, so the amount and preparation method may change."
+        ]
+      },
+      {
+        heading:
+          "How to prepare it before cooking",
+        image:
+          "/assets/malabar-tamarind-bg.webp",
+        text: [
+          "Begin by checking the dried pieces and rinsing them according to your normal cooking practice. They can then be soaked briefly in warm water to soften them and begin releasing their sour character.",
+          "The soaked pieces and water may be added to the curry according to the recipe. Start with a small quantity because the flavour can become stronger as the dish cooks and rests."
+        ]
+      },
+      {
+        heading:
+          "How much should be added?",
+        image:
+          "/assets/malabar-tamarind-front.webp",
+        text: [
+          "There is no single quantity that works for every dish. The correct amount depends on the size of the curry, the other ingredients, the strength of the dried pieces and the desired level of sourness.",
+          "It is usually better to begin with less and adjust carefully. Adding too much at the beginning can overpower the other flavours in the dish."
+        ]
+      },
+      {
+        heading:
+          "Should the pieces remain in the curry?",
+        image:
+          "/assets/malabar-tamarind-back.webp",
+        text: [
+          "Some traditional recipes leave the pieces in the curry while it cooks and rests. This allows the sour character to continue developing.",
+          "If the curry becomes sufficiently sour, the pieces can be removed before storage or serving. The decision depends on the recipe and personal preference."
+        ]
+      },
+      {
+        heading:
+          "How to store dried Malabar Tamarind",
+        image:
+          "/assets/malabar-tamarind-sourcing.webp",
+        text: [
+          "Keep the product properly closed in a cool and dry place away from moisture, direct sunlight and strong odours. Always use a clean and dry utensil when removing pieces from the pack.",
+          "Moisture can affect the texture and storage condition of dried ingredients. Follow the instructions on the current pack and contact the seller if the pack is damaged or the product shows an unexpected change."
+        ]
+      },
+      {
+        heading:
+          "How Vanya selects and packs Malabar Tamarind",
+        image:
+          "/assets/malabar-tamarind-processing.webp",
+        text: [
+          "Vanya selects dried Malabar Tamarind pieces for characteristic colour, aroma and sound condition. The pieces are cleaned, checked and packed to help protect them from moisture and unnecessary handling.",
+          "Natural variation may occur between batches because agricultural ingredients can differ according to crop, season, supplier and storage conditions."
+        ]
+      }
+    ]
   },
 ]
