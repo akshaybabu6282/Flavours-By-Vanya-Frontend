@@ -23,10 +23,14 @@ import { Helmet } from 'react-helmet-async'
 import Footer from '../components/Footer'
 import Gallery from '../components/Gallery'
 import ProductFAQ from '../components/ProductFAQ'
+import ProductInformation from '../components/ProductInformation'
 import ProductStructuredData from '../components/ProductStructuredData'
 import RelatedProducts from '../components/RelatedProducts'
 import WhatsAppFloating from '../components/WhatsAppFloating'
+
 import { products } from '../data/products'
+import { getProductInformation } from '../data/productInformation'
+
 import NotFoundPage from './NotFoundPage'
 
 function renderFormattedText(text = '') {
@@ -59,7 +63,8 @@ export default function ProductPage() {
     (item) => item.slug === slug
   )
 
-  const [selectedSide, setSelectedSide] = useState('front')
+  const [selectedSide, setSelectedSide] =
+    useState('front')
 
   useEffect(() => {
     setSelectedSide('front')
@@ -73,6 +78,10 @@ export default function ProductPage() {
       />
     )
   }
+
+  const information = getProductInformation(
+    product.slug
+  )
 
   const selectedImage =
     selectedSide === 'back' && product.imageBack
@@ -121,7 +130,10 @@ Thank you.`
           href={`https://www.vanyaecoproducts.in/product/${product.slug}`}
         />
 
-        <meta property="og:type" content="website" />
+        <meta
+          property="og:type"
+          content="website"
+        />
 
         <meta
           property="og:title"
@@ -215,6 +227,7 @@ Thank you.`
           </button>
 
           <div className="grid items-center gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16">
+            {/* Product image */}
             <div className="order-2 lg:order-1">
               <div className="relative mx-auto max-w-[620px]">
                 <div
@@ -244,11 +257,16 @@ Thank you.`
                     </span>
                   </div>
 
+                  {/* Front and back selectors */}
                   <div className="mt-4 grid grid-cols-2 gap-3">
                     <button
                       type="button"
-                      onClick={() => setSelectedSide('front')}
-                      aria-pressed={selectedSide === 'front'}
+                      onClick={() =>
+                        setSelectedSide('front')
+                      }
+                      aria-pressed={
+                        selectedSide === 'front'
+                      }
                       className={`flex items-center gap-3 rounded-xl border p-2 text-left transition ${
                         selectedSide === 'front'
                           ? 'border-[#39734d] bg-[#eef5ef] shadow-sm'
@@ -273,8 +291,12 @@ Thank you.`
                     {product.imageBack && (
                       <button
                         type="button"
-                        onClick={() => setSelectedSide('back')}
-                        aria-pressed={selectedSide === 'back'}
+                        onClick={() =>
+                          setSelectedSide('back')
+                        }
+                        aria-pressed={
+                          selectedSide === 'back'
+                        }
                         className={`flex items-center gap-3 rounded-xl border p-2 text-left transition ${
                           selectedSide === 'back'
                             ? 'border-[#39734d] bg-[#eef5ef] shadow-sm'
@@ -301,8 +323,14 @@ Thank you.`
               </div>
             </div>
 
+            {/* Product information */}
             <div className="order-1 lg:order-2">
-              <p className="text-xs font-bold uppercase tracking-[0.28em] text-[#39734d] sm:text-sm">
+              <p
+                className="text-xs font-bold uppercase tracking-[0.28em] text-[#39734d] sm:text-sm"
+                style={{
+                  fontFamily: '"Roboto", sans-serif',
+                }}
+              >
                 {product.category}
               </p>
 
@@ -327,6 +355,7 @@ Thank you.`
                   `Discover ${product.name} from Vanya Eco Products.`}
               </p>
 
+              {/* Trust points */}
               <div className="mt-7 grid gap-3 sm:grid-cols-3 lg:grid-cols-1 xl:grid-cols-3">
                 {[
                   'Carefully selected',
@@ -337,35 +366,61 @@ Thank you.`
                     key={item}
                     className="flex items-center gap-2 rounded-xl border border-[#285c3a]/10 bg-white/50 px-3 py-3 text-sm font-medium text-[#334b3a]"
                   >
-                    <CheckCircle2 className="h-4 w-4 shrink-0 text-[#39734d]" />
+                    <CheckCircle2
+                      aria-hidden="true"
+                      className="h-4 w-4 shrink-0 text-[#39734d]"
+                    />
+
                     <span>{item}</span>
                   </div>
                 ))}
               </div>
 
+              {/* Enquiry buttons */}
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <a
                   href={`https://wa.me/917907662508?text=${whatsappMessage}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-[#23763c] px-6 py-3 font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-[#195f30]"
+                  style={{
+                    fontFamily:
+                      '"Roboto", sans-serif',
+                  }}
                 >
-                  <MessageCircle className="h-5 w-5" />
+                  <MessageCircle
+                    aria-hidden="true"
+                    className="h-5 w-5"
+                  />
+
                   Order on WhatsApp
                 </a>
 
                 <a
                   href={`mailto:business@vanyaecoproducts.in?subject=${bulkEmailSubject}&body=${bulkEmailBody}`}
                   className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border border-[#285c3a]/25 bg-white/65 px-6 py-3 font-semibold text-[#23452f] transition hover:-translate-y-0.5 hover:bg-white"
+                  style={{
+                    fontFamily:
+                      '"Roboto", sans-serif',
+                  }}
                 >
-                  <Mail className="h-5 w-5" />
+                  <Mail
+                    aria-hidden="true"
+                    className="h-5 w-5"
+                  />
+
                   Bulk / Export Enquiry
                 </a>
               </div>
 
-              <p className="mt-4 text-sm leading-6 text-[#6e786f]">
-                Contact us directly for current availability and ordering
-                assistance.
+              <p
+                className="mt-4 text-sm leading-6 text-[#6e786f]"
+                style={{
+                  fontFamily: '"Roboto", sans-serif',
+                }}
+              >
+                Contact us directly for current
+                availability and ordering assistance.
               </p>
             </div>
           </div>
@@ -376,7 +431,12 @@ Thank you.`
       <section className="bg-[#fffdf8] py-16 sm:py-20">
         <div className="mx-auto grid max-w-7xl gap-10 px-5 sm:px-6 lg:grid-cols-[0.34fr_0.66fr] lg:gap-16 lg:px-8">
           <div>
-            <p className="text-xs font-bold uppercase tracking-[0.25em] text-[#39734d]">
+            <p
+              className="text-xs font-bold uppercase tracking-[0.25em] text-[#39734d]"
+              style={{
+                fontFamily: '"Roboto", sans-serif',
+              }}
+            >
               Product story
             </p>
 
@@ -391,9 +451,14 @@ Thank you.`
 
             <div className="mt-5 h-1 w-14 rounded-full bg-[#c69038]" />
 
-            <p className="mt-5 text-sm leading-6 text-[#68736b]">
-              Learn more about the product, its character and how it is
-              prepared.
+            <p
+              className="mt-5 text-sm leading-6 text-[#68736b]"
+              style={{
+                fontFamily: '"Roboto", sans-serif',
+              }}
+            >
+              Learn more about the product, its
+              character and how it is prepared.
             </p>
           </div>
 
@@ -418,10 +483,13 @@ Thank you.`
                         : 'text-base sm:text-lg'
                     }`}
                     style={{
-                      fontFamily: '"Roboto", sans-serif',
+                      fontFamily:
+                        '"Roboto", sans-serif',
                     }}
                   >
-                    {renderFormattedText(paragraph)}
+                    {renderFormattedText(
+                      paragraph
+                    )}
                   </p>
                 ))}
             </div>
@@ -429,19 +497,27 @@ Thank you.`
         </div>
       </section>
 
-      {/* Product details */}
-      {product.descriptionSections?.length > 0 && (
+      {/* What makes it special */}
+      {product.descriptionSections?.length >
+        0 && (
         <section className="bg-[#edf1eb] py-16 sm:py-20">
           <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-3xl text-center">
-              <p className="text-xs font-bold uppercase tracking-[0.25em] text-[#39734d]">
+              <p
+                className="text-xs font-bold uppercase tracking-[0.25em] text-[#39734d]"
+                style={{
+                  fontFamily:
+                    '"Roboto", sans-serif',
+                }}
+              >
                 Product details
               </p>
 
               <h2
                 className="mt-3 text-3xl font-extrabold text-[#18251c] sm:text-4xl"
                 style={{
-                  fontFamily: '"Raleway", sans-serif',
+                  fontFamily:
+                    '"Raleway", sans-serif',
                 }}
               >
                 What Makes It Special
@@ -465,7 +541,10 @@ Thank you.`
                       />
 
                       <span className="absolute left-4 top-4 flex h-9 w-9 items-center justify-center rounded-full bg-[#183b27] text-sm font-bold text-white shadow-lg">
-                        {String(index + 1).padStart(2, '0')}
+                        {String(index + 1).padStart(
+                          2,
+                          '0'
+                        )}
                       </span>
                     </div>
 
@@ -473,7 +552,8 @@ Thank you.`
                       <h3
                         className="text-xl font-bold text-[#1b2c20]"
                         style={{
-                          fontFamily: '"Merriweather", serif',
+                          fontFamily:
+                            '"Merriweather", serif',
                         }}
                       >
                         {card.title}
@@ -482,7 +562,8 @@ Thank you.`
                       <p
                         className="mt-3 text-sm leading-7 text-[#667168] sm:text-base"
                         style={{
-                          fontFamily: '"Roboto", sans-serif',
+                          fontFamily:
+                            '"Roboto", sans-serif',
                         }}
                       >
                         {card.text}
@@ -496,6 +577,11 @@ Thank you.`
         </section>
       )}
 
+      {/* Structured product information */}
+      <ProductInformation
+        information={information}
+      />
+
       {/* Sourcing information */}
       {product.sourcing && (
         <section className="bg-[#173722] py-12 text-white">
@@ -503,7 +589,10 @@ Thank you.`
             <div className="grid gap-6 rounded-2xl border border-white/10 bg-white/[0.04] p-6 sm:p-8 md:grid-cols-3">
               <div className="flex items-start gap-4">
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#c89a48]/15">
-                  <Sprout className="h-5 w-5 text-[#dfb86c]" />
+                  <Sprout
+                    aria-hidden="true"
+                    className="h-5 w-5 text-[#dfb86c]"
+                  />
                 </span>
 
                 <div>
@@ -519,7 +608,10 @@ Thank you.`
 
               <div className="flex items-start gap-4">
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#c89a48]/15">
-                  <PackageCheck className="h-5 w-5 text-[#dfb86c]" />
+                  <PackageCheck
+                    aria-hidden="true"
+                    className="h-5 w-5 text-[#dfb86c]"
+                  />
                 </span>
 
                 <div>
@@ -535,7 +627,10 @@ Thank you.`
 
               <div className="flex items-start gap-4">
                 <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#c89a48]/15">
-                  <Tag className="h-5 w-5 text-[#dfb86c]" />
+                  <Tag
+                    aria-hidden="true"
+                    className="h-5 w-5 text-[#dfb86c]"
+                  />
                 </span>
 
                 <div>
@@ -544,7 +639,10 @@ Thank you.`
                   </p>
 
                   <p className="mt-1 font-semibold text-white">
-                    {product.sourcing.harvestSeason}
+                    {
+                      product.sourcing
+                        .harvestSeason
+                    }
                   </p>
                 </div>
               </div>
@@ -561,8 +659,10 @@ Thank you.`
         />
       )}
 
+      {/* Frequently asked questions */}
       <ProductFAQ faqs={product.faqs} />
 
+      {/* Related products */}
       <RelatedProducts
         currentProduct={product}
         products={products}
@@ -571,7 +671,12 @@ Thank you.`
       {/* Final enquiry */}
       <section className="bg-[#f1ebdf] px-5 py-14 sm:px-6 sm:py-16">
         <div className="mx-auto max-w-5xl overflow-hidden rounded-3xl bg-[#193d28] px-6 py-10 text-center text-white shadow-[0_20px_60px_rgba(23,55,34,0.2)] sm:px-10">
-          <p className="text-xs font-bold uppercase tracking-[0.24em] text-[#d9b365]">
+          <p
+            className="text-xs font-bold uppercase tracking-[0.24em] text-[#d9b365]"
+            style={{
+              fontFamily: '"Roboto", sans-serif',
+            }}
+          >
             Need assistance?
           </p>
 
@@ -584,9 +689,15 @@ Thank you.`
             Interested in {product.name}?
           </h2>
 
-          <p className="mx-auto mt-4 max-w-2xl leading-7 text-white/70">
-            Contact our team for current availability, ordering assistance,
-            bulk supply or export enquiries.
+          <p
+            className="mx-auto mt-4 max-w-2xl leading-7 text-white/70"
+            style={{
+              fontFamily: '"Roboto", sans-serif',
+            }}
+          >
+            Contact our team for current
+            availability, ordering assistance, bulk
+            supply or export enquiries.
           </p>
 
           <div className="mt-7 flex flex-col justify-center gap-3 sm:flex-row">
@@ -595,16 +706,32 @@ Thank you.`
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-[#2a8a49] px-6 py-3 font-semibold text-white transition hover:bg-[#23763c]"
+              style={{
+                fontFamily:
+                  '"Roboto", sans-serif',
+              }}
             >
-              <MessageCircle className="h-5 w-5" />
+              <MessageCircle
+                aria-hidden="true"
+                className="h-5 w-5"
+              />
+
               Enquire on WhatsApp
             </a>
 
             <a
               href={`mailto:business@vanyaecoproducts.in?subject=${bulkEmailSubject}&body=${bulkEmailBody}`}
               className="inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/10 px-6 py-3 font-semibold text-white transition hover:bg-white/20"
+              style={{
+                fontFamily:
+                  '"Roboto", sans-serif',
+              }}
             >
-              <Mail className="h-5 w-5" />
+              <Mail
+                aria-hidden="true"
+                className="h-5 w-5"
+              />
+
               Bulk / Export Enquiry
             </a>
           </div>
@@ -613,7 +740,9 @@ Thank you.`
 
       <Footer />
 
-      <WhatsAppFloating productName={product.name} />
+      <WhatsAppFloating
+        productName={product.name}
+      />
     </div>
   )
 }
