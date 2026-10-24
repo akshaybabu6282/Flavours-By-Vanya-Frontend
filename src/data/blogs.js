@@ -456,4 +456,86 @@ export const blogs = [
       }
     ]
   },
+  {
+    id: 11,
+    title:
+      "How to Understand Forest Honey: Colour, Aroma, Texture and Crystallisation",
+    slug:
+      "understanding-forest-honey-colour-aroma-texture-crystallisation",
+    category: "Forest Honey",
+    image: "/assets/honey-bg.webp",
+    excerpt:
+      "Understand why forest honey can vary in colour, aroma, flavour, texture and crystallisation between different collections.",
+    intro:
+      "Forest honey is a naturally variable food. Its colour, aroma, flavour and texture can change according to the floral sources visited by bees, the collection season, local conditions and storage temperature. Understanding these natural differences helps customers evaluate honey more carefully without depending on misleading home tests.",
+    relatedProduct: {
+      name: "Explore Vanya Forest Honey",
+      path: "/product/forest-honey",
+    },
+    content: [
+      {
+        heading:
+          "Why forest honey can look different between batches",
+        image: "/assets/honey-sourcing.webp",
+        text: [
+          "Forest honey does not always have one fixed colour or flavour. Bees may collect nectar from different flowers and plant sources depending on the season and collection area. These natural differences can influence the appearance, aroma, sweetness and intensity of each batch.",
+          "A lighter or darker colour does not automatically indicate better or poorer quality. The colour should be considered together with the product label, aroma, condition, storage and information provided by the seller."
+        ]
+      },
+      {
+        heading:
+          "Aroma and flavour reflect natural variation",
+        image: "/assets/honey-small-1.webp",
+        text: [
+          "Forest honey may have floral, woody, warm or mildly earthy notes. Its sweetness and intensity can also vary between collections because the available floral sources are not always identical.",
+          "These variations are part of the natural character of honey. Customers should not expect every batch of forest honey to have exactly the same shade, aroma or flavour."
+        ]
+      },
+      {
+        heading:
+          "Crystallisation can be a natural process",
+        image: "/assets/honey-processing.webp",
+        text: [
+          "Honey may gradually form crystals or become thicker during storage. This happens when some of its natural glucose forms crystals. The speed and appearance of crystallisation depend on the honey’s composition and storage temperature.",
+          "Crystallisation alone does not prove that honey is pure, and it does not automatically indicate that the honey has spoiled. Some types crystallise faster than others, while some may remain liquid for a longer period."
+        ]
+      },
+      {
+        heading:
+          "Why popular home purity tests can be misleading",
+        image: "/assets/honey-small-2.webp",
+        text: [
+          "Online videos often suggest testing honey using water, a flame, the thumb, paper or refrigeration. These methods are not reliable enough to confirm whether honey is pure because different genuine honeys can behave differently depending on moisture, temperature and natural composition.",
+          "Reliable verification requires suitable laboratory analysis. At home, customers can instead check the product label, ingredient declaration, batch details, food licence information, packaging condition and the reliability of the seller."
+        ]
+      },
+      {
+        heading:
+          "What customers should check before buying honey",
+        image: "/assets/honey-benefits.webp",
+        text: [
+          "Check that the container is properly sealed and that the label clearly shows the product name, ingredient information, batch details, packing information, best-before guidance, manufacturer details and applicable food licence information.",
+          "Avoid judging honey only by colour or thickness. Transparent product information, careful packaging, traceable batch details and responsible customer support are more meaningful indicators when choosing a packaged food product."
+        ]
+      },
+      {
+        heading:
+          "How to store forest honey correctly",
+        image: "/assets/honey-small-3.webp",
+        text: [
+          "Keep honey properly closed in a cool, dry place away from direct sunlight, moisture and strong odours. Always use a clean and dry spoon so that water or food particles are not introduced into the container.",
+          "Follow the storage instructions printed on the current pack. If the honey changes unexpectedly, the seal is damaged or there is a concern about a particular batch, contact the seller before using it."
+        ]
+      },
+      {
+        heading:
+          "The Vanya approach to Forest Honey",
+        image: "/assets/honey-small-4.webp",
+        text: [
+          "Vanya Forest Honey is sourced through trusted collection partners, checked and filtered before packing. Attention is given to the honey’s condition, natural character and careful handling during each production batch.",
+          "Because forest honey can naturally vary between collections, Vanya presents it as a product whose colour, aroma, flavour and texture may differ with floral sources, season and collection conditions."
+        ]
+      }
+    ]
+  },
 ]

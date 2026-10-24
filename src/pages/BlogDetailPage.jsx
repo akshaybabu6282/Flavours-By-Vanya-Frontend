@@ -206,11 +206,13 @@ export default function BlogDetailPage() {
                   </p>
 
                   <Link
-                    to="/"
-                    className="inline-block px-6 py-3 bg-white text-black rounded-full font-semibold"
-                    style={{ fontFamily: '"Roboto", sans-serif' }}
+                    to={blog.relatedProduct?.path || '/'}
+                    className="inline-block px-6 py-3 bg-white text-black rounded-full font-semibold transition hover:bg-gray-100"
+                    style={{
+                      fontFamily: '"Roboto", sans-serif',
+                    }}
                   >
-                    View Products
+                    {blog.relatedProduct?.name || 'View Products'}
                   </Link>
                 </div>
               </div>
