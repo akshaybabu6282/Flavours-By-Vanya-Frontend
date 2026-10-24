@@ -30,6 +30,7 @@ import WhatsAppFloating from '../components/WhatsAppFloating'
 
 import { products } from '../data/products'
 import { getProductInformation } from '../data/productInformation'
+import { productSeo } from '../utils/productSeo'
 
 import NotFoundPage from './NotFoundPage'
 
@@ -83,6 +84,21 @@ export default function ProductPage() {
     product.slug
   )
 
+  const seo = productSeo(product)
+
+  const seoImagePath =
+    product.imageBg || product.imageFront
+
+  const seoImage = /^https?:\/\//i.test(
+    seoImagePath
+  )
+    ? seoImagePath
+    : `https://www.vanyaecoproducts.in${
+        seoImagePath.startsWith('/')
+          ? seoImagePath
+          : `/${seoImagePath}`
+      }`
+
   const selectedImage =
     selectedSide === 'back' && product.imageBack
       ? product.imageBack
@@ -113,16 +129,11 @@ Thank you.`
   return (
     <div className="relative bg-[#f8f6f0] font-sans text-[#17231b]">
       <Helmet>
-        <title>
-          {product.name} | Vanya Eco Products
-        </title>
+        <title>{seo.title}</title>
 
         <meta
           name="description"
-          content={
-            product.shortDescription ||
-            `${product.name} from Vanya Eco Products.`
-          }
+          content={seo.description}
         />
 
         <link
@@ -132,25 +143,27 @@ Thank you.`
 
         <meta
           property="og:type"
-          content="website"
+          content="product"
+        />
+
+        <meta
+          property="og:site_name"
+          content="Vanya Eco Products"
         />
 
         <meta
           property="og:title"
-          content={`${product.name} | Vanya Eco Products`}
+          content={seo.title}
         />
 
         <meta
           property="og:description"
-          content={
-            product.shortDescription ||
-            `${product.name} from Vanya Eco Products`
-          }
+          content={seo.description}
         />
 
         <meta
           property="og:image"
-          content={`https://www.vanyaecoproducts.in${product.imageBg}`}
+          content={seoImage}
         />
 
         <meta
@@ -165,20 +178,17 @@ Thank you.`
 
         <meta
           name="twitter:title"
-          content={`${product.name} | Vanya Eco Products`}
+          content={seo.title}
         />
 
         <meta
           name="twitter:description"
-          content={
-            product.shortDescription ||
-            `${product.name} from Vanya Eco Products`
-          }
+          content={seo.description}
         />
 
         <meta
           name="twitter:image"
-          content={`https://www.vanyaecoproducts.in${product.imageBg}`}
+          content={seoImage}
         />
       </Helmet>
 
@@ -257,7 +267,6 @@ Thank you.`
                     </span>
                   </div>
 
-                  {/* Front and back selectors */}
                   <div className="mt-4 grid grid-cols-2 gap-3">
                     <button
                       type="button"
@@ -355,7 +364,6 @@ Thank you.`
                   `Discover ${product.name} from Vanya Eco Products.`}
               </p>
 
-              {/* Trust points */}
               <div className="mt-7 grid gap-3 sm:grid-cols-3 lg:grid-cols-1 xl:grid-cols-3">
                 {[
                   'Carefully selected',
@@ -376,7 +384,6 @@ Thank you.`
                 ))}
               </div>
 
-              {/* Enquiry buttons */}
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <a
                   href={`https://wa.me/917907662508?text=${whatsappMessage}`}
@@ -577,7 +584,6 @@ Thank you.`
         </section>
       )}
 
-      {/* Structured product information */}
       <ProductInformation
         information={information}
       />
@@ -659,10 +665,8 @@ Thank you.`
         />
       )}
 
-      {/* Frequently asked questions */}
       <ProductFAQ faqs={product.faqs} />
 
-      {/* Related products */}
       <RelatedProducts
         currentProduct={product}
         products={products}

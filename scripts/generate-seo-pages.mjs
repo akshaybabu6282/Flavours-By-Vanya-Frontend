@@ -1,17 +1,40 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+
 import { products } from '../src/data/products.js'
 import { blogs } from '../src/data/blogs.js'
+import { productSeo } from '../src/utils/productSeo.js'
 
-const scriptDirectory = path.dirname(fileURLToPath(import.meta.url))
-const projectRoot = path.resolve(scriptDirectory, '..')
-const distDirectory = path.join(projectRoot, 'dist')
-const publicDirectory = path.join(projectRoot, 'public')
-const baseHtmlPath = path.join(distDirectory, 'index.html')
+const scriptDirectory = path.dirname(
+  fileURLToPath(import.meta.url)
+)
 
-const SITE_URL = 'https://www.vanyaecoproducts.in'
-const DEFAULT_IMAGE = `${SITE_URL}/assets/og-image.png`
+const projectRoot = path.resolve(
+  scriptDirectory,
+  '..'
+)
+
+const distDirectory = path.join(
+  projectRoot,
+  'dist'
+)
+
+const publicDirectory = path.join(
+  projectRoot,
+  'public'
+)
+
+const baseHtmlPath = path.join(
+  distDirectory,
+  'index.html'
+)
+
+const SITE_URL =
+  'https://www.vanyaecoproducts.in'
+
+const DEFAULT_IMAGE =
+  `${SITE_URL}/assets/og-image.png`
 
 function escapeHtml(value = '') {
   return String(value)
@@ -28,9 +51,15 @@ function escapeXml(value = '') {
 
 function absoluteUrl(value) {
   if (!value) return DEFAULT_IMAGE
-  if (/^https?:\/\//i.test(value)) return value
 
-  return `${SITE_URL}${value.startsWith('/') ? value : `/${value}`}`
+  if (/^https?:\/\//i.test(value)) {
+    return value
+  }
+
+  return `${SITE_URL}${value.startsWith('/')
+      ? value
+      : `/${value}`
+    }`
 }
 
 function replaceTitle(html, title) {
@@ -40,63 +69,113 @@ function replaceTitle(html, title) {
   )
 }
 
-function replaceMetaByName(html, name, content) {
+function replaceMetaByName(
+  html,
+  name,
+  content
+) {
   const pattern = new RegExp(
     `<meta\\s+name=["']${name}["'][^>]*>`,
     'i'
   )
 
-  const tag = `<meta name="${name}" content="${escapeHtml(content)}" />`
+  const tag =
+    `<meta name="${name}" content="${escapeHtml(
+      content
+    )}" />`
 
   if (pattern.test(html)) {
     return html.replace(pattern, tag)
   }
 
-  return html.replace('</head>', `  ${tag}\n</head>`)
+  return html.replace(
+    '</head>',
+    `  ${tag}\n</head>`
+  )
 }
 
-function replaceMetaByProperty(html, property, content) {
+function replaceMetaByProperty(
+  html,
+  property,
+  content
+) {
   const pattern = new RegExp(
     `<meta\\s+property=["']${property}["'][^>]*>`,
     'i'
   )
 
-  const tag = `<meta property="${property}" content="${escapeHtml(content)}" />`
+  const tag =
+    `<meta property="${property}" content="${escapeHtml(
+      content
+    )}" />`
 
   if (pattern.test(html)) {
     return html.replace(pattern, tag)
   }
 
-  return html.replace('</head>', `  ${tag}\n</head>`)
+  return html.replace(
+    '</head>',
+    `  ${tag}\n</head>`
+  )
 }
 
 function replaceCanonical(html, url) {
-  const pattern = /<link\s+rel=["']canonical["'][^>]*>/i
-  const tag = `<link rel="canonical" href="${escapeHtml(url)}" />`
+  const pattern =
+    /<link\s+rel=["']canonical["'][^>]*>/i
+
+  const tag =
+    `<link rel="canonical" href="${escapeHtml(
+      url
+    )}" />`
 
   if (pattern.test(html)) {
     return html.replace(pattern, tag)
   }
 
-  return html.replace('</head>', `  ${tag}\n</head>`)
+  return html.replace(
+    '</head>',
+    `  ${tag}\n</head>`
+  )
 }
 
-function addStructuredData(html, structuredData) {
+function addStructuredData(
+  html,
+  structuredData
+) {
   if (!structuredData) return html
 
-  const json = JSON.stringify(structuredData).replaceAll('<', '\\u003c')
+  const json = JSON.stringify(
+    structuredData
+  ).replaceAll('<', '\\u003c')
 
-  const script = `  <script type="application/ld+json">${json}</script>\n`
+  const script =
+    `  <script type="application/ld+json">${json}</script>\n`
 
-  return html.replace('</head>', `${script}</head>`)
+  return html.replace(
+    '</head>',
+    `${script}</head>`
+  )
 }
 
 function createPageHtml(baseHtml, page) {
   let html = baseHtml
 
-  html = replaceTitle(html, page.title)
-  html = replaceCanonical(html, page.url)
-  html = replaceMetaByName(html, 'description', page.description)
+  html = replaceTitle(
+    html,
+    page.title
+  )
+
+  html = replaceCanonical(
+    html,
+    page.url
+  )
+
+  html = replaceMetaByName(
+    html,
+    'description',
+    page.description
+  )
+
   html = replaceMetaByName(
     html,
     'robots',
@@ -163,12 +242,18 @@ function createPageHtml(baseHtml, page) {
     page.type
   )
 
-  html = addStructuredData(html, page.structuredData)
+  html = addStructuredData(
+    html,
+    page.structuredData
+  )
 
   return html
 }
 
-async function writeRoutePage(routePath, html) {
+async function writeRoutePage(
+  routePath,
+  html
+) {
   const cleanPath = routePath
     .replace(/^\//, '')
     .replace(/\/$/, '')
@@ -178,12 +263,18 @@ async function writeRoutePage(routePath, html) {
     cleanPath
   )
 
-  await fs.mkdir(outputDirectory, {
-    recursive: true,
-  })
+  await fs.mkdir(
+    outputDirectory,
+    {
+      recursive: true,
+    }
+  )
 
   await fs.writeFile(
-    path.join(outputDirectory, 'index.html'),
+    path.join(
+      outputDirectory,
+      'index.html'
+    ),
     html,
     'utf8'
   )
@@ -232,72 +323,90 @@ const staticPages = [
   type: 'website',
 }))
 
-const productPages = products.map((product) => {
-  const routePath = `/product/${product.slug}`
+const productPages = products.map(
+  (product) => {
+    const routePath =
+      `/product/${product.slug}`
 
-  const description =
-    product.shortDescription ||
-    `Learn more about ${product.name} from Vanya Eco Products.`
+    const seo = productSeo(product)
 
-  const image = absoluteUrl(
-    product.imageBg || product.imageFront
-  )
+    const description =
+      seo.description
 
-  const url = `${SITE_URL}${routePath}`
+    const image = absoluteUrl(
+      product.imageBg ||
+      product.imageFront
+    )
 
-  return {
-    path: routePath,
-    title: `${product.name} | Vanya Eco Products`,
-    description,
-    image,
-    url,
-    type: 'product',
-    structuredData: {
-      '@context': 'https://schema.org',
-      '@type': 'Product',
-      name: product.name,
+    const url =
+      `${SITE_URL}${routePath}`
+
+    return {
+      path: routePath,
+      title: seo.title,
       description,
       image,
       url,
-      category: product.category,
-      brand: {
-        '@type': 'Brand',
-        name: 'Vanya Eco Products',
-      },
-    },
-  }
-})
-
-const blogPages = blogs.map((blog) => {
-  const routePath = `/blog/${blog.slug}`
-  const image = absoluteUrl(blog.image)
-  const url = `${SITE_URL}${routePath}`
-
-  return {
-    path: routePath,
-    title: `${blog.title} | Vanya Eco Products`,
-    description: blog.excerpt,
-    image,
-    url,
-    type: 'article',
-    structuredData: {
-      '@context': 'https://schema.org',
-      '@type': 'Article',
-      headline: blog.title,
-      description: blog.excerpt,
-      image,
-      mainEntityOfPage: url,
-      publisher: {
-        '@type': 'Organization',
-        name: 'Vanya Eco Products',
-        logo: {
-          '@type': 'ImageObject',
-          url: `${SITE_URL}/assets/logo.png`,
+      type: 'product',
+      structuredData: {
+        '@context':
+          'https://schema.org',
+        '@type': 'Product',
+        name: product.name,
+        description,
+        image,
+        url,
+        category: product.category,
+        brand: {
+          '@type': 'Brand',
+          name: 'Vanya Eco Products',
         },
       },
-    },
+    }
   }
-})
+)
+
+const blogPages = blogs.map(
+  (blog) => {
+    const routePath =
+      `/blog/${blog.slug}`
+
+    const image =
+      absoluteUrl(blog.image)
+
+    const url =
+      `${SITE_URL}${routePath}`
+
+    return {
+      path: routePath,
+      title:
+        `${blog.title} | Vanya Eco Products`,
+      description: blog.excerpt,
+      image,
+      url,
+      type: 'article',
+      structuredData: {
+        '@context':
+          'https://schema.org',
+        '@type': 'Article',
+        headline: blog.title,
+        description: blog.excerpt,
+        image,
+        mainEntityOfPage: url,
+        publisher: {
+          '@type': 'Organization',
+          name: 'Vanya Eco Products',
+          logo: {
+            '@type':
+              'ImageObject',
+            url:
+              `${SITE_URL}/assets/logo.png`,
+          },
+        },
+      },
+    }
+  }
+)
 
 function createSitemap(pages) {
   const urls = [
@@ -309,9 +418,13 @@ function createSitemap(pages) {
     ...pages.map((page) => ({
       url: page.url,
       priority:
-        page.path === '/blogs' ? '0.8' : '0.7',
+        page.path === '/blogs'
+          ? '0.8'
+          : '0.7',
       changefreq:
-        page.path.startsWith('/product/')
+        page.path.startsWith(
+          '/product/'
+        )
           ? 'weekly'
           : 'monthly',
     })),
@@ -319,7 +432,11 @@ function createSitemap(pages) {
 
   const entries = urls
     .map(
-      ({ url, priority, changefreq }) => `  <url>
+      ({
+        url,
+        priority,
+        changefreq,
+      }) => `  <url>
     <loc>${escapeXml(url)}</loc>
     <changefreq>${changefreq}</changefreq>
     <priority>${priority}</priority>
@@ -335,10 +452,11 @@ ${entries}
 }
 
 async function main() {
-  const baseHtml = await fs.readFile(
-    baseHtmlPath,
-    'utf8'
-  )
+  const baseHtml =
+    await fs.readFile(
+      baseHtmlPath,
+      'utf8'
+    )
 
   const pages = [
     ...staticPages,
@@ -348,22 +466,37 @@ async function main() {
 
   await Promise.all(
     pages.map(async (page) => {
-      const html = createPageHtml(baseHtml, page)
+      const html =
+        createPageHtml(
+          baseHtml,
+          page
+        )
 
-      await writeRoutePage(page.path, html)
+      await writeRoutePage(
+        page.path,
+        html
+      )
     })
   )
 
-  const sitemap = createSitemap(pages)
+  const sitemap =
+    createSitemap(pages)
 
   await Promise.all([
     fs.writeFile(
-      path.join(distDirectory, 'sitemap.xml'),
+      path.join(
+        distDirectory,
+        'sitemap.xml'
+      ),
       sitemap,
       'utf8'
     ),
+
     fs.writeFile(
-      path.join(publicDirectory, 'sitemap.xml'),
+      path.join(
+        publicDirectory,
+        'sitemap.xml'
+      ),
       sitemap,
       'utf8'
     ),
