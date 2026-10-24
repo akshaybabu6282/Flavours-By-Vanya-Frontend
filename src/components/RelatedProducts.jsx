@@ -1,69 +1,121 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
 
-export default function RelatedProducts({ currentProduct, products }) {
+import {
+  ArrowRight,
+} from 'lucide-react'
+
+import {
+  Link,
+} from 'react-router-dom'
+
+export default function RelatedProducts({
+  currentProduct,
+  products,
+}) {
   const categoryProducts = products.filter(
-    (item) => item.category === currentProduct.category
-  );
+    (item) =>
+      item.category === currentProduct.category &&
+      item.slug !== currentProduct.slug
+  )
 
-  const currentIndex = categoryProducts.findIndex(
-    (item) => item.slug === currentProduct.slug
-  );
+  const currentIndex = products
+    .filter(
+      (item) =>
+        item.category === currentProduct.category
+    )
+    .findIndex(
+      (item) =>
+        item.slug === currentProduct.slug
+    )
 
-  const relatedProducts = [
-    ...categoryProducts.slice(currentIndex + 1),
-    ...categoryProducts.slice(0, currentIndex)
-  ].slice(0, 4);
+  const orderedProducts = [
+    ...categoryProducts.slice(
+      Math.max(currentIndex, 0)
+    ),
+    ...categoryProducts.slice(
+      0,
+      Math.max(currentIndex, 0)
+    ),
+  ]
 
-  if (relatedProducts.length === 0) return null;
+  const relatedProducts = orderedProducts.slice(0, 4)
+
+  if (!relatedProducts.length) return null
 
   return (
-    <section className="max-w-6xl mx-auto px-6 py-16">
-      <h2
-        className="text-4xl mb-10 text-center"
-        style={{
-          fontFamily: '"Raleway", sans-serif',
-          fontWeight: "bold",
-        }}
-      >
-        Related Products
-      </h2>
+    <section className="bg-[#0e1b13] py-16 text-white sm:py-20">
+      <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
+        <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+          <div>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] text-[#71ad80]">
+              Continue exploring
+            </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-        {relatedProducts.map((item) => (
-          <Link
-            key={item.id}
-            to={`/product/${item.slug}`}
-            className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition"
-          >
-            <img
-              src={item.imageBg}
-              alt={item.name}
-              className="w-full h-52 object-cover"
-              loading="lazy"
-            />
+            <h2
+              className="mt-3 text-3xl font-extrabold sm:text-4xl"
+              style={{
+                fontFamily: '"Raleway", sans-serif',
+              }}
+            >
+              Related Products
+            </h2>
+          </div>
 
-            <div className="p-5 text-center">
-              <h3
-                className="text-xl text-black"
-                style={{
-                  fontFamily: '"Merriweather", serif',
-                  fontWeight: "bold",
-                }}
-              >
-                {item.name}
-              </h3>
+          <p className="max-w-md text-sm leading-6 text-white/55 sm:text-right">
+            Discover more products from the same category.
+          </p>
+        </div>
 
-              <p
-                className="text-gray-600 mt-2 text-sm"
-                style={{ fontFamily: '"Roboto", sans-serif' }}
-              >
-                {item.shortDescription}
-              </p>
-            </div>
-          </Link>
-        ))}
+        <div className="mt-10 flex snap-x snap-mandatory gap-5 overflow-x-auto pb-5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:grid md:grid-cols-4 md:overflow-visible">
+          {relatedProducts.map((item) => (
+            <Link
+              key={item.id}
+              to={`/product/${item.slug}`}
+              className="group min-w-[78%] snap-start overflow-hidden rounded-2xl border border-white/10 bg-white/[0.06] transition duration-300 hover:-translate-y-1 hover:border-[#71ad80]/40 hover:bg-white/[0.09] sm:min-w-[44%] md:min-w-0"
+            >
+              <div className="aspect-[4/3] overflow-hidden bg-white/5">
+                <img
+                  src={item.imageBg}
+                  alt={item.name}
+                  className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+
+              <div className="p-5">
+                <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#71ad80]">
+                  {item.category}
+                </p>
+
+                <h3
+                  className="mt-2 text-xl font-bold text-white"
+                  style={{
+                    fontFamily: '"Merriweather", serif',
+                  }}
+                >
+                  {item.name}
+                </h3>
+
+                <p
+                  className="mt-3 line-clamp-3 text-sm leading-6 text-white/55"
+                  style={{
+                    fontFamily: '"Roboto", sans-serif',
+                  }}
+                >
+                  {item.shortDescription}
+                </p>
+
+                <span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[#91c59d]">
+                  View product
+
+                  <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </span>
+              </div>
+            </Link>
+          ))}
+        </div>
       </div>
     </section>
-  );
+  )
 }
